@@ -130,6 +130,9 @@
     <ClInclude Include="DateTime.h" />
     <ClInclude Include="Lesson.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DateTime.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
