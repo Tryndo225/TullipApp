@@ -107,7 +107,7 @@ protected:
 // 00000000 00000000 00000000 00000000
 // \______/ \______/ \______/ \______/
 //	 Zone	  Hour     Mins     Secs
-// Zone Bit 1 = +/-, Rest is amount of 15 mins intervals
+// Zone Bit 1 = +/-, Rest is amount of 15 mins interval difference from UTC-0
 public:
 	Time(unsigned short hours, unsigned short mins, unsigned short secs);
 	Time(const Time& time);
