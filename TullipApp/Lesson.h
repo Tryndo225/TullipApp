@@ -1,11 +1,11 @@
 #ifndef LESSON_H_
 #define LESSON_H_
 
-#include <ctime>
+#include "DateTime.h"
 
 class Lesson
 {
-	private time
+	private DateTime time_;
 };
 
 

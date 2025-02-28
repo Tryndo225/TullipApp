@@ -132,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DateTime.cpp" />
+    <ClCompile Include="DateTime_Exceptions.cpp" />
     <ClCompile Include="DateTime_Exceptions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
