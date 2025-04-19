@@ -1,5 +1,7 @@
 #ifndef DATETIME_H_
-#define DATETIME_H_ 
+#define DATETIME_H_
+#include "Helper_Functions.h"
+#include "DateTime_Exceptions.h"
 #include <iostream>
 #include <string>
 
@@ -84,20 +86,31 @@ protected:
 	//           Year          Month  Day
 public:
 	Date(unsigned short day, unsigned short month, unsigned int year);
-	Date(const Date& date);
-	void SetDay(unsigned short day);
-	unsigned short GetDay();
-	void SetMonth(Month month);
-	Month GetMonth();
-	void SetYear(unsigned int year);
-	unsigned int GetYear();
-	std::string GetDate();
+	Date(const Date& date) = default;
+	Date(Date&& date) noexcept = default;
 
-	void PrintLong(const std::ostream& stream);
-	void PrintShort(const std::ostream& stream);
-	inline std::ostream& operator<<(std::ostream& stream);
+	Date& operator=(const Date& date) = default;
+	Date& operator=(Date&& date) noexcept = default;
 
-	static WeekDays DateToWeekDay(const Date& date);
+	void set_day(unsigned short day);
+	unsigned short get_day() const;
+
+	void set_month(Month month);
+	Month get_month() const;
+
+	void set_year(unsigned int year);
+	unsigned int get_year() const;
+
+	std::string get_date_string() const;
+
+	void print_long(std::ostream& stream) const;
+	inline void print_short(std::ostream& stream) const;
+
+	friend std::ostream& operator<<(std::ostream& stream, const Date& date);
+
+	static WeekDays get_weekday_from_date(const Date& date);
+
+	~Date() = default;
 };
 
 class Time
@@ -108,40 +121,54 @@ protected:
 // \______/ \______/ \______/ \______/
 //	 Zone	  Hour     Mins     Secs
 // Zone Bit 1 = +/-, Rest is amount of 15 mins interval difference from UTC-0
+
+	bool update_time(int intervals_of_fifteen);
 public:
-	Time(unsigned short hours, unsigned short mins, unsigned short secs);
-	Time(const Time& time);
-	void SetSeconds(unsigned short secs);
-	unsigned short GetSeconds();
-	void SetMinutes(unsigned short mins);
-	unsigned short GetMinutes();
-	void SetHours(unsigned short years);
-	unsigned short GetHours();
-	void SetZone();
-	std::string GetZone();
+	Time(unsigned short hours, unsigned short minutes, unsigned short seconds);
+	Time(const Time& time) = default;
+	Time(Time&& time) noexcept = default;
 
-	std::string GetTime();
+	Time& operator=(const Time& time) = default;
+	Time& operator=(Time&& time) noexcept = default;
 
-	void PrintLong(const std::ostream& stream);
-	void PrintShort(const std::ostream& stream);
-	inline std::ostream& operator<<(std::ostream& stream);
+	void set_seconds(unsigned short seconds);
+	unsigned short get_seconds() const;
 
+	void set_minutes(unsigned short minutes);
+	unsigned short get_minutes() const;
 
+	void set_hours(unsigned short hours);
+	unsigned short get_hours() const;
 
+	void set_zone(unsigned short zone);
+	std::string get_zone_string() const;
+	void update_zone(bool should_update_time = true);
+
+	std::string get_time_string() const;
+
+	void print_long(std::ostream& stream) const;
+	void print_short(std::ostream& stream) const;
+	friend std::ostream& operator<<(std::ostream& stream, const Time& time);
+
+	~Time() = default;
 };
 
 class DateTime : public Date, public Time
 {
 public:
 	DateTime(unsigned short day, unsigned short month, unsigned int year, unsigned short hours, unsigned short mins, unsigned short secs);
-	DateTime(const DateTime& date_time);
-	DateTime(const Date& date, const Time& time);
-	std::string GetDateTime();
-	
-	void PrintLong(const std::ostream& stream);
-	void PrintShort(const std::ostream& stream);
-	inline std::ostream& operator<<(std::ostream& stream);
-};
+	DateTime(const DateTime& date_time) = default;
+	DateTime(DateTime&& date_time) = default;
 
+	DateTime(const Date& date, const Time& time);
+	std::string get_date_time_string() const;
+	
+	void print_long(std::ostream& stream) const;
+	void print_short(std::ostream& stream) const;
+
+	friend std::ostream& operator<<(std::ostream& stream, const DateTime& dateTime);
+
+	~DateTime() = default;
+};
 
 #endif
