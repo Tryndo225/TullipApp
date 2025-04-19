@@ -28,9 +28,10 @@ unsigned short Date::get_day() const
 	return date_ & 0x3F;
 }
 
-void Date::set_month(Month month)
+void Date::set_month(Month month_enum)
 {
-	if ((unsigned int)month > 12 || (unsigned int)month == 0)
+	unsigned int month = (unsigned int)month_enum + 1; // Adjust for zero-based index
+	if (month > 12 || month == 0)
 	{
 		throw DateTimeError(MONTH_RANGE);
 	}
@@ -220,7 +221,12 @@ std::string Time::get_zone_string() const
 		zone += "Plus";
 	}
 
-	zone += std::to_string(offset / 4) + "_" + std::to_string((offset % 4) * 15);
+	zone += "_" + std::to_string(offset / 4);
+
+	if (offset % 4 != 0)
+	{
+		zone += ":" + std::to_string(offset % 4 * 15);
+	}
 
 	return zone;
 }
@@ -286,7 +292,7 @@ void Time::print_short(std::ostream& stream) const
 
 void Time::print_long(std::ostream& stream) const
 {
-	std::string output = get_time_string() + " " + get_zone_string();
+	stream << get_time_string() + " " + get_zone_string();
 }
 
 std::ostream& operator<<(std::ostream& stream, const Time& time)

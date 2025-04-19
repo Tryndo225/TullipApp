@@ -1,13 +1,15 @@
-#include "Person_Helper_Types.h"
 #include <cstring>
 #include <cstdio>
 #include <cstdlib>
+#include <iostream>
+#include "Person_Helper_Types.h"
 
 
 // Contacts class implementation
 // Copy to clipboard function
 #if defined(_WIN32)
 #include <windows.h>
+#pragma comment(lib, "user32.lib")
 #elif defined(__APPLE__)
 // pbcopy
 #elif defined(__linux__)

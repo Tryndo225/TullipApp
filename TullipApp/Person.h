@@ -3,7 +3,7 @@
 #include <string>
 #include <utility>
 #include <vector>
-
+#include "DateTime.h"
 #include "Person_Helper_Types.h"
 
 class Person
@@ -30,6 +30,30 @@ public:
 
 	~Person() = default;
 };
+class Parent; // Forward declaration
+
+
+class Child : public Person
+{
+protected:
+	Date birth_date_;
+	Parent* dad_;
+	Parent* mom_;
+
+public:
+	Child(const std::string& name, const std::string& surname, const Date& birth_date, Parent* dad, Parent* mom);
+	Child(std::string&& name, std::string&& surname, Date&& birth_date, Parent* dad, Parent* mom);
+
+	Child(const Child& child) = default;
+	Child(Child&& child) noexcept = default;
+
+	Child& operator=(const Child& child) = default;
+	Child& operator=(Child&& child) noexcept = default;
+
+	inline const Date& get_birth_date() const { return birth_date_; }
+	inline void set_birth_date(Date&& birth_date) { birth_date_ = std::forward<Date>(birth_date); }
+	~Child() = default;
+};
 
 class Parent : public Person
 {
@@ -52,12 +76,7 @@ public:
 	inline const std::vector<Child>& get_children() const { return children_; }
 	inline void add_child(Child&& child) { children_.push_back(std::move(child)); }
 	~Parent() = default;
-	
-
 };
 
-class Child : public Person
-{
-};
 
 #endif

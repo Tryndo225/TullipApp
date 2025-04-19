@@ -5,7 +5,8 @@
 
 class Lesson
 {
-	private DateTime time_;
+private:
+	DateTime time_;
 };
 
 
