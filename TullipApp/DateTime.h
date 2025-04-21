@@ -106,9 +106,18 @@ public:
 	void print_long(std::ostream& stream) const;
 	inline void print_short(std::ostream& stream) const;
 
+	bool operator==(const Date& date) const;
+	bool operator!=(const Date& date) const;
+	bool operator<(const Date& date) const;
+	bool operator>(const Date& date) const;
+	bool operator<=(const Date& date) const;
+	bool operator>=(const Date& date) const;
+
 	friend std::ostream& operator<<(std::ostream& stream, const Date& date);
 
 	static WeekDays get_weekday_from_date(const Date& date);
+
+	static Date get_current_date();
 
 	~Date() = default;
 };
@@ -148,7 +157,17 @@ public:
 
 	void print_long(std::ostream& stream) const;
 	void print_short(std::ostream& stream) const;
+
+	bool operator==(const Time& time) const;
+	bool operator!=(const Time& time) const;
+	bool operator<(const Time& time) const;
+	bool operator>(const Time& time) const;
+	bool operator<=(const Time& time) const;
+	bool operator>=(const Time& time) const;
+
 	friend std::ostream& operator<<(std::ostream& stream, const Time& time);
+
+	static Time get_current_time();
 
 	~Time() = default;
 };
@@ -166,7 +185,16 @@ public:
 	void print_long(std::ostream& stream) const;
 	void print_short(std::ostream& stream) const;
 
+	bool operator==(const DateTime& date_time) const;
+	bool operator!=(const DateTime& date_time) const;
+	bool operator<(const DateTime& date_time) const;
+	bool operator>(const DateTime& date_time) const;
+	bool operator<=(const DateTime& date_time) const;
+	bool operator>=(const DateTime& date_time) const;
+
 	friend std::ostream& operator<<(std::ostream& stream, const DateTime& dateTime);
+
+	static DateTime get_current_datetime();
 
 	~DateTime() = default;
 };

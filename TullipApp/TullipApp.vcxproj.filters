@@ -30,7 +30,10 @@
     <ClInclude Include="Person.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Person_Helper_Types.h">
+    <ClInclude Include="Data_Helper_Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -50,7 +53,10 @@
     <ClCompile Include="Person.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Person_Helper_Types.cpp">
+    <ClCompile Include="Data_Helper_Types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

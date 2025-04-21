@@ -58,4 +58,28 @@ public:
 	~Phone() = default;
 };
 
+class Address : public Contacts
+{
+private:
+	std::string address_;
+public:
+	Address(const std::string& address);
+	Address(std::string&& address);
+
+	Address(const Address& address) = default;
+	Address(Address&& address) noexcept = default;
+
+	Address& operator=(const Address& address) = default;
+	Address& operator=(Address&& address) noexcept = default;
+
+	inline const std::string& get_address() const { return address_; }
+	inline void set_address(std::string&& address) { address_ = std::forward<std::string>(address); }
+
+	inline bool copy() const { return copy_to_clipboard(address_); }
+
+	friend std::ostream& operator<<(std::ostream& stream, const Address& address);
+
+	~Address() = default;
+};
+
 #endif // !PERSON_HELPER_TYPES_H_

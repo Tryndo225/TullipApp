@@ -94,6 +94,8 @@ void Date::print_long(std::ostream& stream) const
 	stream << output << std::endl;
 }
 
+
+
 WeekDays Date::get_weekday_from_date(const Date& date)
 {
 	unsigned int d = date.get_day();
@@ -106,6 +108,48 @@ WeekDays Date::get_weekday_from_date(const Date& date)
 	if (result < 0) result += 7;
 
 	return (WeekDays)result;
+}
+
+Date Date::get_current_date()
+{
+	std::time_t t = std::time(nullptr);
+	std::tm local_tm;
+	if (localtime_s(&local_tm, &t) != 0)
+	{
+		throw std::runtime_error("Failed to get local time.");
+	}
+	return Date(local_tm.tm_mday, local_tm.tm_mon + 1, local_tm.tm_year + 1900);
+}
+
+// Operator implementations
+bool Date::operator==(const Date& date) const
+{
+	return (date_ == date.date_);
+}
+
+bool Date::operator!=(const Date& date) const
+{
+	return (date_ != date.date_);
+}
+
+bool Date::operator>(const Date& date) const
+{
+	return (date_ > date.date_);
+}
+
+bool Date::operator<(const Date& date) const
+{
+	return (date_ < date.date_);
+}
+
+bool Date::operator<=(const Date& date) const
+{
+	return (date_ <= date.date_);
+}
+
+bool Date::operator>=(const Date& date) const
+{
+	return (date_ >= date.date_);
 }
 
 std::ostream& operator<<(std::ostream& stream, const Date& date)
@@ -292,7 +336,73 @@ void Time::print_short(std::ostream& stream) const
 
 void Time::print_long(std::ostream& stream) const
 {
-	stream << get_time_string() + " " + get_zone_string();
+	stream << get_time_string() + " " + get_zone_string() << std::endl;
+}
+
+Time Time::get_current_time()
+{
+	std::time_t t = std::time(nullptr);
+	std::tm local_tm;
+	if (localtime_s(&local_tm, &t) != 0)
+	{
+		throw std::runtime_error("Failed to get local time.");
+	}
+
+	if (local_tm.tm_sec > 59)
+	{
+		local_tm.tm_sec -= 60;
+		local_tm.tm_min += 1;
+	}
+
+	return Time(local_tm.tm_hour, local_tm.tm_min, local_tm.tm_sec);
+}
+
+// Operator implementations
+bool Time::operator==(const Time& time) const
+{
+	Time copy_1 = *this;
+	Time copy_2 = time;
+
+	copy_1.update_zone(true);
+	copy_2.update_zone(true);
+
+	return (copy_1.time_ == copy_2.time_);
+}
+bool Time::operator!=(const Time& time) const
+{
+	return !(*this == time);
+}
+bool Time::operator>(const Time& time) const
+{
+	Time copy_1 = *this;
+	Time copy_2 = time;
+	copy_1.update_zone(true);
+	copy_2.update_zone(true);
+	return (copy_1.time_ > copy_2.time_);
+}
+bool Time::operator<(const Time& time) const
+{
+	Time copy_1 = *this;
+	Time copy_2 = time;
+	copy_1.update_zone(true);
+	copy_2.update_zone(true);
+	return (copy_1.time_ < copy_2.time_);
+}
+bool Time::operator<=(const Time& time) const
+{
+	Time copy_1 = *this;
+	Time copy_2 = time;
+	copy_1.update_zone(true);
+	copy_2.update_zone(true);
+	return (copy_1.time_ <= copy_2.time_);
+}
+bool Time::operator>=(const Time& time) const
+{
+	Time copy_1 = *this;
+	Time copy_2 = time;
+	copy_1.update_zone(true);
+	copy_2.update_zone(true);
+	return (copy_1.time_ >= copy_2.time_);
 }
 
 std::ostream& operator<<(std::ostream& stream, const Time& time)
@@ -303,7 +413,6 @@ std::ostream& operator<<(std::ostream& stream, const Time& time)
 
 
 // DateTime Class
-
 DateTime::DateTime(unsigned short day, unsigned short month, unsigned int year, 
 	unsigned short hours, unsigned short minutes, unsigned short seconds)
 	: Date(day, month, year), Time(hours, minutes, seconds) {}
@@ -330,6 +439,39 @@ void DateTime::print_long(std::ostream& stream) const
 	this->Date::print_long(oss);
 	this->Time::print_long(oss);
 	stream << oss.str();
+}
+
+DateTime DateTime::get_current_datetime()
+{
+	Date date = Date::get_current_date();
+	Time time = Time::get_current_time();
+	return DateTime(std::move(date), std::move(time));
+}
+
+// Operator implementations
+bool DateTime::operator==(const DateTime& date_time) const
+{
+	return (date_ == date_time.date_ && time_ == date_time.time_);
+}
+bool DateTime::operator!=(const DateTime& date_time) const
+{
+	return !(*this == date_time);
+}
+bool DateTime::operator>(const DateTime& date_time) const
+{
+	return (date_ > date_time.date_ || (date_ == date_time.date_ && time_ > date_time.time_));
+}
+bool DateTime::operator<(const DateTime& date_time) const
+{
+	return (date_ < date_time.date_ || (date_ == date_time.date_ && time_ < date_time.time_));
+}
+bool DateTime::operator<=(const DateTime& date_time) const
+{
+	return (date_ <= date_time.date_ || (date_ == date_time.date_ && time_ <= date_time.time_));
+}
+bool DateTime::operator>=(const DateTime& date_time) const
+{
+	return (date_ >= date_time.date_ || (date_ == date_time.date_ && time_ >= date_time.time_));
 }
 
 std::ostream& operator<<(std::ostream& stream, const DateTime& dateTime)

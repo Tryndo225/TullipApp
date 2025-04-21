@@ -2,7 +2,7 @@
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>
-#include "Person_Helper_Types.h"
+#include "Data_Helper_Types.h"
 
 
 // Contacts class implementation
@@ -76,6 +76,7 @@ bool Contacts::copy_to_clipboard(const std::string& text)
 // Constructor implementations
 Email::Email(const std::string& email) : email_(email) {}
 Email::Email(std::string&& email) : email_(std::move(email)) {}
+
 // operator<< overload
 std::ostream& operator<<(std::ostream& stream, const Email& email)
 {
@@ -88,9 +89,22 @@ std::ostream& operator<<(std::ostream& stream, const Email& email)
 // Constructor implementations
 Phone::Phone(const std::string& phone) : phone_(phone) {}
 Phone::Phone(std::string&& phone) : phone_(std::move(phone)) {}
+
 // operator<< overload
 std::ostream& operator<<(std::ostream& stream, const Phone& phone)
 {
 	stream << phone.get_phone();
+	return stream;
+}
+
+// Address class implementation
+// Constructor implementations
+Address::Address(const std::string& address) : address_(address) {}
+Address::Address(std::string&& address) : address_(std::move(address)) {}
+
+// operator<< overload
+std::ostream& operator<<(std::ostream& stream, const Address& address)
+{
+	stream << address.get_address();
 	return stream;
 }

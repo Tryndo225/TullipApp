@@ -1,0 +1,429 @@
+<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontFamily="Segoe UI" FontSize="12">
+  <FlowDocument.Tag><![CDATA[{
+  "timestamp": "2025-04-21 15:59:09",
+  "files": {
+    "C:\\Users\\timot\\source\\repos\\TullipApp\\TullipApp\\TullipApp.vcxproj": {
+      "before": "7VlbT+NGFN7nSv0HfYisrQIPxLmgZVscr8BhadRwEQnwUima2CeJu7bHmhmz0G7/cn9Dj+2ZSRwnhIgWKIIHpMycM3PmmzPfufjvH969sz7dhkHlBhj3adQ2GrW6UYHIpZ4fTdpGIsY7H41P9vffWeeM/g6uqHRgTJJADAibgOBt4zDxA8+o4CoR/poKEf9smtydQkh4LfRdRjkdi5pLQ9ODGwhoDMwM+ShVM5v1esvA1SsVqysgPGY0iSs9MoKgbcgNHRqN/UnCiEADeS6M4stmK93IDRIP2kYHRsnk27UftZpKA3UKS9mZjGUWB1NT0j/rPCBiTFloZ4tYpv6dS+BAjscy9TXGXUAAhMMa86TUcxiYo3f7Yfex2OES/wly95n2YNw2NM4ytYfmDosOgK4s7gpOexzQEQlmbnrlSD+5yl+Y3dir1S2zNCy96le4+0qZlztdqmmZakhKyOWOE9+z/3Q/tEi94bk7DRi7O7utxniHfByNd7yfoL6322yOWg3vL+2qmY5c5oJScUpC4DFxwR4kQeDHB3FsmcUJKY1vwKNfef7m1UvQJ6qnJ7pXJF0mM2MGmHz0YUyZqMhDtY33W1eOZJZzIqbbv51oAnHiuCa5pxYj9NyomMsuAh+k56dc0Taq77cKz3P72/stZf12td2uztFE1VC8U1BRL6DIHYO7GGyEK/DdjJYWHmk2LaG75JDt0vNHjDAfuC1YApZZHpcKysABpQEHYd80dluzR6RGpbAzJYy4AlgfJS8jH3kb1y6MrsQeQZ9dR2UT2AoE9nTAjfFh/WvIXU9pAAjBhJHwLBZ+6P+RXaW8npXTzwq8JuanA/31eCvy/dPB9lp8tbsZQReJOVcuxMejWwFRmmoiYQlMMWWkxOCabZTJzoeGgnIf2Q68nJIfpqE4rj8FTFaNjViuEBwymzCIlfFAImdp0Oz4bDFczUWbWoJiKm7NcS3c+lzwLYxUG69T3dYhq0ddEmA86hBBVPzQ4fFB0D4GqIVw8AaVLldWJBwZE73BtBom5VGvDyj1zgq8lj79E5JWyvrRprUGZrt+lKWyufQcbWyW2SpXcwKHhrEfgBxAPrsmLEIa7qWVuZ39x2SzMJgnPCja7/ScKbhfZIakf2qBcwbI/y5wTtnMdm5fd09bzf1h5+jw8nh/6Jyd9s96R/s/bq2Q304rheUr6a3SHB2LcxK5cIIprzRpcVTmaubiua2eH32ZYdBPRv07joDbuADHtNAyZ0N6y2OIAJsQeTbfzbdPywy598ppZYTeMy8kZwDNx7xH3rp6N1nPojqrXR5175+TyE0PmnlHegr0F3nopVMasW4kmI/B3lViqvZZMqGVtFvliaf+qQVW+UbuZaf/cy87isgoAOfspHMw+EyDtAsnsV42o0GRFQxcwBgYtu90mblkQiutdNkc+pXT+QKW+RQePVfxPDOLPRt/IfX2SDRJyAT6gkQewf4QF54bx03su5Sm9PUuzgydTK2xV1bCKXWpL4Ar8cAHXt7DIUEHYog8dOm0daLPZt4r8DSuqci2kKQswrdZiFVE+cKp9o1kXx7JzrIIdDknkF9C5r6IYGl4iF8dalOVY66Ug4EfrpX7BQLsHg6Vx/J16/bStDBaJ3WOXfL1UmmZO5QGpL3Wuc1LXfpi0z47s0yCC9jkZ0ZOLaBTkpSnWCsnz7FWrnySRZVlF5kZOzy6dQEbl5iyLqBashp3Kaks7lNSKl3wWo0T4ke1OanyXWzWTBL5J0Z1I7L3UqicdDtJfjRY3hvSX0DsfwA=",
+      "after": "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"
+    }
+  }
+}]]></FlowDocument.Tag>
+  <Section Margin="0,24" TextAlignment="Center">
+    <Paragraph FontSize="24" FontWeight="Bold" Margin="12,0">
+      <LineBreak />
+      <Span Foreground="Gray">Qt Visual Studio Tools</Span>
+    </Paragraph>
+    <Paragraph FontSize="42" Margin="12,0" FontWeight="Bold">
+      <Span TextDecorations="Underline">Project Format Conversion</Span>
+    </Paragraph>
+    <Paragraph Margin="12,8" FontSize="18">
+      <Span>Report generated on 2025-04-21 15:59:09</Span>
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Files</Span>
+    </Paragraph>
+    <Paragraph Margin="24,12,0,0">
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[C:\Users\timot\source\repos\TullipApp\TullipApp\TullipApp.vcxproj]]></Span>
+      <LineBreak />
+      <Hyperlink NavigateUri="file://C:\Users\timot\source\repos\TullipApp\TullipApp\TullipApp.vcxproj?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\timot\source\repos\TullipApp\TullipApp\TullipApp.vcxproj?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\timot\source\repos\TullipApp\TullipApp\TullipApp.vcxproj?diff&amp;before&amp;after">
+                        [Diff before/after]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\timot\source\repos\TullipApp\TullipApp\TullipApp.vcxproj?diff&amp;before&amp;current">
+                        [Diff before/current]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\timot\source\repos\TullipApp\TullipApp\TullipApp.vcxproj?diff&amp;after&amp;current">
+                        [Diff after/current]
+                    </Hyperlink>
+      <LineBreak />
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Changes</Span>
+    </Paragraph>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Enabling multi-processor compilation]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\timot\source\repos\TullipApp\TullipApp\TullipApp.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Project format version]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\timot\source\repos\TullipApp\TullipApp\TullipApp.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Keyword>QtVS_v304</Keyword>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Fallback for QTMSBUILD environment variable]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\timot\source\repos\TullipApp\TullipApp\TullipApp.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Default Qt properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\timot\source\repos\TullipApp\TullipApp\TullipApp.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt_defaults.props" Condition="Exists('$(QtMsBuild)\qt_defaults.props')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt build settings]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\timot\source\repos\TullipApp\TullipApp\TullipApp.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Warn if Qt/MSBuild is not found]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\timot\source\repos\TullipApp\TullipApp\TullipApp.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') OR !Exists('$(QtMsBuild)\Qt.props')">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  </Target>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt property sheet]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\timot\source\repos\TullipApp\TullipApp\TullipApp.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt targets]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\timot\source\repos\TullipApp\TullipApp\TullipApp.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+  </Section>
+  <Section>
+    <Paragraph />
+  </Section>
+</FlowDocument>
+<!--R7fyz8JPMSlyBKTRZTqBO4VczS/oAD/mnLCM7aMQXpM=-->

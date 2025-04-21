@@ -3,8 +3,10 @@
 #include <string>
 #include <utility>
 #include <vector>
+#include <optional>
 #include "DateTime.h"
-#include "Person_Helper_Types.h"
+#include "Data_Helper_Types.h"
+#include "Helper_Functions.h"
 
 class Person
 {
@@ -40,9 +42,10 @@ protected:
 	Parent* dad_;
 	Parent* mom_;
 
+    // Rest of the code...
 public:
-	Child(const std::string& name, const std::string& surname, const Date& birth_date, Parent* dad, Parent* mom);
-	Child(std::string&& name, std::string&& surname, Date&& birth_date, Parent* dad, Parent* mom);
+	Child(const std::string& name, const std::string& surname, const Date& birth_date, Parent* dad = nullptr, Parent* mom = nullptr);
+	Child(std::string&& name, std::string&& surname, Date&& birth_date, Parent* dad = nullptr, Parent* mom = nullptr);
 
 	Child(const Child& child) = default;
 	Child(Child&& child) noexcept = default;
@@ -52,6 +55,13 @@ public:
 
 	inline const Date& get_birth_date() const { return birth_date_; }
 	inline void set_birth_date(Date&& birth_date) { birth_date_ = std::forward<Date>(birth_date); }
+
+	inline Parent* get_dad() const { return dad_; }
+	inline void set_dad(Parent* dad) { dad_ = dad; }
+
+	inline Parent* get_mom() const { return mom_; }
+	inline void set_mom(Parent* mom) { mom_ = mom; }
+
 	~Child() = default;
 };
 
@@ -59,11 +69,11 @@ class Parent : public Person
 {
 protected:
 	Email email_;
-	std::vector<Child> children_;
+	std::vector<Child*> children_;
 
 public:
-	Parent(const std::string& name, const std::string& surname, const std::string& email);
-	Parent(std::string&& name, std::string&& surname, std::string&& email);
+	Parent(const std::string& name, const std::string& surname, const std::string& email = "");
+	Parent(std::string&& name, std::string&& surname, std::string&& email = "");
 
 	Parent(const Parent& parent) = default;
 	Parent(Parent&& parent) noexcept = default;
@@ -73,9 +83,41 @@ public:
 
 	inline const Email& get_email() const { return email_; }
 	inline void set_email(std::string&& email) { email_ = Email(std::forward<std::string>(email)); }
-	inline const std::vector<Child>& get_children() const { return children_; }
-	inline void add_child(Child&& child) { children_.push_back(std::move(child)); }
+
+	inline const std::vector<Child*>& get_children() const { return children_; }
+	inline void add_child(Child* child) { children_.push_back(child); }
+	inline void remove_child(Child* child) { remove_all(children_, child); }
+
 	~Parent() = default;
+};
+
+class Employee : public Person
+{
+protected:
+	Email email_;
+	Phone phone_;
+	int hours_worked_;
+
+public:
+	Employee(const std::string& name, const std::string& surname, const std::string& email = "", const std::string& phone = "");
+	Employee(std::string&& name, std::string&& surname, std::string&& email = "", std::string&& phone = "");
+
+	Employee(const Employee& employee) = default;
+	Employee(Employee&& employee) noexcept = default;
+
+	Employee& operator=(const Employee& employee) = default;
+	Employee& operator=(Employee&& employee) noexcept = default;
+
+	inline const Email& get_email() const { return email_; }
+	inline void set_email(std::string&& email) { email_ = Email(std::forward<std::string>(email)); }
+
+	inline const Phone& get_phone() const { return phone_; }
+	inline void set_phone(std::string&& phone) { phone_ = Phone(std::forward<std::string>(phone)); }
+
+	inline int get_hours_worked() const { return hours_worked_; }
+	inline void set_hours_worked(int hours_worked) { hours_worked_ = hours_worked; }
+
+	~Employee() = default;
 };
 
 
