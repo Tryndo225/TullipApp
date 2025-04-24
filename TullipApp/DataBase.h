@@ -28,7 +28,7 @@ private:
 
 	std::multimap<std::string, Employee*> employee_by_name;
 	std::multimap<std::string, Employee*> employee_by_surname;
-	
+
 	std::multimap<std::string, Lesson*> lesson_by_date;
 
 public:
@@ -87,8 +87,7 @@ public:
 	void export_to_csv_file(const std::string& filename) const;
 
 	~Database() = default;
-}
+};
 
 
 #endif // !DATABASE_H_
-
