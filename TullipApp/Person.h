@@ -1,5 +1,5 @@
-#ifndef PERSON_H_  
-#define PERSON_H_  
+#ifndef PERSON_H_
+#define PERSON_H_
 #include <string>
 #include <utility>
 #include <vector>
@@ -15,6 +15,7 @@ protected:
 	std::string surname_;
 
 public:
+	Person() = default;
 	Person(const std::string& name, const std::string& surname);
 	Person(std::string&& name, std::string&& surname);
 
@@ -34,7 +35,6 @@ public:
 };
 class Parent; // Forward declaration
 
-
 class Child : public Person
 {
 protected:
@@ -42,8 +42,8 @@ protected:
 	Parent* dad_;
 	Parent* mom_;
 
-    // Rest of the code...
 public:
+	Child() = default;
 	Child(const std::string& name, const std::string& surname, const Date& birth_date, Parent* dad = nullptr, Parent* mom = nullptr);
 	Child(std::string&& name, std::string&& surname, Date&& birth_date, Parent* dad = nullptr, Parent* mom = nullptr);
 
@@ -72,6 +72,7 @@ protected:
 	std::vector<Child*> children_;
 
 public:
+	Parent() = default;
 	Parent(const std::string& name, const std::string& surname, const std::string& email = "");
 	Parent(std::string&& name, std::string&& surname, std::string&& email = "");
 
@@ -99,6 +100,7 @@ protected:
 	int hours_worked_;
 
 public:
+	Employee() = default;
 	Employee(const std::string& name, const std::string& surname, const std::string& email = "", const std::string& phone = "");
 	Employee(std::string&& name, std::string&& surname, std::string&& email = "", std::string&& phone = "");
 
@@ -119,6 +121,5 @@ public:
 
 	~Employee() = default;
 };
-
 
 #endif

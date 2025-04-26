@@ -7,6 +7,7 @@ int main(int argc, char* argv[])
 	{
 		DateTime time_now = DateTime::get_current_datetime();
 		std::cout << "Current date and time: " << time_now << std::endl;
+		std::cout << Date::get_weekday_from_date(time_now) << std::endl;
 	}
 	catch (const DateTimeError& e)
 	{

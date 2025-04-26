@@ -159,6 +159,7 @@
     <ClInclude Include="Data_Helper_Types.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DataBase.cpp" />
     <ClCompile Include="DateTime.cpp" />
     <ClCompile Include="Lesson.cpp" />
     <ClCompile Include="Person.cpp" />

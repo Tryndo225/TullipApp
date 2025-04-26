@@ -1,10 +1,12 @@
 #include "Lesson.h"
 
-Lesson::Lesson(const Date& date, const Time& time, const Address& address, const std::map<Child*, std::optional<Date>>& children)
-	: date_(date), time_(time), address_(address), children_(children) {}
+Lesson::Lesson(const DateTime& datetime, const Address& address, const std::map<Child*, std::optional<Date>>& children)
+	: datetime_(datetime), address_(address), children_(children) {
+}
 
-Lesson::Lesson(Date&& date, Time&& time, std::string&& address, std::map<Child*, std::optional<Date>>&& children)
-	: date_(date), time_(time), address_(address), children_(std::move(children)) {}
+Lesson::Lesson(DateTime&& datetime, std::string&& address, std::map<Child*, std::optional<Date>>&& children)
+	: datetime_(datetime), address_(address), children_(std::move(children)) {
+}
 
 const std::vector<Child*> Lesson::get_children() const
 {

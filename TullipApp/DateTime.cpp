@@ -1,16 +1,40 @@
 #include <sstream>
 #include "DateTime.h"
 
+// Enum classes
+std::string month_to_string(Months month)
+{
+	return months_array[static_cast<int>(month)];
+}
+std::ostream& operator<<(std::ostream& stream, const Months& month)
+{
+	stream << month_to_string(month) << std::endl;
+	return stream;
+}
+
+std::string weekday_to_string(WeekDays weekday)
+{
+	return weekdays_array[static_cast<int>(weekday)];
+}
+
+std::ostream& operator<<(std::ostream& stream, const WeekDays& weekday)
+{
+	stream << weekday_to_string(weekday) << std::endl;
+	return stream;
+}
+
 // Date Class
 // 00000000 00000000 00000000 00000000
 // \_____________________/\____/\____/
 //           Year          Month  Day
+Date::Date(unsigned int date) : date_(date) {}
+
 Date::Date(unsigned short day, unsigned short month, unsigned int year)
 {
 	date_ = 0;
 
 	set_day(day);
-	set_month((Month)(month - 1));
+	set_month((Months)(month - 1));
 	set_year(year);
 }
 
@@ -28,7 +52,7 @@ unsigned short Date::get_day() const
 	return date_ & 0x3F;
 }
 
-void Date::set_month(Month month_enum)
+void Date::set_month(Months month_enum)
 {
 	unsigned int month = (unsigned int)month_enum + 1; // Adjust for zero-based index
 	if (month > 12 || month == 0)
@@ -38,9 +62,9 @@ void Date::set_month(Month month_enum)
 	date_ = (date_ & 0xFFFFF83F) | ((unsigned int)month << 6);
 }
 
-Month Date::get_month() const
+Months Date::get_month() const
 {
-	return (Month)((date_ & 0x7C0) >> 6);
+	return (Months)((date_ & 0x7C0) >> 6);
 }
 
 void Date::set_year(unsigned int year)
@@ -94,8 +118,6 @@ void Date::print_long(std::ostream& stream) const
 	stream << output << std::endl;
 }
 
-
-
 WeekDays Date::get_weekday_from_date(const Date& date)
 {
 	unsigned int d = date.get_day();
@@ -105,7 +127,9 @@ WeekDays Date::get_weekday_from_date(const Date& date)
 	int K = y % 100;
 	int J = y / 100;
 	int  result = (d + (13 * (m + 1)) / 5 + K + K / 4 + J / 4 - 2 * J) % 7;
-	if (result < 0) result += 7;
+
+	// Adjust result to match the WeekDays enum
+	result = (result + 5) % 7;
 
 	return (WeekDays)result;
 }
@@ -175,7 +199,7 @@ bool Time::update_time(int intervals_of_fifteen)
 		hours += 1;
 	}
 	set_minutes(minutes);
-	
+
 	hours += (intervals_of_fifteen * 4) / 60 + get_hours();
 
 	bool overflow = false;
@@ -185,11 +209,13 @@ bool Time::update_time(int intervals_of_fifteen)
 		overflow = true;
 	}
 	set_hours(hours);
-	
+
 	return overflow;
 }
 
 // Public members
+Time::Time(unsigned int time) : time_(time) {}
+
 Time::Time(unsigned short hours, unsigned short minutes, unsigned short seconds)
 {
 	time_ = 0;
@@ -290,7 +316,6 @@ void Time::update_zone(bool should_update_time)
 	{
 		throw std::runtime_error("Failed to get local time.");
 	}
-
 
 	auto local_tt = std::mktime(&local_tm);
 	auto   gmt_tt = std::mktime(&gmt_tm);
@@ -411,13 +436,23 @@ std::ostream& operator<<(std::ostream& stream, const Time& time)
 	return stream;
 }
 
-
 // DateTime Class
-DateTime::DateTime(unsigned short day, unsigned short month, unsigned int year, 
+DateTime::DateTime(unsigned short day, unsigned short month, unsigned int year,
 	unsigned short hours, unsigned short minutes, unsigned short seconds)
-	: Date(day, month, year), Time(hours, minutes, seconds) {}
+	: Date(day, month, year), Time(hours, minutes, seconds) {
+}
 
 DateTime::DateTime(const Date& date, const Time& time) : Date(date), Time(time) {}
+
+void DateTime::set_date(const Date& date)
+{
+	*this = DateTime(date, get_time());
+}
+
+void DateTime::set_time(const Time& time)
+{
+	*this = DateTime(get_date(), time);
+}
 
 std::string DateTime::get_date_time_string() const
 {
@@ -425,12 +460,12 @@ std::string DateTime::get_date_time_string() const
 	return dateTime;
 }
 
-void DateTime::print_short(std::ostream& stream) const  
-{  
-   std::ostringstream oss;
-   this->Date::print_short(oss);
-   this->Time::print_short(oss);
-   stream << oss.str();
+void DateTime::print_short(std::ostream& stream) const
+{
+	std::ostringstream oss;
+	this->Date::print_short(oss);
+	this->Time::print_short(oss);
+	stream << oss.str();
 }
 
 void DateTime::print_long(std::ostream& stream) const

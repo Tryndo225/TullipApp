@@ -9,12 +9,12 @@ protected:
 	static bool copy_to_clipboard(const std::string& text);
 };
 
-
 class Email : public Contacts
 {
 private:
 	std::string email_;
 public:
+	Email() = default;
 	Email(const std::string& email);
 	Email(std::string&& email);
 
@@ -23,6 +23,8 @@ public:
 
 	Email& operator=(const Email& email) = default;
 	Email& operator=(Email&& email) noexcept = default;
+
+	inline bool operator==(const Email& email) const { return email_ == email.email_; }
 
 	inline const std::string& get_email() const { return email_; }
 	inline void set_email(std::string&& email) { email_ = std::forward<std::string>(email); }
@@ -39,6 +41,7 @@ class Phone : public Contacts
 private:
 	std::string phone_;
 public:
+	Phone() = default;
 	Phone(const std::string& phone);
 	Phone(std::string&& phone);
 
@@ -47,6 +50,8 @@ public:
 
 	Phone& operator=(const Phone& phone) = default;
 	Phone& operator=(Phone&& phone) noexcept = default;
+
+	inline bool operator==(const Phone& phone) const { return phone_ == phone.phone_; }
 
 	inline const std::string& get_phone() const { return phone_; }
 	inline void set_phone(std::string&& phone) { phone_ = std::forward<std::string>(phone); }
@@ -63,6 +68,7 @@ class Address : public Contacts
 private:
 	std::string address_;
 public:
+	Address() = default;
 	Address(const std::string& address);
 	Address(std::string&& address);
 
@@ -71,6 +77,8 @@ public:
 
 	Address& operator=(const Address& address) = default;
 	Address& operator=(Address&& address) noexcept = default;
+
+	inline bool operator==(const Address& address) const { return address_ == address.address_; }
 
 	inline const std::string& get_address() const { return address_; }
 	inline void set_address(std::string&& address) { address_ = std::forward<std::string>(address); }

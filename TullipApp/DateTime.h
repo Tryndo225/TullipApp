@@ -5,8 +5,23 @@
 #include <iostream>
 #include <string>
 
+inline const char* months_array[] =
+{
+	"January",
+	"February",
+	"March",
+	"April",
+	"May",
+	"June",
+	"July",
+	"August",
+	"September",
+	"October",
+	"November",
+	"December"
+};
 
-enum class Month
+enum class Months
 {
 	January,
 	February,
@@ -19,19 +34,38 @@ enum class Month
 	Semptember,
 	October,
 	November,
-	December
+	December,
+	End
+};
+
+std::string month_to_string(Months month);
+std::ostream& operator<<(std::ostream& stream, const Months& month);
+
+inline const char* weekdays_array[] =
+{
+	"Monday",
+	"Tuesday",
+	"Wednesday",
+	"Thursday",
+	"Friday",
+	"Saturday",
+	"Sunday"
 };
 
 enum class WeekDays
 {
 	Monday,
 	Tuesday,
-	Wednesday, 
+	Wednesday,
 	Thursday,
 	Friday,
 	Saturday,
-	Sunday
+	Sunday,
+	End
 };
+
+std::string weekday_to_string(WeekDays weekday);
+std::ostream& operator<<(std::ostream& stream, const WeekDays& weekday);
 
 //enum class TimeZones
 //{
@@ -80,11 +114,14 @@ enum class WeekDays
 class Date
 {
 protected:
-	unsigned int date_;
 	// 00000000 00000000 00000000 00000000
 	// \_____________________/\____/\____/
 	//           Year          Month  Day
+	unsigned int date_;
+
 public:
+	Date() = default;
+	Date(unsigned int date);
 	Date(unsigned short day, unsigned short month, unsigned int year);
 	Date(const Date& date) = default;
 	Date(Date&& date) noexcept = default;
@@ -95,8 +132,8 @@ public:
 	void set_day(unsigned short day);
 	unsigned short get_day() const;
 
-	void set_month(Month month);
-	Month get_month() const;
+	void set_month(Months month);
+	Months get_month() const;
 
 	void set_year(unsigned int year);
 	unsigned int get_year() const;
@@ -126,13 +163,15 @@ class Time
 {
 protected:
 	unsigned int time_;
-// 00000000 00000000 00000000 00000000
-// \______/ \______/ \______/ \______/
-//	 Zone	  Hour     Mins     Secs
-// Zone Bit 1 = +/-, Rest is amount of 15 mins interval difference from UTC-0
+	// 00000000 00000000 00000000 00000000
+	// \______/ \______/ \______/ \______/
+	//	 Zone	  Hour     Mins     Secs
+	// Zone Bit 1 = +/-, Rest is amount of 15 mins interval difference from UTC-0
 
 	bool update_time(int intervals_of_fifteen);
 public:
+	Time() = default;
+	Time(unsigned int time);
 	Time(unsigned short hours, unsigned short minutes, unsigned short seconds);
 	Time(const Time& time) = default;
 	Time(Time&& time) noexcept = default;
@@ -175,13 +214,23 @@ public:
 class DateTime : public Date, public Time
 {
 public:
+	DateTime() = default;
 	DateTime(unsigned short day, unsigned short month, unsigned int year, unsigned short hours, unsigned short mins, unsigned short secs);
 	DateTime(const DateTime& date_time) = default;
 	DateTime(DateTime&& date_time) = default;
-
 	DateTime(const Date& date, const Time& time);
+
+	DateTime& operator=(const DateTime& date_time) = default;
+	DateTime& operator=(DateTime&& date_time) = default;
+
+	void set_date(const Date& date);
+	inline Date get_date() const { return Date(date_); }
+
+	void set_time(const Time& time);
+	inline Time get_time() const { return Time(time_); }
+
 	std::string get_date_time_string() const;
-	
+
 	void print_long(std::ostream& stream) const;
 	void print_short(std::ostream& stream) const;
 

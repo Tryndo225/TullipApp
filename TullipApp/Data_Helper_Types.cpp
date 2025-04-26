@@ -4,7 +4,6 @@
 #include <iostream>
 #include "Data_Helper_Types.h"
 
-
 // Contacts class implementation
 // Copy to clipboard function
 #if defined(_WIN32)
@@ -83,7 +82,6 @@ std::ostream& operator<<(std::ostream& stream, const Email& email)
 	stream << email.get_email();
 	return stream;
 }
-
 
 // Phone class implementation
 // Constructor implementations

@@ -29,7 +29,17 @@ private:
 	std::multimap<std::string, Employee*> employee_by_name;
 	std::multimap<std::string, Employee*> employee_by_surname;
 
-	std::multimap<std::string, Lesson*> lesson_by_date;
+	std::multimap<DateTime, Lesson*> lesson_by_datetime;
+
+	void import_Lessons_from_csv_file(const std::string& filename);
+	void import_Parents_from_csv_file(const std::string& filename);
+	void import_Children_from_csv_file(const std::string& filename);
+	void import_Employees_from_csv_file(const std::string& filename);
+
+	void export_Lessons_to_csv_file(const std::string& filename) const;
+	void export_Parents_to_csv_file(const std::string& filename) const;
+	void export_Children_to_csv_file(const std::string& filename) const;
+	void export_Employees_to_csv_file(const std::string& filename) const;
 
 public:
 	Database() = default;
@@ -41,19 +51,16 @@ public:
 	Database& operator=(Database&& db) noexcept = default;
 
 	void add_lesson(const Lesson& lesson);
-	void remove_lesson(const Lesson& lesson);
+	void remove_lesson(const Lesson* lesson);
 
-	void sort_lessons_by_date();
-	void sort_lessons_by_time();
-	void sort_lessons_by_address();
+	std::multimap<DateTime, Lesson*>& sort_lessons_by_datetime();
 
-	void find_lesson_by_date(const Date& date) const;
-	void find_lesson_by_time(const Time& time) const;
-	void find_lesson_by_address(const std::string& address) const;
-	void find_lesson_by_child(const Child& child) const;
+	std::vector<Lesson> filter_lesson_by_day(const std::string& day, std::optional <std::vector<Lesson>> lessons = std::nullopt) const;
+	std::vector<Lesson> filter_lesson_by_address(const std::string& address, std::optional <std::vector<Lesson>> lessons = std::nullopt) const;
+	std::vector<Lesson> filter_lesson_by_child(const std::string& child, std::optional <std::vector<Lesson>> lessons = std::nullopt) const;
 
 	void add_parent(const Parent& parent);
-	void remove_parent(const Parent& parent);
+	void remove_parent(const Parent* parent);
 
 	void sort_parents_by_name();
 	void sort_parents_by_surname();
@@ -64,7 +71,7 @@ public:
 	void find_parent_by_phone(const std::string& phone) const;
 
 	void add_child(const Child& child);
-	void remove_child(const Child& child);
+	void remove_child(const Child* child);
 
 	void sort_children_by_name();
 	void sort_children_by_surname();
@@ -72,10 +79,10 @@ public:
 	void find_child_by_name(const std::string& name) const;
 	void find_child_by_surname(const std::string& surname) const;
 	void find_child_by_birth_date(const Date& birth_date) const;
-	void find_child_by_parent(const Parent& parent) const;
+	void find_child_by_parent_name(const std::string& parent_name) const;
 
-	void add_employee(const Employee& employee);
-	void remove_employee(const Employee& employee);
+	void add_employee(const Employee* employee);
+	void remove_employee(const Employee* employee);
 
 	void sort_employees_by_name();
 	void sort_employees_by_surname();
@@ -88,6 +95,5 @@ public:
 
 	~Database() = default;
 };
-
 
 #endif // !DATABASE_H_
