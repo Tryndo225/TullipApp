@@ -6,118 +6,191 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
-    <height>400</height>
+    <width>1200</width>
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>DataBaseGUI</string>
   </property>
-  <widget class="QWidget" name="centralWidget">
-   <widget class="QTabWidget" name="tabWidget">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>601</width>
-      <height>351</height>
-     </rect>
-    </property>
-    <property name="autoFillBackground">
-     <bool>true</bool>
-    </property>
-    <property name="currentIndex">
-     <number>0</number>
-    </property>
-    <widget class="QWidget" name="children_tab">
-     <attribute name="title">
-      <string>Children</string>
-     </attribute>
-     <widget class="QScrollArea" name="children_scroll">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>10</y>
-        <width>20</width>
-        <height>30</height>
-       </rect>
-      </property>
-      <property name="widgetResizable">
+  <widget class="QWidget" name="main_window">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabs">
+      <property name="autoFillBackground">
        <bool>true</bool>
       </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+      <property name="currentIndex">
+       <number>0</number>
       </property>
-      <widget class="QWidget" name="children_scroll_contents">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>18</width>
-         <height>28</height>
-        </rect>
-       </property>
-       <property name="acceptDrops">
-        <bool>false</bool>
-       </property>
-       <layout class="QVBoxLayout" name="children_scroll_contents_layout_v">
+      <widget class="QWidget" name="children_tab">
+       <attribute name="title">
+        <string>Children</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <property name="sizeConstraint">
+         <enum>QLayout::SizeConstraint::SetNoConstraint</enum>
+        </property>
         <item>
-         <widget class="QWidget" name="widget" native="true"/>
+         <widget class="QScrollArea" name="children_scroll">
+          <property name="sizeAdjustPolicy">
+           <enum>QAbstractScrollArea::SizeAdjustPolicy::AdjustToContents</enum>
+          </property>
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+          </property>
+          <widget class="QWidget" name="children_scroll_contents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1158</width>
+             <height>489</height>
+            </rect>
+           </property>
+           <property name="acceptDrops">
+            <bool>false</bool>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_5">
+            <property name="sizeConstraint">
+             <enum>QLayout::SizeConstraint::SetNoConstraint</enum>
+            </property>
+            <item>
+             <widget class="QWidget" name="stopper_child" native="true"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="parents_tab">
+       <attribute name="title">
+        <string>Parents</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_9">
+        <item>
+         <widget class="QScrollArea" name="parents_scroll">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="parents_scroll_contents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1158</width>
+             <height>289</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <widget class="QWidget" name="widget_2" native="true"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="emplyees_tab">
+       <attribute name="title">
+        <string>Employees</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QScrollArea" name="employees_scroll">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="employees_scroll_contents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1158</width>
+             <height>289</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <widget class="QWidget" name="stopper_employee" native="true"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="lessons_tab">
+       <attribute name="title">
+        <string>Lessons</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <widget class="QScrollArea" name="lessons_scroll">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="lesson_scroll_contents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1158</width>
+             <height>289</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <widget class="QWidget" name="widget_4" native="true"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
         </item>
        </layout>
       </widget>
      </widget>
-    </widget>
-    <widget class="QWidget" name="parents_tab">
-     <attribute name="title">
-      <string>Parents</string>
-     </attribute>
-    </widget>
-    <widget class="QWidget" name="emplyees_tab">
-     <attribute name="title">
-      <string>Employees</string>
-     </attribute>
-    </widget>
-    <widget class="QWidget" name="lessons_tab">
-     <attribute name="title">
-      <string>Lessons</string>
-     </attribute>
-    </widget>
-   </widget>
+    </item>
+   </layout>
   </widget>
-  <widget class="QMenuBar" name="menuBar">
+  <widget class="QMenuBar" name="menu_bar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>600</width>
+     <width>1200</width>
      <height>21</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuFIle">
+   <widget class="QMenu" name="file_option">
     <property name="title">
      <string>FIle</string>
     </property>
-    <addaction name="actionSave"/>
+    <addaction name="save_to"/>
     <addaction name="separator"/>
-    <addaction name="actionImport"/>
+    <addaction name="import_from"/>
     <addaction name="separator"/>
-    <addaction name="actionExport"/>
+    <addaction name="export_to"/>
    </widget>
-   <addaction name="menuFIle"/>
+   <addaction name="file_option"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="actionImport">
+  <action name="import_from">
    <property name="text">
     <string>Import</string>
    </property>
   </action>
-  <action name="actionExport">
+  <action name="export_to">
    <property name="text">
     <string>Export</string>
    </property>
   </action>
-  <action name="actionSave">
+  <action name="save_to">
    <property name="text">
     <string>Save as...</string>
    </property>

@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{d3174b84-6aa4-492d-a8fb-3080df288ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{609f0a38-776e-487a-aa87-e70ad89ba3da}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DateTime.h">
@@ -63,18 +69,21 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DataBaseGUI.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\UI</Filter>
     </ClCompile>
     <ClCompile Include="ChildEntry.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\UI</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="DataBaseGUI.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
     <QtMoc Include="ChildEntry.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="DataBaseGUI.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="scalablelabel.h">
+      <Filter>Header Files\UI</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>

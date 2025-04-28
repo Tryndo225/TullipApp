@@ -10,7 +10,7 @@ class DataBaseGUI : public QMainWindow
 	Q_OBJECT
 
 public:
-	DataBaseGUI(QWidget* parent = nullptr);
+	DataBaseGUI(Database&& database, QWidget* parent = nullptr);
 	~DataBaseGUI();
 
 private:
@@ -18,7 +18,12 @@ private:
 
 	Database data_base_;
 
-	void populateChildrenTab(const std::vector<Child*>& children);
+	void populate_children_tab(const std::vector<Child*>& children);
+
+	template<typename T>
+	void populate_children_tab(const std::multimap<T, Child*>& children);
+
+	void children_tab_clear();
 };
 
 #endif // DATABASEGUI_H

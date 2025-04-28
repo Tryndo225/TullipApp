@@ -4,12 +4,14 @@
 #include <QWidget>
 #include "ui_ChildEntry.h"
 
+#include "Person.h"
+
 class ChildEntry : public QWidget
 {
 	Q_OBJECT
 
 public:
-	ChildEntry(QWidget* parent = nullptr);
+	ChildEntry(QWidget* parent, Child* child);
 	~ChildEntry();
 
 private:
