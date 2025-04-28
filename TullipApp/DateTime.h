@@ -150,6 +150,8 @@ public:
 	bool operator<=(const Date& date) const;
 	bool operator>=(const Date& date) const;
 
+	Date operator-(const Date& date) const;
+
 	friend std::ostream& operator<<(std::ostream& stream, const Date& date);
 
 	static WeekDays get_weekday_from_date(const Date& date);

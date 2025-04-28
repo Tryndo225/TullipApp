@@ -44,9 +44,6 @@
     <ClCompile Include="Helper_Functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="DateTime_Exceptions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -62,5 +59,30 @@
     <ClCompile Include="DataBase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBaseGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="DataBaseGUI.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ChildEntry.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="DataBaseGUI.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
+    <QtUic Include="ChildEntry.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
   </ItemGroup>
 </Project>

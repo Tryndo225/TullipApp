@@ -25,6 +25,9 @@ public:
 	Person& operator=(const Person& person) = default;
 	Person& operator=(Person&& person) noexcept = default;
 
+	inline bool operator==(const Person& person) const { return name_ == person.name_ && surname_ == person.surname_; }
+	inline bool operator!=(const Person& person) const { return !(*this == person); }
+
 	inline const std::string& get_name() const { return name_; }
 	inline void set_name(std::string&& name) { name_ = std::forward<std::string>(name); }
 
@@ -52,6 +55,11 @@ public:
 
 	Child& operator=(const Child& child) = default;
 	Child& operator=(Child&& child) noexcept = default;
+
+	inline bool operator==(const Child& child) const { return Person::operator==(child) && birth_date_ == child.birth_date_; }
+	inline bool operator!=(const Child& child) const { return !(*this == child); }
+
+	inline int get_age() const { return (Date::get_current_date() - birth_date_).get_year(); } // Assuming Date has an overloaded operator- for age calculation
 
 	inline const Date& get_birth_date() const { return birth_date_; }
 	inline void set_birth_date(Date&& birth_date) { birth_date_ = std::forward<Date>(birth_date); }
@@ -81,6 +89,9 @@ public:
 
 	Parent& operator=(const Parent& parent) = default;
 	Parent& operator=(Parent&& parent) noexcept = default;
+
+	inline bool operator==(const Parent& parent) const { return Person::operator==(parent) && email_ == parent.email_; }
+	inline bool operator!=(const Parent& parent) const { return !(*this == parent); }
 
 	inline const Email& get_email() const { return email_; }
 	inline void set_email(std::string&& email) { email_ = Email(std::forward<std::string>(email)); }

@@ -182,6 +182,11 @@ std::ostream& operator<<(std::ostream& stream, const Date& date)
 	return stream;
 }
 
+Date Date::operator-(const Date& date) const
+{
+	return Date(date_ - date.date_);
+}
+
 // Time Class
 // 00000000 00000000 00000000 00000000
 // \______/ \______/ \______/ \______/

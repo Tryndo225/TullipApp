@@ -15,6 +15,7 @@ Parent::Parent(std::string&& name, std::string&& surname, std::string&& email) :
 Child::Child(const std::string& name, const std::string& surname, const Date& birth_date, Parent* dad, Parent* mom)
 	: Person(name, surname), birth_date_(birth_date), dad_(dad), mom_(mom) {
 }
+
 Child::Child(std::string&& name, std::string&& surname, Date&& birth_date, Parent* dad, Parent* mom)
 	: Person(std::move(name), std::move(surname)), birth_date_(std::move(birth_date)), dad_(dad), mom_(mom) {
 }

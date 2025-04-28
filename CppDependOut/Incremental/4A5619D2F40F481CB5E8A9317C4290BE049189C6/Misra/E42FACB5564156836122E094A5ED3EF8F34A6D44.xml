@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cppdepend-plugin tool="Misra">
+<file path="c:\program files (x86)\windows kits\10\include\10.0.22621.0\um\winbase.h"><violation beginline="1063" begincolumn="1" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="1111" begincolumn="1" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="1146" begincolumn="1" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="1104" begincolumn="1" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="1146" begincolumn="1" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+</file><file path="c:\program files (x86)\windows kits\10\include\10.0.22621.0\um\winuser.h"><violation beginline="5400" begincolumn="1" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="5524" begincolumn="1" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="5448" begincolumn="1" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+</file><file path="c:\program files\microsoft visual studio\2022\community\vc\tools\msvc\14.42.34433\include\vcruntime_string.h"><violation beginline="43" begincolumn="1" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+</file><file path="c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\data_helper_types.cpp"><violation beginline="24" begincolumn="2" rule="Rule6-4-1" ruleset="Statements">
+</violation>
+<violation beginline="32" begincolumn="2" rule="Rule6-4-1" ruleset="Statements">
+</violation>
+<violation beginline="32" begincolumn="13" rule="Rule6-6-5" ruleset="Statements">
+</violation>
+</file><file path="c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\data_helper_types.h"><violation beginline="9" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="9" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="9" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="29" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="56" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="83" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+</file></cppdepend-plugin>

@@ -1,22 +1,13 @@
 #include "DateTime.h"
-#include "Data_Helper_Types.h"
+#include <QApplication>
+#include "DataBaseGUI.h"
 
 int main(int argc, char* argv[])
 {
-	try
-	{
-		DateTime time_now = DateTime::get_current_datetime();
-		std::cout << "Current date and time: " << time_now << std::endl;
-		std::cout << Date::get_weekday_from_date(time_now) << std::endl;
-	}
-	catch (const DateTimeError& e)
-	{
-		std::cout << e;
-	}
-	catch (...)
-	{
-		std::cout << "Unknown error occurred.";
-	};
+	QApplication application(argc, argv);
 
-	return 0;
+	DataBaseGUI mainWindow;
+	mainWindow.show();
+
+	return application.exec();
 }

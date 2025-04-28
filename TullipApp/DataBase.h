@@ -4,6 +4,7 @@
 #include <vector>
 #include <map>
 #include <string>
+#include <fstream>
 #include <memory>
 #include "Lesson.h"
 #include "Person.h"
@@ -24,22 +25,21 @@ private:
 	std::multimap<std::string, Parent*> parent_by_name;
 	std::multimap<std::string, Parent*> parent_by_surname;
 	std::multimap<std::string, Parent*> parent_by_email;
-	std::multimap<std::string, Parent*> parent_by_phone;
 
 	std::multimap<std::string, Employee*> employee_by_name;
 	std::multimap<std::string, Employee*> employee_by_surname;
 
 	std::multimap<DateTime, Lesson*> lesson_by_datetime;
 
-	void import_Lessons_from_csv_file(const std::string& filename);
-	void import_Parents_from_csv_file(const std::string& filename);
-	void import_Children_from_csv_file(const std::string& filename);
-	void import_Employees_from_csv_file(const std::string& filename);
+	void import_Lessons_from_csv_file(std::istream& stream = std::cin);
+	void import_Parents_from_csv_file(std::istream& stream = std::cin);
+	void import_Children_from_csv_file(std::istream& stream = std::cin);
+	void import_Employees_from_csv_file(std::istream& stream = std::cin);
 
-	void export_Lessons_to_csv_file(const std::string& filename) const;
-	void export_Parents_to_csv_file(const std::string& filename) const;
-	void export_Children_to_csv_file(const std::string& filename) const;
-	void export_Employees_to_csv_file(const std::string& filename) const;
+	void export_Lessons_to_csv_file(std::ostream& stream = std::cout) const;
+	void export_Parents_to_csv_file(std::ostream& stream = std::cout) const;
+	void export_Children_to_csv_file(std::ostream& stream = std::cout) const;
+	void export_Employees_to_csv_file(std::ostream& stream = std::cout) const;
 
 public:
 	Database() = default;
@@ -55,44 +55,49 @@ public:
 
 	std::multimap<DateTime, Lesson*>& sort_lessons_by_datetime();
 
-	std::vector<Lesson> filter_lesson_by_day(const std::string& day, std::optional <std::vector<Lesson>> lessons = std::nullopt) const;
-	std::vector<Lesson> filter_lesson_by_address(const std::string& address, std::optional <std::vector<Lesson>> lessons = std::nullopt) const;
-	std::vector<Lesson> filter_lesson_by_child(const std::string& child, std::optional <std::vector<Lesson>> lessons = std::nullopt) const;
+	std::vector<Lesson*> filter_lesson_by_day(const std::string& day, std::optional<std::vector<Lesson*>> lessons = std::nullopt) const;
+	std::vector<Lesson*> filter_lesson_by_address(const std::string& address, std::optional<std::vector<Lesson*>> lessons = std::nullopt) const;
+	std::vector<Lesson*> filter_lesson_by_child_name(const std::string& name, std::optional<std::vector<Lesson*>> lessons = std::nullopt) const;
+	std::vector<Lesson*> filter_lesson_by_child_surname(const std::string& surname, std::optional<std::vector<Lesson*>> lessons = std::nullopt) const;
 
 	void add_parent(const Parent& parent);
 	void remove_parent(const Parent* parent);
 
-	void sort_parents_by_name();
-	void sort_parents_by_surname();
+	std::multimap<std::string, Parent*> sort_parents_by_name();
+	std::multimap<std::string, Parent*> sort_parents_by_surname();
 
-	void find_parent_by_name(const std::string& name) const;
-	void find_parent_by_surname(const std::string& surname) const;
-	void find_parent_by_email(const std::string& email) const;
-	void find_parent_by_phone(const std::string& phone) const;
+	std::vector<Parent*> filter_parent_by_name(const std::string& name, std::optional<std::vector<Parent*>> parents = std::nullopt) const;
+	std::vector<Parent*> filter_parent_by_surname(const std::string& surname, std::optional<std::vector<Parent*>> parents = std::nullopt) const;
+	std::vector<Parent*> filter_parent_by_email(const std::string& email, std::optional<std::vector<Parent*>> parents = std::nullopt) const;
 
 	void add_child(const Child& child);
 	void remove_child(const Child* child);
 
-	void sort_children_by_name();
-	void sort_children_by_surname();
+	std::multimap<std::string, Child*> sort_children_by_name();
+	std::multimap<std::string, Child*> sort_children_by_surname();
+	std::multimap<Date, Child*> sort_children_by_birth_date();
 
-	void find_child_by_name(const std::string& name) const;
-	void find_child_by_surname(const std::string& surname) const;
-	void find_child_by_birth_date(const Date& birth_date) const;
-	void find_child_by_parent_name(const std::string& parent_name) const;
+	std::vector<Child*> filter_child_by_name(const std::string& name, std::optional<std::vector<Child*>> parents = std::nullopt) const;
+	std::vector<Child*> filter_child_by_surname(const std::string& surname, std::optional<std::vector<Child*>> parents = std::nullopt) const;
+	std::vector<Child*> filter_child_by_age(const int age, std::optional<std::vector<Child*>> parents = std::nullopt) const;
+	std::vector<Child*> filter_child_by_parent_name(const std::string& parent_name, std::optional<std::vector<Child*>> children = std::nullopt) const;
+	std::vector<Child*> filter_child_by_parent_surname(const std::string& parent_surname, std::optional <std::vector<Child*>> children = std::nullopt) const;
 
-	void add_employee(const Employee* employee);
+	void add_employee(const Employee& employee);
 	void remove_employee(const Employee* employee);
 
-	void sort_employees_by_name();
-	void sort_employees_by_surname();
+	std::multimap<std::string, Employee*> sort_employees_by_name();
+	std::multimap<std::string, Employee*> sort_employees_by_surname();
 
-	void find_employee_by_name(const std::string& name) const;
-	void find_employee_by_surname(const std::string& surname) const;
+	std::vector<Employee*> filter_employee_by_name(const std::string& name, std::optional<std::vector<Employee*>> employees) const;
+	std::vector<Employee*> filter_employee_by_surname(const std::string& surname, std::optional<std::vector<Employee*>> employees) const;
 
+	void import_from_stream(std::istream& stream = std::cin);
 	void import_from_csv_file(const std::string& filename);
+	void export_to_stream(std::ostream& stream = std::cout) const;
 	void export_to_csv_file(const std::string& filename) const;
 
+	void clear();
 	~Database() = default;
 };
 

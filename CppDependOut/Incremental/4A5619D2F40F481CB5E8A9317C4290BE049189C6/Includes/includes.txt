@@ -1,0 +1,17 @@
+c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\database.h
+c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\datetime.h
+c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\helper_functions.h
+c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\lesson.h
+c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\person.h
+c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\data_helper_types.h
+c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\datetime_exceptions.h
+c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\database.cpp
+c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\datetime.cpp
+c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\lesson.cpp
+c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\person.cpp
+c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\data_helper_types.cpp
+c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\datetime_exceptions.cpp
+c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\helper_functions.cpp
+c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\main.cpp
+module;std;std.ixx
+module;std.compat;std.compat.ixx

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TulipApp</class>
+ <widget class="QMainWindow" name="TulipApp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>540</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>940</width>
+         <height>477</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>960</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuChildrem">
+    <property name="title">
+     <string>Children</string>
+    </property>
+    <widget class="QMenu" name="menuFilter">
+     <property name="title">
+      <string>Filter</string>
+     </property>
+     <addaction name="actionName_2"/>
+     <addaction name="actionSurname_2"/>
+    </widget>
+    <widget class="QMenu" name="menuSort">
+     <property name="title">
+      <string>Sort</string>
+     </property>
+     <property name="icon">
+      <iconset theme="QIcon::ThemeIcon::GoDown"/>
+     </property>
+     <addaction name="actionName"/>
+     <addaction name="actionSurname"/>
+     <addaction name="actionBirthDate"/>
+    </widget>
+    <addaction name="ChildrenView"/>
+    <addaction name="separator"/>
+    <addaction name="menuSort"/>
+    <addaction name="separator"/>
+    <addaction name="menuFilter"/>
+    <addaction name="separator"/>
+    <addaction name="ChildrenImport"/>
+    <addaction name="ChildrenExport"/>
+   </widget>
+   <widget class="QMenu" name="menuParents">
+    <property name="title">
+     <string>Parents</string>
+    </property>
+    <addaction name="ParentView"/>
+    <addaction name="separator"/>
+    <addaction name="ParentSort"/>
+    <addaction name="separator"/>
+    <addaction name="ParentFilter"/>
+    <addaction name="separator"/>
+    <addaction name="ParentImport"/>
+    <addaction name="ParrentExport"/>
+   </widget>
+   <widget class="QMenu" name="menuEmployees">
+    <property name="title">
+     <string>Employees</string>
+    </property>
+    <addaction name="EmplyeesView"/>
+    <addaction name="separator"/>
+    <addaction name="EmployeesSort"/>
+    <addaction name="separator"/>
+    <addaction name="EmployeesFilter"/>
+    <addaction name="separator"/>
+    <addaction name="EmployeesImport"/>
+    <addaction name="EmployeesExport"/>
+   </widget>
+   <widget class="QMenu" name="menuLessons">
+    <property name="title">
+     <string>Lessons</string>
+    </property>
+    <addaction name="LessonsView"/>
+    <addaction name="separator"/>
+    <addaction name="LessonsSort"/>
+    <addaction name="separator"/>
+    <addaction name="LessonFilter"/>
+    <addaction name="separator"/>
+    <addaction name="LessonsImport"/>
+    <addaction name="LessonsExport"/>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+   </widget>
+   <addaction name="menuChildrem"/>
+   <addaction name="menuParents"/>
+   <addaction name="menuEmployees"/>
+   <addaction name="menuLessons"/>
+   <addaction name="menuSettings"/>
+  </widget>
+  <action name="ChildrenExport">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::DocumentSaveAs"/>
+   </property>
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </action>
+  <action name="ChildrenImport">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::DocumentOpen"/>
+   </property>
+   <property name="text">
+    <string>Import</string>
+   </property>
+  </action>
+  <action name="actionName">
+   <property name="text">
+    <string>Name</string>
+   </property>
+  </action>
+  <action name="actionSurname">
+   <property name="text">
+    <string>Surname</string>
+   </property>
+  </action>
+  <action name="actionBirthDate">
+   <property name="text">
+    <string>Date of Birth</string>
+   </property>
+  </action>
+  <action name="ParentSort">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::GoDown"/>
+   </property>
+   <property name="text">
+    <string>Sort</string>
+   </property>
+  </action>
+  <action name="ParentFilter">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::EditFind"/>
+   </property>
+   <property name="text">
+    <string>Filter</string>
+   </property>
+  </action>
+  <action name="ParentImport">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::DocumentOpen"/>
+   </property>
+   <property name="text">
+    <string>Import</string>
+   </property>
+  </action>
+  <action name="ParrentExport">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::DocumentSaveAs"/>
+   </property>
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </action>
+  <action name="EmployeesSort">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::GoDown"/>
+   </property>
+   <property name="text">
+    <string>Sort</string>
+   </property>
+  </action>
+  <action name="EmployeesFilter">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::EditFind"/>
+   </property>
+   <property name="text">
+    <string>Filter</string>
+   </property>
+  </action>
+  <action name="EmployeesImport">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::DocumentOpen"/>
+   </property>
+   <property name="text">
+    <string>Import</string>
+   </property>
+  </action>
+  <action name="EmployeesExport">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::DocumentSaveAs"/>
+   </property>
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </action>
+  <action name="LessonsSort">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::GoDown"/>
+   </property>
+   <property name="text">
+    <string>Sort</string>
+   </property>
+  </action>
+  <action name="LessonFilter">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::EditFind"/>
+   </property>
+   <property name="text">
+    <string>Filter</string>
+   </property>
+  </action>
+  <action name="LessonsImport">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::DocumentOpen"/>
+   </property>
+   <property name="text">
+    <string>Import</string>
+   </property>
+  </action>
+  <action name="LessonsExport">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::DocumentSaveAs"/>
+   </property>
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </action>
+  <action name="ChildrenView">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::GoHome"/>
+   </property>
+   <property name="text">
+    <string>View</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::ApplicationSpecificRole</enum>
+   </property>
+  </action>
+  <action name="ParentView">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::GoHome"/>
+   </property>
+   <property name="text">
+    <string>View</string>
+   </property>
+  </action>
+  <action name="EmplyeesView">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::GoHome"/>
+   </property>
+   <property name="text">
+    <string>View</string>
+   </property>
+  </action>
+  <action name="LessonsView">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::GoHome"/>
+   </property>
+   <property name="text">
+    <string>View</string>
+   </property>
+  </action>
+  <action name="actionName_2">
+   <property name="text">
+    <string>Name</string>
+   </property>
+  </action>
+  <action name="actionSurname_2">
+   <property name="text">
+    <string>Surname</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

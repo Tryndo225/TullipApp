@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cppdepend-plugin tool="Misra">
+<file path="c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\helper_functions.h"><violation beginline="43" begincolumn="2" rule="Rule6-6-5" ruleset="Statements">
+</violation>
+<violation beginline="81" begincolumn="3" rule="Rule6-4-2" ruleset="Statements">
+</violation>
+</file></cppdepend-plugin>
