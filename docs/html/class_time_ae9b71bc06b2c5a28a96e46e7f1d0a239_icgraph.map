@@ -1,0 +1,5 @@
+<map id="Time::get_current_time" name="Time::get_current_time">
+<area shape="rect" id="Node000001" title="Gets the current time." alt="" coords="205,13,360,40"/>
+<area shape="rect" id="Node000002" href="$class_date_time.html#a4456e1a9119ecd64441d20d541dc8568" title="Gets the current date and time." alt="" coords="5,5,157,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,29,157,29,157,24,189,24"/>
+</map>

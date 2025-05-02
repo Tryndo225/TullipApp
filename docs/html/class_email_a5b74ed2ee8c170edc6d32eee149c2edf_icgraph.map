@@ -1,0 +1,15 @@
+<map id="Email::Email" name="Email::Email">
+<area shape="rect" id="Node000001" title="Default constructor." alt="" coords="179,132,274,159"/>
+<area shape="rect" id="Node000002" href="$class_email.html#af9c9353130d70f6d6e4790e244ef5088" title=" " alt="" coords="20,5,116,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,121,171,83,129,46,109,35,112,30,132,42,175,79,208,118"/>
+<area shape="rect" id="Node000003" href="$class_email.html#adc7a4b88497e9b791e91df8aa37545e4" title=" " alt="" coords="20,56,116,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,127,130,97,104,86,106,81,132,92,189,122"/>
+<area shape="rect" id="Node000004" href="$class_email.html#a97fe0349c2c7fb8671aee9c10c1a1bd5" title="Outputs the email address to a stream." alt="" coords="5,107,131,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="163,138,131,133,131,127,164,133"/>
+<area shape="rect" id="Node000005" href="$class_email.html#a32ea1cd91891579028d7d460a4742681" title=" " alt="" coords="9,157,127,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="164,158,127,164,127,159,163,153"/>
+<area shape="rect" id="Node000006" href="$class_email.html#a4df644c198fc1de0140e91183ef3198c" title=" " alt="" coords="9,208,127,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="189,169,132,198,106,210,104,205,130,194,187,164"/>
+<area shape="rect" id="Node000007" href="$class_email.html#a4a345f19e8cfd673fe626b3f63861d60" title="Compares two Email objects for equality." alt="" coords="5,259,131,285"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="208,173,175,211,132,249,112,260,109,256,129,244,171,208,204,169"/>
+</map>

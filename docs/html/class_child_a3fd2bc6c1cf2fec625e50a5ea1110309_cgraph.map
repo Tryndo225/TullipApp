@@ -1,0 +1,7 @@
+<map id="Child::get_age" name="Child::get_age">
+<area shape="rect" id="Node000001" title="Gets the age of the child." alt="" coords="5,5,111,32"/>
+<area shape="rect" id="Node000002" href="$class_date.html#af6f6b8a65ffabad43ac3994bc58634e0" title="Gets the current date." alt="" coords="159,5,313,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,16,143,16,143,21,111,21"/>
+<area shape="rect" id="Node000003" href="$class_date.html#a19cb325d7fc9e143f9095e7eadc8a1a4" title="Default constructor." alt="" coords="361,5,446,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="313,16,345,16,345,21,313,21"/>
+</map>

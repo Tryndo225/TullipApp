@@ -1,0 +1,5 @@
+<map id="DataBaseGUI::child_add" name="DataBaseGUI::child_add">
+<area shape="rect" id="Node000001" title="Adds a new child to the database." alt="" coords="247,5,413,32"/>
+<area shape="rect" id="Node000002" href="$class_data_base_g_u_i.html#aba10d1d8e9fb151632ff34de418cee82" title="Constructs a DataBaseGUI object." alt="" coords="5,5,199,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,21,199,21,199,16,231,16"/>
+</map>

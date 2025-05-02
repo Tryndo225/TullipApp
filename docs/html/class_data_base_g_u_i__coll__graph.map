@@ -1,0 +1,11 @@
+<map id="DataBaseGUI" name="DataBaseGUI">
+<area shape="rect" id="Node000001" title="Represents the graphical user interface for the database." alt="" coords="112,1303,284,1601"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,764,101,833"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,848,75,1022,92,1130,116,1238,136,1302,131,1304,111,1239,87,1131,70,1022,53,848"/>
+<area shape="rect" id="Node000003" href="$class_ui_1_1_data_base_g_u_i_class.html" title=" " alt="" coords="125,764,272,833"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,833,201,1286,196,1286,196,833"/>
+<area shape="rect" id="Node000004" href="$class_ui___data_base_g_u_i_class.html" title=" " alt="" coords="123,5,274,309"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="201,324,201,764,196,764,196,324"/>
+<area shape="rect" id="Node000005" href="$class_database.html" title="Manages data related to lessons, parents, children, and employees." alt="" coords="296,359,480,1239"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="298,1200,286,1239,270,1288,265,1286,281,1238,293,1199"/>
+</map>

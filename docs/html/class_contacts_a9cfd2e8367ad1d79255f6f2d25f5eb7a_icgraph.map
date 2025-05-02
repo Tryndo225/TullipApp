@@ -1,0 +1,9 @@
+<map id="Contacts::copy_to_clipboard" name="Contacts::copy_to_clipboard">
+<area shape="rect" id="Node000001" title="Copies the given text to the clipboard." alt="" coords="159,56,346,83"/>
+<area shape="rect" id="Node000002" href="$class_address.html#a3ee879b3abd9f3005158143614b0830e" title="Copies the address to the clipboard." alt="" coords="5,5,111,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,54,110,35,111,30,184,49"/>
+<area shape="rect" id="Node000003" href="$class_email.html#ae980d27651e3e00db41d7634a9035fa1" title="Copies the email address to the clipboard." alt="" coords="13,56,103,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="143,72,104,72,104,67,143,67"/>
+<area shape="rect" id="Node000004" href="$class_phone.html#a3734838897a75a8ae63be7d1f9d4f6a0" title="Copies the phone number to the clipboard." alt="" coords="11,107,105,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="184,90,106,110,105,105,183,85"/>
+</map>

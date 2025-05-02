@@ -1,0 +1,13 @@
+<map id="Database::get_child_by_name_surname" name="Database::get_child_by_name_surname">
+<area shape="rect" id="Node000001" title="Gets a child by name and surname." alt="" coords="5,39,144,81"/>
+<area shape="rect" id="Node000002" href="$class_database.html#a448f32cb2e58118d83634666431562c2" title="Filters children by name." alt="" coords="192,5,336,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,45,176,39,177,45,145,50"/>
+<area shape="rect" id="Node000005" href="$class_database.html#a48cdf44f55b29d6141c5e00b88fa4d22" title="Filters children by surname." alt="" coords="192,72,336,115"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="145,70,177,75,176,81,144,75"/>
+<area shape="rect" id="Node000003" href="$_helper___functions_8h.html#a0d3fbaad2936b89eb0d594cba2929800" title="Filters a vector of pointers based on a predicate." alt="" coords="442,17,488,44"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="336,25,426,27,426,33,336,31"/>
+<area shape="rect" id="Node000004" href="$_helper___functions_8h.html#ab487a2e8523090e129c7f67ed349c9a1" title="Filters a multimap by its keys based on a predicate." alt="" coords="384,72,546,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="337,45,403,65,401,70,336,50"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="334,69,426,40,428,45,335,74"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="336,88,368,87,368,92,336,93"/>
+</map>

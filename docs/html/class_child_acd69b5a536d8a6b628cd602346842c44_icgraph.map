@@ -1,0 +1,7 @@
+<map id="Child::get_mom" name="Child::get_mom">
+<area shape="rect" id="Node000001" title="Gets the mother of the child." alt="" coords="198,47,311,73"/>
+<area shape="rect" id="Node000002" href="$class_database.html#a93adb69fe9d3d5d0566feaeede6027f9" title="Filters children by a parent&#39;s name." alt="" coords="5,5,150,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,49,149,43,150,38,183,44"/>
+<area shape="rect" id="Node000003" href="$class_database.html#a80f30da6596492aaea6a1049f0d07c4d" title="Filters children by a parent&#39;s surname." alt="" coords="5,72,150,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,76,150,82,149,77,182,71"/>
+</map>

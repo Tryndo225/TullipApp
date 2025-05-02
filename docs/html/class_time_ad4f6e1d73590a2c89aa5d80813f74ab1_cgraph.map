@@ -1,0 +1,19 @@
+<map id="Time::operator&lt;=" name="Time::operator&lt;=">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,127,57"/>
+<area shape="rect" id="Node000002" href="$class_time.html#a0eedb4e626b8e3fdcaf63519b86ea778" title="Default constructor." alt="" coords="197,5,284,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,33,181,25,182,30,127,38"/>
+<area shape="rect" id="Node000003" href="$class_time.html#a9ef9536d0f26494fbaf22d9c15972c4e" title="Updates the time zone." alt="" coords="175,56,307,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="127,50,160,55,159,60,127,55"/>
+<area shape="rect" id="Node000004" href="$class_time.html#a3d751c79781658bcd55d53167ef3ffa6" title="Sets the time zone." alt="" coords="364,31,475,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="307,57,348,51,349,57,308,63"/>
+<area shape="rect" id="Node000005" href="$class_time.html#a6a854d886badd1e186efeb6cbd757857" title="Updates the time based on intervals of 15 minutes." alt="" coords="355,81,484,108"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="308,76,340,81,339,86,307,81"/>
+<area shape="rect" id="Node000006" href="$class_time.html#adf39a26857eb05cb2cdb7fc716b37446" title="Gets the hours of the time." alt="" coords="539,5,655,32"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="457,78,483,67,531,42,544,36,546,41,533,46,485,72,459,83"/>
+<area shape="rect" id="Node000007" href="$class_time.html#ad6e9f40abd0fc0dd6a7fc5bf8c624585" title="Gets the minutes of the time." alt="" coords="532,56,662,83"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="484,83,516,78,517,83,485,88"/>
+<area shape="rect" id="Node000008" href="$class_time.html#aabfa0dd6f7e7e911246924aa4149c355" title="Sets the hours of the time." alt="" coords="539,107,655,133"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="485,101,524,107,523,112,484,107"/>
+<area shape="rect" id="Node000009" href="$class_time.html#a609f9d7c36ccf261eadadb4545dc3e01" title="Sets the minutes of the time." alt="" coords="532,157,662,184"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="452,106,533,143,547,149,545,154,531,148,450,111"/>
+</map>

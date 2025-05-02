@@ -1,0 +1,7 @@
+<map id="Database::filter_lesson_by_address" name="Database::filter_lesson_by_address">
+<area shape="rect" id="Node000001" title="Filters lessons by address." alt="" coords="5,23,161,65"/>
+<area shape="rect" id="Node000002" href="$_helper___functions_8h.html#a0d3fbaad2936b89eb0d594cba2929800" title="Filters a vector of pointers based on a predicate." alt="" coords="257,5,303,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,31,241,21,241,26,161,37"/>
+<area shape="rect" id="Node000003" href="$class_lesson.html#a87d348d8035e501445e6db97be06c916" title="Gets the address of the lesson." alt="" coords="209,56,351,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,51,194,56,193,61,161,57"/>
+</map>

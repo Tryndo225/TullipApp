@@ -1,0 +1,15 @@
+<map id="Time::update_zone" name="Time::update_zone">
+<area shape="rect" id="Node000001" title="Updates the time zone." alt="" coords="5,56,138,83"/>
+<area shape="rect" id="Node000002" href="$class_time.html#a3d751c79781658bcd55d53167ef3ffa6" title="Sets the time zone." alt="" coords="195,31,306,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,57,179,51,180,57,138,63"/>
+<area shape="rect" id="Node000003" href="$class_time.html#a6a854d886badd1e186efeb6cbd757857" title="Updates the time based on intervals of 15 minutes." alt="" coords="186,81,315,108"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,76,171,81,170,86,138,81"/>
+<area shape="rect" id="Node000004" href="$class_time.html#adf39a26857eb05cb2cdb7fc716b37446" title="Gets the hours of the time." alt="" coords="370,5,485,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="287,78,314,67,362,42,375,36,377,41,364,46,316,72,290,83"/>
+<area shape="rect" id="Node000005" href="$class_time.html#ad6e9f40abd0fc0dd6a7fc5bf8c624585" title="Gets the minutes of the time." alt="" coords="363,56,492,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="315,83,347,78,348,83,316,88"/>
+<area shape="rect" id="Node000006" href="$class_time.html#aabfa0dd6f7e7e911246924aa4149c355" title="Sets the hours of the time." alt="" coords="370,107,485,133"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="316,101,355,107,354,112,315,107"/>
+<area shape="rect" id="Node000007" href="$class_time.html#a609f9d7c36ccf261eadadb4545dc3e01" title="Sets the minutes of the time." alt="" coords="363,157,492,184"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="282,106,364,143,378,149,376,154,362,148,280,111"/>
+</map>

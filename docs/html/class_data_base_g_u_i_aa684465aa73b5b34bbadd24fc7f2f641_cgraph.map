@@ -1,0 +1,17 @@
+<map id="DataBaseGUI::sort_to_populate_children_tab" name="DataBaseGUI::sort_to_populate_children_tab">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,115,160,157"/>
+<area shape="rect" id="Node000002" href="$class_data_base_g_u_i.html#af346d08370d9e4574980707f61b9c8f7" title="Populates the children tab with a list of children." alt="" coords="208,115,368,157"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,133,192,133,192,139,160,139"/>
+<area shape="rect" id="Node000003" href="$class_data_base_g_u_i.html#acb6c6b292e58d0ead30682f7f5705244" title="Edits an existing child in the database." alt="" coords="431,5,597,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="312,112,358,76,415,42,431,35,433,40,417,46,361,80,315,116"/>
+<area shape="rect" id="Node000004" href="$class_data_base_g_u_i.html#ae3a08843db874e51a7cea32fa8937ca5" title="Removes a child from the database." alt="" coords="445,224,583,267"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="323,156,367,183,417,210,431,216,429,221,415,214,364,188,320,160"/>
+<area shape="rect" id="Node000005" href="$class_data_base_g_u_i.html#afbc53e28ad83200fe77e0fa5a6eb970f" title="Clears the children tab." alt="" coords="436,56,592,99"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="368,113,420,99,422,104,369,118"/>
+<area shape="rect" id="Node000006" href="$class_child_entry.html#abda9dea89937d77c4def3fb81d964ff9" title=" " alt="" coords="427,123,601,149"/>
+<area shape="poly" id="edge7_Node000002_Node000006" title=" " alt="" coords="369,133,411,133,411,139,369,139"/>
+<area shape="rect" id="Node000007" href="$class_child_entry.html#a69e495a83c20ea922198adea9ae47ddb" title=" " alt="" coords="416,173,612,200"/>
+<area shape="poly" id="edge8_Node000002_Node000007" title=" " alt="" coords="369,151,437,167,436,172,368,157"/>
+<area shape="poly" id="edge3_Node000003_Node000001" title=" " alt="" coords="460,35,417,47,176,113,174,108,415,41,458,30"/>
+<area shape="poly" id="edge5_Node000004_Node000001" title=" " alt="" coords="444,231,207,172,174,163,175,158,208,167,446,226"/>
+</map>

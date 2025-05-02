@@ -1,0 +1,5 @@
+<map id="Child" name="Child">
+<area shape="rect" id="Node000001" title="Represents a child." alt="" coords="8,421,109,747"/>
+<area shape="rect" id="Node000002" href="$class_person.html" title="Represents a generic person." alt="" coords="5,5,112,373"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,388,62,421,56,421,56,388"/>
+</map>

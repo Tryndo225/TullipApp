@@ -1,0 +1,9 @@
+<map id="Database::filter_parent_by_email" name="Database::filter_parent_by_email">
+<area shape="rect" id="Node000001" title="Filters parents by email." alt="" coords="5,48,159,91"/>
+<area shape="rect" id="Node000002" href="$_helper___functions_8h.html#a0d3fbaad2936b89eb0d594cba2929800" title="Filters a vector of pointers based on a predicate." alt="" coords="245,5,292,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,46,230,26,231,31,160,51"/>
+<area shape="rect" id="Node000003" href="$class_email.html#a9402dc77167245cc5943d04850b92414" title="Gets the email address." alt="" coords="209,56,328,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,67,194,67,194,72,159,72"/>
+<area shape="rect" id="Node000004" href="$class_parent.html#aa82a75e6096795dcf5d608169ae4de5d" title="Gets the email address of the parent." alt="" coords="207,107,330,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="160,88,203,99,201,105,158,93"/>
+</map>

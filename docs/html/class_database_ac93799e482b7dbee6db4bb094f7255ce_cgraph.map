@@ -1,0 +1,7 @@
+<map id="Database::remove_parent" name="Database::remove_parent">
+<area shape="rect" id="Node000001" title="Removes a parent from the database." alt="" coords="5,31,177,57"/>
+<area shape="rect" id="Node000002" href="$class_person.html#a6b1fec00d8d1f5af1a2977dc3f5f9eb8" title="Gets the first name of the person." alt="" coords="225,5,352,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,30,209,26,209,31,177,36"/>
+<area shape="rect" id="Node000003" href="$_helper___functions_8h.html#a781a4053c4ee41e8a6ed9daad0bbc4e0" title="Removes all occurrences of a specific element from a vector." alt="" coords="246,56,330,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,52,231,59,231,65,177,58"/>
+</map>

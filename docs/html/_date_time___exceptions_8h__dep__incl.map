@@ -1,0 +1,48 @@
+<map id="TullipApp/DateTime_Exceptions.h" name="TullipApp/DateTime_Exceptions.h">
+<area shape="rect" id="Node000001" title="Defines error messages and the DateTimeError exception class for date and time operations." alt="" coords="506,5,643,48"/>
+<area shape="rect" id="Node000002" href="$_date_time_8h.html" title="Defines classes and utilities for working with dates, times, and combined date&#45;time values." alt="" coords="418,104,566,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="547,61,505,105,502,102,543,58"/>
+<area shape="rect" id="Node000020" href="$_date_time___exceptions_8cpp.html" title=" " alt="" coords="589,96,725,139"/>
+<area shape="poly" id="edge26_Node000001_Node000020" title=" " alt="" coords="606,58,640,94,636,98,602,61"/>
+<area shape="rect" id="Node000003" href="$_data_base_8h.html" title="Defines the Database class for managing lessons, parents, children, and employees." alt="" coords="227,344,375,371"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="498,146,499,178,497,216,488,255,469,290,448,305,417,321,346,346,344,341,415,316,446,301,464,286,483,253,492,215,494,178,493,146"/>
+<area shape="rect" id="Node000008" href="$_main_8cpp.html" title=" " alt="" coords="792,600,925,627"/>
+<area shape="poly" id="edge16_Node000002_Node000008" title=" " alt="" coords="548,133,642,164,746,202,830,240,856,257,866,273,866,441,862,600,856,600,861,441,861,274,853,261,828,244,744,207,640,169,547,138"/>
+<area shape="rect" id="Node000012" href="$_date_time_8cpp.html" title=" " alt="" coords="902,187,1063,213"/>
+<area shape="poly" id="edge12_Node000002_Node000012" title=" " alt="" coords="558,132,578,136,751,165,902,186,901,191,750,170,577,141,557,137"/>
+<area shape="rect" id="Node000013" href="$_lesson_8h.html" title="Defines the Lesson class, which represents a lesson with its associated details." alt="" coords="19,261,151,288"/>
+<area shape="poly" id="edge13_Node000002_Node000013" title=" " alt="" coords="428,138,349,160,265,189,178,228,109,263,107,259,175,223,263,184,347,155,426,132"/>
+<area shape="rect" id="Node000015" href="$_person_8h.html" title="Defines the Person class and its derived classes: Child, Parent, and Employee." alt="" coords="276,187,407,213"/>
+<area shape="poly" id="edge17_Node000002_Node000015" title=" " alt="" coords="456,141,366,189,363,184,454,136"/>
+<area shape="rect" id="Node000004" href="$_child_dialog_8h.html" title=" " alt="" coords="117,427,274,453"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="275,382,214,428,211,424,271,378"/>
+<area shape="rect" id="Node000006" href="$_data_base_g_u_i_8h.html" title="Defines the DataBaseGUI class for managing the graphical user interface of the database." alt="" coords="544,509,717,536"/>
+<area shape="poly" id="edge11_Node000003_Node000006" title=" " alt="" coords="353,374,412,396,474,424,553,468,614,507,611,511,550,473,472,429,410,401,351,379"/>
+<area shape="rect" id="Node000011" href="$_data_base_8cpp.html" title=" " alt="" coords="299,427,461,453"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="326,380,370,425,366,428,322,384"/>
+<area shape="rect" id="Node000005" href="$_child_dialog_8cpp.html" title=" " alt="" coords="88,509,259,536"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="191,469,179,510,174,508,186,468"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="280,454,562,506,561,511,279,459"/>
+<area shape="rect" id="Node000010" href="$moc___child_dialog_8cpp.html" title=" " alt="" coords="283,501,476,544"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="239,457,333,498,331,503,237,462"/>
+<area shape="rect" id="Node000007" href="$_data_base_g_u_i_8cpp.html" title=" " alt="" coords="327,600,513,627"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="587,545,451,602,449,597,585,540"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="678,540,827,597,825,602,676,545"/>
+<area shape="rect" id="Node000009" href="$moc___data_base_g_u_i_8cpp.html" title=" " alt="" coords="537,592,745,635"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="636,551,641,591,636,592,631,552"/>
+<area shape="poly" id="edge14_Node000013_Node000003" title=" " alt="" coords="134,291,268,341,266,346,132,296"/>
+<area shape="rect" id="Node000014" href="$_lesson_8cpp.html" title=" " alt="" coords="5,344,152,371"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="86,304,82,344,77,344,80,303"/>
+<area shape="poly" id="edge23_Node000015_Node000003" title=" " alt="" coords="321,227,309,243,300,262,295,284,295,306,301,343,295,344,290,306,290,283,295,260,304,241,316,223"/>
+<area shape="poly" id="edge18_Node000015_Node000004" title=" " alt="" coords="314,225,263,273,238,304,217,337,208,361,202,386,199,427,193,426,197,385,203,359,212,335,233,301,259,269,311,221"/>
+<area shape="poly" id="edge24_Node000015_Node000013" title=" " alt="" coords="283,220,131,263,129,258,281,215"/>
+<area shape="rect" id="Node000016" href="$_child_entry_8h.html" title="Defines the ChildEntry class for managing the graphical representation of a child in the GUI." alt="" coords="574,261,724,288"/>
+<area shape="poly" id="edge19_Node000015_Node000016" title=" " alt="" coords="411,215,596,258,595,263,409,220"/>
+<area shape="rect" id="Node000019" href="$_person_8cpp.html" title=" " alt="" coords="308,261,454,288"/>
+<area shape="poly" id="edge25_Node000015_Node000019" title=" " alt="" coords="358,226,377,260,372,262,353,229"/>
+<area shape="poly" id="edge21_Node000016_Node000006" title=" " alt="" coords="732,291,764,309,790,335,797,357,790,380,762,424,726,461,688,491,655,511,652,507,685,486,722,457,758,421,785,378,792,357,786,337,761,313,730,296"/>
+<area shape="rect" id="Node000017" href="$_child_entry_8cpp.html" title=" " alt="" coords="611,344,775,371"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="666,301,689,343,684,345,661,303"/>
+<area shape="rect" id="Node000018" href="$moc___child_entry_8cpp.html" title=" " alt="" coords="400,336,586,379"/>
+<area shape="poly" id="edge22_Node000016_Node000018" title=" " alt="" coords="613,298,534,338,532,333,610,293"/>
+</map>

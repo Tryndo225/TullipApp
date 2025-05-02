@@ -1,0 +1,9 @@
+<map id="Time::get_time_string" name="Time::get_time_string">
+<area shape="rect" id="Node000001" title="Gets the time as a string." alt="" coords="5,56,153,83"/>
+<area shape="rect" id="Node000002" href="$class_time.html#adf39a26857eb05cb2cdb7fc716b37446" title="Gets the hours of the time." alt="" coords="209,5,324,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,53,199,34,201,39,132,58"/>
+<area shape="rect" id="Node000003" href="$class_time.html#ad6e9f40abd0fc0dd6a7fc5bf8c624585" title="Gets the minutes of the time." alt="" coords="202,56,332,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="153,67,187,67,187,72,153,72"/>
+<area shape="rect" id="Node000004" href="$class_time.html#addc7f4c98a8bc263bd05d70710b37a4b" title="Gets the seconds of the time." alt="" coords="201,107,333,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="132,81,201,100,199,105,131,86"/>
+</map>

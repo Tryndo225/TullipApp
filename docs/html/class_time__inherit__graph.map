@@ -1,0 +1,5 @@
+<map id="Time" name="Time">
+<area shape="rect" id="Node000001" title="Represents a time (hours, minutes, seconds, and time zone)." alt="" coords="18,5,147,331"/>
+<area shape="rect" id="Node000002" href="$class_date_time.html" title="Represents a combined date and time." alt="" coords="5,379,159,683"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,346,85,379,80,379,80,346"/>
+</map>

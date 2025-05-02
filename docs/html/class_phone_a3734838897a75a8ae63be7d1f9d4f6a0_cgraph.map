@@ -1,0 +1,5 @@
+<map id="Phone::copy" name="Phone::copy">
+<area shape="rect" id="Node000001" title="Copies the phone number to the clipboard." alt="" coords="5,5,100,32"/>
+<area shape="rect" id="Node000002" href="$class_contacts.html#a9cfd2e8367ad1d79255f6f2d25f5eb7a" title="Copies the given text to the clipboard." alt="" coords="148,5,335,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,16,132,16,132,21,100,21"/>
+</map>

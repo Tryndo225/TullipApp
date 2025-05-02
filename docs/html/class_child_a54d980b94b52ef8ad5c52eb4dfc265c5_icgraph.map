@@ -1,0 +1,13 @@
+<map id="Child::get_birth_date" name="Child::get_birth_date">
+<area shape="rect" id="Node000001" title="Gets the birth date of the child." alt="" coords="337,81,478,108"/>
+<area shape="rect" id="Node000002" href="$class_database.html#a3e9cba5ac0e9f1eafeea156892eb2e35" title="Adds a child to the database." alt="" coords="126,5,266,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="363,77,288,47,252,35,253,30,290,41,365,72"/>
+<area shape="rect" id="Node000004" href="$class_database.html#a666ab0d4f96402ecae70425b2c6863fb" title="Removes a child from the database." alt="" coords="115,56,277,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="321,87,277,82,278,76,322,82"/>
+<area shape="rect" id="Node000005" href="$class_database.html#ad1c53a90babe25c1148cca426c7579e6" title="Adds a child&#39;s information to the maps." alt="" coords="103,107,289,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="322,108,290,111,289,106,321,102"/>
+<area shape="rect" id="Node000006" href="$class_database.html#a283eb646c12fff3f96e217bf5c3a7dc3" title="Removes a child&#39;s information from the maps." alt="" coords="117,157,275,200"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="363,117,290,148,260,159,258,154,288,143,361,112"/>
+<area shape="rect" id="Node000003" href="$_main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,21,55,21,55,16,111,16"/>
+</map>

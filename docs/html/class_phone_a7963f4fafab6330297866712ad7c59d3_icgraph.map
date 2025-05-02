@@ -1,0 +1,5 @@
+<map id="Phone::get_phone" name="Phone::get_phone">
+<area shape="rect" id="Node000001" title="Gets the phone number." alt="" coords="183,5,309,32"/>
+<area shape="rect" id="Node000002" href="$class_phone.html#a25d3f34c7aa463846f59aaab562ff6ea" title="Outputs the phone number to a stream." alt="" coords="5,5,135,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,21,135,21,135,16,167,16"/>
+</map>

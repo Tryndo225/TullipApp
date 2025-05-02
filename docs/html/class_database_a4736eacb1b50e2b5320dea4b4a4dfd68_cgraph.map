@@ -1,0 +1,5 @@
+<map id="Database::search_employees" name="Database::search_employees">
+<area shape="rect" id="Node000001" title="Searches for employees by a reference string based on lavenstein distance from their name + surname." alt="" coords="5,5,200,32"/>
+<area shape="rect" id="Node000002" href="$class_database.html#a82384bc80fb983efab40f32a5783a880" title="Searches for closest match of name + surname to reference string in a vector of pointers." alt="" coords="248,5,438,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,16,232,16,232,21,200,21"/>
+</map>

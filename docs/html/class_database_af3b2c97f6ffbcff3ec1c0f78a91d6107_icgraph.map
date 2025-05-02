@@ -1,0 +1,5 @@
+<map id="Database::import_from_stream" name="Database::import_from_stream">
+<area shape="rect" id="Node000001" title="Imports data from a stream." alt="" coords="208,5,362,48"/>
+<area shape="rect" id="Node000002" href="$class_database.html#a0a08797a6ca7a3456150370e3f816d4c" title="Imports data from a CSV file." alt="" coords="5,5,160,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,29,160,29,160,24,192,24"/>
+</map>

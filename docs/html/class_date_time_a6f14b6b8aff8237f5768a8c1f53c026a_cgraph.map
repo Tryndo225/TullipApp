@@ -1,0 +1,23 @@
+<map id="DateTime::print_short" name="DateTime::print_short">
+<area shape="rect" id="Node000001" title="Prints the date and time in a short format." alt="" coords="5,144,153,171"/>
+<area shape="rect" id="Node000002" href="$class_date.html#a55db960044bdecc41d808e0185b1ed8f" title="Prints the date in a short format." alt="" coords="201,93,320,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,141,195,122,196,127,130,146"/>
+<area shape="rect" id="Node000007" href="$class_time.html#a65e4f673e7176b2abc162aab4ae267dc" title="Prints the time in a short format." alt="" coords="201,169,320,196"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="153,165,185,170,185,175,153,170"/>
+<area shape="rect" id="Node000003" href="$class_date.html#a4a50a2f4e115c9368603a7226c45872b" title="Gets the date as a string." alt="" coords="368,81,515,108"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="319,100,353,98,353,103,320,105"/>
+<area shape="rect" id="Node000004" href="$class_date.html#a2e4dc4249f8cccd40acc5950b42e1339" title="Gets the day of the date." alt="" coords="578,5,681,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="475,78,562,42,577,36,579,41,564,46,477,83"/>
+<area shape="rect" id="Node000005" href="$class_date.html#a81b10f48eadbf944836618d27e8f427a" title="Gets the month of the date." alt="" coords="570,56,689,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="515,82,554,77,555,82,515,87"/>
+<area shape="rect" id="Node000006" href="$class_date.html#acda1623a6e13fdbeead7f62d0968d8da" title="Gets the year of the date." alt="" coords="576,107,683,133"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="515,102,561,108,560,113,515,107"/>
+<area shape="rect" id="Node000008" href="$class_time.html#a2c3329584afd2d3f9aeeeeaf7a1298af" title="Gets the time as a string." alt="" coords="368,189,515,216"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="321,187,353,190,352,195,320,192"/>
+<area shape="rect" id="Node000009" href="$class_time.html#adf39a26857eb05cb2cdb7fc716b37446" title="Gets the hours of the time." alt="" coords="572,157,687,184"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="515,187,556,180,557,186,516,193"/>
+<area shape="rect" id="Node000010" href="$class_time.html#ad6e9f40abd0fc0dd6a7fc5bf8c624585" title="Gets the minutes of the time." alt="" coords="565,208,694,235"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="516,207,550,211,549,216,515,213"/>
+<area shape="rect" id="Node000011" href="$class_time.html#addc7f4c98a8bc263bd05d70710b37a4b" title="Gets the seconds of the time." alt="" coords="563,259,696,285"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="481,214,578,250,576,255,479,219"/>
+</map>

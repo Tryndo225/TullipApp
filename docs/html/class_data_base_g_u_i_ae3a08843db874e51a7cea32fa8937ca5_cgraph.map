@@ -1,0 +1,17 @@
+<map id="DataBaseGUI::child_remove" name="DataBaseGUI::child_remove">
+<area shape="rect" id="Node000001" title="Removes a child from the database." alt="" coords="5,35,144,77"/>
+<area shape="rect" id="Node000002" href="$class_data_base_g_u_i.html#aa684465aa73b5b34bbadd24fc7f2f641" title=" " alt="" coords="192,5,346,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,43,176,38,176,43,144,48"/>
+<area shape="rect" id="Node000003" href="$class_data_base_g_u_i.html#af346d08370d9e4574980707f61b9c8f7" title="Populates the children tab with a list of children." alt="" coords="394,64,554,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="346,46,383,57,382,62,345,51"/>
+<area shape="poly" id="edge5_Node000003_Node000001" title=" " alt="" coords="393,82,159,65,159,60,394,77"/>
+<area shape="rect" id="Node000004" href="$class_data_base_g_u_i.html#acb6c6b292e58d0ead30682f7f5705244" title="Edits an existing child in the database." alt="" coords="617,13,784,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="554,62,602,49,631,42,632,47,603,55,556,67"/>
+<area shape="rect" id="Node000005" href="$class_data_base_g_u_i.html#afbc53e28ad83200fe77e0fa5a6eb970f" title="Clears the children tab." alt="" coords="622,64,779,107"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="555,83,607,83,607,88,555,88"/>
+<area shape="rect" id="Node000006" href="$class_child_entry.html#abda9dea89937d77c4def3fb81d964ff9" title=" " alt="" coords="613,131,788,157"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="556,104,603,116,632,124,631,129,602,121,554,109"/>
+<area shape="rect" id="Node000007" href="$class_child_entry.html#a69e495a83c20ea922198adea9ae47ddb" title=" " alt="" coords="602,181,799,208"/>
+<area shape="poly" id="edge8_Node000003_Node000007" title=" " alt="" coords="504,105,549,137,603,167,621,174,619,179,601,172,547,141,501,109"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="617,29,362,29,362,24,617,24"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="Time::print_short" name="Time::print_short">
+<area shape="rect" id="Node000001" title="Prints the time in a short format." alt="" coords="5,56,125,83"/>
+<area shape="rect" id="Node000002" href="$class_time.html#a2c3329584afd2d3f9aeeeeaf7a1298af" title="Gets the time as a string." alt="" coords="173,56,320,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,67,157,67,157,72,125,72"/>
+<area shape="rect" id="Node000003" href="$class_time.html#adf39a26857eb05cb2cdb7fc716b37446" title="Gets the hours of the time." alt="" coords="376,5,492,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="298,53,367,34,368,39,299,58"/>
+<area shape="rect" id="Node000004" href="$class_time.html#ad6e9f40abd0fc0dd6a7fc5bf8c624585" title="Gets the minutes of the time." alt="" coords="370,56,499,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="320,67,354,67,354,72,320,72"/>
+<area shape="rect" id="Node000005" href="$class_time.html#addc7f4c98a8bc263bd05d70710b37a4b" title="Gets the seconds of the time." alt="" coords="368,107,500,133"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="299,81,368,100,367,105,298,86"/>
+</map>

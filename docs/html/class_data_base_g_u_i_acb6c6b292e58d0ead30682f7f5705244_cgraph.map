@@ -1,0 +1,17 @@
+<map id="DataBaseGUI::child_edit" name="DataBaseGUI::child_edit">
+<area shape="rect" id="Node000001" title="Edits an existing child in the database." alt="" coords="5,51,172,77"/>
+<area shape="rect" id="Node000002" href="$class_data_base_g_u_i.html#aa684465aa73b5b34bbadd24fc7f2f641" title=" " alt="" coords="220,13,374,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,50,204,45,205,50,173,55"/>
+<area shape="rect" id="Node000003" href="$class_data_base_g_u_i.html#af346d08370d9e4574980707f61b9c8f7" title="Populates the children tab with a list of children." alt="" coords="422,72,582,115"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="374,54,411,65,410,70,373,59"/>
+<area shape="poly" id="edge3_Node000003_Node000001" title=" " alt="" coords="421,90,187,74,187,68,422,85"/>
+<area shape="rect" id="Node000004" href="$class_data_base_g_u_i.html#ae3a08843db874e51a7cea32fa8937ca5" title="Removes a child from the database." alt="" coords="659,5,798,48"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="576,69,644,49,645,54,577,74"/>
+<area shape="rect" id="Node000005" href="$class_data_base_g_u_i.html#afbc53e28ad83200fe77e0fa5a6eb970f" title="Clears the children tab." alt="" coords="650,72,807,115"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="583,91,635,91,635,96,583,96"/>
+<area shape="rect" id="Node000006" href="$class_child_entry.html#abda9dea89937d77c4def3fb81d964ff9" title=" " alt="" coords="641,139,816,165"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="584,112,631,124,660,132,659,137,630,129,582,117"/>
+<area shape="rect" id="Node000007" href="$class_child_entry.html#a69e495a83c20ea922198adea9ae47ddb" title=" " alt="" coords="630,189,827,216"/>
+<area shape="poly" id="edge8_Node000003_Node000007" title=" " alt="" coords="532,113,577,145,631,175,649,182,647,187,629,180,575,149,529,117"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="659,31,390,36,389,30,659,25"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Database::filter_child_by_parent_name" name="Database::filter_child_by_parent_name">
+<area shape="rect" id="Node000001" title="Filters children by a parent&#39;s name." alt="" coords="5,48,150,91"/>
+<area shape="rect" id="Node000002" href="$_helper___functions_8h.html#a0d3fbaad2936b89eb0d594cba2929800" title="Filters a vector of pointers based on a predicate." alt="" coords="238,5,284,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,47,222,26,224,32,151,52"/>
+<area shape="rect" id="Node000003" href="$class_child.html#acd69b5a536d8a6b628cd602346842c44" title="Gets the mother of the child." alt="" coords="205,56,318,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,67,189,67,189,72,150,72"/>
+<area shape="rect" id="Node000004" href="$class_person.html#a6b1fec00d8d1f5af1a2977dc3f5f9eb8" title="Gets the first name of the person." alt="" coords="198,107,325,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="151,87,197,100,195,105,149,92"/>
+</map>

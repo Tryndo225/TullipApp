@@ -1,0 +1,15 @@
+<map id="DateTime::get_current_datetime" name="DateTime::get_current_datetime">
+<area shape="rect" id="Node000001" title="Gets the current date and time." alt="" coords="5,75,157,118"/>
+<area shape="rect" id="Node000002" href="$class_date.html#a19cb325d7fc9e143f9095e7eadc8a1a4" title="Default constructor." alt="" coords="409,71,494,98"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,72,150,42,176,28,204,18,247,7,283,3,318,6,361,18,397,36,428,59,424,63,395,40,359,23,317,12,283,8,248,12,205,23,178,33,153,47,109,77"/>
+<area shape="rect" id="Node000003" href="$class_date_time.html#afa7d2eb61840fe713cb4f98795c23a53" title="Default constructor." alt="" coords="211,32,354,59"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="156,75,211,61,213,66,158,80"/>
+<area shape="rect" id="Node000004" href="$class_date.html#af6f6b8a65ffabad43ac3994bc58634e0" title="Gets the current date." alt="" coords="205,83,360,110"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="157,94,189,94,189,99,157,99"/>
+<area shape="rect" id="Node000005" href="$class_time.html#ae9b71bc06b2c5a28a96e46e7f1d0a239" title="Gets the current time." alt="" coords="205,134,360,160"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="158,113,213,127,211,132,156,118"/>
+<area shape="rect" id="Node000006" href="$class_time.html#a0eedb4e626b8e3fdcaf63519b86ea778" title="Default constructor." alt="" coords="408,147,495,174"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="109,116,153,146,178,160,205,170,254,179,303,180,351,177,392,171,393,176,351,182,303,186,253,184,204,175,176,165,150,151,106,121"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="359,88,393,86,393,91,360,94"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="361,151,393,153,392,158,360,156"/>
+</map>

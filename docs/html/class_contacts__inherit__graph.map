@@ -1,0 +1,9 @@
+<map id="Contacts" name="Contacts">
+<area shape="rect" id="Node000001" title="Base class for contact&#45;related utilities." alt="" coords="112,5,248,75"/>
+<area shape="rect" id="Node000002" href="$class_address.html" title="Represents a physical address." alt="" coords="5,123,108,427"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,88,122,124,111,145,106,142,117,121,141,85"/>
+<area shape="rect" id="Node000003" href="$class_email.html" title="Represents an email address." alt="" coords="132,123,227,427"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,90,182,123,177,123,177,90"/>
+<area shape="rect" id="Node000004" href="$class_phone.html" title="Represents a phone number." alt="" coords="251,123,346,427"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="218,85,242,121,253,144,248,146,237,124,214,88"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Date::print_short" name="Date::print_short">
+<area shape="rect" id="Node000001" title="Prints the date in a short format." alt="" coords="398,31,516,57"/>
+<area shape="rect" id="Node000002" href="$class_date.html#a4c4ff6ff6215424fcec7bea646913a2d" title="Outputs the date to a stream." alt="" coords="216,5,336,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="382,36,336,30,337,24,383,31"/>
+<area shape="rect" id="Node000003" href="$class_date_time.html#a6f14b6b8aff8237f5768a8c1f53c026a" title="Prints the date and time in a short format." alt="" coords="203,56,350,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="383,57,351,62,350,56,382,52"/>
+<area shape="rect" id="Node000004" href="$class_date_time.html#a4428b32e7ec538b2fee1bfcf5f377f45" title="Outputs the DateTime to a stream." alt="" coords="5,56,155,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="187,72,155,72,155,67,187,67"/>
+</map>

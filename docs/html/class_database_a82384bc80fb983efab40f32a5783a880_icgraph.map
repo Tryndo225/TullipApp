@@ -1,0 +1,9 @@
+<map id="Database::search_lavenstein" name="Database::search_lavenstein">
+<area shape="rect" id="Node000001" title="Searches for closest match of name + surname to reference string in a vector of pointers." alt="" coords="248,56,438,83"/>
+<area shape="rect" id="Node000002" href="$class_database.html#ab0d0e153128bd72cbfe6e14ff591481c" title="Searches for children by a reference string based on lavenstein distance from their name + surname." alt="" coords="14,5,191,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,55,169,35,170,30,262,50"/>
+<area shape="rect" id="Node000003" href="$class_database.html#a4736eacb1b50e2b5320dea4b4a4dfd68" title="Searches for employees by a reference string based on lavenstein distance from their name + surname." alt="" coords="5,56,200,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="232,72,200,72,200,67,232,67"/>
+<area shape="rect" id="Node000004" href="$class_database.html#af1fea974d4f2a5310a5b4a5cb6146ff8" title="Searches for parents by a reference string based on lavenstein distance from their name + surname." alt="" coords="15,107,190,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="262,89,170,109,169,103,261,84"/>
+</map>

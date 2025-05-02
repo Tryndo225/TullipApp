@@ -1,0 +1,5 @@
+<map id="Phone" name="Phone">
+<area shape="rect" id="Node000001" title="Represents a phone number." alt="" coords="26,123,121,427"/>
+<area shape="rect" id="Node000002" href="$class_contacts.html" title="Base class for contact&#45;related utilities." alt="" coords="5,5,141,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,90,76,123,71,123,71,90"/>
+</map>

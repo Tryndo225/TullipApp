@@ -1,0 +1,9 @@
+<map id="Database::update_child_end" name="Database::update_child_end">
+<area shape="rect" id="Node000001" title="Adds a child&#39;s information to the maps." alt="" coords="5,56,192,83"/>
+<area shape="rect" id="Node000002" href="$class_child.html#a54d980b94b52ef8ad5c52eb4dfc265c5" title="Gets the birth date of the child." alt="" coords="242,5,383,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,53,238,34,239,39,159,58"/>
+<area shape="rect" id="Node000003" href="$class_person.html#a6b1fec00d8d1f5af1a2977dc3f5f9eb8" title="Gets the first name of the person." alt="" coords="249,56,376,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,67,233,67,233,72,192,72"/>
+<area shape="rect" id="Node000004" href="$class_person.html#a7b3c8db44a49c4ba8c4838e19a235613" title="Gets the last name of the person." alt="" coords="240,107,385,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="159,81,239,100,238,105,157,86"/>
+</map>

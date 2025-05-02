@@ -1,0 +1,5 @@
+<map id="Database::export_to_stream" name="Database::export_to_stream">
+<area shape="rect" id="Node000001" title="Exports data to a stream." alt="" coords="193,5,332,48"/>
+<area shape="rect" id="Node000002" href="$class_database.html#abb1803f9cdff3217957c971608d1a3ed" title="Exports data to a CSV file." alt="" coords="5,5,145,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,29,145,29,145,24,177,24"/>
+</map>

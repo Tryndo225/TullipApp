@@ -1,0 +1,11 @@
+<map id="Date::print_short" name="Date::print_short">
+<area shape="rect" id="Node000001" title="Prints the date in a short format." alt="" coords="5,56,124,83"/>
+<area shape="rect" id="Node000002" href="$class_date.html#a4a50a2f4e115c9368603a7226c45872b" title="Gets the date as a string." alt="" coords="172,56,318,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,67,156,67,156,72,124,72"/>
+<area shape="rect" id="Node000003" href="$class_date.html#a2e4dc4249f8cccd40acc5950b42e1339" title="Gets the day of the date." alt="" coords="374,5,477,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="294,53,360,34,361,39,296,58"/>
+<area shape="rect" id="Node000004" href="$class_date.html#a81b10f48eadbf944836618d27e8f427a" title="Gets the month of the date." alt="" coords="366,56,484,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="318,67,351,67,351,72,318,72"/>
+<area shape="rect" id="Node000005" href="$class_date.html#acda1623a6e13fdbeead7f62d0968d8da" title="Gets the year of the date." alt="" coords="372,107,479,133"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="296,81,361,99,360,105,294,86"/>
+</map>

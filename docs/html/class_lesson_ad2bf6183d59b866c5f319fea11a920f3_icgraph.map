@@ -1,0 +1,7 @@
+<map id="Lesson::get_datetime" name="Lesson::get_datetime">
+<area shape="rect" id="Node000001" title="Gets the date and time of the lesson." alt="" coords="227,31,373,57"/>
+<area shape="rect" id="Node000002" href="$class_database.html#aaadc65d8eed9fdef218300f82902ca41" title="Adds a lesson to the database." alt="" coords="16,5,168,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,36,168,31,168,25,212,31"/>
+<area shape="rect" id="Node000003" href="$class_database.html#a68806d26995eecb355c6835e29f45e38" title="Removes a lesson from the database." alt="" coords="5,56,179,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,57,179,61,179,56,211,52"/>
+</map>

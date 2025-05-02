@@ -1,0 +1,15 @@
+<map id="TullipApp/Data_Helper_Types.cpp" name="TullipApp/Data_Helper_Types.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="123,5,276,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,66,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,51,76,91,74,86,156,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="90,96,146,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,51,143,87,140,83,177,47"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="170,96,229,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="202,49,202,80,197,80,197,49"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="253,96,324,123"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="224,47,265,83,262,87,221,51"/>
+<area shape="rect" id="Node000006" href="$_data___helper___types_8h.html" title="Defines utility classes for managing contact&#45;related data such as email, phone, and address." alt="" coords="348,96,496,123"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="258,46,374,88,372,93,256,51"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="396,171,449,197"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="425,123,425,155,420,155,420,123"/>
+</map>

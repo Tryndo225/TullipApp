@@ -1,0 +1,20 @@
+<map id="Time::set_minutes" name="Time::set_minutes">
+<area shape="rect" id="Node000001" title="Sets the minutes of the time." alt="" coords="532,56,662,83"/>
+<area shape="rect" id="Node000002" href="$class_time.html#af188ac5c1b6cb0bd774b761f0bfdc3bd" title="Constructs a Time from hours, minutes, and seconds." alt="" coords="22,5,110,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="517,64,110,25,111,20,517,59"/>
+<area shape="rect" id="Node000003" href="$class_time.html#a6a854d886badd1e186efeb6cbd757857" title="Updates the time based on intervals of 15 minutes." alt="" coords="355,81,484,108"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="517,83,485,88,484,83,517,78"/>
+<area shape="rect" id="Node000004" href="$class_time.html#a9ef9536d0f26494fbaf22d9c15972c4e" title="Updates the time zone." alt="" coords="175,107,307,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="340,109,308,113,307,108,339,103"/>
+<area shape="poly" id="edge9_Node000004_Node000002" title=" " alt="" coords="208,100,125,46,102,35,104,30,128,42,211,95"/>
+<area shape="rect" id="Node000005" href="$class_time.html#a3dee842a041ca4e8d9c1e9eb267b3801" title=" " alt="" coords="9,56,123,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="177,104,114,86,115,81,178,99"/>
+<area shape="rect" id="Node000006" href="$class_time.html#ad4f6e1d73590a2c89aa5d80813f74ab1" title=" " alt="" coords="5,107,127,133"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="159,123,127,123,127,117,159,117"/>
+<area shape="rect" id="Node000007" href="$class_time.html#a358022173825bc5eb75e2101df0f78e4" title=" " alt="" coords="5,157,127,184"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="178,141,115,159,114,154,177,136"/>
+<area shape="rect" id="Node000008" href="$class_time.html#aca20d7c5d322ab8e950cddf64572a7d3" title=" " alt="" coords="9,208,123,235"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="211,145,128,198,104,210,102,205,125,194,208,140"/>
+<area shape="rect" id="Node000009" href="$class_time.html#ab8785e557e3d70b465f0487ede95b996" title=" " alt="" coords="5,259,127,285"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="224,148,183,198,157,225,128,249,108,261,105,256,125,244,154,221,179,194,220,144"/>
+</map>

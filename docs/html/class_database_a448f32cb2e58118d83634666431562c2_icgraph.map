@@ -1,0 +1,7 @@
+<map id="Database::filter_child_by_name" name="Database::filter_child_by_name">
+<area shape="rect" id="Node000001" title="Filters children by name." alt="" coords="209,39,353,81"/>
+<area shape="rect" id="Node000002" href="$class_database.html#ad8e7c7035665c903a8a34b5dbff4e2a6" title="Filters lessons by a child&#39;s name." alt="" coords="5,5,161,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,48,160,42,161,37,194,43"/>
+<area shape="rect" id="Node000003" href="$class_database.html#a60ef6f17c1f6e1da26cf7fafd568164f" title="Gets a child by name and surname." alt="" coords="14,72,152,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,77,153,84,152,79,193,72"/>
+</map>

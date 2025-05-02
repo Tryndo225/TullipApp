@@ -1,0 +1,19 @@
+<map id="Person::get_surname" name="Person::get_surname">
+<area shape="rect" id="Node000001" title="Gets the last name of the person." alt="" coords="337,165,482,192"/>
+<area shape="rect" id="Node000002" href="$class_database.html#a3e9cba5ac0e9f1eafeea156892eb2e35" title="Adds a child to the database." alt="" coords="126,5,266,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="390,154,348,99,319,70,288,46,264,35,266,30,290,42,323,66,352,95,394,151"/>
+<area shape="rect" id="Node000004" href="$class_database.html#a38892c6b3b003ef20807e592d1a400e6" title="Adds an employee to the database." alt="" coords="111,56,280,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="379,157,338,126,288,97,258,86,260,81,290,92,340,122,382,153"/>
+<area shape="rect" id="Node000005" href="$class_database.html#aa8085f0b12eb2082cd6f1ed313228132" title="Adds a parent to the database." alt="" coords="121,107,270,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="343,163,288,148,247,136,248,131,290,143,345,158"/>
+<area shape="rect" id="Node000006" href="$class_database.html#a80f30da6596492aaea6a1049f0d07c4d" title="Filters children by a parent&#39;s surname." alt="" coords="124,157,268,200"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="322,181,269,181,269,176,322,176"/>
+<area shape="rect" id="Node000007" href="$class_database.html#a666ab0d4f96402ecae70425b2c6863fb" title="Removes a child from the database." alt="" coords="115,224,277,251"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="345,199,290,215,248,226,247,221,288,209,343,194"/>
+<area shape="rect" id="Node000008" href="$class_database.html#ad1c53a90babe25c1148cca426c7579e6" title="Adds a child&#39;s information to the maps." alt="" coords="103,275,289,301"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="382,204,340,236,290,265,260,277,258,272,288,260,338,231,379,200"/>
+<area shape="rect" id="Node000009" href="$class_database.html#a283eb646c12fff3f96e217bf5c3a7dc3" title="Removes a child&#39;s information from the maps." alt="" coords="117,325,275,368"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="393,207,351,261,322,290,290,316,270,327,267,322,288,311,319,286,347,258,389,203"/>
+<area shape="rect" id="Node000003" href="$_main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,21,55,21,55,16,111,16"/>
+</map>

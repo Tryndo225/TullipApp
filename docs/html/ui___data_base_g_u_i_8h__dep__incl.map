@@ -1,0 +1,11 @@
+<map id="TullipApp/x64/Debug/qt/uic/ui_DataBaseGUI.h" name="TullipApp/x64/Debug/qt/uic/ui_DataBaseGUI.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="197,5,368,48"/>
+<area shape="rect" id="Node000002" href="$_data_base_g_u_i_8h.html" title="Defines the DataBaseGUI class for managing the graphical user interface of the database." alt="" coords="196,96,369,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="285,64,285,95,280,95,280,64"/>
+<area shape="rect" id="Node000003" href="$_data_base_g_u_i_8cpp.html" title=" " alt="" coords="5,179,192,205"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="241,132,128,181,126,176,239,127"/>
+<area shape="rect" id="Node000004" href="$_main_8cpp.html" title=" " alt="" coords="216,179,349,205"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="285,138,285,179,280,179,280,138"/>
+<area shape="rect" id="Node000005" href="$moc___data_base_g_u_i_8cpp.html" title=" " alt="" coords="373,171,581,213"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="328,127,428,168,426,172,326,131"/>
+</map>

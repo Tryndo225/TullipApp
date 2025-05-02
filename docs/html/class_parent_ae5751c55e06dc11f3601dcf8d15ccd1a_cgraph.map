@@ -1,0 +1,5 @@
+<map id="Parent::remove_child" name="Parent::remove_child">
+<area shape="rect" id="Node000001" title="Removes a child from the parent&#39;s list of children." alt="" coords="5,5,150,32"/>
+<area shape="rect" id="Node000002" href="$_helper___functions_8h.html#a781a4053c4ee41e8a6ed9daad0bbc4e0" title="Removes all occurrences of a specific element from a vector." alt="" coords="198,5,282,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,16,182,16,182,21,150,21"/>
+</map>

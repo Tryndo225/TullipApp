@@ -1,0 +1,7 @@
+<map id="replace_all_occurrences" name="replace_all_occurrences">
+<area shape="rect" id="Node000001" title="Replaces all occurrences of a substring within a string." alt="" coords="357,5,518,32"/>
+<area shape="rect" id="Node000002" href="$class_date.html#a1453e0b6696844fd1fbc1b3961959946" title="Prints the date in a long format." alt="" coords="196,5,309,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="342,21,309,21,309,16,342,16"/>
+<area shape="rect" id="Node000003" href="$class_date_time.html#a570826a1b0ae205508810b5cdcc6129d" title="Prints the date and time in a long format." alt="" coords="5,5,148,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="180,21,148,21,148,16,180,16"/>
+</map>

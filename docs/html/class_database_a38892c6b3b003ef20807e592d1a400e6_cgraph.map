@@ -1,0 +1,7 @@
+<map id="Database::add_employee" name="Database::add_employee">
+<area shape="rect" id="Node000001" title="Adds an employee to the database." alt="" coords="5,31,175,57"/>
+<area shape="rect" id="Node000002" href="$class_person.html#a6b1fec00d8d1f5af1a2977dc3f5f9eb8" title="Gets the first name of the person." alt="" coords="232,5,359,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,31,216,26,216,31,175,36"/>
+<area shape="rect" id="Node000003" href="$class_person.html#a7b3c8db44a49c4ba8c4838e19a235613" title="Gets the last name of the person." alt="" coords="223,56,368,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,52,208,56,207,61,175,57"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="DateTime" name="DateTime">
+<area shape="rect" id="Node000001" title="Represents a combined date and time." alt="" coords="103,379,257,683"/>
+<area shape="rect" id="Node000002" href="$class_date.html" title="Represents a date (day, month, year)." alt="" coords="5,5,179,331"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,345,146,378,141,379,133,346"/>
+<area shape="rect" id="Node000003" href="$class_time.html" title="Represents a time (hours, minutes, seconds, and time zone)." alt="" coords="204,5,333,331"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,346,220,379,215,378,223,345"/>
+</map>

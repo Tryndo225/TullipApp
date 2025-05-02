@@ -1,0 +1,9 @@
+<map id="DateTimeError::DateTimeError" name="DateTimeError::DateTimeError">
+<area shape="rect" id="Node000001" title="Default move constructor." alt="" coords="5,31,205,57"/>
+<area shape="rect" id="Node000002" href="$class_date_time_error.html#abc1347f344dad6822caad8e065f4f606" title="Constructs a DateTimeError with the given error message." alt="" coords="253,5,452,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,31,237,28,237,33,205,36"/>
+<area shape="rect" id="Node000004" href="$class_date_time_error.html#a6847d1229e289f6b1ce62d437ae9d272" title="Prints the error message to the specified output stream." alt="" coords="283,56,422,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="205,52,268,58,267,63,205,57"/>
+<area shape="rect" id="Node000003" href="$class_date_time_error.html#a05a1fbee7eaa356e993e6267ce2f8d66" title="Gets the error message associated with the exception." alt="" coords="500,5,667,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="453,16,484,16,484,21,453,21"/>
+</map>

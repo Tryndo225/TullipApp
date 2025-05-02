@@ -1,0 +1,5 @@
+<map id="DateTimeError::DateTimeError" name="DateTimeError::DateTimeError">
+<area shape="rect" id="Node000001" title="Constructs a DateTimeError with the given error message." alt="" coords="5,5,205,32"/>
+<area shape="rect" id="Node000002" href="$class_date_time_error.html#a05a1fbee7eaa356e993e6267ce2f8d66" title="Gets the error message associated with the exception." alt="" coords="253,5,420,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,16,237,16,237,21,205,21"/>
+</map>

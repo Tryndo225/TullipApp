@@ -1,0 +1,7 @@
+<map id="Lesson::get_children_payment" name="Lesson::get_children_payment">
+<area shape="rect" id="Node000001" title="Gets the list of children based on their payment status." alt="" coords="5,5,147,48"/>
+<area shape="rect" id="Node000002" href="$class_date.html#af6f6b8a65ffabad43ac3994bc58634e0" title="Gets the current date." alt="" coords="195,13,349,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,24,179,24,179,29,147,29"/>
+<area shape="rect" id="Node000003" href="$class_date.html#a19cb325d7fc9e143f9095e7eadc8a1a4" title="Default constructor." alt="" coords="397,13,482,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="349,24,381,24,381,29,349,29"/>
+</map>

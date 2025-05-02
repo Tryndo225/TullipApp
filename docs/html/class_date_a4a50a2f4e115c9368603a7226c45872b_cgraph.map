@@ -1,0 +1,9 @@
+<map id="Date::get_date_string" name="Date::get_date_string">
+<area shape="rect" id="Node000001" title="Gets the date as a string." alt="" coords="5,56,152,83"/>
+<area shape="rect" id="Node000002" href="$class_date.html#a2e4dc4249f8cccd40acc5950b42e1339" title="Gets the day of the date." alt="" coords="207,5,310,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,53,193,34,195,39,130,58"/>
+<area shape="rect" id="Node000003" href="$class_date.html#a81b10f48eadbf944836618d27e8f427a" title="Gets the month of the date." alt="" coords="200,56,318,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="152,67,184,67,184,72,152,72"/>
+<area shape="rect" id="Node000004" href="$class_date.html#acda1623a6e13fdbeead7f62d0968d8da" title="Gets the year of the date." alt="" coords="205,107,312,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="130,81,195,99,193,105,128,86"/>
+</map>

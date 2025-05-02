@@ -1,0 +1,13 @@
+<map id="DateTimeError::message" name="DateTimeError::message">
+<area shape="rect" id="Node000001" title="Gets the error message associated with the exception." alt="" coords="500,81,667,108"/>
+<area shape="rect" id="Node000002" href="$class_date_time_error.html#abc1347f344dad6822caad8e065f4f606" title="Constructs a DateTimeError with the given error message." alt="" coords="253,81,452,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="484,97,452,97,452,92,484,92"/>
+<area shape="rect" id="Node000003" href="$class_date_time_error.html#a43c8b4eb558362264e2967eef31de52d" title="Default copy constructor." alt="" coords="5,5,205,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="298,78,204,47,163,35,164,30,205,41,300,73"/>
+<area shape="rect" id="Node000004" href="$class_date_time_error.html#aa3bf66fa072c7b506351c658b389b879" title="Default move constructor." alt="" coords="5,56,205,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="237,86,205,82,205,77,237,80"/>
+<area shape="rect" id="Node000005" href="$class_date_time_error.html#a0ffebfb6e4c37e706fbf76dbfdff9ea3" title="Outputs the error message to a stream." alt="" coords="16,107,194,133"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="237,109,194,114,194,108,237,104"/>
+<area shape="rect" id="Node000006" href="$class_date_time_error.html#ab6ef67af5d13cd101e5c28d46a322237" title="Default destructor." alt="" coords="15,157,195,200"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="298,116,206,148,172,159,171,154,204,143,296,111"/>
+</map>
