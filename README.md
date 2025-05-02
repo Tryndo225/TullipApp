@@ -1,5 +1,5 @@
 # TullipApp
-### [Documentation](./Documemtation/html/index.html)
+### [Wiki](https://tryndo225.github.io/TullipApp/html/index.html)
 ---
 ## Database: 
 ### Person
