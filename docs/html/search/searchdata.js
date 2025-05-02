@@ -1,6 +1,6 @@
 var indexSectionsWithContent =
 {
-  0: "cdpt",
+  0: "acdhipt",
   1: "t"
 };
 

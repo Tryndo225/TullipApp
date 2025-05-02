@@ -25,10 +25,11 @@
 var NAVTREE =
 [
   [ "TullipApp", "index.html", [
-    [ "# TullipApp", "md__r_e_a_d_m_e.html", [
-      [ "Database:", "md__r_e_a_d_m_e.html#autotoc_md0", [
-        [ "Person", "md__r_e_a_d_m_e.html#autotoc_md1", null ],
-        [ "Classes", "md__r_e_a_d_m_e.html#autotoc_md2", null ]
+    [ "TullipApp", "md__r_e_a_d_m_e.html", [
+      [ "### Documentation", "md__r_e_a_d_m_e.html#autotoc_md1", null ],
+      [ "Database:", "md__r_e_a_d_m_e.html#autotoc_md2", [
+        [ "Person", "md__r_e_a_d_m_e.html#autotoc_md3", null ],
+        [ "Classes", "md__r_e_a_d_m_e.html#autotoc_md4", null ]
       ] ]
     ] ]
   ] ]
