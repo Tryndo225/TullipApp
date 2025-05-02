@@ -14,7 +14,7 @@
    <string>DataBaseGUI</string>
   </property>
   <widget class="QWidget" name="main_window">
-   <layout class="QVBoxLayout" name="verticalLayout">
+   <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
      <widget class="QTabWidget" name="tabs">
       <property name="autoFillBackground">
@@ -27,11 +27,70 @@
        <attribute name="title">
         <string>Children</string>
        </attribute>
-       <layout class="QVBoxLayout" name="verticalLayout_6">
+       <layout class="QGridLayout" name="gridLayout">
         <property name="sizeConstraint">
-         <enum>QLayout::SizeConstraint::SetNoConstraint</enum>
+         <enum>QLayout::SizeConstraint::SetDefaultConstraint</enum>
         </property>
-        <item>
+        <property name="leftMargin">
+         <number>2</number>
+        </property>
+        <property name="topMargin">
+         <number>2</number>
+        </property>
+        <property name="rightMargin">
+         <number>2</number>
+        </property>
+        <property name="bottomMargin">
+         <number>2</number>
+        </property>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="children_add_button">
+          <property name="text">
+           <string>Add Child</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QComboBox" name="children_sort_selector">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="editable">
+           <bool>false</bool>
+          </property>
+          <property name="currentText">
+           <string>Sort By Surname</string>
+          </property>
+          <property name="currentIndex">
+           <number>1</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>Sort By Name</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Sort By Surname</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Sort By Date Of Birth</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="4">
          <widget class="QScrollArea" name="children_scroll">
           <property name="sizeAdjustPolicy">
            <enum>QAbstractScrollArea::SizeAdjustPolicy::AdjustToContents</enum>
@@ -47,8 +106,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>1158</width>
-             <height>489</height>
+             <width>1172</width>
+             <height>473</height>
             </rect>
            </property>
            <property name="acceptDrops">
@@ -63,6 +122,16 @@
             </item>
            </layout>
           </widget>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QLineEdit" name="children_search_bar">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
          </widget>
         </item>
        </layout>
@@ -83,7 +152,7 @@
              <x>0</x>
              <y>0</y>
              <width>1158</width>
-             <height>289</height>
+             <height>489</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -112,7 +181,7 @@
              <x>0</x>
              <y>0</y>
              <width>1158</width>
-             <height>289</height>
+             <height>489</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -141,7 +210,7 @@
              <x>0</x>
              <y>0</y>
              <width>1158</width>
-             <height>289</height>
+             <height>489</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -169,7 +238,7 @@
    </property>
    <widget class="QMenu" name="file_option">
     <property name="title">
-     <string>FIle</string>
+     <string>File</string>
     </property>
     <addaction name="save_to"/>
     <addaction name="separator"/>

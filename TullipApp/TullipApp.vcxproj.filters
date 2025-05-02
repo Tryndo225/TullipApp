@@ -74,6 +74,9 @@
     <ClCompile Include="ChildEntry.cpp">
       <Filter>Source Files\UI</Filter>
     </ClCompile>
+    <ClCompile Include="ChildDialog.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="ChildEntry.h">
@@ -82,7 +85,7 @@
     <QtMoc Include="DataBaseGUI.h">
       <Filter>Header Files\UI</Filter>
     </QtMoc>
-    <QtMoc Include="scalablelabel.h">
+    <QtMoc Include="ChildDialog.h">
       <Filter>Header Files\UI</Filter>
     </QtMoc>
   </ItemGroup>
@@ -93,5 +96,13 @@
     <QtUic Include="ChildEntry.ui">
       <Filter>Resource Files</Filter>
     </QtUic>
+    <QtUic Include="ChildDialog.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\DoxyFile">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

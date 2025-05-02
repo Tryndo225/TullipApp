@@ -1,0 +1,59 @@
+#--------------------------------------------------------------------------- 
+# Project configuration
+#--------------------------------------------------------------------------- 
+PROJECT_NAME           = "TullipApp"
+PROJECT_BRIEF          = "A database for noting presence, payments and data of Employees, Children, and Parents of Teaching Institutions"
+OUTPUT_DIRECTORY       = Documemtation
+
+#--------------------------------------------------------------------------- 
+# Build configuration
+#--------------------------------------------------------------------------- 
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+#--------------------------------------------------------------------------- 
+# HTML / theme settings (Doxygen Awesome CSS)
+#--------------------------------------------------------------------------- 
+GENERATE_TREEVIEW      = YES
+DISABLE_INDEX          = NO
+FULL_SIDEBAR           = NO
+HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css \
+                         doxygen-awesome-css/doxygen-awesome-sidebar-only.css
+HTML_COLORSTYLE        = LIGHT
+HTML_COLORSTYLE_HUE    = 220
+HTML_COLORSTYLE_SAT    = 100
+HTML_COLORSTYLE_GAMMA  = 80
+
+#--------------------------------------------------------------------------- 
+# Graphviz / DOT integration
+#--------------------------------------------------------------------------- 
+HAVE_DOT               = YES
+DOT_PATH               = /usr/bin
+DOT_IMAGE_FORMAT       = svg
+DOT_MULTI_TARGETS      = YES
+DOT_CLEANUP            = YES
+INTERACTIVE_SVG        = YES
+DOT_TRANSPARENT        = YES
+DOT_NUM_THREADS        = 2
+DOT_FONTNAME           = Arial
+DOT_FONTSIZE           = 10
+DOT_GRAPH_MAX_NODES    = 50
+DOT_GRAPH_MAX_DEPTH    = 3
+UML_LOOK               = YES
+
+#--------------------------------------------------------------------------- 
+# Which graphs to generate
+#--------------------------------------------------------------------------- 
+CLASS_DIAGRAMS         = YES
+COLLABORATION_GRAPH    = YES
+GROUP_GRAPHS           = YES
+DIRECTORY_GRAPH        = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+GRAPHICAL_HIERARCHY    = YES
+
+#--------------------------------------------------------------------------- 
+# Optional tweaks
+#--------------------------------------------------------------------------- 
+HTML_DYNAMIC_SECTIONS  = YES
+GENERATE_DOCBOOK       = NO

@@ -157,8 +157,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <QtMoc Include="scalablelabel.h" />
     <QtMoc Include="ChildEntry.h" />
+    <QtMoc Include="ChildDialog.h" />
     <ClInclude Include="DataBase.h" />
     <QtMoc Include="DataBaseGUI.h" />
     <ClInclude Include="DateTime.h" />
@@ -168,6 +168,7 @@
     <ClInclude Include="Data_Helper_Types.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ChildDialog.cpp" />
     <ClCompile Include="ChildEntry.cpp" />
     <ClCompile Include="DataBase.cpp" />
     <ClCompile Include="DataBaseGUI.cpp" />
@@ -192,6 +193,10 @@
   <ItemGroup>
     <QtUic Include="ChildEntry.ui" />
     <QtUic Include="DataBaseGUI.ui" />
+    <QtUic Include="ChildDialog.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\DoxyFile" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />

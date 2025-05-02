@@ -29,6 +29,24 @@ std::ostream& operator<<(std::ostream& stream, const WeekDays& weekday)
 //           Year          Month  Day
 Date::Date(unsigned int date) : date_(date) {}
 
+Date::Date(const std::string& date_string)
+{
+	std::istringstream date_stream(date_string);
+	std::string day, month, year;
+	std::getline(date_stream, day, '/');
+	std::getline(date_stream, month, '/');
+	std::getline(date_stream, year);
+
+	unsigned short short_day = static_cast<unsigned short>(std::stoul(day));
+	unsigned short short_month = static_cast<unsigned short>(std::stoul(month));
+	unsigned int int_year = static_cast<unsigned int>(std::stoul(year));
+
+	date_ = 0;
+	set_day(short_day);
+	set_month((Months)(short_month - 1));
+	set_year(int_year);
+}
+
 Date::Date(unsigned short day, unsigned short month, unsigned int year)
 {
 	date_ = 0;
