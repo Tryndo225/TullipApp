@@ -3,7 +3,7 @@
 #--------------------------------------------------------------------------- 
 PROJECT_NAME           = "TullipApp"
 PROJECT_BRIEF          = "A database for noting presence, payments and data of Employees, Children, and Parents of Teaching Institutions"
-OUTPUT_DIRECTORY       = Documemtation
+OUTPUT_DIRECTORY       = docs
 
 #--------------------------------------------------------------------------- 
 # Build configuration
@@ -17,8 +17,7 @@ GENERATE_LATEX         = NO
 GENERATE_TREEVIEW      = YES
 DISABLE_INDEX          = NO
 FULL_SIDEBAR           = NO
-HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css \
-                         doxygen-awesome-css/doxygen-awesome-sidebar-only.css
+HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css \ doxygen-awesome-css/doxygen-awesome-sidebar-only.css
 HTML_COLORSTYLE        = LIGHT
 HTML_COLORSTYLE_HUE    = 220
 HTML_COLORSTYLE_SAT    = 100
