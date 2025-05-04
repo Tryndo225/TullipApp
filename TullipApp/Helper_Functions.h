@@ -175,4 +175,14 @@ std::vector<T*> filter_multimap_by_keys(const std::multimap<S, T*>& map, Predica
  */
 size_t lavenstein_distance(const std::string& string, const std::string& reference);
 
+/**
+ * @brief Helper function to calculate lavenstein distance for name + surname.
+ * @param name The name to compare.
+ * @param surname The surname to compare.
+ * @param reference_name The reference name.
+ * @param reference_surname The reference surname.
+ * @return The lavenstein distance.
+ */
+size_t search_lavenstein_name_surname_helper(const std::string& name, const std::string& surname, const std::string& reference_name, const std::string& reference_surname);
+
 #endif // !HELPER_FUNCTIONS_H_

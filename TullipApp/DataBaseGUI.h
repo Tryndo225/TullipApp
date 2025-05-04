@@ -13,6 +13,8 @@
 #include "ChildEntry.h"
 #include "DataBase.h"
 #include "ChildDialog.h"
+#include "ParentDialog.h"
+#include "ParentEntry.h"
 
  /**
   * @class DataBaseGUI
@@ -26,6 +28,13 @@ class DataBaseGUI : public QMainWindow
 	Q_OBJECT
 
 public:
+
+	/**
+	 * @brief Default constructor.
+	 * @details This constructor initializes the GUI without a database.
+	 */
+	DataBaseGUI();
+
 	/**
 	 * @brief Constructs a `DataBaseGUI` object.
 	 * @param database The database to manage.
@@ -57,11 +66,19 @@ public:
 	void child_sort_change(int sort_index);
 
 	void child_search();
+	void child_search_by_pointer(Child* child);
 
-	/**
-	 * @brief Destructor.
-	 * @details Cleans up resources used by the `DataBaseGUI` object.
-	 */
+	void parent_add();
+
+	void parent_edit(Parent* child);
+
+	void parent_remove(Parent* child);
+
+	void parent_sort_change(int sort_index);
+
+	void parent_search();
+	void parent_search_by_pointer(Parent* child);
+
 	~DataBaseGUI();
 
 private:
@@ -70,7 +87,48 @@ private:
 	Database database_; ///< The database being managed by the GUI.
 
 	int child_sort_index_ = 1; ///< The current sort index for children.
+	int parent_sort_index_ = 1; ///< The current sort index for parents.
 
+	std::string save_path_ = ""; ///< The path to save the database.
+
+	std::vector<QMetaObject::Connection> connections_; ///< List of connections for signals and slots.
+
+	/**
+	 * @brief Sets up the GUI.
+	 * @details This function initializes the GUI components and connects signals to slots.
+	 */
+	void setup();
+
+	void connection_enable();
+	void connection_disable();
+
+	/**
+	 * @brief Saves the current state of the database to a file.
+	 * @details This function prompts the user for a file path and saves the database to that file.
+	 */
+	void save_database();
+
+	/**
+	 * @brief Imports a database from a file.
+	 * @details This function prompts the user for a file path and imports the database from that file.
+	 */
+	void import_database();
+
+	/**
+	 * @brief Exports the current database to a file.
+	 * @details This function prompts the user for a file path and exports the database to that file.
+	 */
+	void export_database();
+
+	/**
+	 * @brief Handles tab change events.
+	 * @param index The index of the newly selected tab.
+	 */
+	void tab_change(int index);
+
+	/**
+	 * @brief Selects the appropriate sorting to use based on child sort index.
+	 */
 	void sort_to_populate_children_tab();
 
 	/**
@@ -92,6 +150,31 @@ private:
 	 * @details Removes all entries from the children tab in the GUI.
 	 */
 	void children_tab_clear();
+
+	/**
+	 * @brief Selects the appropriate sorting to use based on parent sort index.
+	 */
+	void sort_to_populate_parent_tab();
+
+	/**
+	 * @brief Populates the parent tab with a list of parents.
+	 * @param parents A vector of pointers to `Parent` objects to display.
+	 */
+	void populate_parent_tab(const std::vector<Parent*>& children);
+
+	/**
+	 * @brief Populates the parent tab with a multimap of parents.
+	 * @tparam T The type of the key in the multimap.
+	 * @param children A multimap of keys and pointers to `Parent` objects to display.
+	 */
+	template<typename T>
+	void populate_parent_tab(const std::multimap<T, Parent*>& children);
+
+	/**
+	 * @brief Clears the parent tab.
+	 * @details Removes all entries from the parent tab in the GUI.
+	 */
+	void parent_tab_clear();
 };
 
 #endif // DATABASEGUI_H

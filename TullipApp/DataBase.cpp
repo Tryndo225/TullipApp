@@ -1,46 +1,90 @@
 #include "DataBase.h"
 #include "Helper_Functions.h"
-
+#include "DataBase_Parser_Functions.h"
 #include <algorithm>
 
 void Database::import_Lessons_from_csv_file(std::istream& stream)
 {
-	// Implementation for importing lessons from a CSV file
+	std::string line;
+	while (std::getline(stream, line))
+	{
+		if (line.empty() || line[0] == '#' || line == "Lessons:") continue;
+		if (line == "Employees:" || line == "Parents:" || line == "Children:") break;
+
+		CSV_Parser::parse_lesson(line, *this);
+	}
 }
 
 void Database::import_Parents_from_csv_file(std::istream& stream)
 {
-	// Implementation for importing parents from a CSV file
+	std::string line;
+	while (std::getline(stream, line))
+	{
+		if (line.empty() || line[0] == '#' || line == "Parents:") continue;
+		if (line == "Employees:" || line == "Lessons:" || line == "Children:") break;
+
+		CSV_Parser::parse_parent(line, *this);
+	}
 }
 
 void Database::import_Children_from_csv_file(std::istream& stream)
 {
-	// Implementation for importing children from a CSV file
+	std::string line;
+	while (std::getline(stream, line))
+	{
+		if (line.empty() || line[0] == '#' || line == "Children:") continue;
+		if (line == "Employees:" || line == "Lessons:" || line == "Parents:") break;
+
+		CSV_Parser::parse_child(line, *this);
+	}
 }
 
 void Database::import_Employees_from_csv_file(std::istream& stream)
 {
-	// Implementation for importing employees from a CSV file
+	std::string line;
+	while (std::getline(stream, line))
+	{
+		if (line.empty() || line[0] == '#' || line == "Employees:") continue;
+		if (line == "Lessons:" || line == "Parents:" || line == "Children:") break;
+
+		CSV_Parser::parse_employee(line, *this);
+	}
 }
 
 void Database::export_Lessons_to_csv_file(std::ostream& stream) const
 {
-	// Implementation for exporting lessons to a CSV file
+	stream << "Lessons:" << std::endl;
+	for (const auto& lesson : lessons_)
+	{
+		stream << *lesson << std::endl;
+	}
 }
 
 void Database::export_Parents_to_csv_file(std::ostream& stream) const
 {
-	// Implementation for exporting parents to a CSV file
+	stream << "Parents:" << std::endl;
+	for (const auto& parent : parents_)
+	{
+		stream << *parent << std::endl;
+	}
 }
 
 void Database::export_Children_to_csv_file(std::ostream& stream) const
 {
-	// Implementation for exporting children to a CSV file
+	stream << "Children:" << std::endl;
+	for (const auto& child : children_)
+	{
+		stream << *child << std::endl;
+	}
 }
 
 void Database::export_Employees_to_csv_file(std::ostream& stream) const
 {
-	// Implementation for exporting employees to a CSV file
+	stream << "Employees:" << std::endl;
+	for (const auto& employee : employees_)
+	{
+		stream << *employee << std::endl;
+	}
 }
 
 template <typename Key, typename Value>
@@ -58,30 +102,34 @@ void Database::remove_from_map(std::multimap<Key, Value*>& map, const Key& key, 
 }
 
 template <typename T>
-void Database::search_lavenstein(std::vector<T*>& vector, const std::string& reference) const
+void Database::search_lavenstein_name_surname(std::vector<T*>& vector, const std::string& reference_name, const std::string& reference_surname) const
 {
 	static_assert(std::is_base_of<Person, T>::value, "T must be derived from Person");
 
 	std::unordered_map<std::string, size_t> distance;
-	std::sort(vector.begin(), vector.end(), [&distance, &reference](const auto& a, const auto& b) {
-		auto a_name = a->get_name() + " " + a->get_surname();
-		if (distance.find(a_name) == distance.end())
+	std::sort(vector.begin(), vector.end(), [&distance, &reference_name, &reference_surname](const auto& a, const auto& b) {
+		auto a_key = a->get_name() + " " + a->get_surname();
+
+		if (distance.find(a_key) == distance.end())
 		{
-			distance[a_name] = lavenstein_distance(a_name, reference);
+			distance[a_key] = search_lavenstein_name_surname_helper(a->get_name(), a->get_surname(), reference_name, reference_surname);
 		}
-		auto b_name = b->get_name() + " " + b->get_surname();
-		if (distance.find(b_name) == distance.end())
+
+		auto b_key = b->get_name() + " " + b->get_surname();
+
+		if (distance.find(b_key) == distance.end())
 		{
-			distance[b_name] = lavenstein_distance(b_name, reference);
+			distance[b_key] = search_lavenstein_name_surname_helper(b->get_name(), b->get_surname(), reference_name, reference_surname);
 		}
-		return distance[a_name] < distance[b_name];
+		return distance[a_key] < distance[b_key];
 		});
 }
 
-void Database::add_lesson(const Lesson& lesson)
+Lesson* Database::add_lesson(const Lesson& lesson)
 {
 	lessons_.emplace_back(std::make_unique<Lesson>(lesson));
 	lesson_by_datetime.insert({ lesson.get_datetime(), lessons_.back().get() });
+	return lessons_.back().get();
 }
 
 void Database::remove_lesson(const Lesson* lesson)
@@ -181,6 +229,8 @@ Parent* Database::get_parent_by_name_surname(const std::string& name_surname) co
 	auto name = name_surname.substr(0, name_surname.find(' '));
 	auto surname = name_surname.substr(name_surname.find(' ') + 1);
 
+	std::cout << "Searching for parent with name: " << name << " and surname: " << surname << std::endl;
+
 	auto filetered = filter_parent_by_name(name, filter_parent_by_surname(surname));
 
 	if (filetered.size() == 1)
@@ -197,28 +247,38 @@ Parent* Database::get_parent_by_name_surname(const std::string& name_surname) co
 	}
 }
 
-void Database::add_parent(const Parent& parent)
+Parent* Database::add_parent(const Parent& parent)
 {
 	parents_.emplace_back(std::make_unique<Parent>(parent));
 	parent_by_name.insert({ parent.get_name(), parents_.back().get() });
 	parent_by_surname.insert({ parent.get_surname(), parents_.back().get() });
 	parent_by_email.insert({ parent.get_email().get_email(), parents_.back().get() });
+	return parents_.back().get();
+}
+
+void Database::update_parent_start(Parent* parent)
+{
+	remove_from_map(parent_by_name, parent->get_name(), parent);
+	remove_from_map(parent_by_surname, parent->get_surname(), parent);
+	remove_from_map(parent_by_email, parent->get_email().get_email(), parent);
+}
+
+void Database::update_parent_end(Parent* parent)
+{
+	parent_by_name.insert({ parent->get_name(), parent });
+	parent_by_surname.insert({ parent->get_surname(), parent });
+	parent_by_email.insert({ parent->get_email().get_email(), parent });
 }
 
 void Database::remove_parent(const Parent* parent)
 {
+	remove_from_map(parent_by_name, parent->get_name(), parent);
+	remove_from_map(parent_by_surname, parent->get_surname(), parent);
+	remove_from_map(parent_by_email, parent->get_email().get_email(), parent);
 	remove_all(parents_, *parent);
-
-	auto it = parent_by_name.find(parent->get_name());
-	while (it != parent_by_name.end() && it->second != parent) it++;
-
-	if (it != parent_by_name.end())
-	{
-		parent_by_name.erase(it);
-	}
 }
 
-std::vector<Parent*> Database::search_parents(const std::string& reference) const
+std::vector<Parent*> Database::search_parents(const std::string& reference_name, const std::string& reference_surname) const
 {
 	std::vector<Parent*> parents;
 	for (const auto& parent : parents_)
@@ -226,7 +286,7 @@ std::vector<Parent*> Database::search_parents(const std::string& reference) cons
 		parents.push_back(parent.get());
 	}
 
-	search_lavenstein(parents, reference);
+	search_lavenstein_name_surname(parents, reference_name, reference_surname);
 
 	return parents;
 }
@@ -239,6 +299,11 @@ std::multimap<std::string, Parent*> Database::sort_parents_by_name()
 std::multimap<std::string, Parent*> Database::sort_parents_by_surname()
 {
 	return parent_by_surname;
+}
+
+std::multimap<std::string, Parent*> Database::sort_parents_by_email()
+{
+	return parent_by_email;
 }
 
 std::vector<Parent*> Database::filter_parent_by_name(const std::string& name, std::optional <std::vector<Parent*>> parents) const
@@ -316,12 +381,13 @@ Child* Database::get_child_by_name_surname(const std::string& name_surname) cons
 	}
 }
 
-void Database::add_child(const Child& child)
+Child* Database::add_child(const Child& child)
 {
 	children_.emplace_back(std::make_unique<Child>(child));
 	child_by_name.insert({ child.get_name(), children_.back().get() });
 	child_by_surname.insert({ child.get_surname(), children_.back().get() });
 	child_by_birth_date.insert({ child.get_birth_date(), children_.back().get() });
+	return children_.back().get();
 }
 
 void Database::update_child_start(Child* child)
@@ -346,14 +412,14 @@ void Database::remove_child(Child* child)
 	remove_all(children_, *child);
 }
 
-std::vector<Child*> Database::search_children(const std::string& reference) const
+std::vector<Child*> Database::search_children(const std::string& reference_name, const std::string& reference_surname) const
 {
 	std::vector<Child*> children;
 	for (const auto& child : children_)
 	{
 		children.push_back(child.get());
 	}
-	search_lavenstein(children, reference);
+	search_lavenstein_name_surname(children, reference_name, reference_surname);
 	return children;
 }
 
@@ -495,32 +561,60 @@ std::vector<Child*> Database::filter_child_by_parent_surname(const std::string& 
 	}
 }
 
-void Database::add_employee(const Employee& employee)
+Employee* Database::add_employee(const Employee& employee)
 {
 	employees_.emplace_back(std::make_unique<Employee>(employee));
 	employee_by_name.insert({ employee.get_name(), employees_.back().get() });
 	employee_by_surname.insert({ employee.get_surname(), employees_.back().get() });
+	return employees_.back().get();
+}
+
+void Database::update_employee_start(Employee* employee)
+{
+	remove_from_map(employee_by_name, employee->get_name(), employee);
+	remove_from_map(employee_by_surname, employee->get_surname(), employee);
+}
+
+void Database::update_employee_end(Employee* employee)
+{
+	employee_by_name.insert({ employee->get_name(), employee });
+	employee_by_surname.insert({ employee->get_surname(), employee });
+}
+
+Employee* Database::get_employee_by_name_surname(const std::string& name_surname) const
+{
+	auto name = name_surname.substr(0, name_surname.find(' '));
+	auto surname = name_surname.substr(name_surname.find(' ') + 1);
+	auto filetered = filter_employee_by_name(name, filter_employee_by_surname(surname));
+	if (filetered.size() == 1)
+	{
+		return filetered[0];
+	}
+	else if (filetered.size() > 1)
+	{
+		throw std::runtime_error("Multiple employees found with the same name and surname.");
+	}
+	else
+	{
+		return nullptr;
+	}
 }
 
 void Database::remove_employee(const Employee* employee)
 {
+	remove_from_map(employee_by_name, employee->get_name(), employee);
+	remove_from_map(employee_by_surname, employee->get_surname(), employee);
 	remove_all(employees_, *employee);
-	auto it = employee_by_name.find(employee->get_name());
-	while (it != employee_by_name.end() && it->second != employee) it++;
-	if (it != employee_by_name.end())
-	{
-		employee_by_name.erase(it);
-	}
 }
 
-std::vector<Employee*> Database::search_employees(const std::string& reference) const
+std::vector<Employee*> Database::search_employees(const std::string& reference_name, const std::string& reference_surname) const
 {
 	std::vector<Employee*> employees;
 	for (const auto& employee : employees_)
 	{
 		employees.push_back(employee.get());
 	}
-	search_lavenstein(employees, reference);
+	search_lavenstein_name_surname(employees, reference_name, reference_surname);
 	return employees;
 }
 
@@ -572,8 +666,8 @@ std::vector<Employee*> Database::filter_employee_by_surname(const std::string& s
 
 void Database::import_from_stream(std::istream& stream)
 {
-	import_Children_from_csv_file(stream);
 	import_Parents_from_csv_file(stream);
+	import_Children_from_csv_file(stream);
 	import_Employees_from_csv_file(stream);
 	import_Lessons_from_csv_file(stream);
 }
@@ -590,8 +684,8 @@ void Database::import_from_csv_file(const std::string& filename)
 
 void Database::export_to_stream(std::ostream& stream) const
 {
-	export_Children_to_csv_file(stream);
 	export_Parents_to_csv_file(stream);
+	export_Children_to_csv_file(stream);
 	export_Employees_to_csv_file(stream);
 	export_Lessons_to_csv_file(stream);
 }

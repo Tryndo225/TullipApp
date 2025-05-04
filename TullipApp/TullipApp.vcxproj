@@ -159,21 +159,32 @@
   <ItemGroup>
     <QtMoc Include="ChildEntry.h" />
     <QtMoc Include="ChildDialog.h" />
+    <QtMoc Include="ChildLabel.h" />
+    <QtMoc Include="ChildCheckBox.h" />
     <ClInclude Include="DataBase.h" />
     <QtMoc Include="DataBaseGUI.h" />
+    <ClInclude Include="DataBase_Parser_Functions.h" />
     <ClInclude Include="DateTime.h" />
+    <QtMoc Include="clickablelabel.h" />
     <ClInclude Include="Helper_Functions.h" />
     <ClInclude Include="Lesson.h" />
+    <QtMoc Include="ParentEntry.h" />
+    <QtMoc Include="ParentDialog.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Data_Helper_Types.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ChildCheckBox.cpp" />
     <ClCompile Include="ChildDialog.cpp" />
     <ClCompile Include="ChildEntry.cpp" />
+    <ClCompile Include="ChildLabel.cpp" />
     <ClCompile Include="DataBase.cpp" />
     <ClCompile Include="DataBaseGUI.cpp" />
+    <ClCompile Include="DataBase_Parser_Functions.cpp" />
     <ClCompile Include="DateTime.cpp" />
     <ClCompile Include="Lesson.cpp" />
+    <ClCompile Include="ParentDialog.cpp" />
+    <ClCompile Include="ParentEntry.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Data_Helper_Types.cpp" />
     <ClInclude Include="DateTime_Exceptions.h" />
@@ -191,9 +202,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="ChildCheckBox.ui" />
     <QtUic Include="ChildEntry.ui" />
+    <QtUic Include="ChildLabel.ui" />
     <QtUic Include="DataBaseGUI.ui" />
     <QtUic Include="ChildDialog.ui" />
+    <QtUic Include="ParentDialog.ui" />
+    <QtUic Include="ParentEntry.ui" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\DoxyFile" />

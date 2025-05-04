@@ -125,7 +125,7 @@ std::string Date::get_date_string() const
 	return date;
 }
 
-void Date::print_short(std::ostream& stream) const { stream << get_date_string() << std::endl; }
+void Date::print_short(std::ostream& stream) const { stream << get_date_string(); }
 
 void Date::print_long(std::ostream& stream) const
 {
@@ -133,7 +133,7 @@ void Date::print_long(std::ostream& stream) const
 
 	replace_all_occurrences(output, "/", ". ");
 
-	stream << output << std::endl;
+	stream << output;
 }
 
 WeekDays Date::get_weekday_from_date(const Date& date)
@@ -238,6 +238,23 @@ bool Time::update_time(int intervals_of_fifteen)
 
 // Public members
 Time::Time(unsigned int time) : time_(time) {}
+
+Time::Time(const std::string& time_string)
+{
+	std::istringstream time_stream(time_string);
+	std::string hours, minutes, seconds;
+	std::getline(time_stream, hours, ':');
+	std::getline(time_stream, minutes, ':');
+	std::getline(time_stream, seconds);
+	unsigned short short_hours = static_cast<unsigned short>(std::stoul(hours));
+	unsigned short short_minutes = static_cast<unsigned short>(std::stoul(minutes));
+	unsigned short short_seconds = static_cast<unsigned short>(std::stoul(seconds));
+	time_ = 0;
+	update_zone(false);
+	set_seconds(short_seconds);
+	set_minutes(short_minutes);
+	set_hours(short_hours);
+}
 
 Time::Time(unsigned short hours, unsigned short minutes, unsigned short seconds)
 {
@@ -379,12 +396,12 @@ std::string Time::get_time_string() const
 
 void Time::print_short(std::ostream& stream) const
 {
-	stream << get_time_string() << std::endl;
+	stream << get_time_string();
 }
 
 void Time::print_long(std::ostream& stream) const
 {
-	stream << get_time_string() + " " + get_zone_string() << std::endl;
+	stream << get_time_string() + " " + get_zone_string();
 }
 
 Time Time::get_current_time()
@@ -465,6 +482,17 @@ DateTime::DateTime(unsigned short day, unsigned short month, unsigned int year,
 	: Date(day, month, year), Time(hours, minutes, seconds) {
 }
 
+DateTime::DateTime(const std::string& date_time_string)
+{
+	std::istringstream date_time_stream(date_time_string);
+	std::string date_string, time_string;
+	std::getline(date_time_stream, date_string, ' ');
+	std::getline(date_time_stream, time_string);
+	Date date(date_string);
+	Time time(time_string);
+	*this = DateTime(std::move(date), std::move(time));
+}
+
 DateTime::DateTime(const Date& date, const Time& time) : Date(date), Time(time) {}
 
 void DateTime::set_date(const Date& date)
@@ -487,6 +515,7 @@ void DateTime::print_short(std::ostream& stream) const
 {
 	std::ostringstream oss;
 	this->Date::print_short(oss);
+	oss << " ";
 	this->Time::print_short(oss);
 	stream << oss.str();
 }
@@ -495,6 +524,7 @@ void DateTime::print_long(std::ostream& stream) const
 {
 	std::ostringstream oss;
 	this->Date::print_long(oss);
+	oss << " ";
 	this->Time::print_long(oss);
 	stream << oss.str();
 }

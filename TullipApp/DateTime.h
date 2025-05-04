@@ -306,6 +306,13 @@ public:
 	Time(unsigned int time);
 
 	/**
+	 * @brief Constructs a `Time` from a string representation of the time.
+	 * @param time_string The string representation of the time in the format "HH:MM:SS".
+	 * @throws DateTimeError if the time string is invalid.
+	 */
+	Time(const std::string& time_string);
+
+	/**
 	 * @brief Constructs a `Time` from hours, minutes, and seconds.
 	 * @param hours The hour value.
 	 * @param minutes The minute value.
@@ -431,6 +438,12 @@ public:
 	 * @brief Default constructor.
 	 */
 	DateTime() = default;
+
+	/**
+	 * @brief Constructs a `DateTime` from an encoded date and time value.
+	 * @param date_time The encoded date and time value.
+	 */
+	DateTime(const std::string& date_time_string);
 
 	/**
 	 * @brief Constructs a `DateTime` from day, month, year, hours, minutes, and seconds.

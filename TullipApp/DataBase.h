@@ -111,7 +111,7 @@ private:
 	 * @param reference The reference string to search for.
 	 */
 	template <typename T>
-	void search_lavenstein(std::vector<T*>& vector, const std::string& reference) const;
+	void search_lavenstein_name_surname(std::vector<T*>& vector, const std::string& reference_name, const std::string& reference_surname) const;
 
 public:
 	/**
@@ -129,7 +129,7 @@ public:
 	 * @brief Adds a lesson to the database.
 	 * @param lesson The lesson to add.
 	 */
-	void add_lesson(const Lesson& lesson);
+	Lesson* add_lesson(const Lesson& lesson);
 
 	/**
 	 * @brief Removes a lesson from the database.
@@ -175,13 +175,30 @@ public:
 	 */
 	std::vector<Lesson*> filter_lesson_by_child_surname(const std::string& surname, std::optional<std::vector<Lesson*>> lessons = std::nullopt) const;
 
-	Parent* get_parent_by_name_surname(const std::string& name_surname) const;
-
 	/**
 	 * @brief Adds a parent to the database.
 	 * @param parent The parent to add.
 	 */
-	void add_parent(const Parent& parent);
+	Parent* add_parent(const Parent& parent);
+
+	/**
+	 * @brief Removes a parent's information from the maps.
+	 * @param parent A pointer to the parent to update.
+	 */
+	void update_parent_start(Parent* parent);
+
+	/**
+	 * @brief Adds a parent's information to the maps.
+	 * @param parent A pointer to the parent to update.
+	 */
+	void update_parent_end(Parent* parent);
+
+	/**
+	 * @brief Gets a parent by name and surname.
+	 * @param name_surname The name and surname of the parent to find.
+	 * @return A pointer to the parent if found, otherwise `nullptr`.
+	 */
+	Parent* get_parent_by_name_surname(const std::string& name_surname) const;
 
 	/**
 	 * @brief Removes a parent from the database.
@@ -194,7 +211,7 @@ public:
 	 * @param reference The reference string to search for.
 	 * @return A vector of pointers to parents matching the reference.
 	 */
-	std::vector<Parent*> search_parents(const std::string& reference) const;
+	std::vector<Parent*> search_parents(const std::string& reference_name, const std::string& reference_surname) const;
 
 	/**
 	 * @brief Sorts parents by name.
@@ -207,6 +224,12 @@ public:
 	 * @return A multimap of parents sorted by surname.
 	 */
 	std::multimap<std::string, Parent*> sort_parents_by_surname();
+
+	/**
+	 * @brief Sorts parents by email.
+	 * @return A multimap of parents sorted by email.
+	 */
+	std::multimap<std::string, Parent*> sort_parents_by_email();
 
 	/**
 	 * @brief Filters parents by name.
@@ -233,17 +256,10 @@ public:
 	std::vector<Parent*> filter_parent_by_email(const std::string& email, std::optional<std::vector<Parent*>> parents = std::nullopt) const;
 
 	/**
-	 * @brief Gets a child by name and surname.
-	 * @param name_surname The name and surname of the child to find.
-	 * @return A pointer to the child if found, otherwise `nullptr`.
-	 */
-	Child* get_child_by_name_surname(const std::string& name_surname) const;
-
-	/**
 	 * @brief Adds a child to the database.
 	 * @param child The child to add.
 	 */
-	void add_child(const Child& child);
+	Child* add_child(const Child& child);
 
 	/**
 	 * @brief Removes a child's information from the maps.
@@ -258,6 +274,13 @@ public:
 	void update_child_end(Child* child);
 
 	/**
+	 * @brief Gets a child by name and surname.
+	 * @param name_surname The name and surname of the child to find.
+	 * @return A pointer to the child if found, otherwise `nullptr`.
+	 */
+	Child* get_child_by_name_surname(const std::string& name_surname) const;
+
+	/**
 	 * @brief Removes a child from the database.
 	 * @param child A pointer to the child to remove.
 	 */
@@ -268,7 +291,7 @@ public:
 	 * @param reference The reference string to search for.
 	 * @return A vector of pointers to children matching the reference.
 	 */
-	std::vector<Child*> search_children(const std::string& reference) const;
+	std::vector<Child*> search_children(const std::string& reference_name, const std::string& reference_surname) const;
 
 	/**
 	 * @brief Sorts children by name.
@@ -332,7 +355,26 @@ public:
 	 * @brief Adds an employee to the database.
 	 * @param employee The employee to add.
 	 */
-	void add_employee(const Employee& employee);
+	Employee* add_employee(const Employee& employee);
+
+	/**
+	 * @brief Removes an employee's information from the maps.
+	 * @param employee A pointer to the employee to update.
+	 */
+	void update_employee_start(Employee* employee);
+
+	/**
+	 * @brief Adds an employee's information to the maps.
+	 * @param employee A pointer to the employee to update.
+	 */
+	void update_employee_end(Employee* employee);
+
+	/**
+	 * @brief Gets an employee by name and surname.
+	 * @param name_surname The name and surname of the employee to find.
+	 * @return A pointer to the employee if found, otherwise `nullptr`.
+	 */
+	Employee* get_employee_by_name_surname(const std::string& name_surname) const;
 
 	/**
 	 * @brief Removes an employee from the database.
@@ -345,7 +387,7 @@ public:
 	 * @param reference The reference string to search for.
 	 * @return A vector of pointers to employees matching the reference.
 	 */
-	std::vector<Employee*> search_employees(const std::string& reference) const;
+	std::vector<Employee*> search_employees(const std::string& reference_name, const std::string& reference_surname) const;
 
 	/**
 	 * @brief Sorts employees by name.
@@ -365,7 +407,7 @@ public:
 	 * @param employees An optional vector of employees to filter. Defaults to all employees.
 	 * @return A vector of pointers to employees matching the filter.
 	 */
-	std::vector<Employee*> filter_employee_by_name(const std::string& name, std::optional<std::vector<Employee*>> employees) const;
+	std::vector<Employee*> filter_employee_by_name(const std::string& name, std::optional<std::vector<Employee*>> employees = std::nullopt) const;
 
 	/**
 	 * @brief Filters employees by surname.
@@ -373,7 +415,7 @@ public:
 	 * @param employees An optional vector of employees to filter. Defaults to all employees.
 	 * @return A vector of pointers to employees matching the filter.
 	 */
-	std::vector<Employee*> filter_employee_by_surname(const std::string& surname, std::optional<std::vector<Employee*>> employees) const;
+	std::vector<Employee*> filter_employee_by_surname(const std::string& surname, std::optional<std::vector<Employee*>> employees = std::nullopt) const;
 
 	/**
 	 * @brief Imports data from a stream.

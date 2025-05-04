@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoWarnings>
+  <Info>Begin analysis with CppDepend v2025.1.0.35</Info>
+  <Info>Compare with analysis result obtained on 2025 April - 27 Sunday 21:37  (which is the analysis result with date closest to 30 days ago)</Info>
+  <Info>The parser used is Clang</Info>
+  <Info>8 Cores are used, you can change this value from the menu Tools-&gt;Options-&gt;Parser Configuration</Info>
+  <Info>Parsing source files...</Info>
+  <ClangError>Project:TullipApp=&gt;'QDialog' file not found at C:\Users\Timko\source\repos\Tryndo225\TullipApp\TullipApp\ChildDialog.h:4:10</ClangError>
+  <ClangError>Project:TullipApp=&gt;'ui_ChildDialog.h' file not found at C:\Users\Timko\source\repos\Tryndo225\TullipApp\TullipApp\ChildDialog.h:7:10</ClangError>
+  <ClangError>Project:TullipApp=&gt;'qmessagebox.h' file not found at C:\Users\Timko\source\repos\Tryndo225\TullipApp\TullipApp\ChildDialog.cpp:2:10</ClangError>
+  <ClangError>Project:TullipApp=&gt;'QWidget' file not found at C:\Users\Timko\source\repos\Tryndo225\TullipApp\TullipApp\ChildEntry.h:11:10</ClangError>
+  <ClangError>Project:TullipApp=&gt;'ui_ChildEntry.h' file not found at C:\Users\Timko\source\repos\Tryndo225\TullipApp\TullipApp\ChildEntry.h:12:10</ClangError>
+  <ClangError>Project:TullipApp=&gt;'QString' file not found at C:\Users\Timko\source\repos\Tryndo225\TullipApp\TullipApp\ChildEntry.cpp:2:10</ClangError>
+  <Warning>Some include files are not found for the project TullipApp,to see them you can activate the Clang parsing errors tab. You can specify additional include folders from Project Properties-&gt;Code To Analyze.</Warning>
+  <Info>No dependency cycle detected in Projects referencement graph.</Info>
+  <Info>Log trend metrics values.</Info>
+  <Info>Execute queries and rules.</Info>
+  <Warning>1 quality gate fail.
+  - 'New Blocker / Critical / High Issues' value 6 issues greater than fail threshold 0 issues</Warning>
+  <Info>CppDepend analysis done. Duration: 00:00:19</Info>
+</InfoWarnings>

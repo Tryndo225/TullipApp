@@ -20,13 +20,23 @@
 </violation>
 <violation beginline="612" begincolumn="17" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-</file><file path="c:\program files\microsoft visual studio\2022\community\vc\tools\msvc\14.42.34433\include\string"><violation beginline="471" begincolumn="24" rule="Rule7-5-4" ruleset="Declarations">
+</file><file path="c:\program files\microsoft visual studio\2022\community\vc\tools\msvc\14.42.34433\include\string"><violation beginline="132" begincolumn="24" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="132" begincolumn="24" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="132" begincolumn="24" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="471" begincolumn="24" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
 <violation beginline="471" begincolumn="24" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
 <violation beginline="475" begincolumn="24" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="471" begincolumn="24" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="132" begincolumn="24" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="132" begincolumn="24" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="132" begincolumn="24" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
 <violation beginline="471" begincolumn="24" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
@@ -36,46 +46,64 @@
 </violation>
 <violation beginline="471" begincolumn="24" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-</file><file path="c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\datetime.h"><violation beginline="130" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="471" begincolumn="24" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="182" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</file><file path="c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\datetime.h"><violation beginline="169" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="132" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="327" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="135" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
-</violation>
-<violation beginline="138" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
-</violation>
-<violation beginline="188" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="175" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
 <violation beginline="187" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="191" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="199" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="190" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
-</violation>
-<violation beginline="195" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
-</violation>
-<violation beginline="184" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="175" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
 <violation beginline="187" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="190" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="199" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="226" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="351" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="232" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="345" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="226" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="363" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="229" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="357" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-</file><file path="c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\datetime_exceptions.h"><violation beginline="27" begincolumn="2" rule="Rule10-3-2" ruleset="Classes">
+<violation beginline="381" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-</file><file path="c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\helper_functions.h"><violation beginline="43" begincolumn="2" rule="Rule6-6-5" ruleset="Statements">
+<violation beginline="333" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="81" begincolumn="3" rule="Rule6-4-2" ruleset="Statements">
+<violation beginline="345" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="10" begincolumn="1" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="357" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="381" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="333" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="345" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="357" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="464" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="464" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="488" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="464" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+<violation beginline="476" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</violation>
+</file><file path="c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\datetime_exceptions.h"><violation beginline="100" begincolumn="2" rule="Rule10-3-2" ruleset="Classes">
+</violation>
+</file><file path="c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\helper_functions.h"><violation beginline="89" begincolumn="2" rule="Rule6-6-5" ruleset="Statements">
+</violation>
+<violation beginline="155" begincolumn="3" rule="Rule6-4-2" ruleset="Statements">
+</violation>
+<violation beginline="26" begincolumn="1" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
 </file></cppdepend-plugin>

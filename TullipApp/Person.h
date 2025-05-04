@@ -8,6 +8,7 @@
 #ifndef PERSON_H_
 #define PERSON_H_
 
+#include <iostream>
 #include <string>
 #include <utility>
 #include <vector>
@@ -102,6 +103,14 @@ public:
 	 * @details Cleans up resources used by the Person object.
 	 */
 	~Person() = default;
+
+	/**
+	 * @brief Outputs the Person object to a stream.
+	 * @param stream The output stream.
+	 * @param person The Person object to output.
+	 * @return The output stream.
+	 */
+	friend std::ostream& operator<<(std::ostream& stream, const Person& person);
 };
 
 class Parent; // Forward declaration
@@ -217,6 +226,14 @@ public:
 	 * @details Cleans up resources used by the Child object.
 	 */
 	~Child() = default;
+
+	/**
+	 * @brief Outputs the Child object to a stream.
+	 * @param stream The output stream.
+	 * @param child The Child object to output.
+	 * @return The output stream.
+	 */
+	friend std::ostream& operator<<(std::ostream& stream, const Child& child);
 };
 
 /**
@@ -228,6 +245,7 @@ public:
 class Parent : public Person
 {
 protected:
+	bool is_mother_;            ///< Indicates if the parent is a mother (true) or a father (false).
 	Email email_;                 ///< The email address of the parent.
 	std::vector<Child*> children_; ///< A list of pointers to the parent's children.
 
@@ -244,7 +262,7 @@ public:
 	 * @param surname The last name of the parent.
 	 * @param email The email address of the parent (optional).
 	 */
-	Parent(const std::string& name, const std::string& surname, const std::string& email = "");
+	Parent(const std::string& name, const std::string& surname, bool is_mother, const std::string& email = "");
 
 	/**
 	 * @brief Constructs a Parent with the given attributes (rvalue).
@@ -252,7 +270,7 @@ public:
 	 * @param surname The last name of the parent (rvalue).
 	 * @param email The email address of the parent (optional, rvalue).
 	 */
-	Parent(std::string&& name, std::string&& surname, std::string&& email = "");
+	Parent(std::string&& name, std::string&& surname, bool is_mother, std::string&& email = "");
 
 	// Rule of 5
 	Parent(const Parent& parent) = default;
@@ -291,6 +309,29 @@ public:
 	inline void set_email(std::string&& email) { email_ = Email(std::forward<std::string>(email)); }
 
 	/**
+	 * @brief Checks if the parent is a mother.
+	 * @return true if the parent is a mother, false if the parent is a father.
+	 */
+	inline bool is_mother() const { return is_mother_; }
+	/**
+	 * @brief Checks if the parent is a father.
+	 * @return true if the parent is a father, false if the parent is a mother.
+	 */
+	inline bool is_father() const { return !is_mother_; }
+
+	/**
+	 * @brief Sets the parent as a mother.
+	 * @details This method sets the is_mother_ attribute to true.
+	 */
+	inline void set_as_mother() { is_mother_ = true; }
+
+	/**
+	 * @brief Sets the parent as a father.
+	 * @details This method sets the is_mother_ attribute to false.
+	 */
+	inline void set_as_father() { is_mother_ = false; }
+
+	/**
 	 * @brief Gets the list of children.
 	 * @return A constant reference to the list of children.
 	 */
@@ -313,6 +354,14 @@ public:
 	 * @details Cleans up resources used by the Parent object.
 	 */
 	~Parent() = default;
+
+	/**
+	 * @brief Outputs the Parent object to a stream.
+	 * @param stream The output stream.
+	 * @param parent The Parent object to output.
+	 * @return The output stream.
+	 */
+	friend std::ostream& operator<<(std::ostream& stream, const Parent& parent);
 };
 
 /**
@@ -400,6 +449,14 @@ public:
 	 * @details Cleans up resources used by the Employee object.
 	 */
 	~Employee() = default;
+
+	/**
+	 * @brief Outputs the Employee object to a stream.
+	 * @param stream The output stream.
+	 * @param employee The Employee object to output.
+	 * @return The output stream.
+	 */
+	friend std::ostream& operator<<(std::ostream& stream, const Employee& employee);
 };
 
-#endif
+#endif // !PERSON_H_

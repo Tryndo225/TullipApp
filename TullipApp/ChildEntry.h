@@ -24,6 +24,7 @@ class ChildEntry : public QWidget
 	Q_OBJECT
 
 signals:
+	void parrentSearchRequested(Parent* parent);
 	void editRequested(Child* child);
 	void removeRequested(Child* child);
 
@@ -35,9 +36,6 @@ public:
 	 */
 	ChildEntry(QWidget* parent, Child* child);
 
-	void on_edit_button_clicked();
-	void on_remove_button_clicked();
-
 	/**
 	 * @brief Destructor.
 	 * @details Cleans up resources used by the `ChildEntry` widget.
@@ -48,7 +46,9 @@ private:
 	Ui::ChildEntryClass ui; ///< The user interface for the child entry widget.
 	Child* child_; ///< Pointer to the `Child` object represented by this widget.
 
-	void setup_childentry();
+	void search_mother();
+	void search_father();
+	void setup_child_entry();
 };
 
 #endif // CHILDENTRY_H

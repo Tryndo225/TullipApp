@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1200</width>
+    <width>1199</width>
     <height>600</height>
    </rect>
   </property>
@@ -14,7 +14,19 @@
    <string>DataBaseGUI</string>
   </property>
   <widget class="QWidget" name="main_window">
-   <layout class="QHBoxLayout" name="horizontalLayout">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="leftMargin">
+     <number>2</number>
+    </property>
+    <property name="topMargin">
+     <number>2</number>
+    </property>
+    <property name="rightMargin">
+     <number>2</number>
+    </property>
+    <property name="bottomMargin">
+     <number>2</number>
+    </property>
     <item>
      <widget class="QTabWidget" name="tabs">
       <property name="autoFillBackground">
@@ -106,8 +118,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>1172</width>
-             <height>473</height>
+             <width>1185</width>
+             <height>487</height>
             </rect>
            </property>
            <property name="acceptDrops">
@@ -125,12 +137,28 @@
          </widget>
         </item>
         <item row="3" column="2">
-         <widget class="QLineEdit" name="children_search_bar">
+         <widget class="QLineEdit" name="children_search_name_bar">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
+          </property>
+          <property name="placeholderText">
+           <string>Search name...</string>
+          </property>
+          <property name="clearButtonEnabled">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="3">
+         <widget class="QLineEdit" name="children_search_surname_bar">
+          <property name="placeholderText">
+           <string>Search surname...</string>
+          </property>
+          <property name="clearButtonEnabled">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -140,8 +168,81 @@
        <attribute name="title">
         <string>Parents</string>
        </attribute>
-       <layout class="QVBoxLayout" name="verticalLayout_9">
-        <item>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <property name="leftMargin">
+         <number>2</number>
+        </property>
+        <property name="topMargin">
+         <number>2</number>
+        </property>
+        <property name="rightMargin">
+         <number>2</number>
+        </property>
+        <property name="bottomMargin">
+         <number>2</number>
+        </property>
+        <item row="2" column="3">
+         <widget class="QLineEdit" name="parent_search_name_bar">
+          <property name="placeholderText">
+           <string>Search name...</string>
+          </property>
+          <property name="clearButtonEnabled">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0" colspan="2">
+         <widget class="QPushButton" name="parent_add_button">
+          <property name="text">
+           <string>Add Parent</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QComboBox" name="parent_sort_selector">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="currentIndex">
+           <number>1</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>Sort By Name</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Sort By Surname</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Sort By Email</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="2" column="4">
+         <widget class="QLineEdit" name="parent_search_surname_bar">
+          <property name="placeholderText">
+           <string>Search surname...</string>
+          </property>
+          <property name="clearButtonEnabled">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="5">
          <widget class="QScrollArea" name="parents_scroll">
           <property name="widgetResizable">
            <bool>true</bool>
@@ -151,13 +252,20 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>1158</width>
-             <height>489</height>
+             <width>1185</width>
+             <height>487</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_2">
             <item>
-             <widget class="QWidget" name="widget_2" native="true"/>
+             <widget class="QWidget" name="widget_2" native="true">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+             </widget>
             </item>
            </layout>
           </widget>
@@ -169,8 +277,8 @@
        <attribute name="title">
         <string>Employees</string>
        </attribute>
-       <layout class="QVBoxLayout" name="verticalLayout_7">
-        <item>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
          <widget class="QScrollArea" name="employees_scroll">
           <property name="widgetResizable">
            <bool>true</bool>
@@ -180,12 +288,12 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>1158</width>
-             <height>489</height>
+             <width>1171</width>
+             <height>503</height>
             </rect>
            </property>
-           <layout class="QVBoxLayout" name="verticalLayout_3">
-            <item>
+           <layout class="QGridLayout" name="gridLayout_3">
+            <item row="0" column="0">
              <widget class="QWidget" name="stopper_employee" native="true"/>
             </item>
            </layout>
@@ -198,8 +306,8 @@
        <attribute name="title">
         <string>Lessons</string>
        </attribute>
-       <layout class="QVBoxLayout" name="verticalLayout_8">
-        <item>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="0">
          <widget class="QScrollArea" name="lessons_scroll">
           <property name="widgetResizable">
            <bool>true</bool>
@@ -209,8 +317,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>1158</width>
-             <height>489</height>
+             <width>1171</width>
+             <height>503</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -232,7 +340,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1200</width>
+     <width>1199</width>
      <height>21</height>
     </rect>
    </property>

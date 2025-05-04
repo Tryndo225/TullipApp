@@ -24,16 +24,16 @@
 </violation>
 <violation beginline="32" begincolumn="13" rule="Rule6-6-5" ruleset="Statements">
 </violation>
-</file><file path="c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\data_helper_types.h"><violation beginline="9" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+</file><file path="c:\users\timko\source\repos\tryndo225\tullipapp\tullipapp\data_helper_types.h"><violation beginline="26" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="9" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="26" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="9" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="26" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="29" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="76" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="56" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="151" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
-<violation beginline="83" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
+<violation beginline="226" begincolumn="2" rule="Rule7-5-4" ruleset="Declarations">
 </violation>
 </file></cppdepend-plugin>

@@ -108,7 +108,7 @@
        </widget>
       </item>
       <item row="1" column="3">
-       <widget class="QLabel" name="mother_full_name">
+       <widget class="ClickableLabel" name="mother_full_name">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
           <horstretch>0</horstretch>
@@ -142,7 +142,7 @@
        </widget>
       </item>
       <item row="0" column="3" colspan="2">
-       <widget class="QLabel" name="father_full_name">
+       <widget class="ClickableLabel" name="father_full_name">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
           <horstretch>0</horstretch>
@@ -188,6 +188,13 @@
   </layout>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>ClickableLabel</class>
+   <extends>QLabel</extends>
+   <header location="global">clickablelabel.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

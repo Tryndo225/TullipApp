@@ -34,3 +34,17 @@ size_t lavenstein_distance(const std::string& string, const std::string& referen
 	}
 	return distance[string_length][reference_length];
 }
+
+size_t search_lavenstein_name_surname_helper(const std::string& name, const std::string& surname, const std::string& reference_name, const std::string& reference_surname)
+{
+	size_t distance = 0;
+	if (!reference_name.empty())
+	{
+		distance += lavenstein_distance(name, reference_name);
+	}
+	if (!reference_surname.empty())
+	{
+		distance += lavenstein_distance(surname, reference_surname);
+	}
+	return distance;
+}

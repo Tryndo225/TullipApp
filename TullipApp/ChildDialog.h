@@ -20,6 +20,9 @@ public:
 private:
 	Child* child_;
 	Database& database_;
+	Parent* past_mom_;
+	Parent* past_dad_;
+
 	Ui::ChildDialogClass ui;
 
 	void set_parents();

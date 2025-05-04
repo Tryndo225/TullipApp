@@ -1,0 +1,72 @@
+Parents:
+Sara,Alic-Ekinovic,Mother,alicsara3012@gmail.com,{}
+
+Michael,Smith,Father,michael.smith@example.com,{Paul Allen}
+
+Sarah,Johnson,Mother,sarah.johnson@example.com,{}
+
+David,Williams,Father,david.williams@example.com,{}
+
+Emily,Brown,Mother,emily.brown@example.com,{Paul Allen}
+
+James,Jones,Father,james.jones@example.com,{Pam Allen}
+
+Olivia,Garcia,Mother,olivia.garcia@example.com,{Pam Allen}
+
+Robert,Martinez,Father,robert.martinez@example.com,{}
+
+Sophia,Hernandez,Mother,sophia.hernandez@example.com,{}
+
+William,Lopez,Father,william.lopez@example.com,{}
+
+Isabella,Gonzalez,Mother,isabella.gonzalez@example.com,{}
+
+Children:
+John,Doe,01/01/2000,No Father,No Mother
+
+Jane,Smith,02/02/2001,No Father,No Mother
+
+Alice,Johnson,03/03/2002,No Father,No Mother
+
+Bob,Brown,04/04/2003,No Father,No Mother
+
+Charlie,Davis,05/05/2004,No Father,No Mother
+
+Eve,Wilson,06/06/2005,No Father,No Mother
+
+Frank,Garcia,07/07/2006,No Father,No Mother
+
+Grace,Martinez,08/08/2007,No Father,No Mother
+
+Hank,Lopez,09/09/2008,No Father,No Mother
+
+Ivy,Gonzalez,10/10/2009,No Father,No Mother
+
+Jack,Hernandez,11/11/2010,No Father,No Mother
+
+Kathy,Clark,12/12/2011,No Father,No Mother
+
+Leo,Rodriguez,13/01/2012,No Father,No Mother
+
+Mia,Lewis,14/02/2013,No Father,No Mother
+
+Nina,Walker,15/03/2014,No Father,No Mother
+
+Oscar,Hall,16/04/2015,No Father,No Mother
+
+Pam,Allen,17/05/2016,James Jones,Olivia Garcia
+
+Paul,Allen,17/05/2016,Michael Smith,Emily Brown
+
+Quinn,Young,18/06/2017,No Father,No Mother
+
+Rita,King,19/07/2018,No Father,No Mother
+
+Sam,Wright,20/08/2019,No Father,No Mother
+
+Tina,Scott,21/09/2020,No Father,No Mother
+
+Uma,Green,22/10/2021,No Father,No Mother
+
+Employees:
+Lessons:
