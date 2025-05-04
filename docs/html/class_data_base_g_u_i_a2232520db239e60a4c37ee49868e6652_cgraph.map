@@ -1,0 +1,23 @@
+<map id="DataBaseGUI::populate_employee_tab" name="DataBaseGUI::populate_employee_tab">
+<area shape="rect" id="Node000001" title="Populates the parent tab with a multimap of parents." alt="" coords="5,115,166,157"/>
+<area shape="rect" id="Node000002" href="$class_employee_entry.html#ada71cffbda6a2614d266a6cc85d6684a" title="Signal emitted when a employee edit is requested." alt="" coords="890,5,1092,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,112,165,91,213,73,301,53,391,37,572,17,739,10,875,11,875,16,739,16,572,23,392,42,302,58,214,79,167,96,125,117"/>
+<area shape="rect" id="Node000003" href="$class_data_base_g_u_i.html#ae9c0b91905f7d70563c285cd9b5dace3" title="Edits an existing employee in the database." alt="" coords="214,123,409,149"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="166,133,198,133,198,139,166,139"/>
+<area shape="rect" id="Node000006" href="$class_data_base_g_u_i.html#a4b70294327e9c316224af10d7a369749" title="Removes an employee from the database." alt="" coords="907,77,1074,120"/>
+<area shape="poly" id="edge11_Node000001_Node000006" title=" " alt="" coords="166,117,213,108,334,85,457,71,540,68,622,71,831,81,892,86,891,92,830,87,622,76,540,73,457,76,335,91,214,113,167,122"/>
+<area shape="rect" id="Node000007" href="$class_data_base_g_u_i.html#aa5bbb368e92b4bf89edf9071df42aab3" title="Clears the parent tab." alt="" coords="907,155,1074,197"/>
+<area shape="poly" id="edge12_Node000001_Node000007" title=" " alt="" coords="166,151,214,159,387,180,522,191,657,194,831,188,891,184,892,189,831,193,657,199,521,197,386,185,213,164,166,156"/>
+<area shape="rect" id="Node000008" href="$class_employee_entry.html#a6f579e66e8fc13dbc45c940edfc50b32" title="Signal emitted when a employee removal is requested." alt="" coords="879,243,1103,269"/>
+<area shape="poly" id="edge13_Node000001_Node000008" title=" " alt="" coords="129,155,170,173,214,188,300,207,388,222,565,242,728,252,863,255,863,260,728,258,564,248,387,227,299,212,213,193,168,178,127,160"/>
+<area shape="rect" id="Node000004" href="$class_data_base_g_u_i.html#a0298d31c219c66a65a01eb01372e254d" title="Selects the appropriate sorting to use based on employee sort index." alt="" coords="457,85,622,128"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="409,121,441,117,442,122,409,126"/>
+<area shape="rect" id="Node000005" href="$class_data_base_g_u_i.html#abab0899c6a55e240687bf21734273428" title="Populates the parent tab with a list of parents." alt="" coords="670,136,831,179"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="623,124,656,132,655,137,622,129"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="777,133,823,98,877,63,936,36,938,40,880,68,826,103,780,137"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="670,156,424,144,425,139,670,151"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="830,135,891,120,893,125,832,140"/>
+<area shape="poly" id="edge9_Node000005_Node000007" title=" " alt="" coords="831,161,892,166,891,171,831,166"/>
+<area shape="poly" id="edge10_Node000005_Node000008" title=" " alt="" coords="806,177,943,234,941,239,804,182"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="907,103,638,108,638,102,907,97"/>
+</map>

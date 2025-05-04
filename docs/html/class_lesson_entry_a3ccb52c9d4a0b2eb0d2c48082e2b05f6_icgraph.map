@@ -1,0 +1,5 @@
+<map id="LessonEntry::address_clicked" name="LessonEntry::address_clicked">
+<area shape="rect" id="Node000001" title="Function called when the address label is clicked." alt="" coords="229,5,377,48"/>
+<area shape="rect" id="Node000002" href="$class_lesson_entry.html#aea1e4e5c021933e1a3063691fd1aef09" title="Constructs a LessonEntry widget." alt="" coords="5,13,181,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,29,181,29,181,24,213,24"/>
+</map>

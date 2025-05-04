@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 124;
+var viewWidth = 218;
 var viewHeight = 516;
 var sectionId = 'dynsection-0';
 </script>
@@ -59,39 +59,39 @@ var sectionId = 'dynsection-0';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title="Represents a time (hours, minutes, seconds, and time zone).">
-<polygon fill="#999999" stroke="none" points="106.12,-508 9.38,-508 9.38,-264 106.12,-264 106.12,-508"/>
-<text text-anchor="start" x="46.88" y="-494.5" font-family="Helvetica,sans-Serif" font-size="10.00">Time</text>
-<text text-anchor="start" x="13.75" y="-478.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="23.38" y="-478.5" font-family="Helvetica,sans-Serif" font-size="10.00">time_</text>
-<text text-anchor="start" x="13.38" y="-462.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="23.38" y="-462.5" font-family="Helvetica,sans-Serif" font-size="10.00">Time()</text>
-<text text-anchor="start" x="13.38" y="-446.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="23.38" y="-446.5" font-family="Helvetica,sans-Serif" font-size="10.00">Time()</text>
-<text text-anchor="start" x="13.38" y="-430.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="23.38" y="-430.5" font-family="Helvetica,sans-Serif" font-size="10.00">Time()</text>
-<text text-anchor="start" x="13.38" y="-414.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="23.38" y="-414.5" font-family="Helvetica,sans-Serif" font-size="10.00">Time()</text>
-<text text-anchor="start" x="13.38" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="23.38" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00">Time()</text>
-<text text-anchor="start" x="13.38" y="-382.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="23.38" y="-382.5" font-family="Helvetica,sans-Serif" font-size="10.00">operator=()</text>
-<text text-anchor="start" x="13.38" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="23.38" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">operator=()</text>
-<text text-anchor="start" x="13.38" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="23.38" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00">set_seconds()</text>
-<text text-anchor="start" x="13.38" y="-334.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="23.38" y="-334.5" font-family="Helvetica,sans-Serif" font-size="10.00">get_seconds()</text>
-<text text-anchor="start" x="13.38" y="-318.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="23.38" y="-318.5" font-family="Helvetica,sans-Serif" font-size="10.00">set_minutes()</text>
-<text text-anchor="start" x="23.38" y="-302.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 16 more...</text>
-<text text-anchor="start" x="13.38" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="23.38" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">get_current_time()</text>
-<text text-anchor="start" x="13.75" y="-270.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
-<text text-anchor="start" x="23.38" y="-270.5" font-family="Helvetica,sans-Serif" font-size="10.00">update_time()</text>
-<polygon fill="#666666" stroke="#666666" points="9.38,-490 9.38,-490 106.12,-490 106.12,-490 9.38,-490"/>
-<polygon fill="#666666" stroke="#666666" points="9.38,-474 9.38,-474 21.38,-474 21.38,-474 9.38,-474"/>
-<polygon fill="#666666" stroke="#666666" points="21.38,-474 21.38,-474 106.12,-474 106.12,-474 21.38,-474"/>
-<polygon fill="none" stroke="#666666" points="9.38,-264 9.38,-508 106.12,-508 106.12,-264 9.38,-264"/>
+<polygon fill="#999999" stroke="none" points="163.12,-508 66.38,-508 66.38,-264 163.12,-264 163.12,-508"/>
+<text text-anchor="start" x="103.88" y="-494.5" font-family="Helvetica,sans-Serif" font-size="10.00">Time</text>
+<text text-anchor="start" x="70.75" y="-478.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="80.38" y="-478.5" font-family="Helvetica,sans-Serif" font-size="10.00">time_</text>
+<text text-anchor="start" x="70.38" y="-462.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="80.38" y="-462.5" font-family="Helvetica,sans-Serif" font-size="10.00">Time()</text>
+<text text-anchor="start" x="70.38" y="-446.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="80.38" y="-446.5" font-family="Helvetica,sans-Serif" font-size="10.00">Time()</text>
+<text text-anchor="start" x="70.38" y="-430.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="80.38" y="-430.5" font-family="Helvetica,sans-Serif" font-size="10.00">Time()</text>
+<text text-anchor="start" x="70.38" y="-414.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="80.38" y="-414.5" font-family="Helvetica,sans-Serif" font-size="10.00">Time()</text>
+<text text-anchor="start" x="70.38" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="80.38" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00">Time()</text>
+<text text-anchor="start" x="70.38" y="-382.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="80.38" y="-382.5" font-family="Helvetica,sans-Serif" font-size="10.00">Time()</text>
+<text text-anchor="start" x="70.38" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="80.38" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">operator=()</text>
+<text text-anchor="start" x="70.38" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="80.38" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00">operator=()</text>
+<text text-anchor="start" x="70.38" y="-334.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="80.38" y="-334.5" font-family="Helvetica,sans-Serif" font-size="10.00">set_seconds()</text>
+<text text-anchor="start" x="70.38" y="-318.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="80.38" y="-318.5" font-family="Helvetica,sans-Serif" font-size="10.00">get_seconds()</text>
+<text text-anchor="start" x="80.38" y="-302.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 17 more...</text>
+<text text-anchor="start" x="70.38" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="80.38" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">get_current_time()</text>
+<text text-anchor="start" x="70.75" y="-270.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>
+<text text-anchor="start" x="80.38" y="-270.5" font-family="Helvetica,sans-Serif" font-size="10.00">update_time()</text>
+<polygon fill="#666666" stroke="#666666" points="66.38,-490 66.38,-490 163.12,-490 163.12,-490 66.38,-490"/>
+<polygon fill="#666666" stroke="#666666" points="66.38,-474 66.38,-474 78.38,-474 78.38,-474 66.38,-474"/>
+<polygon fill="#666666" stroke="#666666" points="78.38,-474 78.38,-474 163.12,-474 163.12,-474 78.38,-474"/>
+<polygon fill="none" stroke="#666666" points="66.38,-264 66.38,-508 163.12,-508 163.12,-264 66.38,-264"/>
 </a>
 </g>
 </g>
@@ -113,16 +113,16 @@ var sectionId = 'dynsection-0';
 <text text-anchor="start" x="4" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="14" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">DateTime()</text>
 <text text-anchor="start" x="4" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="14" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">operator=()</text>
+<text text-anchor="start" x="14" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">DateTime()</text>
 <text text-anchor="start" x="4" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="14" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00">operator=()</text>
 <text text-anchor="start" x="4" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="14" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">set_date()</text>
+<text text-anchor="start" x="14" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">operator=()</text>
 <text text-anchor="start" x="4" y="-54.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="14" y="-54.5" font-family="Helvetica,sans-Serif" font-size="10.00">get_date()</text>
+<text text-anchor="start" x="14" y="-54.5" font-family="Helvetica,sans-Serif" font-size="10.00">set_date()</text>
 <text text-anchor="start" x="4" y="-38.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="14" y="-38.5" font-family="Helvetica,sans-Serif" font-size="10.00">set_time()</text>
-<text text-anchor="start" x="14" y="-22.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 11 more...</text>
+<text text-anchor="start" x="14" y="-38.5" font-family="Helvetica,sans-Serif" font-size="10.00">get_date()</text>
+<text text-anchor="start" x="14" y="-22.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 12 more...</text>
 <text text-anchor="start" x="4" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="14" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">get_current_datetime()</text>
 <polygon fill="#666666" stroke="#666666" points="0,-210 0,-210 115.5,-210 115.5,-210 0,-210"/>
@@ -135,8 +135,53 @@ var sectionId = 'dynsection-0';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M57.75,-252.86C57.75,-244.52 57.75,-236.16 57.75,-227.92"/>
-<polygon fill="none" stroke="#63b8ff" points="54.25,-252.7 57.75,-262.7 61.25,-252.7 54.25,-252.7"/>
+<path fill="none" stroke="#63b8ff" d="M86.91,-253.15C85.13,-244.71 83.35,-236.26 81.59,-227.92"/>
+<polygon fill="none" stroke="#63b8ff" points="83.45,-253.67 88.94,-262.73 90.3,-252.23 83.45,-253.67"/>
+</a>
+</g>
+</g>
+<!-- Node3 -->
+<g id="Node000003" class="node">
+<title>Node3</title>
+<g id="a_Node000003"><a xlink:href="class_schedule.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="none" points="209.62,-220 133.88,-220 133.88,-8 209.62,-8 209.62,-220"/>
+<text text-anchor="start" x="151.5" y="-206.5" font-family="Helvetica,sans-Serif" font-size="10.00">Schedule</text>
+<text text-anchor="start" x="139.38" y="-190.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
+<text text-anchor="start" x="147.88" y="-190.5" font-family="Helvetica,sans-Serif" font-size="10.00">day_</text>
+<text text-anchor="start" x="137.88" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="147.88" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">Schedule()</text>
+<text text-anchor="start" x="137.88" y="-158.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="147.88" y="-158.5" font-family="Helvetica,sans-Serif" font-size="10.00">Schedule()</text>
+<text text-anchor="start" x="137.88" y="-142.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="147.88" y="-142.5" font-family="Helvetica,sans-Serif" font-size="10.00">Schedule()</text>
+<text text-anchor="start" x="137.88" y="-126.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="147.88" y="-126.5" font-family="Helvetica,sans-Serif" font-size="10.00">Schedule()</text>
+<text text-anchor="start" x="137.88" y="-110.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="147.88" y="-110.5" font-family="Helvetica,sans-Serif" font-size="10.00">Schedule()</text>
+<text text-anchor="start" x="137.88" y="-94.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="147.88" y="-94.5" font-family="Helvetica,sans-Serif" font-size="10.00">operator=()</text>
+<text text-anchor="start" x="137.88" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="147.88" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">operator=()</text>
+<text text-anchor="start" x="137.88" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="147.88" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">get_day()</text>
+<text text-anchor="start" x="137.88" y="-46.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="147.88" y="-46.5" font-family="Helvetica,sans-Serif" font-size="10.00">set_day()</text>
+<text text-anchor="start" x="137.88" y="-30.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="147.88" y="-30.5" font-family="Helvetica,sans-Serif" font-size="10.00">get_time()</text>
+<text text-anchor="start" x="147.88" y="-14.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 8 more...</text>
+<polygon fill="#666666" stroke="#666666" points="133.88,-202 133.88,-202 209.62,-202 209.62,-202 133.88,-202"/>
+<polygon fill="#666666" stroke="#666666" points="133.88,-186 133.88,-186 145.88,-186 145.88,-186 133.88,-186"/>
+<polygon fill="#666666" stroke="#666666" points="145.88,-186 145.88,-186 209.62,-186 209.62,-186 145.88,-186"/>
+<polygon fill="none" stroke="#666666" points="133.88,-8 133.88,-220 209.62,-220 209.62,-8 133.88,-8"/>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node3 -->
+<g id="edge2_Node000001_Node000003" class="edge">
+<title>Node1&#45;&gt;Node3</title>
+<g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M142.61,-253.02C144.98,-241.8 147.35,-230.56 149.67,-219.6"/>
+<polygon fill="none" stroke="#63b8ff" points="139.2,-252.23 140.56,-262.73 146.05,-253.67 139.2,-252.23"/>
 </a>
 </g>
 </g>

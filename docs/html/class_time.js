@@ -2,6 +2,7 @@ var class_time =
 [
     [ "Time", "class_time.html#a0eedb4e626b8e3fdcaf63519b86ea778", null ],
     [ "Time", "class_time.html#a27e0ce72f0c1b0d88c32c55eef26e342", null ],
+    [ "Time", "class_time.html#a1f3ef09473068d4fabab7194731522ff", null ],
     [ "Time", "class_time.html#af188ac5c1b6cb0bd774b761f0bfdc3bd", null ],
     [ "Time", "class_time.html#a84762ec51f9aa67202ad044de2e37ff5", null ],
     [ "Time", "class_time.html#a1cb90ccc61157970eca760467516a97b", null ],

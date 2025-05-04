@@ -1,0 +1,5 @@
+<map id="ChildLabel::ChildLabel" name="ChildLabel::ChildLabel">
+<area shape="rect" id="Node000001" title="Constructs a ChildLabel for a given child and sets up the UI." alt="" coords="5,5,157,32"/>
+<area shape="rect" id="Node000002" href="$class_clickable_label.html#aba68cb811a595c6d90f5c994f2b31f4b" title="Signal emitted when the label is clicked." alt="" coords="205,5,360,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,16,189,16,189,21,157,21"/>
+</map>

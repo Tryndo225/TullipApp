@@ -1,0 +1,5 @@
+<map id="Child::get_dad" name="Child::get_dad">
+<area shape="rect" id="Node000001" title="Gets the father of the child." alt="" coords="216,5,321,32"/>
+<area shape="rect" id="Node000002" href="$class_database.html#a666ab0d4f96402ecae70425b2c6863fb" title="Removes a child from the database." alt="" coords="5,5,168,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,21,168,21,168,16,200,16"/>
+</map>

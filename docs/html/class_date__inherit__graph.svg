@@ -113,16 +113,16 @@ var sectionId = 'dynsection-0';
 <text text-anchor="start" x="11.5" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="21.5" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">DateTime()</text>
 <text text-anchor="start" x="11.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="21.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">operator=()</text>
+<text text-anchor="start" x="21.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">DateTime()</text>
 <text text-anchor="start" x="11.5" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="21.5" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00">operator=()</text>
 <text text-anchor="start" x="11.5" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="21.5" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">set_date()</text>
+<text text-anchor="start" x="21.5" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">operator=()</text>
 <text text-anchor="start" x="11.5" y="-54.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="21.5" y="-54.5" font-family="Helvetica,sans-Serif" font-size="10.00">get_date()</text>
+<text text-anchor="start" x="21.5" y="-54.5" font-family="Helvetica,sans-Serif" font-size="10.00">set_date()</text>
 <text text-anchor="start" x="11.5" y="-38.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="21.5" y="-38.5" font-family="Helvetica,sans-Serif" font-size="10.00">set_time()</text>
-<text text-anchor="start" x="21.5" y="-22.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 11 more...</text>
+<text text-anchor="start" x="21.5" y="-38.5" font-family="Helvetica,sans-Serif" font-size="10.00">get_date()</text>
+<text text-anchor="start" x="21.5" y="-22.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 12 more...</text>
 <text text-anchor="start" x="11.5" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="21.5" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">get_current_datetime()</text>
 <polygon fill="#666666" stroke="#666666" points="7.5,-210 7.5,-210 123,-210 123,-210 7.5,-210"/>

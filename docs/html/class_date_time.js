@@ -1,10 +1,11 @@
 var class_date_time =
 [
     [ "DateTime", "class_date_time.html#afa7d2eb61840fe713cb4f98795c23a53", null ],
+    [ "DateTime", "class_date_time.html#ac6533d92cc1ce22a7768a029d406e2fe", null ],
     [ "DateTime", "class_date_time.html#ac463d3a3129c42752cada995b102df8b", null ],
+    [ "DateTime", "class_date_time.html#adba99df4a083c3f1d4859c60e935cf2c", null ],
     [ "DateTime", "class_date_time.html#afe2a93ac0deff24cd64b1df19b8e609d", null ],
     [ "DateTime", "class_date_time.html#a4543e8fa355d1f18d63d1b3c62008643", null ],
-    [ "DateTime", "class_date_time.html#a441be26f8869a84a597ab5a86567c5fd", null ],
     [ "~DateTime", "class_date_time.html#ab52dd76bf1b1d41ffbe74bf977fc513c", null ],
     [ "get_current_datetime", "class_date_time.html#a4456e1a9119ecd64441d20d541dc8568", null ],
     [ "get_date", "class_date_time.html#a43209e7423046122f31a5ea4d06dfcf9", null ],
@@ -20,7 +21,7 @@ var class_date_time =
     [ "operator>=", "class_date_time.html#af4350196c94c845c21893ab0286f80ed", null ],
     [ "print_long", "class_date_time.html#a570826a1b0ae205508810b5cdcc6129d", null ],
     [ "print_short", "class_date_time.html#a6f14b6b8aff8237f5768a8c1f53c026a", null ],
-    [ "set_date", "class_date_time.html#a55aeb70b786c22cd521ce0f1ce89489f", null ],
-    [ "set_time", "class_date_time.html#ac5e36db3765af3de5d7f33623dbd1ab1", null ],
+    [ "set_date", "class_date_time.html#a00b7c957d1a02b2b48639dcb661b9fde", null ],
+    [ "set_time", "class_date_time.html#abf0654f5c1fba759d370cc4ac99b4dca", null ],
     [ "operator<<", "class_date_time.html#a4428b32e7ec538b2fee1bfcf5f377f45", null ]
 ];

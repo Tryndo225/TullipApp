@@ -1,0 +1,83 @@
+<map id="TullipApp/x64/Debug/qt/moc/moc_LessonEntry.cpp" name="TullipApp/x64/Debug/qt/moc/moc_LessonEntry.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="934,5,1133,48"/>
+<area shape="rect" id="Node000002" href="$_lesson_entry_8h.html" title="Defines the LessonEntry class for managing the graphical representation of a lesson in the GUI." alt="" coords="616,96,768,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="946,51,762,94,760,89,945,46"/>
+<area shape="rect" id="Node000030" title=" " alt="" coords="792,96,931,123"/>
+<area shape="poly" id="edge45_Node000001_Node000030" title=" " alt="" coords="990,51,903,92,901,87,988,46"/>
+<area shape="rect" id="Node000031" title=" " alt="" coords="955,96,1112,123"/>
+<area shape="poly" id="edge46_Node000001_Node000031" title=" " alt="" coords="1036,49,1036,80,1031,80,1031,49"/>
+<area shape="rect" id="Node000032" title=" " alt="" coords="1135,96,1204,123"/>
+<area shape="poly" id="edge47_Node000001_Node000032" title=" " alt="" coords="1070,46,1136,85,1134,90,1067,51"/>
+<area shape="rect" id="Node000033" title=" " alt="" coords="1228,96,1388,123"/>
+<area shape="poly" id="edge48_Node000001_Node000033" title=" " alt="" coords="1105,46,1251,89,1250,94,1103,51"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,320,78,347"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="616,120,478,136,316,162,237,179,166,199,108,222,69,247,59,260,52,274,45,305,40,304,47,273,54,257,65,243,106,217,164,194,235,174,315,157,478,131,615,115"/>
+<area shape="rect" id="Node000004" href="$ui___lesson_entry_8h.html" title=" " alt="" coords="632,171,753,197"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="695,123,695,155,690,155,690,123"/>
+<area shape="rect" id="Node000015" href="$_lesson_8h.html" title="Defines the Lesson class, which represents a lesson with its associated details." alt="" coords="1603,171,1677,197"/>
+<area shape="poly" id="edge15_Node000002_Node000015" title=" " alt="" coords="769,119,780,120,1016,141,1247,158,1587,178,1587,183,1247,163,1016,147,780,125,769,124"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="212,245,330,272"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="631,198,346,247,345,242,630,193"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="354,245,516,272"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="648,200,495,243,494,238,647,195"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="540,245,674,272"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="679,200,635,237,631,233,676,196"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="699,245,859,272"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="709,196,754,233,751,237,706,200"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="883,245,1011,272"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="737,195,889,238,887,243,736,200"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1035,245,1200,272"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="754,193,1028,240,1027,245,753,198"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1224,245,1363,272"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="754,189,1209,242,1208,248,753,194"/>
+<area shape="rect" id="Node000012" href="$clickablelabel_8h.html" title="ClickableLabel class definition." alt="" coords="78,245,189,272"/>
+<area shape="poly" id="edge11_Node000004_Node000012" title=" " alt="" coords="631,194,445,215,205,247,204,242,444,210,631,189"/>
+<area shape="poly" id="edge13_Node000012_Node000003" title=" " alt="" coords="119,275,71,313,67,308,116,270"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="102,320,165,347"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="136,273,136,304,131,304,131,273"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="189,320,294,347"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="154,270,211,309,208,313,151,275"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="1445,469,1502,496"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="1636,199,1490,457,1486,455,1631,196"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="1950,320,2002,347"/>
+<area shape="poly" id="edge17_Node000015_Node000017" title=" " alt="" coords="1678,189,1764,208,1813,223,1861,243,1912,274,1954,308,1950,312,1909,279,1859,248,1812,228,1763,213,1677,194"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="1526,469,1573,496"/>
+<area shape="poly" id="edge18_Node000015_Node000018" title=" " alt="" coords="1639,198,1560,455,1555,454,1634,197"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="2027,320,2093,347"/>
+<area shape="poly" id="edge19_Node000015_Node000019" title=" " alt="" coords="1678,188,1781,207,1842,223,1902,243,1972,275,2030,309,2028,314,1970,280,1901,248,1841,228,1780,213,1677,193"/>
+<area shape="rect" id="Node000020" href="$_date_time_8h.html" title="Defines classes and utilities for working with dates, times, and combined date&#45;time values." alt="" coords="1684,320,1773,347"/>
+<area shape="poly" id="edge20_Node000015_Node000020" title=" " alt="" coords="1650,196,1715,305,1711,308,1645,199"/>
+<area shape="rect" id="Node000021" href="$_helper___functions_8h.html" title="Provides utility functions and templates for common operations." alt="" coords="1589,395,1723,421"/>
+<area shape="poly" id="edge44_Node000015_Node000021" title=" " alt="" coords="1644,198,1657,379,1652,380,1638,198"/>
+<area shape="rect" id="Node000028" href="$_person_8h.html" title="Defines the Person class and its derived classes: Child, Parent, and Employee." alt="" coords="1774,245,1848,272"/>
+<area shape="poly" id="edge34_Node000015_Node000028" title=" " alt="" coords="1671,195,1768,236,1766,241,1669,200"/>
+<area shape="poly" id="edge21_Node000020_Node000021" title=" " alt="" coords="1718,349,1681,385,1677,382,1714,345"/>
+<area shape="rect" id="Node000022" title=" " alt="" coords="1796,469,1868,496"/>
+<area shape="poly" id="edge32_Node000020_Node000022" title=" " alt="" coords="1739,346,1817,455,1812,458,1735,349"/>
+<area shape="rect" id="Node000023" title=" " alt="" coords="2022,469,2075,496"/>
+<area shape="poly" id="edge33_Node000020_Node000023" title=" " alt="" coords="1774,339,1921,363,1988,378,2024,393,2036,406,2043,422,2050,454,2045,455,2038,424,2031,409,2021,397,1986,383,1920,369,1773,344"/>
+<area shape="rect" id="Node000026" href="$_date_time___exceptions_8h.html" title="Defines error messages and the DateTimeError exception class for date and time operations." alt="" coords="1849,395,2010,421"/>
+<area shape="poly" id="edge28_Node000020_Node000026" title=" " alt="" coords="1764,345,1881,386,1879,391,1762,350"/>
+<area shape="poly" id="edge24_Node000021_Node000016" title=" " alt="" coords="1625,424,1518,467,1516,462,1623,419"/>
+<area shape="poly" id="edge27_Node000021_Node000018" title=" " alt="" coords="1639,424,1582,462,1579,458,1636,420"/>
+<area shape="poly" id="edge22_Node000021_Node000022" title=" " alt="" coords="1688,419,1788,460,1786,465,1686,424"/>
+<area shape="poly" id="edge23_Node000021_Node000023" title=" " alt="" coords="1724,419,2006,471,2005,476,1723,424"/>
+<area shape="rect" id="Node000024" title=" " alt="" coords="1596,469,1671,496"/>
+<area shape="poly" id="edge25_Node000021_Node000024" title=" " alt="" coords="1655,423,1645,455,1639,454,1650,421"/>
+<area shape="rect" id="Node000025" title=" " alt="" coords="1695,469,1772,496"/>
+<area shape="poly" id="edge26_Node000021_Node000025" title=" " alt="" coords="1671,420,1711,457,1707,461,1668,424"/>
+<area shape="poly" id="edge30_Node000026_Node000022" title=" " alt="" coords="1914,424,1862,462,1859,458,1911,420"/>
+<area shape="poly" id="edge29_Node000026_Node000023" title=" " alt="" coords="1952,420,2016,459,2013,463,1949,424"/>
+<area shape="rect" id="Node000027" title=" " alt="" coords="1892,469,1970,496"/>
+<area shape="poly" id="edge31_Node000026_Node000027" title=" " alt="" coords="1932,422,1933,454,1928,454,1927,422"/>
+<area shape="poly" id="edge38_Node000028_Node000016" title=" " alt="" coords="1775,273,1717,293,1656,322,1609,355,1564,393,1497,459,1493,456,1561,389,1605,351,1653,318,1715,288,1773,268"/>
+<area shape="poly" id="edge37_Node000028_Node000017" title=" " alt="" coords="1841,270,1937,312,1935,317,1839,275"/>
+<area shape="poly" id="edge39_Node000028_Node000019" title=" " alt="" coords="1849,268,2013,316,2011,321,1847,273"/>
+<area shape="poly" id="edge40_Node000028_Node000020" title=" " alt="" coords="1798,275,1756,312,1752,308,1795,271"/>
+<area shape="poly" id="edge43_Node000028_Node000021" title=" " alt="" coords="1775,269,1721,286,1696,301,1674,322,1661,350,1657,380,1652,379,1656,348,1670,318,1692,297,1719,282,1773,264"/>
+<area shape="poly" id="edge35_Node000028_Node000022" title=" " alt="" coords="1815,272,1832,454,1827,454,1809,273"/>
+<area shape="poly" id="edge36_Node000028_Node000023" title=" " alt="" coords="1820,271,1846,308,1865,328,1886,344,1909,356,1931,360,1974,361,1994,361,2014,365,2033,375,2052,393,2059,408,2062,424,2059,454,2054,454,2057,424,2054,409,2047,396,2030,379,2012,370,1994,366,1974,366,1930,366,1907,361,1883,349,1861,331,1842,311,1816,274"/>
+<area shape="rect" id="Node000029" href="$_data___helper___types_8h.html" title="Defines utility classes for managing contact&#45;related data such as email, phone, and address." alt="" coords="2136,395,2283,421"/>
+<area shape="poly" id="edge41_Node000028_Node000029" title=" " alt="" coords="1827,270,1874,307,1906,327,1938,344,2018,367,2124,389,2122,394,2017,372,1937,349,1903,332,1871,312,1823,275"/>
+<area shape="poly" id="edge42_Node000029_Node000023" title=" " alt="" coords="2182,424,2090,465,2088,461,2180,419"/>
+</map>

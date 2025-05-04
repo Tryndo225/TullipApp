@@ -1,12 +1,21 @@
 var searchData=
 [
-  ['edit_5fbutton_0',['edit_button',['../class_ui___child_entry_class.html#a62e527c1d47479bff04f93620b8e305e',1,'Ui_ChildEntryClass']]],
-  ['email_5f_1',['email_',['../class_email.html#a3c6e98c91514d94039bc381dc92f1ab9',1,'Email::email_'],['../class_parent.html#a7f3c3e1be80690ebb13f8106990e29a7',1,'Parent::email_'],['../class_employee.html#a760696154352c3c543ad0bf300304ebb',1,'Employee::email_']]],
-  ['employee_5fby_5fname_2',['employee_by_name',['../class_database.html#a25f22fe9bbbf098e1aeeb8ba9e16a600',1,'Database']]],
-  ['employee_5fby_5fsurname_3',['employee_by_surname',['../class_database.html#a01ae7991c368b316749b0e55765700d1',1,'Database']]],
-  ['employees_5f_4',['employees_',['../class_database.html#a1a27afaf77af5b3b8f8c7435232f9cb4',1,'Database::employees_'],['../class_lesson.html#aabccab140cb0ffb5b663bf28242e0549',1,'Lesson::employees_']]],
-  ['employees_5fscroll_5',['employees_scroll',['../class_ui___data_base_g_u_i_class.html#a0accd342fae3bf1117f2f667b7f8916b',1,'Ui_DataBaseGUIClass']]],
-  ['employees_5fscroll_5fcontents_6',['employees_scroll_contents',['../class_ui___data_base_g_u_i_class.html#af1b3020c322f1cf8713b1d66966159c6',1,'Ui_DataBaseGUIClass']]],
-  ['emplyees_5ftab_7',['emplyees_tab',['../class_ui___data_base_g_u_i_class.html#a0f1b60dbb163b76d44f66e585c16081d',1,'Ui_DataBaseGUIClass']]],
-  ['export_5fto_8',['export_to',['../class_ui___data_base_g_u_i_class.html#ad393ba8af12eb29460aba8a6f92cc939',1,'Ui_DataBaseGUIClass']]]
+  ['edit_5fbutton_0',['edit_button',['../class_ui___child_entry_class.html#a62e527c1d47479bff04f93620b8e305e',1,'Ui_ChildEntryClass::edit_button'],['../class_ui___employee_entry_class.html#a4383475d7dc947cde6d26bb2f7d221e4',1,'Ui_EmployeeEntryClass::edit_button'],['../class_ui___parent_entry_class.html#a2e15f1853cb30f3066b3f15fa9d7f88a',1,'Ui_ParentEntryClass::edit_button']]],
+  ['email_1',['email',['../class_ui___employee_entry_class.html#a5c88f0e2be1ec61d12714e9a5b6e7729',1,'Ui_EmployeeEntryClass::email'],['../class_ui___parent_entry_class.html#aa8645e76ece8788482924b225c03c8d4',1,'Ui_ParentEntryClass::email']]],
+  ['email_5f_2',['email_',['../class_email.html#a3c6e98c91514d94039bc381dc92f1ab9',1,'Email::email_'],['../class_parent.html#a7f3c3e1be80690ebb13f8106990e29a7',1,'Parent::email_'],['../class_employee.html#a760696154352c3c543ad0bf300304ebb',1,'Employee::email_']]],
+  ['email_5fedit_3',['email_edit',['../class_ui___employee_dialog_class.html#a20d2f533ac025cbd7f87fcc91fa2e38a',1,'Ui_EmployeeDialogClass::email_edit'],['../class_ui___parent_dialog_class.html#a17657ad87a41978bbabdfe433d9ac00f',1,'Ui_ParentDialogClass::email_edit']]],
+  ['email_5flabel_4',['email_label',['../class_ui___employee_dialog_class.html#addf24f13ddc26d94384a3847c4036192',1,'Ui_EmployeeDialogClass::email_label'],['../class_ui___parent_dialog_class.html#a384ac24b78e5156e855dca90d12149f7',1,'Ui_ParentDialogClass::email_label']]],
+  ['employee_5f_5',['employee_',['../class_employee_dialog.html#a99f59c0b673d5d463b43f4f78192b4f7',1,'EmployeeDialog::employee_'],['../class_employee_entry.html#a8d3f1d30f88a05ca95f047f220313e85',1,'EmployeeEntry::employee_']]],
+  ['employee_5fadd_5fbutton_6',['employee_add_button',['../class_ui___data_base_g_u_i_class.html#ac645bdd34e9084389f81b5bec55f91e5',1,'Ui_DataBaseGUIClass']]],
+  ['employee_5fby_5fname_7',['employee_by_name',['../class_database.html#a25f22fe9bbbf098e1aeeb8ba9e16a600',1,'Database']]],
+  ['employee_5fby_5fsurname_8',['employee_by_surname',['../class_database.html#a01ae7991c368b316749b0e55765700d1',1,'Database']]],
+  ['employee_5fsearch_5fname_5fbar_9',['employee_search_name_bar',['../class_ui___data_base_g_u_i_class.html#af8be35a7cc5e0aeab145c767954f49b7',1,'Ui_DataBaseGUIClass']]],
+  ['employee_5fsearch_5fsurname_5fbar_10',['employee_search_surname_bar',['../class_ui___data_base_g_u_i_class.html#ae68b012ac90731b89098dc412ceee256',1,'Ui_DataBaseGUIClass']]],
+  ['employee_5fsort_5findex_5f_11',['employee_sort_index_',['../class_data_base_g_u_i.html#a826b4622cfe015aa862eb7e32d39b1d4',1,'DataBaseGUI']]],
+  ['employee_5fsort_5fselector_12',['employee_sort_selector',['../class_ui___data_base_g_u_i_class.html#a01fdcaf853c8ffb9ff4002d66acd970a',1,'Ui_DataBaseGUIClass']]],
+  ['employees_5f_13',['employees_',['../class_database.html#a1a27afaf77af5b3b8f8c7435232f9cb4',1,'Database::employees_'],['../class_lesson.html#aabccab140cb0ffb5b663bf28242e0549',1,'Lesson::employees_']]],
+  ['employees_5fscroll_14',['employees_scroll',['../class_ui___data_base_g_u_i_class.html#a0accd342fae3bf1117f2f667b7f8916b',1,'Ui_DataBaseGUIClass']]],
+  ['employees_5fscroll_5fcontents_15',['employees_scroll_contents',['../class_ui___data_base_g_u_i_class.html#af1b3020c322f1cf8713b1d66966159c6',1,'Ui_DataBaseGUIClass']]],
+  ['emplyees_5ftab_16',['emplyees_tab',['../class_ui___data_base_g_u_i_class.html#a0f1b60dbb163b76d44f66e585c16081d',1,'Ui_DataBaseGUIClass']]],
+  ['export_5fto_17',['export_to',['../class_ui___data_base_g_u_i_class.html#ad393ba8af12eb29460aba8a6f92cc939',1,'Ui_DataBaseGUIClass']]]
 ];

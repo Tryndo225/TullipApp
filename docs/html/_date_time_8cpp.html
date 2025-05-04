@@ -106,6 +106,7 @@ $(function(){initNavTree('_date_time_8cpp.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;sstream&gt;</code><br />
 <code>#include &quot;<a class="el" href="_date_time_8h_source.html">DateTime.h</a>&quot;</code><br />
+<code>#include &lt;format&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for DateTime.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -122,18 +123,26 @@ Functions</h2></td></tr>
 <tr class="memitem:a7bd2abf7acfac6cf3b3d3020dacaf3c2" id="r_a7bd2abf7acfac6cf3b3d3020dacaf3c2"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bd2abf7acfac6cf3b3d3020dacaf3c2">operator&lt;&lt;</a> (std::ostream &amp;stream, const <a class="el" href="_date_time_8h.html#a18ea97ce6c7a0ad2f40c4bd1ac7b26d2">Months</a> &amp;month)</td></tr>
 <tr class="memdesc:a7bd2abf7acfac6cf3b3d3020dacaf3c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outputs a <code><a class="el" href="_date_time_8h.html#a18ea97ce6c7a0ad2f40c4bd1ac7b26d2" title="Represents the months of the year.">Months</a></code> enum value to a stream.  <br /></td></tr>
 <tr class="separator:a7bd2abf7acfac6cf3b3d3020dacaf3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9b1c7d25933254e543ac0e1b6d73a94" id="r_aa9b1c7d25933254e543ac0e1b6d73a94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_date_time_8h.html#a18ea97ce6c7a0ad2f40c4bd1ac7b26d2">Months</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9b1c7d25933254e543ac0e1b6d73a94">string_to_month</a> (const std::string &amp;month_string)</td></tr>
+<tr class="memdesc:aa9b1c7d25933254e543ac0e1b6d73a94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a string representation of a month to its corresponding <code><a class="el" href="_date_time_8h.html#a18ea97ce6c7a0ad2f40c4bd1ac7b26d2" title="Represents the months of the year.">Months</a></code> enum value.  <br /></td></tr>
+<tr class="separator:aa9b1c7d25933254e543ac0e1b6d73a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1783c3bc3f494fc8f7cb7dc1e6bc998b" id="r_a1783c3bc3f494fc8f7cb7dc1e6bc998b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1783c3bc3f494fc8f7cb7dc1e6bc998b">weekday_to_string</a> (<a class="el" href="_date_time_8h.html#a1b58ae8e815bb60c62f73f3802416743">WeekDays</a> weekday)</td></tr>
 <tr class="memdesc:a1783c3bc3f494fc8f7cb7dc1e6bc998b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a <code><a class="el" href="_date_time_8h.html#a1b58ae8e815bb60c62f73f3802416743" title="Represents the days of the week.">WeekDays</a></code> enum value to its string representation.  <br /></td></tr>
 <tr class="separator:a1783c3bc3f494fc8f7cb7dc1e6bc998b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bb6582c1a4e97a3bb992150fd18d2b4" id="r_a4bb6582c1a4e97a3bb992150fd18d2b4"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bb6582c1a4e97a3bb992150fd18d2b4">operator&lt;&lt;</a> (std::ostream &amp;stream, const <a class="el" href="_date_time_8h.html#a1b58ae8e815bb60c62f73f3802416743">WeekDays</a> &amp;weekday)</td></tr>
 <tr class="memdesc:a4bb6582c1a4e97a3bb992150fd18d2b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outputs a <code><a class="el" href="_date_time_8h.html#a1b58ae8e815bb60c62f73f3802416743" title="Represents the days of the week.">WeekDays</a></code> enum value to a stream.  <br /></td></tr>
 <tr class="separator:a4bb6582c1a4e97a3bb992150fd18d2b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71e5b7f32ee97289a7459f267d4338b5" id="r_a71e5b7f32ee97289a7459f267d4338b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_date_time_8h.html#a1b58ae8e815bb60c62f73f3802416743">WeekDays</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71e5b7f32ee97289a7459f267d4338b5">string_to_weekday</a> (const std::string &amp;weekday_string)</td></tr>
+<tr class="memdesc:a71e5b7f32ee97289a7459f267d4338b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a string representation of a weekday to its corresponding <code><a class="el" href="_date_time_8h.html#a1b58ae8e815bb60c62f73f3802416743" title="Represents the days of the week.">WeekDays</a></code> enum value.  <br /></td></tr>
+<tr class="separator:a71e5b7f32ee97289a7459f267d4338b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c4ff6ff6215424fcec7bea646913a2d" id="r_a4c4ff6ff6215424fcec7bea646913a2d"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c4ff6ff6215424fcec7bea646913a2d">operator&lt;&lt;</a> (std::ostream &amp;stream, const <a class="el" href="class_date.html">Date</a> &amp;date)</td></tr>
 <tr class="separator:a4c4ff6ff6215424fcec7bea646913a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51bd0fe65976379c55deefc3a495680b" id="r_a51bd0fe65976379c55deefc3a495680b"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51bd0fe65976379c55deefc3a495680b">operator&lt;&lt;</a> (std::ostream &amp;stream, const <a class="el" href="class_time.html">Time</a> &amp;time)</td></tr>
 <tr class="separator:a51bd0fe65976379c55deefc3a495680b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4428b32e7ec538b2fee1bfcf5f377f45" id="r_a4428b32e7ec538b2fee1bfcf5f377f45"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4428b32e7ec538b2fee1bfcf5f377f45">operator&lt;&lt;</a> (std::ostream &amp;stream, const <a class="el" href="class_date_time.html">DateTime</a> &amp;dateTime)</td></tr>
 <tr class="separator:a4428b32e7ec538b2fee1bfcf5f377f45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d68fb0c1961d13c9560cc0ac52e649a" id="r_a2d68fb0c1961d13c9560cc0ac52e649a"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d68fb0c1961d13c9560cc0ac52e649a">operator&lt;&lt;</a> (std::ostream &amp;stream, const <a class="el" href="class_schedule.html">Schedule</a> &amp;schedule)</td></tr>
+<tr class="separator:a2d68fb0c1961d13c9560cc0ac52e649a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ac0d72f34c4a4de35eed4698e9766663d" name="ac0d72f34c4a4de35eed4698e9766663d"></a>
@@ -170,7 +179,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a4c4ff6ff6215424fcec7bea646913a2d" name="a4c4ff6ff6215424fcec7bea646913a2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c4ff6ff6215424fcec7bea646913a2d">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c4ff6ff6215424fcec7bea646913a2d">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -199,7 +208,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a4428b32e7ec538b2fee1bfcf5f377f45" name="a4428b32e7ec538b2fee1bfcf5f377f45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4428b32e7ec538b2fee1bfcf5f377f45">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4428b32e7ec538b2fee1bfcf5f377f45">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228,7 +237,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a7bd2abf7acfac6cf3b3d3020dacaf3c2" name="a7bd2abf7acfac6cf3b3d3020dacaf3c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bd2abf7acfac6cf3b3d3020dacaf3c2">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bd2abf7acfac6cf3b3d3020dacaf3c2">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,8 +274,37 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a2d68fb0c1961d13c9560cc0ac52e649a" name="a2d68fb0c1961d13c9560cc0ac52e649a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d68fb0c1961d13c9560cc0ac52e649a">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_schedule.html">Schedule</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>schedule</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stream</td><td>The output stream. </td></tr>
+    <tr><td class="paramname">schedule</td><td>The <code><a class="el" href="class_schedule.html">Schedule</a></code> object to output. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The output stream. </dd></dl>
+
+</div>
+</div>
 <a id="a51bd0fe65976379c55deefc3a495680b" name="a51bd0fe65976379c55deefc3a495680b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51bd0fe65976379c55deefc3a495680b">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a51bd0fe65976379c55deefc3a495680b">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -295,7 +333,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a4bb6582c1a4e97a3bb992150fd18d2b4" name="a4bb6582c1a4e97a3bb992150fd18d2b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bb6582c1a4e97a3bb992150fd18d2b4">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bb6582c1a4e97a3bb992150fd18d2b4">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -332,6 +370,77 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aa9b1c7d25933254e543ac0e1b6d73a94" name="aa9b1c7d25933254e543ac0e1b6d73a94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9b1c7d25933254e543ac0e1b6d73a94">&#9670;&#160;</a></span>string_to_month()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_date_time_8h.html#a18ea97ce6c7a0ad2f40c4bd1ac7b26d2">Months</a> string_to_month </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>month_string</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts a string representation of a month to its corresponding <code><a class="el" href="_date_time_8h.html#a18ea97ce6c7a0ad2f40c4bd1ac7b26d2" title="Represents the months of the year.">Months</a></code> enum value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">month_string</td><td>The string representation of the month. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The corresponding <code><a class="el" href="_date_time_8h.html#a18ea97ce6c7a0ad2f40c4bd1ac7b26d2" title="Represents the months of the year.">Months</a></code> enum value. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="class_date_time_error.html" title="Exception class for DateTime-related errors.">DateTimeError</a></td><td>if the month string is invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a71e5b7f32ee97289a7459f267d4338b5" name="a71e5b7f32ee97289a7459f267d4338b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71e5b7f32ee97289a7459f267d4338b5">&#9670;&#160;</a></span>string_to_weekday()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_date_time_8h.html#a1b58ae8e815bb60c62f73f3802416743">WeekDays</a> string_to_weekday </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>weekday_string</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts a string representation of a weekday to its corresponding <code><a class="el" href="_date_time_8h.html#a1b58ae8e815bb60c62f73f3802416743" title="Represents the days of the week.">WeekDays</a></code> enum value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">weekday_string</td><td>The string representation of the weekday. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The corresponding <code><a class="el" href="_date_time_8h.html#a1b58ae8e815bb60c62f73f3802416743" title="Represents the days of the week.">WeekDays</a></code> enum value. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="class_date_time_error.html" title="Exception class for DateTime-related errors.">DateTimeError</a></td><td>if the weekday string is invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-4" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="_date_time_8cpp_a71e5b7f32ee97289a7459f267d4338b5_icgraph.svg" width="327" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a1783c3bc3f494fc8f7cb7dc1e6bc998b" name="a1783c3bc3f494fc8f7cb7dc1e6bc998b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1783c3bc3f494fc8f7cb7dc1e6bc998b">&#9670;&#160;</a></span>weekday_to_string()</h2>
 
@@ -355,12 +464,12 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A string representation of the weekday. </dd></dl>
-<div id="dynsection-4" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-5" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_date_time_8cpp_a1783c3bc3f494fc8f7cb7dc1e6bc998b_icgraph.svg" width="344" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="_date_time_8cpp_a1783c3bc3f494fc8f7cb7dc1e6bc998b_icgraph.svg" width="364" height="206"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

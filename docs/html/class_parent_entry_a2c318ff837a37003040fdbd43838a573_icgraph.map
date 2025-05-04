@@ -1,0 +1,7 @@
+<map id="ParentEntry::email_clicked" name="ParentEntry::email_clicked">
+<area shape="rect" id="Node000001" title="Handles the email label click event." alt="" coords="399,5,528,48"/>
+<area shape="rect" id="Node000002" href="$class_parent_entry.html#afbc19a7aa219add3dd8efa219c1b713d" title="Sets up the parent entry widget." alt="" coords="221,5,351,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="383,29,351,29,351,24,383,24"/>
+<area shape="rect" id="Node000003" href="$class_parent_entry.html#a336ea0e092db59f6838eacc73bdee3da" title="Constructs a ParentEntry widget." alt="" coords="5,13,173,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="205,29,173,29,173,24,205,24"/>
+</map>

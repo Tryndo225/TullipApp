@@ -1,9 +1,9 @@
 <map id="Person" name="Person">
-<area shape="rect" id="Node000001" title="Represents a generic person." alt="" coords="146,5,253,373"/>
-<area shape="rect" id="Node000002" href="$class_child.html" title="Represents a child." alt="" coords="5,453,106,779"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,355,121,422,109,459,104,457,116,420,139,354"/>
-<area shape="rect" id="Node000003" href="$class_employee.html" title="Represents an employee." alt="" coords="131,421,269,811"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,388,202,421,197,421,197,388"/>
-<area shape="rect" id="Node000004" href="$class_parent.html" title="Represents a parent." alt="" coords="293,421,402,811"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="261,355,284,420,296,455,291,457,279,422,256,357"/>
+<area shape="rect" id="Node000001" title="Represents a generic person." alt="" coords="133,5,240,373"/>
+<area shape="rect" id="Node000002" href="$class_child.html" title="Represents a child." alt="" coords="5,421,106,747"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,366,109,432,104,431,126,364"/>
+<area shape="rect" id="Node000003" href="$class_employee.html" title="Represents an employee." alt="" coords="130,421,242,747"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,388,189,421,184,421,184,388"/>
+<area shape="rect" id="Node000004" href="$class_parent.html" title="Represents a parent." alt="" coords="267,421,368,747"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="247,364,269,431,264,432,242,366"/>
 </map>

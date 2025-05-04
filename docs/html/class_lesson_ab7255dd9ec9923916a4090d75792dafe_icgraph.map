@@ -1,13 +1,17 @@
 <map id="Lesson::Lesson" name="Lesson::Lesson">
-<area shape="rect" id="Node000001" title="Default constructor." alt="" coords="188,107,301,133"/>
+<area shape="rect" id="Node000001" title="Default constructor." alt="" coords="188,157,301,184"/>
 <area shape="rect" id="Node000002" href="$class_lesson.html#a2d9566d405565cbe6c20ccb726aaa954" title=" " alt="" coords="16,5,129,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,99,179,72,138,46,114,35,116,30,141,42,182,68,217,95"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,146,189,95,165,69,138,46,118,35,121,30,141,42,169,65,193,92,229,142"/>
 <area shape="rect" id="Node000003" href="$class_lesson.html#a33528264f74b4de65791ea8e3e84c194" title=" " alt="" coords="16,56,129,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,104,120,86,121,81,183,99"/>
-<area shape="rect" id="Node000004" href="$class_lesson.html#ac36dbe3d93b42d65fff776b55648ab52" title=" " alt="" coords="9,107,136,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,123,136,123,136,117,172,117"/>
-<area shape="rect" id="Node000005" href="$class_lesson.html#a3c3524fc3e6644d045d3331705dded56" title=" " alt="" coords="9,157,136,184"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="183,141,121,159,120,154,181,136"/>
-<area shape="rect" id="Node000006" href="$class_lesson.html#abd458f81176f31c6848e067c213a2b38" title="Equality operator." alt="" coords="5,208,140,235"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="217,145,182,172,141,198,116,210,114,205,138,194,179,168,214,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="214,150,179,123,138,97,114,86,116,81,141,92,182,118,217,145"/>
+<area shape="rect" id="Node000004" href="$class_lesson.html#a0071a93be4e2bb56df64732d237bacb9" title="Outputs the Lesson object to a stream." alt="" coords="5,107,140,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="181,155,120,136,121,131,183,150"/>
+<area shape="rect" id="Node000005" href="$class_lesson.html#ac36dbe3d93b42d65fff776b55648ab52" title=" " alt="" coords="9,157,136,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="172,173,136,173,136,168,172,168"/>
+<area shape="rect" id="Node000006" href="$class_lesson.html#a3c3524fc3e6644d045d3331705dded56" title=" " alt="" coords="9,208,136,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="183,192,121,210,120,205,181,186"/>
+<area shape="rect" id="Node000007" href="$class_lesson.html#abd458f81176f31c6848e067c213a2b38" title="Equality operator." alt="" coords="5,259,140,285"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="217,196,182,223,141,249,116,261,114,256,138,244,179,219,214,192"/>
+<area shape="rect" id="Node000008" href="$class_lesson.html#a2ba1e0f3d8446333012273f40494e8d0" title="Destructor." alt="" coords="12,309,133,336"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="229,199,193,249,169,276,141,300,121,311,118,306,138,295,165,272,189,246,225,196"/>
 </map>

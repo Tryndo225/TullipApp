@@ -1,0 +1,16 @@
+<map id="DataBaseGUI::populate_lesson_tab" name="DataBaseGUI::populate_lesson_tab">
+<area shape="rect" id="Node000001" title="Populates the lessons tab with a multimap of lessons." alt="" coords="5,40,166,83"/>
+<area shape="rect" id="Node000002" href="$class_data_base_g_u_i.html#a66a3e89a9852de3522d98f2c1f8cdeed" title="Removes a lesson from the database." alt="" coords="214,40,363,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,59,198,59,198,64,166,64"/>
+<area shape="rect" id="Node000005" href="$class_data_base_g_u_i.html#a2cb0d5bb3e2e1795dd1e9fd61d51544c" title="Clears the lessons tab." alt="" coords="848,5,998,48"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="157,37,213,25,385,11,556,7,710,10,833,17,833,22,710,16,556,12,385,16,214,31,158,42"/>
+<area shape="rect" id="Node000006" href="$class_lesson_entry.html#ac407f16eaac263953c0c07079cac4064" title="Signal emitted when a lesson removal is requested." alt="" coords="819,84,1027,111"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="165,81,214,92,312,109,411,117,514,121,619,119,803,107,804,112,619,124,514,126,411,123,311,114,213,97,163,86"/>
+<area shape="rect" id="Node000003" href="$class_data_base_g_u_i.html#a1ad152b7becf3e0051cdd5dbae6d4abc" title="Selects the appropriate sorting to use based on lesson sort index." alt="" coords="411,65,562,108"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="364,68,396,72,395,78,363,74"/>
+<area shape="rect" id="Node000004" href="$class_data_base_g_u_i.html#aa6b02e4e81b0113fb1c75d7d5ef0be59" title="Populates the lessons tab with a list of lessons." alt="" coords="610,40,771,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="563,75,594,71,595,76,563,80"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="610,58,562,56,411,56,379,57,379,52,411,51,562,51,610,53"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="770,47,833,37,833,43,771,52"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="771,71,818,78,817,84,770,76"/>
+</map>

@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['ui_5fchilddialog_2eh_0',['ui_ChildDialog.h',['../ui___child_dialog_8h.html',1,'']]],
-  ['ui_5fchildentry_2eh_1',['ui_ChildEntry.h',['../ui___child_entry_8h.html',1,'']]],
-  ['ui_5fdatabasegui_2eh_2',['ui_DataBaseGUI.h',['../ui___data_base_g_u_i_8h.html',1,'']]]
+  ['parentdialog_2ecpp_0',['ParentDialog.cpp',['../_parent_dialog_8cpp.html',1,'']]],
+  ['parentdialog_2eh_1',['ParentDialog.h',['../_parent_dialog_8h.html',1,'']]],
+  ['parententry_2ecpp_2',['ParentEntry.cpp',['../_parent_entry_8cpp.html',1,'']]],
+  ['parententry_2eh_3',['ParentEntry.h',['../_parent_entry_8h.html',1,'']]],
+  ['person_2ecpp_4',['Person.cpp',['../_person_8cpp.html',1,'']]],
+  ['person_2eh_5',['Person.h',['../_person_8h.html',1,'']]]
 ];

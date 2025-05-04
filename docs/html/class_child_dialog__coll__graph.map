@@ -1,24 +1,25 @@
 <map id="ChildDialog" name="ChildDialog">
-<area shape="rect" id="Node000001" title=" " alt="" coords="209,1948,340,2103"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="18,1409,76,1479"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="42,1494,35,1573,36,1673,41,1727,52,1781,68,1833,90,1883,115,1916,145,1946,178,1971,211,1991,208,1995,175,1975,141,1950,111,1920,86,1885,63,1835,47,1782,36,1728,31,1673,30,1572,37,1493"/>
-<area shape="rect" id="Node000003" href="$class_child.html" title="Represents a child." alt="" coords="100,1303,201,1585"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,1585,183,1730,197,1808,216,1883,233,1932,228,1934,211,1885,192,1809,177,1731,158,1585"/>
-<area shape="rect" id="Node000004" href="$class_person.html" title="Represents a generic person." alt="" coords="5,124,112,492"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="65,507,73,708,87,924,108,1122,132,1302,127,1303,103,1123,82,924,68,709,60,507"/>
-<area shape="rect" id="Node000006" href="$class_parent.html" title="Represents a parent." alt="" coords="96,556,205,924"/>
-<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="104,506,114,556,109,557,98,507"/>
-<area shape="rect" id="Node000005" href="$class_date.html" title="Represents a date (day, month, year)." alt="" coords="229,577,403,903"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="249,903,216,1005,186,1148,167,1286,162,1285,181,1147,211,1003,244,902"/>
-<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="154,924,154,1286,148,1286,148,924"/>
-<area shape="rect" id="Node000007" href="$class_email.html" title="Represents an email address." alt="" coords="137,156,232,460"/>
-<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="175,460,169,539,164,539,170,459"/>
-<area shape="rect" id="Node000008" href="$class_contacts.html" title="Base class for contact&#45;related utilities." alt="" coords="116,5,252,75"/>
-<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="187,90,187,156,182,156,182,90"/>
-<area shape="rect" id="Node000009" href="$class_database.html" title="Manages data related to lessons, parents, children, and employees." alt="" coords="226,1004,410,1884"/>
-<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="288,1884,284,1931,279,1931,283,1884"/>
-<area shape="rect" id="Node000010" href="$class_ui_1_1_child_dialog_class.html" title=" " alt="" coords="434,1409,566,1479"/>
-<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="504,1478,502,1555,492,1659,482,1716,468,1774,449,1831,424,1885,393,1930,355,1968,351,1964,388,1927,419,1883,444,1829,463,1773,477,1715,486,1658,497,1555,498,1478"/>
-<area shape="rect" id="Node000011" href="$class_ui___child_dialog_class.html" title=" " alt="" coords="434,588,566,892"/>
-<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="503,907,503,1409,498,1409,498,907"/>
+<area shape="rect" id="Node000001" title="Dialog for managing child&#45;related information." alt="" coords="193,1937,324,2092"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,1383,63,1452"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="28,1467,18,1558,16,1614,18,1675,26,1737,40,1799,63,1858,95,1912,116,1935,141,1955,194,1986,191,1990,138,1959,112,1939,91,1915,58,1860,35,1801,20,1738,13,1675,11,1614,13,1557,23,1466"/>
+<area shape="rect" id="Node000003" href="$class_child.html" title="Represents a child." alt="" coords="208,1276,309,1559"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="261,1558,261,1921,256,1921,256,1558"/>
+<area shape="rect" id="Node000004" href="$class_person.html" title="Represents a generic person." alt="" coords="274,124,381,492"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="362,507,366,556,379,719,378,791,366,882,359,912,346,939,334,951,323,963,294,1040,274,1121,263,1202,258,1277,253,1276,258,1201,269,1120,289,1038,319,960,330,947,341,936,354,910,361,881,373,790,374,719,361,556,356,507"/>
+<area shape="rect" id="Node000006" href="$class_parent.html" title="Represents a parent." alt="" coords="53,567,154,871"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="268,396,217,473,169,557,156,582,152,580,164,555,212,470,264,393"/>
+<area shape="rect" id="Node000005" href="$class_date.html" title="Represents a date (day, month, year)." alt="" coords="178,556,352,881"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="266,881,262,1259,257,1259,261,881"/>
+<area shape="poly" id="edge10_Node000001_Node000006" title=" " alt="" coords="103,870,99,1137,98,1447,106,1719,114,1816,126,1872,150,1914,182,1950,178,1954,146,1917,121,1874,109,1817,101,1720,93,1447,93,1137,97,870"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="156,847,191,961,223,1114,244,1259,239,1260,218,1114,186,962,151,849"/>
+<area shape="rect" id="Node000007" href="$class_email.html" title="Represents an email address." alt="" coords="56,156,151,460"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="106,460,106,549,101,549,101,460"/>
+<area shape="rect" id="Node000008" href="$class_contacts.html" title="Base class for contact&#45;related utilities." alt="" coords="36,5,172,75"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="106,90,106,156,101,156,101,90"/>
+<area shape="rect" id="Node000009" href="$class_database.html" title="Manages data related to lessons, parents, children, and employees." alt="" coords="333,961,503,1873"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="336,1832,323,1874,305,1923,300,1921,318,1873,331,1830"/>
+<area shape="rect" id="Node000010" href="$class_ui_1_1_child_dialog_class.html" title=" " alt="" coords="528,1383,660,1452"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="600,1451,604,1533,597,1643,588,1703,572,1764,549,1822,518,1875,480,1916,435,1948,387,1974,341,1992,339,1988,385,1969,432,1944,477,1912,513,1872,544,1819,567,1762,582,1702,592,1643,598,1533,595,1452"/>
+<area shape="rect" id="Node000011" href="$class_ui___child_dialog_class.html" title=" " alt="" coords="528,567,660,871"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="597,886,597,1383,592,1383,592,886"/>
 </map>

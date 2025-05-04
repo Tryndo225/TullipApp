@@ -185,4 +185,12 @@ size_t lavenstein_distance(const std::string& string, const std::string& referen
  */
 size_t search_lavenstein_name_surname_helper(const std::string& name, const std::string& surname, const std::string& reference_name, const std::string& reference_surname);
 
+/**
+ * @brief Coverts a string to lowercase.
+ * @details This function converts all characters in the given string to their lowercase equivalent.
+ * @param str The string to convert.
+ * @return The lowercase version of the input string.
+ */
+std::string to_lower(std::string str);
+
 #endif // !HELPER_FUNCTIONS_H_

@@ -1,0 +1,24 @@
+<map id="EmployeeEntry" name="EmployeeEntry">
+<area shape="rect" id="Node000001" title="Represents a GUI widget for an employee entry." alt="" coords="87,1073,250,1228"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,833,67,903"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="50,916,63,962,81,1008,117,1072,112,1075,76,1010,58,963,45,918"/>
+<area shape="rect" id="Node000003" href="$class_ui_1_1_employee_entry_class.html" title=" " alt="" coords="91,833,246,903"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,903,171,1056,166,1056,166,903"/>
+<area shape="rect" id="Node000004" href="$class_ui___employee_entry_class.html" title=" " alt="" coords="45,359,198,599"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="140,613,167,833,162,834,135,614"/>
+<area shape="rect" id="Node000005" href="$class_clickable_label.html" title="A QLabel subclass that emits a clicked signal when the label is clicked." alt="" coords="45,124,198,215"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="124,215,124,341,119,341,119,215"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="96,5,147,75"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="124,90,124,124,119,124,119,90"/>
+<area shape="rect" id="Node000007" href="$class_employee.html" title="Represents an employee." alt="" coords="290,727,402,1009"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="292,960,260,1011,228,1061,224,1058,255,1008,287,957"/>
+<area shape="rect" id="Node000008" href="$class_person.html" title="Represents a generic person." alt="" coords="223,295,330,663"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="314,677,323,727,318,728,309,678"/>
+<area shape="rect" id="Node000009" href="$class_email.html" title="Represents an email address." alt="" coords="354,327,449,631"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="382,631,371,711,366,710,377,630"/>
+<area shape="rect" id="Node000010" href="$class_contacts.html" title="Base class for contact&#45;related utilities." alt="" coords="394,135,530,204"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="455,219,434,327,428,326,450,218"/>
+<area shape="rect" id="Node000011" href="$class_phone.html" title="Represents a phone number." alt="" coords="473,327,568,631"/>
+<area shape="poly" id="edge11_Node000011_Node000010" title=" " alt="" coords="473,218,494,326,489,327,468,219"/>
+<area shape="poly" id="edge10_Node000007_Node000011" title=" " alt="" coords="477,631,464,664,412,764,407,762,459,662,472,629"/>
+</map>

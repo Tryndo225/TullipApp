@@ -1,0 +1,13 @@
+<map id="Database::update_parent_start" name="Database::update_parent_start">
+<area shape="rect" id="Node000001" title="Removes a parent&#39;s information from the maps." alt="" coords="5,99,173,141"/>
+<area shape="rect" id="Node000002" href="$class_email.html#a9402dc77167245cc5943d04850b92414" title="Gets the email address." alt="" coords="258,5,376,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,96,167,68,220,42,242,33,244,38,222,46,169,73,124,100"/>
+<area shape="rect" id="Node000003" href="$class_parent.html#aa82a75e6096795dcf5d608169ae4de5d" title="Gets the email address of the parent." alt="" coords="256,56,379,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,99,240,84,241,89,174,104"/>
+<area shape="rect" id="Node000004" href="$class_person.html#a6b1fec00d8d1f5af1a2977dc3f5f9eb8" title="Gets the first name of the person." alt="" coords="254,107,381,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="173,117,238,117,238,123,173,123"/>
+<area shape="rect" id="Node000005" href="$class_person.html#a7b3c8db44a49c4ba8c4838e19a235613" title="Gets the last name of the person." alt="" coords="245,157,390,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="174,136,240,151,239,156,172,141"/>
+<area shape="rect" id="Node000006" href="$class_database.html#a764574ac9e94b5ab7eb8d106b9113bec" title="Removes an entry from a multimap." alt="" coords="221,208,414,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="124,140,169,167,222,194,240,200,239,205,220,198,167,172,121,144"/>
+</map>

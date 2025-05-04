@@ -1,0 +1,5 @@
+<map id="EmployeeEntry::phone_clicked" name="EmployeeEntry::phone_clicked">
+<area shape="rect" id="Node000001" title="Function called when the phone label is clicked." alt="" coords="261,5,414,48"/>
+<area shape="rect" id="Node000002" href="$class_employee_entry.html#a80de24a339dce061075e03f78978f4a6" title="Constructs an EmployeeEntry widget." alt="" coords="5,13,213,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,29,213,29,213,24,245,24"/>
+</map>

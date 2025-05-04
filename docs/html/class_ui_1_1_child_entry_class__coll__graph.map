@@ -1,5 +1,9 @@
 <map id="Ui::ChildEntryClass" name="Ui::ChildEntryClass">
-<area shape="rect" id="Node000001" title=" " alt="" coords="6,357,132,427"/>
-<area shape="rect" id="Node000002" href="$class_ui___child_entry_class.html" title=" " alt="" coords="5,5,132,309"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,324,72,358,66,358,66,324"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="18,605,145,675"/>
+<area shape="rect" id="Node000002" href="$class_ui___child_entry_class.html" title=" " alt="" coords="19,295,145,556"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,571,84,605,79,605,79,571"/>
+<area shape="rect" id="Node000003" href="$class_clickable_label.html" title="A QLabel subclass that emits a clicked signal when the label is clicked." alt="" coords="5,124,158,215"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,214,84,278,79,278,79,214"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="56,5,108,75"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="84,90,84,124,79,124,79,90"/>
 </map>

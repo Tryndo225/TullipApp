@@ -1,0 +1,5 @@
+<map id="ParentDialog::accept" name="ParentDialog::accept">
+<area shape="rect" id="Node000001" title="Accepts the dialog and updates the parent information." alt="" coords="5,5,149,32"/>
+<area shape="rect" id="Node000002" href="$_helper___functions_8h.html#abbf2bcc86eb4c36312bcad1565f4663e" title="Checks if a vector contains a specific value." alt="" coords="197,5,267,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,16,181,16,181,21,149,21"/>
+</map>

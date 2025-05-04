@@ -1,9 +1,9 @@
 <map id="Parent" name="Parent">
-<area shape="rect" id="Node000001" title="Represents a parent." alt="" coords="26,556,135,924"/>
+<area shape="rect" id="Node000001" title="Represents a parent." alt="" coords="30,556,131,860"/>
 <area shape="rect" id="Node000002" href="$class_person.html" title="Represents a generic person." alt="" coords="5,124,112,492"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,506,74,556,68,556,66,507"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,507,75,556,69,556,67,507"/>
 <area shape="rect" id="Node000003" href="$class_email.html" title="Represents an email address." alt="" coords="137,156,232,460"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,460,131,540,126,539,145,459"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="147,460,127,540,121,539,142,459"/>
 <area shape="rect" id="Node000004" href="$class_contacts.html" title="Base class for contact&#45;related utilities." alt="" coords="116,5,252,75"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="187,90,187,156,182,156,182,90"/>
 </map>

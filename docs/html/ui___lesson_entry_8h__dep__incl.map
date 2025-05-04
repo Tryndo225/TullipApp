@@ -1,0 +1,17 @@
+<map id="TullipApp/x64/Debug/qt/uic/ui_LessonEntry.h" name="TullipApp/x64/Debug/qt/uic/ui_LessonEntry.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="400,5,562,48"/>
+<area shape="rect" id="Node000002" href="$_lesson_entry_8h.html" title="Defines the LessonEntry class for managing the graphical representation of a lesson in the GUI." alt="" coords="400,96,562,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="484,64,484,95,478,95,478,64"/>
+<area shape="rect" id="Node000003" href="$_data_base_g_u_i_8h.html" title="Defines the DataBaseGUI class for managing the graphical user interface of the database." alt="" coords="196,179,369,205"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="437,131,314,181,312,176,435,126"/>
+<area shape="rect" id="Node000007" href="$_lesson_entry_8cpp.html" title=" " alt="" coords="393,179,569,205"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="484,138,484,179,478,179,478,138"/>
+<area shape="rect" id="Node000008" href="$moc___lesson_entry_8cpp.html" title=" " alt="" coords="594,171,792,213"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="529,126,639,168,637,173,527,131"/>
+<area shape="rect" id="Node000004" href="$_data_base_g_u_i_8cpp.html" title=" " alt="" coords="5,269,192,296"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="244,215,126,271,124,266,241,210"/>
+<area shape="rect" id="Node000005" href="$_main_8cpp.html" title=" " alt="" coords="216,269,349,296"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="285,221,285,269,280,269,280,221"/>
+<area shape="rect" id="Node000006" href="$moc___data_base_g_u_i_8cpp.html" title=" " alt="" coords="373,261,581,304"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="325,210,433,258,431,263,323,215"/>
+</map>

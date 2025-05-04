@@ -1,7 +1,10 @@
 <map id="Lesson::get_children" name="Lesson::get_children">
-<area shape="rect" id="Node000001" title="Gets the list of children participating in the lesson." alt="" coords="209,47,350,73"/>
-<area shape="rect" id="Node000002" href="$class_database.html#ad8e7c7035665c903a8a34b5dbff4e2a6" title="Filters lessons by a child&#39;s name." alt="" coords="5,5,161,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,48,160,42,161,37,194,43"/>
-<area shape="rect" id="Node000003" href="$class_database.html#abcc5c80902d844addb9fe92b8524976a" title="Filters lessons by a child&#39;s surname." alt="" coords="5,72,161,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,77,161,83,160,78,193,72"/>
+<area shape="rect" id="Node000001" title="Gets the list of children participating in the lesson." alt="" coords="433,47,574,73"/>
+<area shape="rect" id="Node000002" href="$class_database.html#ad8e7c7035665c903a8a34b5dbff4e2a6" title="Filters lessons by a child&#39;s name." alt="" coords="230,5,385,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="417,48,385,42,385,37,418,43"/>
+<area shape="rect" id="Node000004" href="$class_database.html#abcc5c80902d844addb9fe92b8524976a" title="Filters lessons by a child&#39;s surname." alt="" coords="230,72,385,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="418,77,385,83,385,78,417,72"/>
+<area shape="rect" id="Node000003" href="$class_database.html#a2474f58dd1a17687fe4bc21afb26b830" title="Imports data from a CSV file." alt="" coords="5,39,182,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="215,44,182,49,182,44,214,39"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="214,81,182,76,182,71,215,76"/>
 </map>

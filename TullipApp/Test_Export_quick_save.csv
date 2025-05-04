@@ -1,15 +1,17 @@
 Parents:
-Michael,Smith,Father,michael.smith@example.com,{Paul Allen}
+Sara,Alic-Ekinovic,Mother,alicsara3012@gmail.com,{}
+
+Michael,Smith,Father,michael.smith@example.com,{}
 
 Sarah,Johnson,Mother,sarah.johnson@example.com,{}
 
 David,Williams,Father,david.williams@example.com,{}
 
-Emily,Brown,Mother,emily.brown@example.com,{Paul Allen}
+Emily,Brown,Mother,emily.brown@example.com,{}
 
-James,Jones,Father,james.jones@example.com,{Pam Allen,Sam Wright}
+James,Jones,Father,james.jones@example.com,{}
 
-Olivia,Garcia,Mother,olivia.garcia@example.com,{Pam Allen}
+Olivia,Garcia,Mother,olivia.garcia@example.com,{}
 
 Robert,Martinez,Father,robert.martinez@example.com,{}
 
@@ -52,23 +54,43 @@ Nina,Walker,15/03/2014,No Father,No Mother
 
 Oscar,Hall,16/04/2015,No Father,No Mother
 
-Pam,Allen,17/05/2016,James Jones,Olivia Garcia
+Pam,Allen,17/05/2016,No Father,No Mother
 
-Paul,Allen,17/05/2016,Michael Smith,Emily Brown
+Paul,Allen,17/05/2016,No Father,No Mother
 
 Quinn,Young,18/06/2017,No Father,No Mother
 
 Rita,King,19/07/2018,No Father,No Mother
 
-Sam,Wright,20/08/2019,James Jones,No Mother
+Sam,Wright,20/08/2019,No Father,No Mother
 
 Tina,Scott,21/09/2020,No Father,No Mother
 
 Uma,Green,22/10/2021,No Father,No Mother
 
 Employees:
-John,Doe,johjohn@gmail.com,45645543
+Jakub,Kalisky,,123456789
 
-Jane,Doe,jane@yahoo.com,03943852
+Danka,Rumanovicova,,149687321
+
+Anna,Taylor,,987654321
+
+Brian,Adams,,456123789
+
+Catherine,Bell,,321654987
+
+Daniel,Evans,,789456123
+
+Ella,Foster,,654789321
+
+Frank,Harris,,123789456
+
+Grace,Miller,,987321654
+
+Henry,Moore,,456987123
+
+Ivy,Parker,,789123654
+
+Jack,Turner,,321987456
 
 Lessons:

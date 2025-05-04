@@ -1,5 +1,5 @@
 <map id="ChildDialog::accept" name="ChildDialog::accept">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,141,32"/>
-<area shape="rect" id="Node000002" href="$class_child_dialog.html#a39598733e0625fad557a013f5e588f3b" title=" " alt="" coords="189,5,353,32"/>
+<area shape="rect" id="Node000001" title="Accepts the dialog and updates the child information." alt="" coords="5,5,141,32"/>
+<area shape="rect" id="Node000002" href="$class_child_dialog.html#a39598733e0625fad557a013f5e588f3b" title="sets the parents of the child." alt="" coords="189,5,353,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,16,173,16,173,21,141,21"/>
 </map>

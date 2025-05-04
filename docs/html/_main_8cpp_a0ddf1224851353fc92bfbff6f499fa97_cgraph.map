@@ -1,11 +1,19 @@
 <map id="main" name="main">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,55,83"/>
-<area shape="rect" id="Node000002" href="$class_database.html#a3e9cba5ac0e9f1eafeea156892eb2e35" title="Adds a child to the database." alt="" coords="103,56,243,83"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,67,87,67,87,72,55,72"/>
-<area shape="rect" id="Node000003" href="$class_child.html#a54d980b94b52ef8ad5c52eb4dfc265c5" title="Gets the birth date of the child." alt="" coords="293,5,434,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="225,53,295,34,297,39,227,58"/>
-<area shape="rect" id="Node000004" href="$class_person.html#a6b1fec00d8d1f5af1a2977dc3f5f9eb8" title="Gets the first name of the person." alt="" coords="300,56,427,83"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="243,67,284,67,284,72,243,72"/>
-<area shape="rect" id="Node000005" href="$class_person.html#a7b3c8db44a49c4ba8c4838e19a235613" title="Gets the last name of the person." alt="" coords="291,107,436,133"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="227,81,297,100,295,105,225,86"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,77,55,104"/>
+<area shape="rect" id="Node000002" href="$class_date_time.html#a4456e1a9119ecd64441d20d541dc8568" title="Gets the current date and time." alt="" coords="103,69,254,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,88,88,88,88,93,55,93"/>
+<area shape="rect" id="Node000003" href="$class_date.html#a19cb325d7fc9e143f9095e7eadc8a1a4" title="Default constructor." alt="" coords="506,27,592,53"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="204,67,247,36,274,23,301,12,351,4,402,4,450,11,492,20,491,25,449,16,402,10,352,9,303,17,276,27,250,41,207,71"/>
+<area shape="rect" id="Node000004" href="$class_date_time.html#afa7d2eb61840fe713cb4f98795c23a53" title="Default constructor." alt="" coords="308,77,451,104"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="254,88,293,88,293,93,254,93"/>
+<area shape="rect" id="Node000005" href="$class_time.html#a0eedb4e626b8e3fdcaf63519b86ea778" title="Default constructor." alt="" coords="505,128,593,155"/>
+<area shape="poly" id="edge10_Node000002_Node000005" title=" " alt="" coords="255,105,302,113,402,126,490,134,490,140,401,131,302,119,254,110"/>
+<area shape="rect" id="Node000006" href="$class_date.html#af6f6b8a65ffabad43ac3994bc58634e0" title="Gets the current date." alt="" coords="302,27,457,53"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="254,69,309,55,310,60,255,74"/>
+<area shape="rect" id="Node000007" href="$class_time.html#ae9b71bc06b2c5a28a96e46e7f1d0a239" title="Gets the current time." alt="" coords="302,179,457,205"/>
+<area shape="poly" id="edge8_Node000002_Node000007" title=" " alt="" coords="217,110,303,158,330,170,328,175,301,162,214,115"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="426,74,490,55,492,60,428,79"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="428,102,491,121,489,126,426,107"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="457,37,491,37,491,43,457,43"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="426,176,489,156,491,161,428,181"/>
 </map>

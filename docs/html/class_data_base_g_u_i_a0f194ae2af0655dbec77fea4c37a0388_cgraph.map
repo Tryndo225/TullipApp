@@ -1,0 +1,19 @@
+<map id="DataBaseGUI::employee_add" name="DataBaseGUI::employee_add">
+<area shape="rect" id="Node000001" title="Adds a new employee to the database." alt="" coords="5,115,201,141"/>
+<area shape="rect" id="Node000002" href="$class_data_base_g_u_i.html#a0298d31c219c66a65a01eb01372e254d" title="Selects the appropriate sorting to use based on employee sort index." alt="" coords="249,107,414,149"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,125,233,125,233,131,201,131"/>
+<area shape="rect" id="Node000003" href="$class_data_base_g_u_i.html#abab0899c6a55e240687bf21734273428" title="Populates the parent tab with a list of parents." alt="" coords="462,107,622,149"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="414,125,446,125,446,131,414,131"/>
+<area shape="rect" id="Node000004" href="$class_employee_entry.html#ada71cffbda6a2614d266a6cc85d6684a" title="Signal emitted when a employee edit is requested." alt="" coords="681,56,884,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="622,104,670,92,703,84,704,89,671,97,624,109"/>
+<area shape="rect" id="Node000005" href="$class_data_base_g_u_i.html#ae9c0b91905f7d70563c285cd9b5dace3" title="Edits an existing employee in the database." alt="" coords="685,5,880,32"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="569,104,614,72,669,42,688,34,690,39,671,46,617,76,572,108"/>
+<area shape="rect" id="Node000006" href="$class_data_base_g_u_i.html#a4b70294327e9c316224af10d7a369749" title="Removes an employee from the database." alt="" coords="699,224,866,267"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="573,148,618,179,672,210,685,216,683,220,669,214,615,184,570,152"/>
+<area shape="rect" id="Node000007" href="$class_data_base_g_u_i.html#aa5bbb368e92b4bf89edf9071df42aab3" title="Clears the parent tab." alt="" coords="699,107,866,149"/>
+<area shape="poly" id="edge8_Node000003_Node000007" title=" " alt="" coords="623,125,683,125,683,131,623,131"/>
+<area shape="rect" id="Node000008" href="$class_employee_entry.html#a6f579e66e8fc13dbc45c940edfc50b32" title="Signal emitted when a employee removal is requested." alt="" coords="670,173,895,200"/>
+<area shape="poly" id="edge9_Node000003_Node000008" title=" " alt="" coords="624,147,671,159,704,167,703,172,670,164,622,152"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="720,35,671,47,463,97,430,106,428,100,461,92,670,41,719,30"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="698,226,428,156,430,151,699,221"/>
+</map>

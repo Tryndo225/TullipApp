@@ -14,6 +14,7 @@
   * @class Contacts
   * @brief Base class for contact-related utilities.
   * @details Provides common functionality for derived classes such as `Email`, `Phone`, and `Address`.
+  *				It defines a method to copy text to the clipboard.
   */
 class Contacts
 {

@@ -1,0 +1,5 @@
+<map id="search_lavenstein_name_surname_helper" name="search_lavenstein_name_surname_helper">
+<area shape="rect" id="Node000001" title="Helper function to calculate lavenstein distance for name + surname." alt="" coords="5,5,171,48"/>
+<area shape="rect" id="Node000002" href="$_helper___functions_8cpp.html#a6da60855251a74f88e27221bee273248" title="Calculates the Levenshtein distance between two strings." alt="" coords="219,13,355,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,24,203,24,203,29,171,29"/>
+</map>

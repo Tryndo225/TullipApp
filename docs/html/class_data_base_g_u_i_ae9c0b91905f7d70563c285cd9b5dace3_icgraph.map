@@ -1,0 +1,33 @@
+<map id="DataBaseGUI::employee_edit" name="DataBaseGUI::employee_edit">
+<area shape="rect" id="Node000001" title="Edits an existing employee in the database." alt="" coords="1122,180,1317,207"/>
+<area shape="rect" id="Node000002" href="$class_data_base_g_u_i.html#a2232520db239e60a4c37ee49868e6652" title="Populates the parent tab with a multimap of parents." alt="" coords="247,158,407,200"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1181,174,1057,111,971,75,875,43,771,19,717,12,664,8,610,9,558,16,506,27,456,45,419,68,387,99,361,131,343,159,338,156,357,128,383,95,415,64,454,40,505,22,557,10,610,4,664,3,718,7,772,14,876,38,973,70,1059,106,1184,170"/>
+<area shape="rect" id="Node000003" href="$class_data_base_g_u_i.html#abab0899c6a55e240687bf21734273428" title="Populates the parent tab with a list of parents." alt="" coords="914,172,1074,215"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1106,196,1074,196,1074,191,1106,191"/>
+<area shape="rect" id="Node000004" href="$class_data_base_g_u_i.html#a54b1ac54d775ea37ae05fd54c756aebe" title="Searches for employees based on the provided name and surname." alt="" coords="698,114,866,156"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="900,170,861,159,862,154,901,165"/>
+<area shape="rect" id="Node000009" href="$class_data_base_g_u_i.html#a0298d31c219c66a65a01eb01372e254d" title="Selects the appropriate sorting to use based on employee sort index." alt="" coords="699,231,865,274"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="901,222,862,233,861,228,900,217"/>
+<area shape="rect" id="Node000005" href="$class_data_base_g_u_i.html#a3a2267784d541d4c74b143458aa7eedb" title="Searches for employees based on the provided employee pointer." alt="" coords="469,55,636,98"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="683,112,636,100,637,95,684,107"/>
+<area shape="rect" id="Node000006" href="$class_data_base_g_u_i.html#a6c35e47ed05a80db144f240dee805a9d" title="Sets up the GUI." alt="" coords="255,254,398,280"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="682,127,629,127,570,131,512,142,456,163,441,173,431,185,423,199,409,214,352,255,349,251,405,210,418,196,427,182,437,169,454,158,510,137,570,126,628,121,682,122"/>
+<area shape="rect" id="Node000007" href="$class_data_base_g_u_i.html#a2c83afe3a30fb5166d275d9a74d33196" title="Default constructor." alt="" coords="5,228,199,255"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="239,260,199,255,199,250,240,254"/>
+<area shape="rect" id="Node000008" href="$class_data_base_g_u_i.html#aba10d1d8e9fb151632ff34de418cee82" title="Constructs a DataBaseGUI object." alt="" coords="5,279,199,306"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="240,279,199,284,199,279,239,274"/>
+<area shape="poly" id="edge11_Node000009_Node000001" title=" " alt="" coords="880,245,974,237,1074,224,1165,205,1166,210,1074,230,975,242,881,250"/>
+<area shape="rect" id="Node000010" href="$class_data_base_g_u_i.html#a0f194ae2af0655dbec77fea4c37a0388" title="Adds a new employee to the database." alt="" coords="455,239,650,266"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="684,255,651,255,651,250,684,250"/>
+<area shape="rect" id="Node000011" href="$class_data_base_g_u_i.html#a4b70294327e9c316224af10d7a369749" title="Removes an employee from the database." alt="" coords="469,172,636,215"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="684,230,636,218,638,212,685,225"/>
+<area shape="rect" id="Node000012" href="$class_data_base_g_u_i.html#a7db832ef3939cc57a78a16f4c09994a6" title="Changes the sorting method for employees." alt="" coords="469,290,636,332"/>
+<area shape="poly" id="edge15_Node000009_Node000012" title=" " alt="" coords="685,280,638,292,636,287,684,275"/>
+<area shape="rect" id="Node000013" href="$class_data_base_g_u_i.html#a438b5070d6a58ffa5e884d18740852c6" title="Handles tab change events." alt="" coords="464,356,642,383"/>
+<area shape="poly" id="edge17_Node000009_Node000013" title=" " alt="" coords="746,286,702,318,651,347,621,358,619,353,649,342,699,313,743,281"/>
+<area shape="poly" id="edge10_Node000010_Node000006" title=" " alt="" coords="440,262,399,265,399,260,440,257"/>
+<area shape="poly" id="edge13_Node000011_Node000002" title=" " alt="" coords="453,190,407,187,408,181,454,184"/>
+<area shape="poly" id="edge14_Node000011_Node000003" title=" " alt="" coords="652,191,913,191,913,196,652,196"/>
+<area shape="poly" id="edge16_Node000012_Node000006" title=" " alt="" coords="454,294,398,283,399,278,455,289"/>
+<area shape="poly" id="edge18_Node000013_Node000006" title=" " alt="" coords="472,354,454,347,393,315,346,283,348,279,396,310,456,342,474,349"/>
+</map>

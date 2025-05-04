@@ -102,6 +102,7 @@ $(function(){initNavTree('class_employee.html',''); initResizable(true); });
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="class_employee-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Employee Class Reference</div></div>
 </div><!--header-->
@@ -157,12 +158,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5951f90c866bc58acc762966652b6ee4" id="r_a5951f90c866bc58acc762966652b6ee4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5951f90c866bc58acc762966652b6ee4">set_phone</a> (std::string &amp;&amp;phone)</td></tr>
 <tr class="memdesc:a5951f90c866bc58acc762966652b6ee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the phone number of the employee.  <br /></td></tr>
 <tr class="separator:a5951f90c866bc58acc762966652b6ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cccf3be0710bb3ea2f86703a6b319d3" id="r_a2cccf3be0710bb3ea2f86703a6b319d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cccf3be0710bb3ea2f86703a6b319d3">add_working_hour</a> ()</td></tr>
+<tr class="memdesc:a2cccf3be0710bb3ea2f86703a6b319d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increments the number of hours worked by the employee.  <br /></td></tr>
+<tr class="separator:a2cccf3be0710bb3ea2f86703a6b319d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44a5c95c73d5ebec2f4278bd54bccb6b" id="r_a44a5c95c73d5ebec2f4278bd54bccb6b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44a5c95c73d5ebec2f4278bd54bccb6b">get_hours_worked</a> () const</td></tr>
 <tr class="memdesc:a44a5c95c73d5ebec2f4278bd54bccb6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of hours worked by the employee.  <br /></td></tr>
 <tr class="separator:a44a5c95c73d5ebec2f4278bd54bccb6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2f0caef8cb5b2a0a93f4909c48b6fdb" id="r_ab2f0caef8cb5b2a0a93f4909c48b6fdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2f0caef8cb5b2a0a93f4909c48b6fdb">set_hours_worked</a> (int hours_worked)</td></tr>
 <tr class="memdesc:ab2f0caef8cb5b2a0a93f4909c48b6fdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the number of hours worked by the employee.  <br /></td></tr>
 <tr class="separator:ab2f0caef8cb5b2a0a93f4909c48b6fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ccfad51b3d54539c0093591ede6a239" id="r_a2ccfad51b3d54539c0093591ede6a239"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ccfad51b3d54539c0093591ede6a239">erase_hours_worked</a> ()</td></tr>
+<tr class="memdesc:a2ccfad51b3d54539c0093591ede6a239"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the number of hours worked by the employee to zero.  <br /></td></tr>
+<tr class="separator:a2ccfad51b3d54539c0093591ede6a239"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41fe4b92232a2077c7326b47163fc885" id="r_a41fe4b92232a2077c7326b47163fc885"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41fe4b92232a2077c7326b47163fc885">~Employee</a> ()=default</td></tr>
 <tr class="memdesc:a41fe4b92232a2077c7326b47163fc885"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <br /></td></tr>
 <tr class="separator:a41fe4b92232a2077c7326b47163fc885"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -224,6 +231,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:abf9e2c1ffbeec1a16f8f99821458e74d inherit pro_attribs_class_person" id="r_abf9e2c1ffbeec1a16f8f99821458e74d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_person.html#abf9e2c1ffbeec1a16f8f99821458e74d">surname_</a></td></tr>
 <tr class="memdesc:abf9e2c1ffbeec1a16f8f99821458e74d inherit pro_attribs_class_person"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last name of the person.  <br /></td></tr>
 <tr class="separator:abf9e2c1ffbeec1a16f8f99821458e74d inherit pro_attribs_class_person"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:ab472aba8aef1e7906957f06de3dedca9" id="r_ab472aba8aef1e7906957f06de3dedca9"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab472aba8aef1e7906957f06de3dedca9">operator&lt;&lt;</a> (std::ostream &amp;stream, const <a class="el" href="class_employee.html">Employee</a> &amp;employee)</td></tr>
+<tr class="memdesc:ab472aba8aef1e7906957f06de3dedca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outputs the <a class="el" href="class_employee.html" title="Represents an employee.">Employee</a> object to a stream.  <br /></td></tr>
+<tr class="separator:ab472aba8aef1e7906957f06de3dedca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents an employee. </p>
@@ -259,7 +272,7 @@ Protected Attributes</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_employee_adeb02af71c88626762caf273f421d548_icgraph.svg" width="350" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_employee_adeb02af71c88626762caf273f421d548_icgraph.svg" width="358" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -451,10 +464,73 @@ Protected Attributes</h2></td></tr>
 
 <p>Destructor. </p>
 <p>Cleans up resources used by the <a class="el" href="class_employee.html" title="Represents an employee.">Employee</a> object. </p>
+<div id="dynsection-7" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_employee_a41fe4b92232a2077c7326b47163fc885_cgraph.svg" width="358" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2cccf3be0710bb3ea2f86703a6b319d3" name="a2cccf3be0710bb3ea2f86703a6b319d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cccf3be0710bb3ea2f86703a6b319d3">&#9670;&#160;</a></span>add_working_hour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Employee::add_working_hour </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Increments the number of hours worked by the employee. </p>
+<p>This method is used to track the number of hours worked. </p>
+
+</div>
+</div>
+<a id="a2ccfad51b3d54539c0093591ede6a239" name="a2ccfad51b3d54539c0093591ede6a239"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ccfad51b3d54539c0093591ede6a239">&#9670;&#160;</a></span>erase_hours_worked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Employee::erase_hours_worked </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resets the number of hours worked by the employee to zero. </p>
+<p>This method is used to clear the hours worked. </p>
+
+</div>
+</div>
 <a id="ab8fcd4379d3fda0a357bb0b49f500654" name="ab8fcd4379d3fda0a357bb0b49f500654"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab8fcd4379d3fda0a357bb0b49f500654">&#9670;&#160;</a></span>get_email()</h2>
 
@@ -561,11 +637,11 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div id="dynsection-7" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-8" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_employee_a33418955ea1c3d7ef75f955216d8b3a8_cgraph.svg" width="347" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -593,11 +669,11 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div id="dynsection-8" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-9" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_employee_a3c680fa64b4922e54976afe6aba045bf_cgraph.svg" width="347" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -699,6 +775,46 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Symbol Documentation</h2>
+<a id="ab472aba8aef1e7906957f06de3dedca9" name="ab472aba8aef1e7906957f06de3dedca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab472aba8aef1e7906957f06de3dedca9">&#9670;&#160;</a></span>operator&lt;&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_employee.html">Employee</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>employee</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel friend">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Outputs the <a class="el" href="class_employee.html" title="Represents an employee.">Employee</a> object to a stream. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stream</td><td>The output stream. </td></tr>
+    <tr><td class="paramname">employee</td><td>The <a class="el" href="class_employee.html" title="Represents an employee.">Employee</a> object to output. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The output stream. </dd></dl>
 
 </div>
 </div>

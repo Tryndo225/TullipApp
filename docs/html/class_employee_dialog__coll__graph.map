@@ -1,0 +1,20 @@
+<map id="EmployeeDialog" name="EmployeeDialog">
+<area shape="rect" id="Node000001" title="Dialog for managing employee information." alt="" coords="100,903,235,1015"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,663,63,732"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="46,746,59,791,78,837,98,871,121,901,116,905,93,873,73,840,54,793,41,747"/>
+<area shape="rect" id="Node000003" href="$class_ui_1_1_employee_dialog_class.html" title=" " alt="" coords="87,663,248,732"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,732,170,886,165,886,165,732"/>
+<area shape="rect" id="Node000004" href="$class_ui___employee_dialog_class.html" title=" " alt="" coords="68,156,227,460"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="159,475,168,663,163,663,153,475"/>
+<area shape="rect" id="Node000005" href="$class_employee.html" title="Represents an employee." alt="" coords="293,556,405,839"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="295,791,262,840,224,891,220,888,257,837,291,788"/>
+<area shape="rect" id="Node000006" href="$class_person.html" title="Represents a generic person." alt="" coords="251,124,358,492"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="330,506,336,556,330,557,325,507"/>
+<area shape="rect" id="Node000007" href="$class_email.html" title="Represents an email address." alt="" coords="383,156,478,460"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="401,460,384,540,379,539,396,459"/>
+<area shape="rect" id="Node000008" href="$class_contacts.html" title="Base class for contact&#45;related utilities." alt="" coords="421,5,557,75"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="481,90,466,157,461,156,476,88"/>
+<area shape="rect" id="Node000009" href="$class_phone.html" title="Represents a phone number." alt="" coords="501,156,596,460"/>
+<area shape="poly" id="edge9_Node000009_Node000008" title=" " alt="" coords="502,88,517,156,512,157,497,90"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="507,461,493,493,457,556,417,614,413,611,452,553,488,491,502,459"/>
+</map>

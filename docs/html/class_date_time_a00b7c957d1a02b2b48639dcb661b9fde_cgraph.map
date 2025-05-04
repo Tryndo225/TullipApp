@@ -1,0 +1,13 @@
+<map id="DateTime::set_date" name="DateTime::set_date">
+<area shape="rect" id="Node000001" title="Sets the date component of the DateTime." alt="" coords="5,31,142,57"/>
+<area shape="rect" id="Node000002" href="$class_date.html#a19cb325d7fc9e143f9095e7eadc8a1a4" title="Default constructor." alt="" coords="382,5,467,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,27,189,16,283,11,366,13,366,18,283,16,190,21,127,33"/>
+<area shape="rect" id="Node000003" href="$class_date_time.html#afa7d2eb61840fe713cb4f98795c23a53" title="Default constructor." alt="" coords="190,31,333,57"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="142,41,174,41,174,47,142,47"/>
+<area shape="rect" id="Node000005" href="$class_date_time.html#a12991398e93cd333b42eb0531341184d" title="Gets the time component of the DateTime." alt="" coords="193,81,330,108"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="127,55,195,74,194,79,125,61"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="333,30,366,25,367,30,334,35"/>
+<area shape="rect" id="Node000004" href="$class_time.html#a0eedb4e626b8e3fdcaf63519b86ea778" title="Default constructor." alt="" coords="381,68,468,95"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="323,55,366,65,365,71,322,60"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="330,86,365,83,366,89,330,92"/>
+</map>

@@ -1,5 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,74,32"/>
-<area shape="rect" id="Node000001" href="$class_child_dialog.html" title=" " alt="" coords="122,5,210,32"/>
-<area shape="poly" id="edge9_Node000000_Node000001" title=" " alt="" coords="89,16,121,16,121,21,89,21"/>
+<area shape="rect" id="Node000000" href="$class_person.html" title="Represents a generic person." alt="" coords="5,56,68,83"/>
+<area shape="rect" id="Node000001" href="$class_child.html" title="Represents a child." alt="" coords="130,5,181,32"/>
+<area shape="poly" id="edge7_Node000000_Node000001" title=" " alt="" coords="80,48,128,27,130,32,82,53"/>
+<area shape="rect" id="Node000002" href="$class_employee.html" title="Represents an employee." alt="" coords="116,56,195,83"/>
+<area shape="poly" id="edge8_Node000000_Node000002" title=" " alt="" coords="83,67,115,67,115,72,83,72"/>
+<area shape="rect" id="Node000003" href="$class_parent.html" title="Represents a parent." alt="" coords="126,107,185,133"/>
+<area shape="poly" id="edge9_Node000000_Node000003" title=" " alt="" coords="83,86,126,105,124,110,81,91"/>
 </map>

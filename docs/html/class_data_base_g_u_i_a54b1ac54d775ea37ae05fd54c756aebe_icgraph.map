@@ -1,0 +1,11 @@
+<map id="DataBaseGUI::employee_search" name="DataBaseGUI::employee_search">
+<area shape="rect" id="Node000001" title="Searches for employees based on the provided name and surname." alt="" coords="462,35,629,77"/>
+<area shape="rect" id="Node000002" href="$class_data_base_g_u_i.html#a3a2267784d541d4c74b143458aa7eedb" title="Searches for employees based on the provided employee pointer." alt="" coords="247,5,414,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="446,45,414,41,415,35,447,40"/>
+<area shape="rect" id="Node000003" href="$class_data_base_g_u_i.html#a6c35e47ed05a80db144f240dee805a9d" title="Sets up the GUI." alt="" coords="259,72,402,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="447,72,403,78,402,73,446,67"/>
+<area shape="rect" id="Node000004" href="$class_data_base_g_u_i.html#a2c83afe3a30fb5166d275d9a74d33196" title="Default constructor." alt="" coords="5,47,199,73"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="243,78,199,73,199,68,244,73"/>
+<area shape="rect" id="Node000005" href="$class_data_base_g_u_i.html#aba10d1d8e9fb151632ff34de418cee82" title="Constructs a DataBaseGUI object." alt="" coords="5,97,199,124"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="244,98,199,103,199,97,243,92"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="ChildCheckBox" name="ChildCheckBox">
+<area shape="rect" id="Node000001" title="Represents a checkbox widget for a child." alt="" coords="104,1308,235,1441"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,1068,67,1137"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="49,1151,63,1196,81,1243,120,1307,115,1309,76,1245,57,1198,44,1152"/>
+<area shape="rect" id="Node000003" href="$class_ui_1_1_child_check_box_class.html" title=" " alt="" coords="91,1068,248,1137"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,1137,172,1291,167,1291,167,1137"/>
+<area shape="rect" id="Node000004" href="$class_ui___child_check_box_class.html" title=" " alt="" coords="85,663,241,775"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="167,790,172,1068,166,1068,161,790"/>
+<area shape="rect" id="Node000005" href="$class_child.html" title="Represents a child." alt="" coords="280,961,381,1244"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="283,1209,262,1245,230,1296,226,1293,258,1243,278,1207"/>
+<area shape="rect" id="Node000006" href="$class_person.html" title="Represents a generic person." alt="" coords="224,124,331,492"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="285,507,293,689,305,881,314,962,309,962,300,882,287,689,280,507"/>
+<area shape="rect" id="Node000008" href="$class_parent.html" title="Represents a parent." alt="" coords="315,567,416,871"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="323,506,336,566,330,567,317,507"/>
+<area shape="rect" id="Node000007" href="$class_date.html" title="Represents a date (day, month, year)." alt="" coords="440,556,614,881"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="446,882,391,989,387,987,442,880"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="355,870,348,945,342,944,349,870"/>
+<area shape="rect" id="Node000009" href="$class_email.html" title="Represents an email address." alt="" coords="355,156,450,460"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="392,460,383,550,378,550,386,459"/>
+<area shape="rect" id="Node000010" href="$class_contacts.html" title="Base class for contact&#45;related utilities." alt="" coords="335,5,471,75"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="406,90,406,156,400,156,400,90"/>
+</map>

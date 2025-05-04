@@ -1,0 +1,5 @@
+<map id="Database::filter_lesson_by_child_name" name="Database::filter_lesson_by_child_name">
+<area shape="rect" id="Node000001" title="Filters lessons by a child&#39;s name." alt="" coords="230,5,385,48"/>
+<area shape="rect" id="Node000002" href="$class_database.html#a2474f58dd1a17687fe4bc21afb26b830" title="Imports data from a CSV file." alt="" coords="5,5,182,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,29,182,29,182,24,214,24"/>
+</map>

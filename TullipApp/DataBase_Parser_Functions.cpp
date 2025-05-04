@@ -2,6 +2,10 @@
 
 void CSV_Parser::parse_lesson_employees(std::string& employees_str, Lesson& lesson, Database& database)
 {
+	if (employees_str.empty() || employees_str == "}")
+	{
+		return;
+	}
 	std::istringstream employees_stream(employees_str);
 	std::string employee_name;
 	while (std::getline(employees_stream, employee_name, ','))
@@ -16,6 +20,10 @@ void CSV_Parser::parse_lesson_employees(std::string& employees_str, Lesson& less
 
 void CSV_Parser::parse_lesson_children(std::string& children_str, Lesson& lesson, Database& database)
 {
+	if (children_str.empty() || children_str == "}")
+	{
+		return;
+	}
 	std::istringstream children_stream(children_str);
 	std::string child_entry;
 	while (std::getline(children_stream, child_entry, ','))
@@ -39,6 +47,10 @@ void CSV_Parser::parse_lesson_children(std::string& children_str, Lesson& lesson
 
 void CSV_Parser::parse_lesson_attendance(std::string& attendance_str, Lesson& lesson, Database& database)
 {
+	if (attendance_str.empty() || attendance_str == "}")
+	{
+		return;
+	}
 	std::istringstream attendance_stream(attendance_str);
 	std::string single_attendance_str, attendance_date_str, attendance_children_str;
 	while (std::getline(attendance_stream, single_attendance_str, ','))
@@ -67,10 +79,9 @@ void CSV_Parser::parse_lesson_attendance(std::string& attendance_str, Lesson& le
 
 void CSV_Parser::parse_lesson(std::string& line, Database& database)
 {
-	std::cout << "Parsing lesson: " << line << std::endl;
 	std::istringstream iss(line);
-	std::string datetime_str, address_str, employees_str, children_str, attendance_str;
-	std::getline(iss, datetime_str, ',');
+	std::string schedule_str, address_str, employees_str, children_str, attendance_str;
+	std::getline(iss, schedule_str, ',');
 	std::getline(iss, address_str, ',');
 
 	std::getline(iss, employees_str, '}');
@@ -80,11 +91,11 @@ void CSV_Parser::parse_lesson(std::string& line, Database& database)
 	children_str = children_str.substr(children_str.find('{') + 1);
 
 	std::getline(iss, attendance_str);
-	attendance_str = attendance_str.substr(attendance_str.find('{') + 1);
+	attendance_str = attendance_str.substr(attendance_str.find('{') + 1, attendance_str.find('}'));
 
-	DateTime datetime = DateTime(datetime_str);
+	Schedule schedule = Schedule(schedule_str);
 	Address address = Address(address_str);
-	Lesson lesson(datetime, address);
+	Lesson lesson(schedule, address);
 
 	parse_lesson_employees(employees_str, lesson, database);
 	parse_lesson_children(children_str, lesson, database);
@@ -147,7 +158,6 @@ void CSV_Parser::parse_parent(const std::string& line, Database& database)
 
 void CSV_Parser::parse_employee(const std::string& line, Database& database)
 {
-	std::cout << "Parsing employee: " << line << std::endl;
 	std::istringstream iss(line);
 	std::string name, surname, email_str, phone_str;
 	std::getline(iss, name, ',');

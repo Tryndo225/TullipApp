@@ -1,0 +1,7 @@
+<map id="ClickableLabel::mouseReleaseEvent" name="ClickableLabel::mouseReleaseEvent">
+<area shape="rect" id="Node000001" title="Handles mouse release events." alt="" coords="5,23,207,65"/>
+<area shape="rect" id="Node000002" href="$class_clickable_label.html#aba68cb811a595c6d90f5c994f2b31f4b" title="Signal emitted when the label is clicked." alt="" coords="255,5,410,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,30,239,26,239,32,207,35"/>
+<area shape="rect" id="Node000003" href="$_helper___functions_8h.html#abbf2bcc86eb4c36312bcad1565f4663e" title="Checks if a vector contains a specific value." alt="" coords="297,56,368,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,53,282,61,281,66,206,58"/>
+</map>

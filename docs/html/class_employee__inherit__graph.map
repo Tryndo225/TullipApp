@@ -1,5 +1,5 @@
 <map id="Employee" name="Employee">
-<area shape="rect" id="Node000001" title="Represents an employee." alt="" coords="5,421,143,811"/>
-<area shape="rect" id="Node000002" href="$class_person.html" title="Represents a generic person." alt="" coords="21,5,128,373"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,388,77,421,72,421,72,388"/>
+<area shape="rect" id="Node000001" title="Represents an employee." alt="" coords="5,421,117,747"/>
+<area shape="rect" id="Node000002" href="$class_person.html" title="Represents a generic person." alt="" coords="8,5,115,373"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,388,64,421,59,421,59,388"/>
 </map>

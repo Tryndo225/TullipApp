@@ -117,7 +117,7 @@ $(function(){initNavTree('class_database.html',''); initResizable(true); });
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database__coll__graph.svg" width="195" height="891"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -133,15 +133,24 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae9436646ea676f15bb2ce5602a3d9972"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cf08e9640078e7f7b7d093ee35a64d1" id="r_a9cf08e9640078e7f7b7d093ee35a64d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_database.html">Database</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cf08e9640078e7f7b7d093ee35a64d1">operator=</a> (<a class="el" href="class_database.html">Database</a> &amp;&amp;db) noexcept=default</td></tr>
 <tr class="separator:a9cf08e9640078e7f7b7d093ee35a64d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaadc65d8eed9fdef218300f82902ca41" id="r_aaadc65d8eed9fdef218300f82902ca41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaadc65d8eed9fdef218300f82902ca41">add_lesson</a> (const <a class="el" href="class_lesson.html">Lesson</a> &amp;lesson)</td></tr>
-<tr class="memdesc:aaadc65d8eed9fdef218300f82902ca41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a lesson to the database.  <br /></td></tr>
-<tr class="separator:aaadc65d8eed9fdef218300f82902ca41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12af120f4bd82e7c70ffd191f13f0011" id="r_a12af120f4bd82e7c70ffd191f13f0011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_lesson.html">Lesson</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12af120f4bd82e7c70ffd191f13f0011">add_lesson</a> (const <a class="el" href="class_lesson.html">Lesson</a> &amp;lesson)</td></tr>
+<tr class="memdesc:a12af120f4bd82e7c70ffd191f13f0011"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a lesson to the database.  <br /></td></tr>
+<tr class="separator:a12af120f4bd82e7c70ffd191f13f0011"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68806d26995eecb355c6835e29f45e38" id="r_a68806d26995eecb355c6835e29f45e38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68806d26995eecb355c6835e29f45e38">remove_lesson</a> (const <a class="el" href="class_lesson.html">Lesson</a> *lesson)</td></tr>
 <tr class="memdesc:a68806d26995eecb355c6835e29f45e38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a lesson from the database.  <br /></td></tr>
 <tr class="separator:a68806d26995eecb355c6835e29f45e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f0dd19d237828f34e6832e6adc63991" id="r_a8f0dd19d237828f34e6832e6adc63991"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; <a class="el" href="class_date_time.html">DateTime</a>, <a class="el" href="class_lesson.html">Lesson</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f0dd19d237828f34e6832e6adc63991">sort_lessons_by_datetime</a> ()</td></tr>
-<tr class="memdesc:a8f0dd19d237828f34e6832e6adc63991"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts lessons by date and time.  <br /></td></tr>
-<tr class="separator:a8f0dd19d237828f34e6832e6adc63991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2474f58dd1a17687fe4bc21afb26b830" id="r_a2474f58dd1a17687fe4bc21afb26b830"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_lesson.html">Lesson</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2474f58dd1a17687fe4bc21afb26b830">search_lessons_by_child_name_surname</a> (const std::string &amp;reference_name, const std::string &amp;reference_surname) const</td></tr>
+<tr class="memdesc:a2474f58dd1a17687fe4bc21afb26b830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports data from a CSV file.  <br /></td></tr>
+<tr class="separator:a2474f58dd1a17687fe4bc21afb26b830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90f01fa744db417a637955a599f7fb93" id="r_a90f01fa744db417a637955a599f7fb93"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_lesson.html">Lesson</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90f01fa744db417a637955a599f7fb93">sort_lessons_by_time</a> () const</td></tr>
+<tr class="memdesc:a90f01fa744db417a637955a599f7fb93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts lessons by time.  <br /></td></tr>
+<tr class="separator:a90f01fa744db417a637955a599f7fb93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab18c2c5de0cc4b054016ba67139f7706" id="r_ab18c2c5de0cc4b054016ba67139f7706"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_lesson.html">Lesson</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab18c2c5de0cc4b054016ba67139f7706">sort_lessons_by_day</a> () const</td></tr>
+<tr class="memdesc:ab18c2c5de0cc4b054016ba67139f7706"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts lessons by day.  <br /></td></tr>
+<tr class="separator:ab18c2c5de0cc4b054016ba67139f7706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adffaafaa9037eefa96c073be272833ca" id="r_adffaafaa9037eefa96c073be272833ca"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; <a class="el" href="class_schedule.html">Schedule</a>, <a class="el" href="class_lesson.html">Lesson</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adffaafaa9037eefa96c073be272833ca">sort_lessons_by_schedule</a> ()</td></tr>
+<tr class="memdesc:adffaafaa9037eefa96c073be272833ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts lessons by date and time.  <br /></td></tr>
+<tr class="separator:adffaafaa9037eefa96c073be272833ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ab08425557dc0b07c6452f30c5a2710" id="r_a3ab08425557dc0b07c6452f30c5a2710"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_lesson.html">Lesson</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ab08425557dc0b07c6452f30c5a2710">filter_lesson_by_day</a> (const std::string &amp;day, std::optional&lt; std::vector&lt; <a class="el" href="class_lesson.html">Lesson</a> * &gt; &gt; lessons=std::nullopt) const</td></tr>
 <tr class="memdesc:a3ab08425557dc0b07c6452f30c5a2710"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filters lessons by day.  <br /></td></tr>
 <tr class="separator:a3ab08425557dc0b07c6452f30c5a2710"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,23 +163,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abcc5c80902d844addb9fe92b8524976a" id="r_abcc5c80902d844addb9fe92b8524976a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_lesson.html">Lesson</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcc5c80902d844addb9fe92b8524976a">filter_lesson_by_child_surname</a> (const std::string &amp;surname, std::optional&lt; std::vector&lt; <a class="el" href="class_lesson.html">Lesson</a> * &gt; &gt; lessons=std::nullopt) const</td></tr>
 <tr class="memdesc:abcc5c80902d844addb9fe92b8524976a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filters lessons by a child's surname.  <br /></td></tr>
 <tr class="separator:abcc5c80902d844addb9fe92b8524976a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9f567b93fb0e0be48d59cb6b6d3b7b7" id="r_ab9f567b93fb0e0be48d59cb6b6d3b7b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_parent.html">Parent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9f567b93fb0e0be48d59cb6b6d3b7b7">add_parent</a> (const <a class="el" href="class_parent.html">Parent</a> &amp;parent)</td></tr>
+<tr class="memdesc:ab9f567b93fb0e0be48d59cb6b6d3b7b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a parent to the database.  <br /></td></tr>
+<tr class="separator:ab9f567b93fb0e0be48d59cb6b6d3b7b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f49b299c2bd30461bbd0fb27fce3a57" id="r_a2f49b299c2bd30461bbd0fb27fce3a57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f49b299c2bd30461bbd0fb27fce3a57">update_parent_start</a> (<a class="el" href="class_parent.html">Parent</a> *parent)</td></tr>
+<tr class="memdesc:a2f49b299c2bd30461bbd0fb27fce3a57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a parent's information from the maps.  <br /></td></tr>
+<tr class="separator:a2f49b299c2bd30461bbd0fb27fce3a57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bdc14caecc90d02e843116c3c28f91c" id="r_a3bdc14caecc90d02e843116c3c28f91c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bdc14caecc90d02e843116c3c28f91c">update_parent_end</a> (<a class="el" href="class_parent.html">Parent</a> *parent)</td></tr>
+<tr class="memdesc:a3bdc14caecc90d02e843116c3c28f91c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a parent's information to the maps.  <br /></td></tr>
+<tr class="separator:a3bdc14caecc90d02e843116c3c28f91c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad82c8f66e655d641f118c6162139a30b" id="r_ad82c8f66e655d641f118c6162139a30b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_parent.html">Parent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad82c8f66e655d641f118c6162139a30b">get_parent_by_name_surname</a> (const std::string &amp;name_surname) const</td></tr>
+<tr class="memdesc:ad82c8f66e655d641f118c6162139a30b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a parent by name and surname.  <br /></td></tr>
 <tr class="separator:ad82c8f66e655d641f118c6162139a30b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8085f0b12eb2082cd6f1ed313228132" id="r_aa8085f0b12eb2082cd6f1ed313228132"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8085f0b12eb2082cd6f1ed313228132">add_parent</a> (const <a class="el" href="class_parent.html">Parent</a> &amp;parent)</td></tr>
-<tr class="memdesc:aa8085f0b12eb2082cd6f1ed313228132"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a parent to the database.  <br /></td></tr>
-<tr class="separator:aa8085f0b12eb2082cd6f1ed313228132"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac93799e482b7dbee6db4bb094f7255ce" id="r_ac93799e482b7dbee6db4bb094f7255ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac93799e482b7dbee6db4bb094f7255ce">remove_parent</a> (const <a class="el" href="class_parent.html">Parent</a> *parent)</td></tr>
 <tr class="memdesc:ac93799e482b7dbee6db4bb094f7255ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a parent from the database.  <br /></td></tr>
 <tr class="separator:ac93799e482b7dbee6db4bb094f7255ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1fea974d4f2a5310a5b4a5cb6146ff8" id="r_af1fea974d4f2a5310a5b4a5cb6146ff8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_parent.html">Parent</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1fea974d4f2a5310a5b4a5cb6146ff8">search_parents</a> (const std::string &amp;reference) const</td></tr>
-<tr class="memdesc:af1fea974d4f2a5310a5b4a5cb6146ff8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for parents by a reference string based on lavenstein distance from their name + surname.  <br /></td></tr>
-<tr class="separator:af1fea974d4f2a5310a5b4a5cb6146ff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6c18f4f2fffe82e1c602b8a967cea1f" id="r_ac6c18f4f2fffe82e1c602b8a967cea1f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_parent.html">Parent</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6c18f4f2fffe82e1c602b8a967cea1f">search_parents</a> (const std::string &amp;reference_name, const std::string &amp;reference_surname) const</td></tr>
+<tr class="memdesc:ac6c18f4f2fffe82e1c602b8a967cea1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for parents by a reference string based on lavenstein distance from their name + surname.  <br /></td></tr>
+<tr class="separator:ac6c18f4f2fffe82e1c602b8a967cea1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04b5aadcfda50eab458d975e7ff89cc6" id="r_a04b5aadcfda50eab458d975e7ff89cc6"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; std::string, <a class="el" href="class_parent.html">Parent</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04b5aadcfda50eab458d975e7ff89cc6">sort_parents_by_name</a> ()</td></tr>
 <tr class="memdesc:a04b5aadcfda50eab458d975e7ff89cc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts parents by name.  <br /></td></tr>
 <tr class="separator:a04b5aadcfda50eab458d975e7ff89cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af868e6a1d4adc2fce98590c6f10930db" id="r_af868e6a1d4adc2fce98590c6f10930db"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; std::string, <a class="el" href="class_parent.html">Parent</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af868e6a1d4adc2fce98590c6f10930db">sort_parents_by_surname</a> ()</td></tr>
 <tr class="memdesc:af868e6a1d4adc2fce98590c6f10930db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts parents by surname.  <br /></td></tr>
 <tr class="separator:af868e6a1d4adc2fce98590c6f10930db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a568433d23fe178932e64f5bac6967c" id="r_a3a568433d23fe178932e64f5bac6967c"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; std::string, <a class="el" href="class_parent.html">Parent</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a568433d23fe178932e64f5bac6967c">sort_parents_by_email</a> ()</td></tr>
+<tr class="memdesc:a3a568433d23fe178932e64f5bac6967c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts parents by email.  <br /></td></tr>
+<tr class="separator:a3a568433d23fe178932e64f5bac6967c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a427341d23d0431b1e75b2c82c412f00a" id="r_a427341d23d0431b1e75b2c82c412f00a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_parent.html">Parent</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a427341d23d0431b1e75b2c82c412f00a">filter_parent_by_name</a> (const std::string &amp;name, std::optional&lt; std::vector&lt; <a class="el" href="class_parent.html">Parent</a> * &gt; &gt; parents=std::nullopt) const</td></tr>
 <tr class="memdesc:a427341d23d0431b1e75b2c82c412f00a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filters parents by name.  <br /></td></tr>
 <tr class="separator:a427341d23d0431b1e75b2c82c412f00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,24 +199,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a97d19db70a72013ed95a85d5417a37ce" id="r_a97d19db70a72013ed95a85d5417a37ce"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_parent.html">Parent</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97d19db70a72013ed95a85d5417a37ce">filter_parent_by_email</a> (const std::string &amp;email, std::optional&lt; std::vector&lt; <a class="el" href="class_parent.html">Parent</a> * &gt; &gt; parents=std::nullopt) const</td></tr>
 <tr class="memdesc:a97d19db70a72013ed95a85d5417a37ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filters parents by email.  <br /></td></tr>
 <tr class="separator:a97d19db70a72013ed95a85d5417a37ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60ef6f17c1f6e1da26cf7fafd568164f" id="r_a60ef6f17c1f6e1da26cf7fafd568164f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_child.html">Child</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60ef6f17c1f6e1da26cf7fafd568164f">get_child_by_name_surname</a> (const std::string &amp;name_surname) const</td></tr>
-<tr class="memdesc:a60ef6f17c1f6e1da26cf7fafd568164f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a child by name and surname.  <br /></td></tr>
-<tr class="separator:a60ef6f17c1f6e1da26cf7fafd568164f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e9cba5ac0e9f1eafeea156892eb2e35" id="r_a3e9cba5ac0e9f1eafeea156892eb2e35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e9cba5ac0e9f1eafeea156892eb2e35">add_child</a> (const <a class="el" href="class_child.html">Child</a> &amp;child)</td></tr>
-<tr class="memdesc:a3e9cba5ac0e9f1eafeea156892eb2e35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a child to the database.  <br /></td></tr>
-<tr class="separator:a3e9cba5ac0e9f1eafeea156892eb2e35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19e6fd7e9b36ab995675732c6ef67c8c" id="r_a19e6fd7e9b36ab995675732c6ef67c8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_child.html">Child</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19e6fd7e9b36ab995675732c6ef67c8c">add_child</a> (const <a class="el" href="class_child.html">Child</a> &amp;child)</td></tr>
+<tr class="memdesc:a19e6fd7e9b36ab995675732c6ef67c8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a child to the database.  <br /></td></tr>
+<tr class="separator:a19e6fd7e9b36ab995675732c6ef67c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a283eb646c12fff3f96e217bf5c3a7dc3" id="r_a283eb646c12fff3f96e217bf5c3a7dc3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a283eb646c12fff3f96e217bf5c3a7dc3">update_child_start</a> (<a class="el" href="class_child.html">Child</a> *child)</td></tr>
 <tr class="memdesc:a283eb646c12fff3f96e217bf5c3a7dc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a child's information from the maps.  <br /></td></tr>
 <tr class="separator:a283eb646c12fff3f96e217bf5c3a7dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1c53a90babe25c1148cca426c7579e6" id="r_ad1c53a90babe25c1148cca426c7579e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1c53a90babe25c1148cca426c7579e6">update_child_end</a> (<a class="el" href="class_child.html">Child</a> *child)</td></tr>
 <tr class="memdesc:ad1c53a90babe25c1148cca426c7579e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a child's information to the maps.  <br /></td></tr>
 <tr class="separator:ad1c53a90babe25c1148cca426c7579e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ef6f17c1f6e1da26cf7fafd568164f" id="r_a60ef6f17c1f6e1da26cf7fafd568164f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_child.html">Child</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60ef6f17c1f6e1da26cf7fafd568164f">get_child_by_name_surname</a> (const std::string &amp;name_surname) const</td></tr>
+<tr class="memdesc:a60ef6f17c1f6e1da26cf7fafd568164f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a child by name and surname.  <br /></td></tr>
+<tr class="separator:a60ef6f17c1f6e1da26cf7fafd568164f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a666ab0d4f96402ecae70425b2c6863fb" id="r_a666ab0d4f96402ecae70425b2c6863fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a666ab0d4f96402ecae70425b2c6863fb">remove_child</a> (<a class="el" href="class_child.html">Child</a> *child)</td></tr>
 <tr class="memdesc:a666ab0d4f96402ecae70425b2c6863fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a child from the database.  <br /></td></tr>
 <tr class="separator:a666ab0d4f96402ecae70425b2c6863fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0d0e153128bd72cbfe6e14ff591481c" id="r_ab0d0e153128bd72cbfe6e14ff591481c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_child.html">Child</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0d0e153128bd72cbfe6e14ff591481c">search_children</a> (const std::string &amp;reference) const</td></tr>
-<tr class="memdesc:ab0d0e153128bd72cbfe6e14ff591481c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for children by a reference string based on lavenstein distance from their name + surname.  <br /></td></tr>
-<tr class="separator:ab0d0e153128bd72cbfe6e14ff591481c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa028e0425b0ca6c86d2695d61a5140a9" id="r_aa028e0425b0ca6c86d2695d61a5140a9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_child.html">Child</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa028e0425b0ca6c86d2695d61a5140a9">search_children</a> (const std::string &amp;reference_name, const std::string &amp;reference_surname) const</td></tr>
+<tr class="memdesc:aa028e0425b0ca6c86d2695d61a5140a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for children by a reference string based on lavenstein distance from their name + surname.  <br /></td></tr>
+<tr class="separator:aa028e0425b0ca6c86d2695d61a5140a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03de78fcf7fff82e5cf0acfc130e423c" id="r_a03de78fcf7fff82e5cf0acfc130e423c"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; std::string, <a class="el" href="class_child.html">Child</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03de78fcf7fff82e5cf0acfc130e423c">sort_children_by_name</a> ()</td></tr>
 <tr class="memdesc:a03de78fcf7fff82e5cf0acfc130e423c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts children by name.  <br /></td></tr>
 <tr class="separator:a03de78fcf7fff82e5cf0acfc130e423c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,27 +241,36 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a80f30da6596492aaea6a1049f0d07c4d" id="r_a80f30da6596492aaea6a1049f0d07c4d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_child.html">Child</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80f30da6596492aaea6a1049f0d07c4d">filter_child_by_parent_surname</a> (const std::string &amp;parent_surname, std::optional&lt; std::vector&lt; <a class="el" href="class_child.html">Child</a> * &gt; &gt; children=std::nullopt) const</td></tr>
 <tr class="memdesc:a80f30da6596492aaea6a1049f0d07c4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filters children by a parent's surname.  <br /></td></tr>
 <tr class="separator:a80f30da6596492aaea6a1049f0d07c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38892c6b3b003ef20807e592d1a400e6" id="r_a38892c6b3b003ef20807e592d1a400e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38892c6b3b003ef20807e592d1a400e6">add_employee</a> (const <a class="el" href="class_employee.html">Employee</a> &amp;employee)</td></tr>
-<tr class="memdesc:a38892c6b3b003ef20807e592d1a400e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an employee to the database.  <br /></td></tr>
-<tr class="separator:a38892c6b3b003ef20807e592d1a400e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3031277eab50b9018274b333f8988865" id="r_a3031277eab50b9018274b333f8988865"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3031277eab50b9018274b333f8988865">remove_employee</a> (const <a class="el" href="class_employee.html">Employee</a> *employee)</td></tr>
-<tr class="memdesc:a3031277eab50b9018274b333f8988865"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an employee from the database.  <br /></td></tr>
-<tr class="separator:a3031277eab50b9018274b333f8988865"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4736eacb1b50e2b5320dea4b4a4dfd68" id="r_a4736eacb1b50e2b5320dea4b4a4dfd68"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_employee.html">Employee</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4736eacb1b50e2b5320dea4b4a4dfd68">search_employees</a> (const std::string &amp;reference) const</td></tr>
-<tr class="memdesc:a4736eacb1b50e2b5320dea4b4a4dfd68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for employees by a reference string based on lavenstein distance from their name + surname.  <br /></td></tr>
-<tr class="separator:a4736eacb1b50e2b5320dea4b4a4dfd68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7694df2f0f4e7d75e75ef409dcc40898" id="r_a7694df2f0f4e7d75e75ef409dcc40898"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_employee.html">Employee</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7694df2f0f4e7d75e75ef409dcc40898">add_employee</a> (const <a class="el" href="class_employee.html">Employee</a> &amp;employee)</td></tr>
+<tr class="memdesc:a7694df2f0f4e7d75e75ef409dcc40898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an employee to the database.  <br /></td></tr>
+<tr class="separator:a7694df2f0f4e7d75e75ef409dcc40898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bbdd3a035f7164c5ddf45fcc28693e7" id="r_a7bbdd3a035f7164c5ddf45fcc28693e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bbdd3a035f7164c5ddf45fcc28693e7">update_employee_start</a> (<a class="el" href="class_employee.html">Employee</a> *employee)</td></tr>
+<tr class="memdesc:a7bbdd3a035f7164c5ddf45fcc28693e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an employee's information from the maps.  <br /></td></tr>
+<tr class="separator:a7bbdd3a035f7164c5ddf45fcc28693e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e3d65ad9e1957377f3cffa5f5275554" id="r_a0e3d65ad9e1957377f3cffa5f5275554"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e3d65ad9e1957377f3cffa5f5275554">update_employee_end</a> (<a class="el" href="class_employee.html">Employee</a> *employee)</td></tr>
+<tr class="memdesc:a0e3d65ad9e1957377f3cffa5f5275554"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an employee's information to the maps.  <br /></td></tr>
+<tr class="separator:a0e3d65ad9e1957377f3cffa5f5275554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad50041d3d5067356b4581bed63a51449" id="r_ad50041d3d5067356b4581bed63a51449"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_employee.html">Employee</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad50041d3d5067356b4581bed63a51449">get_employee_by_name_surname</a> (const std::string &amp;name_surname) const</td></tr>
+<tr class="memdesc:ad50041d3d5067356b4581bed63a51449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets an employee by name and surname.  <br /></td></tr>
+<tr class="separator:ad50041d3d5067356b4581bed63a51449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a634fba21c974bb1fe271204801df71c1" id="r_a634fba21c974bb1fe271204801df71c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a634fba21c974bb1fe271204801df71c1">remove_employee</a> (<a class="el" href="class_employee.html">Employee</a> *employee)</td></tr>
+<tr class="memdesc:a634fba21c974bb1fe271204801df71c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an employee from the database.  <br /></td></tr>
+<tr class="separator:a634fba21c974bb1fe271204801df71c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a41f3674047305eacb6d227caa6172f" id="r_a2a41f3674047305eacb6d227caa6172f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_employee.html">Employee</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a41f3674047305eacb6d227caa6172f">search_employees</a> (const std::string &amp;reference_name, const std::string &amp;reference_surname) const</td></tr>
+<tr class="memdesc:a2a41f3674047305eacb6d227caa6172f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for employees by a reference string based on lavenstein distance from their name + surname.  <br /></td></tr>
+<tr class="separator:a2a41f3674047305eacb6d227caa6172f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ab133bd571807caf961c83cbf0806eb" id="r_a6ab133bd571807caf961c83cbf0806eb"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; std::string, <a class="el" href="class_employee.html">Employee</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ab133bd571807caf961c83cbf0806eb">sort_employees_by_name</a> ()</td></tr>
 <tr class="memdesc:a6ab133bd571807caf961c83cbf0806eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts employees by name.  <br /></td></tr>
 <tr class="separator:a6ab133bd571807caf961c83cbf0806eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1e10e2667d50bd248b48a102c1e48f4" id="r_ad1e10e2667d50bd248b48a102c1e48f4"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; std::string, <a class="el" href="class_employee.html">Employee</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1e10e2667d50bd248b48a102c1e48f4">sort_employees_by_surname</a> ()</td></tr>
 <tr class="memdesc:ad1e10e2667d50bd248b48a102c1e48f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts employees by surname.  <br /></td></tr>
 <tr class="separator:ad1e10e2667d50bd248b48a102c1e48f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88926e9ac3cee00919043867779c00a8" id="r_a88926e9ac3cee00919043867779c00a8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_employee.html">Employee</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88926e9ac3cee00919043867779c00a8">filter_employee_by_name</a> (const std::string &amp;name, std::optional&lt; std::vector&lt; <a class="el" href="class_employee.html">Employee</a> * &gt; &gt; employees) const</td></tr>
-<tr class="memdesc:a88926e9ac3cee00919043867779c00a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filters employees by name.  <br /></td></tr>
-<tr class="separator:a88926e9ac3cee00919043867779c00a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cf2bc66256478999550845c5faa4b34" id="r_a1cf2bc66256478999550845c5faa4b34"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_employee.html">Employee</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cf2bc66256478999550845c5faa4b34">filter_employee_by_surname</a> (const std::string &amp;surname, std::optional&lt; std::vector&lt; <a class="el" href="class_employee.html">Employee</a> * &gt; &gt; employees) const</td></tr>
-<tr class="memdesc:a1cf2bc66256478999550845c5faa4b34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filters employees by surname.  <br /></td></tr>
-<tr class="separator:a1cf2bc66256478999550845c5faa4b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4078647d304eaebd16c83baf22a2b18" id="r_ab4078647d304eaebd16c83baf22a2b18"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_employee.html">Employee</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4078647d304eaebd16c83baf22a2b18">filter_employee_by_name</a> (const std::string &amp;name, std::optional&lt; std::vector&lt; <a class="el" href="class_employee.html">Employee</a> * &gt; &gt; employees=std::nullopt) const</td></tr>
+<tr class="memdesc:ab4078647d304eaebd16c83baf22a2b18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filters employees by name.  <br /></td></tr>
+<tr class="separator:ab4078647d304eaebd16c83baf22a2b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7863b68cb40f5715660eeccaaf56f52" id="r_af7863b68cb40f5715660eeccaaf56f52"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_employee.html">Employee</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7863b68cb40f5715660eeccaaf56f52">filter_employee_by_surname</a> (const std::string &amp;surname, std::optional&lt; std::vector&lt; <a class="el" href="class_employee.html">Employee</a> * &gt; &gt; employees=std::nullopt) const</td></tr>
+<tr class="memdesc:af7863b68cb40f5715660eeccaaf56f52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filters employees by surname.  <br /></td></tr>
+<tr class="separator:af7863b68cb40f5715660eeccaaf56f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3b2c97f6ffbcff3ec1c0f78a91d6107" id="r_af3b2c97f6ffbcff3ec1c0f78a91d6107"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3b2c97f6ffbcff3ec1c0f78a91d6107">import_from_stream</a> (std::istream &amp;stream=std::cin)</td></tr>
 <tr class="memdesc:af3b2c97f6ffbcff3ec1c0f78a91d6107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports data from a stream.  <br /></td></tr>
 <tr class="separator:af3b2c97f6ffbcff3ec1c0f78a91d6107"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -292,10 +320,10 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a764574ac9e94b5ab7eb8d106b9113bec"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a764574ac9e94b5ab7eb8d106b9113bec">remove_from_map</a> (std::multimap&lt; Key, Value * &gt; &amp;map, const Key &amp;key, const Value *value)</td></tr>
 <tr class="memdesc:a764574ac9e94b5ab7eb8d106b9113bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an entry from a multimap.  <br /></td></tr>
 <tr class="separator:a764574ac9e94b5ab7eb8d106b9113bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82384bc80fb983efab40f32a5783a880" id="r_a82384bc80fb983efab40f32a5783a880"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:a82384bc80fb983efab40f32a5783a880"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a82384bc80fb983efab40f32a5783a880">search_lavenstein</a> (std::vector&lt; T * &gt; &amp;vector, const std::string &amp;reference) const</td></tr>
-<tr class="memdesc:a82384bc80fb983efab40f32a5783a880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for closest match of name + surname to reference string in a vector of pointers.  <br /></td></tr>
-<tr class="separator:a82384bc80fb983efab40f32a5783a880"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeff89f7dd0364919a22010a9cbf353c" id="r_aaeff89f7dd0364919a22010a9cbf353c"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:aaeff89f7dd0364919a22010a9cbf353c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aaeff89f7dd0364919a22010a9cbf353c">search_lavenstein_name_surname</a> (std::vector&lt; T * &gt; &amp;vector, const std::string &amp;reference_name, const std::string &amp;reference_surname) const</td></tr>
+<tr class="memdesc:aaeff89f7dd0364919a22010a9cbf353c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for closest match of name + surname to reference string in a vector of pointers.  <br /></td></tr>
+<tr class="separator:aaeff89f7dd0364919a22010a9cbf353c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -335,9 +363,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a01ae7991c368b316749b0e55765700d1" id="r_a01ae7991c368b316749b0e55765700d1"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; std::string, <a class="el" href="class_employee.html">Employee</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01ae7991c368b316749b0e55765700d1">employee_by_surname</a></td></tr>
 <tr class="memdesc:a01ae7991c368b316749b0e55765700d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of employees by surname.  <br /></td></tr>
 <tr class="separator:a01ae7991c368b316749b0e55765700d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e4aff6d110c76e36510692ba57bf499" id="r_a5e4aff6d110c76e36510692ba57bf499"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; <a class="el" href="class_date_time.html">DateTime</a>, <a class="el" href="class_lesson.html">Lesson</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e4aff6d110c76e36510692ba57bf499">lesson_by_datetime</a></td></tr>
-<tr class="memdesc:a5e4aff6d110c76e36510692ba57bf499"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of lessons by date and time.  <br /></td></tr>
-<tr class="separator:a5e4aff6d110c76e36510692ba57bf499"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8940866ffef6f9324fb3e2486b77b2bb" id="r_a8940866ffef6f9324fb3e2486b77b2bb"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; <a class="el" href="class_schedule.html">Schedule</a>, <a class="el" href="class_lesson.html">Lesson</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8940866ffef6f9324fb3e2486b77b2bb">lesson_by_schedule</a></td></tr>
+<tr class="memdesc:a8940866ffef6f9324fb3e2486b77b2bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of lessons by date and time.  <br /></td></tr>
+<tr class="separator:a8940866ffef6f9324fb3e2486b77b2bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages data related to lessons, parents, children, and employees. </p>
@@ -469,14 +497,14 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3e9cba5ac0e9f1eafeea156892eb2e35" name="a3e9cba5ac0e9f1eafeea156892eb2e35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e9cba5ac0e9f1eafeea156892eb2e35">&#9670;&#160;</a></span>add_child()</h2>
+<a id="a19e6fd7e9b36ab995675732c6ef67c8c" name="a19e6fd7e9b36ab995675732c6ef67c8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19e6fd7e9b36ab995675732c6ef67c8c">&#9670;&#160;</a></span>add_child()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Database::add_child </td>
+          <td class="memname"><a class="el" href="class_child.html">Child</a> * Database::add_child </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_child.html">Child</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>child</em></span></td><td>)</td>
           <td></td>
@@ -496,26 +524,26 @@ Private Attributes</h2></td></tr>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a3e9cba5ac0e9f1eafeea156892eb2e35_cgraph.svg" width="344" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a19e6fd7e9b36ab995675732c6ef67c8c_cgraph.svg" width="344" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div id="dynsection-5" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a3e9cba5ac0e9f1eafeea156892eb2e35_icgraph.svg" width="248" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_a19e6fd7e9b36ab995675732c6ef67c8c_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a38892c6b3b003ef20807e592d1a400e6" name="a38892c6b3b003ef20807e592d1a400e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38892c6b3b003ef20807e592d1a400e6">&#9670;&#160;</a></span>add_employee()</h2>
+<a id="a7694df2f0f4e7d75e75ef409dcc40898" name="a7694df2f0f4e7d75e75ef409dcc40898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7694df2f0f4e7d75e75ef409dcc40898">&#9670;&#160;</a></span>add_employee()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Database::add_employee </td>
+          <td class="memname"><a class="el" href="class_employee.html">Employee</a> * Database::add_employee </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_employee.html">Employee</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>employee</em></span></td><td>)</td>
           <td></td>
@@ -535,19 +563,26 @@ Private Attributes</h2></td></tr>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a38892c6b3b003ef20807e592d1a400e6_cgraph.svg" width="374" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a7694df2f0f4e7d75e75ef409dcc40898_cgraph.svg" width="374" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-7" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_a7694df2f0f4e7d75e75ef409dcc40898_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="aaadc65d8eed9fdef218300f82902ca41" name="aaadc65d8eed9fdef218300f82902ca41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaadc65d8eed9fdef218300f82902ca41">&#9670;&#160;</a></span>add_lesson()</h2>
+<a id="a12af120f4bd82e7c70ffd191f13f0011" name="a12af120f4bd82e7c70ffd191f13f0011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12af120f4bd82e7c70ffd191f13f0011">&#9670;&#160;</a></span>add_lesson()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Database::add_lesson </td>
+          <td class="memname"><a class="el" href="class_lesson.html">Lesson</a> * Database::add_lesson </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_lesson.html">Lesson</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>lesson</em></span></td><td>)</td>
           <td></td>
@@ -562,24 +597,31 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-7" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-8" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_aaadc65d8eed9fdef218300f82902ca41_cgraph.svg" width="356" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a12af120f4bd82e7c70ffd191f13f0011_cgraph.svg" width="359" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-9" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_a12af120f4bd82e7c70ffd191f13f0011_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="aa8085f0b12eb2082cd6f1ed313228132" name="aa8085f0b12eb2082cd6f1ed313228132"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8085f0b12eb2082cd6f1ed313228132">&#9670;&#160;</a></span>add_parent()</h2>
+<a id="ab9f567b93fb0e0be48d59cb6b6d3b7b7" name="ab9f567b93fb0e0be48d59cb6b6d3b7b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9f567b93fb0e0be48d59cb6b6d3b7b7">&#9670;&#160;</a></span>add_parent()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Database::add_parent </td>
+          <td class="memname"><a class="el" href="class_parent.html">Parent</a> * Database::add_parent </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_parent.html">Parent</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>parent</em></span></td><td>)</td>
           <td></td>
@@ -594,12 +636,19 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-8" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-10" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_aa8085f0b12eb2082cd6f1ed313228132_cgraph.svg" width="354" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_ab9f567b93fb0e0be48d59cb6b6d3b7b7_cgraph.svg" width="354" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-11" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_ab9f567b93fb0e0be48d59cb6b6d3b7b7_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -653,11 +702,11 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-9" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-12" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a1aeb301c4e62896370c486cd3391b4c1_icgraph.svg" width="562" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -693,11 +742,11 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-10" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-13" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a331a8626ba05195269528d4138ef9f81_icgraph.svg" width="579" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -733,11 +782,11 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-11" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-14" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a415d6b7c807f0ed446431d9a6349675f_icgraph.svg" width="563" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -773,11 +822,11 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-12" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-15" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a73ac31eda79b61b8efc1ad4284c7b288_icgraph.svg" width="559" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -805,11 +854,11 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-13" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-16" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_abb1803f9cdff3217957c971608d1a3ed_cgraph.svg" width="579" height="254"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -837,18 +886,18 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-14" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-17" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a8a90113565fef7051faccc65d304c665_cgraph.svg" width="392" height="254"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-<div id="dynsection-15" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-18" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a8a90113565fef7051faccc65d304c665_icgraph.svg" width="338" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -882,11 +931,11 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to children matching the filter. </dd></dl>
-<div id="dynsection-16" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-19" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a14779910c7ac1a1265fce5a1ea3a4ef3_cgraph.svg" width="499" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -920,19 +969,19 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to children matching the filter. </dd></dl>
-<div id="dynsection-17" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-20" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a448f32cb2e58118d83634666431562c2_cgraph.svg" width="366" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-<div id="dynsection-18" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-21" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a448f32cb2e58118d83634666431562c2_icgraph.svg" width="359" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_a448f32cb2e58118d83634666431562c2_icgraph.svg" width="100%" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -965,11 +1014,11 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to children matching the filter. </dd></dl>
-<div id="dynsection-19" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-22" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a93adb69fe9d3d5d0566feaeede6027f9_cgraph.svg" width="331" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -1003,11 +1052,11 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to children matching the filter. </dd></dl>
-<div id="dynsection-20" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-23" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a80f30da6596492aaea6a1049f0d07c4d_cgraph.svg" width="348" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -1041,25 +1090,25 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to children matching the filter. </dd></dl>
-<div id="dynsection-21" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-24" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a48cdf44f55b29d6141c5e00b88fa4d22_cgraph.svg" width="366" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-<div id="dynsection-22" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-25" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a48cdf44f55b29d6141c5e00b88fa4d22_icgraph.svg" width="359" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_a48cdf44f55b29d6141c5e00b88fa4d22_icgraph.svg" width="100%" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a88926e9ac3cee00919043867779c00a8" name="a88926e9ac3cee00919043867779c00a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88926e9ac3cee00919043867779c00a8">&#9670;&#160;</a></span>filter_employee_by_name()</h2>
+<a id="ab4078647d304eaebd16c83baf22a2b18" name="ab4078647d304eaebd16c83baf22a2b18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4078647d304eaebd16c83baf22a2b18">&#9670;&#160;</a></span>filter_employee_by_name()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1072,7 +1121,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::optional&lt; std::vector&lt; <a class="el" href="class_employee.html">Employee</a> * &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>employees</em></span>&#160;) const</td>
+          <td class="paramtype">std::optional&lt; std::vector&lt; <a class="el" href="class_employee.html">Employee</a> * &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>employees</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::nullopt</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1086,18 +1135,25 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to employees matching the filter. </dd></dl>
-<div id="dynsection-23" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-26" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a88926e9ac3cee00919043867779c00a8_cgraph.svg" width="395" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_ab4078647d304eaebd16c83baf22a2b18_cgraph.svg" width="395" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-27" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_ab4078647d304eaebd16c83baf22a2b18_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a1cf2bc66256478999550845c5faa4b34" name="a1cf2bc66256478999550845c5faa4b34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cf2bc66256478999550845c5faa4b34">&#9670;&#160;</a></span>filter_employee_by_surname()</h2>
+<a id="af7863b68cb40f5715660eeccaaf56f52" name="af7863b68cb40f5715660eeccaaf56f52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7863b68cb40f5715660eeccaaf56f52">&#9670;&#160;</a></span>filter_employee_by_surname()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1110,7 +1166,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::optional&lt; std::vector&lt; <a class="el" href="class_employee.html">Employee</a> * &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>employees</em></span>&#160;) const</td>
+          <td class="paramtype">std::optional&lt; std::vector&lt; <a class="el" href="class_employee.html">Employee</a> * &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>employees</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::nullopt</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1124,12 +1180,19 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to employees matching the filter. </dd></dl>
-<div id="dynsection-24" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-28" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a1cf2bc66256478999550845c5faa4b34_cgraph.svg" width="395" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_af7863b68cb40f5715660eeccaaf56f52_cgraph.svg" width="395" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-29" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_af7863b68cb40f5715660eeccaaf56f52_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1162,11 +1225,11 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to lessons matching the filter. </dd></dl>
-<div id="dynsection-25" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-30" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_aaf8229f4fd051bff7fcb7c91c40a0c56_cgraph.svg" width="356" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -1200,12 +1263,19 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to lessons matching the filter. </dd></dl>
-<div id="dynsection-26" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-31" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_ad8e7c7035665c903a8a34b5dbff4e2a6_cgraph.svg" width="599" height="206"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-32" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_ad8e7c7035665c903a8a34b5dbff4e2a6_icgraph.svg" width="391" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1238,12 +1308,19 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to lessons matching the filter. </dd></dl>
-<div id="dynsection-27" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-33" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_abcc5c80902d844addb9fe92b8524976a_cgraph.svg" width="599" height="206"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-34" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-34-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-34-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_abcc5c80902d844addb9fe92b8524976a_icgraph.svg" width="391" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1276,12 +1353,12 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to lessons matching the filter. </dd></dl>
-<div id="dynsection-28" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-35" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-35-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a3ab08425557dc0b07c6452f30c5a2710_cgraph.svg" width="580" height="215"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-35-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a3ab08425557dc0b07c6452f30c5a2710_cgraph.svg" width="344" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1314,11 +1391,11 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to parents matching the filter. </dd></dl>
-<div id="dynsection-29" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-29-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-36" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-36-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-29-content" class="dyncontent" style="display:none;">
+<div id="dynsection-36-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a97d19db70a72013ed95a85d5417a37ce_cgraph.svg" width="336" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -1352,19 +1429,19 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to parents matching the filter. </dd></dl>
-<div id="dynsection-30" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-37" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-37-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div id="dynsection-37-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a427341d23d0431b1e75b2c82c412f00a_cgraph.svg" width="375" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-<div id="dynsection-31" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-38" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-38-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a427341d23d0431b1e75b2c82c412f00a_icgraph.svg" width="359" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-38-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_a427341d23d0431b1e75b2c82c412f00a_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1397,19 +1474,19 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to parents matching the filter. </dd></dl>
-<div id="dynsection-32" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-39" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-39-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div id="dynsection-39-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a09a0e8fe44e256daff05eeba15c22153_cgraph.svg" width="375" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-<div id="dynsection-33" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-33-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-40" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-40-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-33-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a09a0e8fe44e256daff05eeba15c22153_icgraph.svg" width="359" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-40-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_a09a0e8fe44e256daff05eeba15c22153_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1437,12 +1514,59 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the child if found, otherwise <code>nullptr</code>. </dd></dl>
-<div id="dynsection-34" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-34-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-41" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-41-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-34-content" class="dyncontent" style="display:none;">
+<div id="dynsection-41-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a60ef6f17c1f6e1da26cf7fafd568164f_cgraph.svg" width="552" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-42" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-42-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-42-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_a60ef6f17c1f6e1da26cf7fafd568164f_icgraph.svg" width="100%" height="390"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad50041d3d5067356b4581bed63a51449" name="ad50041d3d5067356b4581bed63a51449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad50041d3d5067356b4581bed63a51449">&#9670;&#160;</a></span>get_employee_by_name_surname()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_employee.html">Employee</a> * Database::get_employee_by_name_surname </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name_surname</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets an employee by name and surname. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name_surname</td><td>The name and surname of the employee to find. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the employee if found, otherwise <code>nullptr</code>. </dd></dl>
+<div id="dynsection-43" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-43-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-43-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_ad50041d3d5067356b4581bed63a51449_cgraph.svg" width="610" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-44" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-44-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-44-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_ad50041d3d5067356b4581bed63a51449_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1461,12 +1585,28 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div id="dynsection-35" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-35-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
+
+<p>Gets a parent by name and surname. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name_surname</td><td>The name and surname of the parent to find. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the parent if found, otherwise <code>nullptr</code>. </dd></dl>
+<div id="dynsection-45" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-45-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-45-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-35-content" class="dyncontent" style="display:none;">
+<div id="dynsection-45-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_ad82c8f66e655d641f118c6162139a30b_cgraph.svg" width="570" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-46" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-46-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-46-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_ad82c8f66e655d641f118c6162139a30b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1501,11 +1641,18 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-36" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-36-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-47" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-47-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-47-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-36-content" class="dyncontent" style="display:none;">
+<div id="dynsection-47-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_a5010b6ed864bd832f96c86e33097e95f_cgraph.svg" width="100%" height="504"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div id="dynsection-48" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-48-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-48-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a5010b6ed864bd832f96c86e33097e95f_icgraph.svg" width="592" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -1541,11 +1688,18 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-37" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-37-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-49" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-49-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-37-content" class="dyncontent" style="display:none;">
+<div id="dynsection-49-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_a8ba6656ed991b406bb7b3ecb716726af_cgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div id="dynsection-50" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-50-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-50-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-50-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a8ba6656ed991b406bb7b3ecb716726af_icgraph.svg" width="610" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -1573,12 +1727,12 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-38" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-38-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-51" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-51-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-51-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-38-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a0a08797a6ca7a3456150370e3f816d4c_cgraph.svg" width="610" height="254"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-51-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_a0a08797a6ca7a3456150370e3f816d4c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1605,18 +1759,18 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-39" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-39-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-52" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-52-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-52-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-39-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_af3b2c97f6ffbcff3ec1c0f78a91d6107_cgraph.svg" width="407" height="254"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-52-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_af3b2c97f6ffbcff3ec1c0f78a91d6107_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
-<div id="dynsection-40" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-40-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-53" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-53-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-53-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-40-content" class="dyncontent" style="display:none;">
+<div id="dynsection-53-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_af3b2c97f6ffbcff3ec1c0f78a91d6107_icgraph.svg" width="368" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -1652,11 +1806,18 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-41" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-41-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-54" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-54-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-54-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-41-content" class="dyncontent" style="display:none;">
+<div id="dynsection-54-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_a5234a41c55542e88486c147ca399f386_cgraph.svg" width="100%" height="580"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div id="dynsection-55" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-55-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-55-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-55-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a5234a41c55542e88486c147ca399f386_icgraph.svg" width="594" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -1692,11 +1853,18 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-42" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-42-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-56" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-56-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-56-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-42-content" class="dyncontent" style="display:none;">
+<div id="dynsection-56-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_a0036708a325b181645735f8fc0c2beaa_cgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div id="dynsection-57" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-57-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-57-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-57-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a0036708a325b181645735f8fc0c2beaa_icgraph.svg" width="590" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -1724,11 +1892,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div id="dynsection-43" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-43-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-58" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-58-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-58-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-43-content" class="dyncontent" style="display:none;">
+<div id="dynsection-58-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_ae9436646ea676f15bb2ce5602a3d9972_cgraph.svg" width="340" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -1756,11 +1924,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div id="dynsection-44" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-44-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-59" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-59-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-59-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-44-content" class="dyncontent" style="display:none;">
+<div id="dynsection-59-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a9cf08e9640078e7f7b7d093ee35a64d1_cgraph.svg" width="340" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -1788,18 +1956,18 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-45" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-45-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-45-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-60" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-60-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-60-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-45-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a666ab0d4f96402ecae70425b2c6863fb_cgraph.svg" width="415" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-60-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a666ab0d4f96402ecae70425b2c6863fb_cgraph.svg" width="547" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a3031277eab50b9018274b333f8988865" name="a3031277eab50b9018274b333f8988865"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3031277eab50b9018274b333f8988865">&#9670;&#160;</a></span>remove_employee()</h2>
+<a id="a634fba21c974bb1fe271204801df71c1" name="a634fba21c974bb1fe271204801df71c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a634fba21c974bb1fe271204801df71c1">&#9670;&#160;</a></span>remove_employee()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1807,7 +1975,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void Database::remove_employee </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_employee.html">Employee</a> *</td>          <td class="paramname"><span class="paramname"><em>employee</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_employee.html">Employee</a> *</td>          <td class="paramname"><span class="paramname"><em>employee</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1820,12 +1988,12 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-46" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-46-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-61" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-61-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-61-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-46-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a3031277eab50b9018274b333f8988865_cgraph.svg" width="378" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-61-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a634fba21c974bb1fe271204801df71c1_cgraph.svg" width="444" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1880,12 +2048,12 @@ template&lt;typename Key, typename Value&gt; </div>
   </table>
   </dd>
 </dl>
-<div id="dynsection-47" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-47-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-47-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-62" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-62-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-62-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-47-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a764574ac9e94b5ab7eb8d106b9113bec_icgraph.svg" width="415" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-62-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a764574ac9e94b5ab7eb8d106b9113bec_icgraph.svg" width="444" height="339"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1912,12 +2080,12 @@ template&lt;typename Key, typename Value&gt; </div>
   </table>
   </dd>
 </dl>
-<div id="dynsection-48" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-48-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-63" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-63-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-63-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-48-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a68806d26995eecb355c6835e29f45e38_cgraph.svg" width="379" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-63-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a68806d26995eecb355c6835e29f45e38_cgraph.svg" width="380" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1944,18 +2112,18 @@ template&lt;typename Key, typename Value&gt; </div>
   </table>
   </dd>
 </dl>
-<div id="dynsection-49" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-49-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-64" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-64-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-64-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-49-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_ac93799e482b7dbee6db4bb094f7255ce_cgraph.svg" width="358" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-64-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_ac93799e482b7dbee6db4bb094f7255ce_cgraph.svg" width="424" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="ab0d0e153128bd72cbfe6e14ff591481c" name="ab0d0e153128bd72cbfe6e14ff591481c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0d0e153128bd72cbfe6e14ff591481c">&#9670;&#160;</a></span>search_children()</h2>
+<a id="aa028e0425b0ca6c86d2695d61a5140a9" name="aa028e0425b0ca6c86d2695d61a5140a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa028e0425b0ca6c86d2695d61a5140a9">&#9670;&#160;</a></span>search_children()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1963,8 +2131,12 @@ template&lt;typename Key, typename Value&gt; </div>
         <tr>
           <td class="memname">std::vector&lt; <a class="el" href="class_child.html">Child</a> * &gt; Database::search_children </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>reference</em></span></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>reference_name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>reference_surname</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1977,18 +2149,25 @@ template&lt;typename Key, typename Value&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to children matching the reference. </dd></dl>
-<div id="dynsection-50" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-50-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-50-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-65" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-65-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-65-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-50-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_ab0d0e153128bd72cbfe6e14ff591481c_cgraph.svg" width="426" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-65-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_aa028e0425b0ca6c86d2695d61a5140a9_cgraph.svg" width="426" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div id="dynsection-66" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-66-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-66-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-66-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_aa028e0425b0ca6c86d2695d61a5140a9_icgraph.svg" width="412" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a4736eacb1b50e2b5320dea4b4a4dfd68" name="a4736eacb1b50e2b5320dea4b4a4dfd68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4736eacb1b50e2b5320dea4b4a4dfd68">&#9670;&#160;</a></span>search_employees()</h2>
+<a id="a2a41f3674047305eacb6d227caa6172f" name="a2a41f3674047305eacb6d227caa6172f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a41f3674047305eacb6d227caa6172f">&#9670;&#160;</a></span>search_employees()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1996,8 +2175,12 @@ template&lt;typename Key, typename Value&gt; </div>
         <tr>
           <td class="memname">std::vector&lt; <a class="el" href="class_employee.html">Employee</a> * &gt; Database::search_employees </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>reference</em></span></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>reference_name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>reference_surname</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2010,18 +2193,18 @@ template&lt;typename Key, typename Value&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to employees matching the reference. </dd></dl>
-<div id="dynsection-51" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-51-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-51-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-67" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-67-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-67-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-51-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a4736eacb1b50e2b5320dea4b4a4dfd68_cgraph.svg" width="444" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-67-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a2a41f3674047305eacb6d227caa6172f_cgraph.svg" width="444" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a82384bc80fb983efab40f32a5783a880" name="a82384bc80fb983efab40f32a5783a880"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82384bc80fb983efab40f32a5783a880">&#9670;&#160;</a></span>search_lavenstein()</h2>
+<a id="aaeff89f7dd0364919a22010a9cbf353c" name="aaeff89f7dd0364919a22010a9cbf353c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeff89f7dd0364919a22010a9cbf353c">&#9670;&#160;</a></span>search_lavenstein_name_surname()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2032,14 +2215,19 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Database::search_lavenstein </td>
+          <td class="memname">void Database::search_lavenstein_name_surname </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; T * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vector</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>reference</em></span>&#160;) const</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>reference_name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>reference_surname</em></span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -2063,18 +2251,54 @@ template&lt;typename T&gt; </div>
   </table>
   </dd>
 </dl>
-<div id="dynsection-52" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-52-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-52-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-68" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-68-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-68-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-52-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a82384bc80fb983efab40f32a5783a880_icgraph.svg" width="444" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-68-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_aaeff89f7dd0364919a22010a9cbf353c_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="af1fea974d4f2a5310a5b4a5cb6146ff8" name="af1fea974d4f2a5310a5b4a5cb6146ff8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1fea974d4f2a5310a5b4a5cb6146ff8">&#9670;&#160;</a></span>search_parents()</h2>
+<a id="a2474f58dd1a17687fe4bc21afb26b830" name="a2474f58dd1a17687fe4bc21afb26b830"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2474f58dd1a17687fe4bc21afb26b830">&#9670;&#160;</a></span>search_lessons_by_child_name_surname()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="class_lesson.html">Lesson</a> * &gt; Database::search_lessons_by_child_name_surname </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>reference_name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>reference_surname</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Imports data from a CSV file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stream</td><td>The input stream to read from. Defaults to <code>std::cin</code>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-69" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-69-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-69-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-69-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_a2474f58dd1a17687fe4bc21afb26b830_cgraph.svg" width="100%" height="577"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac6c18f4f2fffe82e1c602b8a967cea1f" name="ac6c18f4f2fffe82e1c602b8a967cea1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6c18f4f2fffe82e1c602b8a967cea1f">&#9670;&#160;</a></span>search_parents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2082,8 +2306,12 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname">std::vector&lt; <a class="el" href="class_parent.html">Parent</a> * &gt; Database::search_parents </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>reference</em></span></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>reference_name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>reference_surname</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2096,12 +2324,12 @@ template&lt;typename T&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of pointers to parents matching the reference. </dd></dl>
-<div id="dynsection-53" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-53-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-53-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-70" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-70-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-70-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-53-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_af1fea974d4f2a5310a5b4a5cb6146ff8_cgraph.svg" width="424" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-70-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_ac6c18f4f2fffe82e1c602b8a967cea1f_cgraph.svg" width="424" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -2206,14 +2434,34 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="a8f0dd19d237828f34e6832e6adc63991" name="a8f0dd19d237828f34e6832e6adc63991"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f0dd19d237828f34e6832e6adc63991">&#9670;&#160;</a></span>sort_lessons_by_datetime()</h2>
+<a id="ab18c2c5de0cc4b054016ba67139f7706" name="ab18c2c5de0cc4b054016ba67139f7706"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab18c2c5de0cc4b054016ba67139f7706">&#9670;&#160;</a></span>sort_lessons_by_day()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::multimap&lt; <a class="el" href="class_date_time.html">DateTime</a>, <a class="el" href="class_lesson.html">Lesson</a> * &gt; &amp; Database::sort_lessons_by_datetime </td>
+          <td class="memname">std::vector&lt; <a class="el" href="class_lesson.html">Lesson</a> * &gt; Database::sort_lessons_by_day </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sorts lessons by day. </p>
+<dl class="section return"><dt>Returns</dt><dd>A vector of pointers to lessons sorted by day. </dd></dl>
+
+</div>
+</div>
+<a id="adffaafaa9037eefa96c073be272833ca" name="adffaafaa9037eefa96c073be272833ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adffaafaa9037eefa96c073be272833ca">&#9670;&#160;</a></span>sort_lessons_by_schedule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::multimap&lt; <a class="el" href="class_schedule.html">Schedule</a>, <a class="el" href="class_lesson.html">Lesson</a> * &gt; &amp; Database::sort_lessons_by_schedule </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -2223,6 +2471,46 @@ template&lt;typename T&gt; </div>
 
 <p>Sorts lessons by date and time. </p>
 <dl class="section return"><dt>Returns</dt><dd>A reference to the multimap of lessons sorted by date and time. </dd></dl>
+
+</div>
+</div>
+<a id="a90f01fa744db417a637955a599f7fb93" name="a90f01fa744db417a637955a599f7fb93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90f01fa744db417a637955a599f7fb93">&#9670;&#160;</a></span>sort_lessons_by_time()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="class_lesson.html">Lesson</a> * &gt; Database::sort_lessons_by_time </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sorts lessons by time. </p>
+<dl class="section return"><dt>Returns</dt><dd>A vector of pointers to lessons sorted by time. </dd></dl>
+
+</div>
+</div>
+<a id="a3a568433d23fe178932e64f5bac6967c" name="a3a568433d23fe178932e64f5bac6967c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a568433d23fe178932e64f5bac6967c">&#9670;&#160;</a></span>sort_parents_by_email()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::multimap&lt; std::string, <a class="el" href="class_parent.html">Parent</a> * &gt; Database::sort_parents_by_email </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sorts parents by email. </p>
+<dl class="section return"><dt>Returns</dt><dd>A multimap of parents sorted by email. </dd></dl>
 
 </div>
 </div>
@@ -2288,11 +2576,11 @@ template&lt;typename T&gt; </div>
   </table>
   </dd>
 </dl>
-<div id="dynsection-54" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-54-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-54-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-71" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-71-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-71-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-54-content" class="dyncontent" style="display:none;">
+<div id="dynsection-71-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_ad1c53a90babe25c1148cca426c7579e6_cgraph.svg" width="391" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -2320,12 +2608,140 @@ template&lt;typename T&gt; </div>
   </table>
   </dd>
 </dl>
-<div id="dynsection-55" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-55-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-55-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-72" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-72-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-72-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-55-content" class="dyncontent" style="display:none;">
+<div id="dynsection-72-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a283eb646c12fff3f96e217bf5c3a7dc3_cgraph.svg" width="411" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a0e3d65ad9e1957377f3cffa5f5275554" name="a0e3d65ad9e1957377f3cffa5f5275554"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e3d65ad9e1957377f3cffa5f5275554">&#9670;&#160;</a></span>update_employee_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Database::update_employee_end </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_employee.html">Employee</a> *</td>          <td class="paramname"><span class="paramname"><em>employee</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds an employee's information to the maps. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">employee</td><td>A pointer to the employee to update. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-73" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-73-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-73-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-73-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a0e3d65ad9e1957377f3cffa5f5275554_cgraph.svg" width="420" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a7bbdd3a035f7164c5ddf45fcc28693e7" name="a7bbdd3a035f7164c5ddf45fcc28693e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bbdd3a035f7164c5ddf45fcc28693e7">&#9670;&#160;</a></span>update_employee_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Database::update_employee_start </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_employee.html">Employee</a> *</td>          <td class="paramname"><span class="paramname"><em>employee</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes an employee's information from the maps. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">employee</td><td>A pointer to the employee to update. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-74" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-74-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-74-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-74-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a7bbdd3a035f7164c5ddf45fcc28693e7_cgraph.svg" width="440" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a3bdc14caecc90d02e843116c3c28f91c" name="a3bdc14caecc90d02e843116c3c28f91c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bdc14caecc90d02e843116c3c28f91c">&#9670;&#160;</a></span>update_parent_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Database::update_parent_end </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_parent.html">Parent</a> *</td>          <td class="paramname"><span class="paramname"><em>parent</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a parent's information to the maps. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>A pointer to the parent to update. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-75" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-75-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-75-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-75-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a3bdc14caecc90d02e843116c3c28f91c_cgraph.svg" width="400" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a2f49b299c2bd30461bbd0fb27fce3a57" name="a2f49b299c2bd30461bbd0fb27fce3a57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f49b299c2bd30461bbd0fb27fce3a57">&#9670;&#160;</a></span>update_parent_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Database::update_parent_start </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_parent.html">Parent</a> *</td>          <td class="paramname"><span class="paramname"><em>parent</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes a parent's information from the maps. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>A pointer to the parent to update. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-76" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-76-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-76-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-76-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a2f49b299c2bd30461bbd0fb27fce3a57_cgraph.svg" width="420" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -2499,8 +2915,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="a5e4aff6d110c76e36510692ba57bf499" name="a5e4aff6d110c76e36510692ba57bf499"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e4aff6d110c76e36510692ba57bf499">&#9670;&#160;</a></span>lesson_by_datetime</h2>
+<a id="a8940866ffef6f9324fb3e2486b77b2bb" name="a8940866ffef6f9324fb3e2486b77b2bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8940866ffef6f9324fb3e2486b77b2bb">&#9670;&#160;</a></span>lesson_by_schedule</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2509,7 +2925,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::multimap&lt;<a class="el" href="class_date_time.html">DateTime</a>, <a class="el" href="class_lesson.html">Lesson</a>*&gt; Database::lesson_by_datetime</td>
+          <td class="memname">std::multimap&lt;<a class="el" href="class_schedule.html">Schedule</a>, <a class="el" href="class_lesson.html">Lesson</a>*&gt; Database::lesson_by_schedule</td>
         </tr>
       </table>
   </td>

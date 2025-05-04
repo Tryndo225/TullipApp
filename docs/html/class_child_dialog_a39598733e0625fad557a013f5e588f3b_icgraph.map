@@ -1,5 +1,5 @@
 <map id="ChildDialog::set_parents" name="ChildDialog::set_parents">
-<area shape="rect" id="Node000001" title=" " alt="" coords="189,5,353,32"/>
-<area shape="rect" id="Node000002" href="$class_child_dialog.html#a6545380052140fc96b18d006bdf9d36d" title=" " alt="" coords="5,5,141,32"/>
+<area shape="rect" id="Node000001" title="sets the parents of the child." alt="" coords="189,5,353,32"/>
+<area shape="rect" id="Node000002" href="$class_child_dialog.html#a6545380052140fc96b18d006bdf9d36d" title="Accepts the dialog and updates the child information." alt="" coords="5,5,141,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,21,141,21,141,16,173,16"/>
 </map>

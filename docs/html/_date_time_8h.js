@@ -3,6 +3,7 @@ var _date_time_8h =
     [ "Date", "class_date.html", "class_date" ],
     [ "Time", "class_time.html", "class_time" ],
     [ "DateTime", "class_date_time.html", "class_date_time" ],
+    [ "Schedule", "class_schedule.html", "class_schedule" ],
     [ "Months", "_date_time_8h.html#a18ea97ce6c7a0ad2f40c4bd1ac7b26d2", [
       [ "January", "_date_time_8h.html#a18ea97ce6c7a0ad2f40c4bd1ac7b26d2a86f5978d9b80124f509bdb71786e929e", null ],
       [ "February", "_date_time_8h.html#a18ea97ce6c7a0ad2f40c4bd1ac7b26d2a659e59f062c75f81259d22786d6c44aa", null ],
@@ -31,6 +32,8 @@ var _date_time_8h =
     [ "month_to_string", "_date_time_8h.html#ac0d72f34c4a4de35eed4698e9766663d", null ],
     [ "operator<<", "_date_time_8h.html#a7bd2abf7acfac6cf3b3d3020dacaf3c2", null ],
     [ "operator<<", "_date_time_8h.html#a4bb6582c1a4e97a3bb992150fd18d2b4", null ],
+    [ "string_to_month", "_date_time_8h.html#aa9b1c7d25933254e543ac0e1b6d73a94", null ],
+    [ "string_to_weekday", "_date_time_8h.html#a71e5b7f32ee97289a7459f267d4338b5", null ],
     [ "weekday_to_string", "_date_time_8h.html#a1783c3bc3f494fc8f7cb7dc1e6bc998b", null ],
     [ "months_array", "_date_time_8h.html#a8ec404ce68fef27cf06859d72cfce43c", null ],
     [ "weekdays_array", "_date_time_8h.html#a9237e43165a81f963c8a013069961ee7", null ]

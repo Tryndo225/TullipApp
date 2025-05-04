@@ -1,13 +1,20 @@
 <map id="Database::remove_child" name="Database::remove_child">
-<area shape="rect" id="Node000001" title="Removes a child from the database." alt="" coords="5,107,168,133"/>
+<area shape="rect" id="Node000001" title="Removes a child from the database." alt="" coords="5,183,168,209"/>
 <area shape="rect" id="Node000002" href="$class_child.html#a54d980b94b52ef8ad5c52eb4dfc265c5" title="Gets the birth date of the child." alt="" coords="242,5,383,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,104,154,73,215,42,234,34,235,39,217,46,157,77,109,108"/>
-<area shape="rect" id="Node000003" href="$class_person.html#a6b1fec00d8d1f5af1a2977dc3f5f9eb8" title="Gets the first name of the person." alt="" coords="249,56,376,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,103,234,84,236,89,150,109"/>
-<area shape="rect" id="Node000004" href="$class_person.html#a7b3c8db44a49c4ba8c4838e19a235613" title="Gets the last name of the person." alt="" coords="240,107,385,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="168,117,224,117,224,123,168,123"/>
-<area shape="rect" id="Node000005" href="$_helper___functions_8h.html#a781a4053c4ee41e8a6ed9daad0bbc4e0" title="Removes all occurrences of a specific element from a vector." alt="" coords="270,157,354,184"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="150,131,256,155,255,161,149,137"/>
-<area shape="rect" id="Node000006" href="$class_database.html#a764574ac9e94b5ab7eb8d106b9113bec" title="Removes an entry from a multimap." alt="" coords="216,208,409,235"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="109,132,157,163,217,194,235,201,234,206,215,198,154,167,106,136"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,181,138,114,173,75,214,42,226,35,228,40,217,46,177,79,142,117,98,184"/>
+<area shape="rect" id="Node000003" href="$class_child.html#af3a0e46f5c6027f7dd4caf62c63c16cc" title="Gets the father of the child." alt="" coords="260,56,365,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="100,180,148,137,180,113,214,92,244,81,246,86,217,97,183,117,151,141,103,184"/>
+<area shape="rect" id="Node000004" href="$class_child.html#acd69b5a536d8a6b628cd602346842c44" title="Gets the mother of the child." alt="" coords="256,107,369,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="119,180,215,143,240,135,242,140,217,148,121,185"/>
+<area shape="rect" id="Node000005" href="$class_person.html#a6b1fec00d8d1f5af1a2977dc3f5f9eb8" title="Gets the first name of the person." alt="" coords="249,157,376,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="167,184,233,177,233,182,168,190"/>
+<area shape="rect" id="Node000006" href="$class_person.html#a7b3c8db44a49c4ba8c4838e19a235613" title="Gets the last name of the person." alt="" coords="240,208,385,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="168,202,224,209,223,214,167,208"/>
+<area shape="rect" id="Node000007" href="$_helper___functions_8h.html#a781a4053c4ee41e8a6ed9daad0bbc4e0" title="Removes all occurrences of a specific element from a vector." alt="" coords="457,284,541,311"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="119,207,164,226,216,244,336,271,442,288,441,293,335,277,215,249,162,231,117,212"/>
+<area shape="rect" id="Node000008" href="$class_parent.html#ae5751c55e06dc11f3601dcf8d15ccd1a" title="Removes a child from the parent&#39;s list of children." alt="" coords="240,309,384,336"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="105,208,153,247,217,288,247,301,244,306,214,293,150,251,102,212"/>
+<area shape="rect" id="Node000009" href="$class_database.html#a764574ac9e94b5ab7eb8d106b9113bec" title="Removes an entry from a multimap." alt="" coords="216,360,409,387"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="98,208,142,275,177,313,217,346,227,351,224,356,214,350,173,317,138,278,93,211"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="385,310,441,302,442,308,385,316"/>
 </map>

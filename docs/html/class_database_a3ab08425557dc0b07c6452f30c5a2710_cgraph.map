@@ -1,19 +1,9 @@
 <map id="Database::filter_lesson_by_day" name="Database::filter_lesson_by_day">
-<area shape="rect" id="Node000001" title="Filters lessons by day." alt="" coords="5,73,161,116"/>
-<area shape="rect" id="Node000002" href="$_helper___functions_8h.html#a0d3fbaad2936b89eb0d594cba2929800" title="Filters a vector of pointers based on a predicate." alt="" coords="285,5,332,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,70,208,41,270,24,271,29,210,47,134,75"/>
-<area shape="rect" id="Node000003" href="$class_lesson.html#a88de8050fc7dc619a3d0f62404a0fea7" title="Gets the date of the lesson." alt="" coords="248,56,369,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,83,232,75,233,80,161,89"/>
-<area shape="rect" id="Node000004" href="$class_date.html#a05d75f0746a6fa8796c17666b900641e" title="Gets the weekday for a given date." alt="" coords="209,107,408,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="161,101,194,104,193,110,161,106"/>
-<area shape="rect" id="Node000009" href="$_date_time_8cpp.html#a1783c3bc3f494fc8f7cb7dc1e6bc998b" title="Converts a WeekDays enum value to its string representation." alt="" coords="243,157,374,184"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="134,114,210,143,234,150,232,155,208,148,132,119"/>
-<area shape="rect" id="Node000005" href="$class_date.html#a19cb325d7fc9e143f9095e7eadc8a1a4" title="Default constructor." alt="" coords="472,31,558,57"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="372,104,407,92,431,80,455,67,466,62,468,66,457,72,434,85,409,97,374,109"/>
-<area shape="rect" id="Node000006" href="$class_date.html#a2e4dc4249f8cccd40acc5950b42e1339" title="Gets the day of the date." alt="" coords="464,81,567,108"/>
-<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="408,105,448,100,448,105,408,110"/>
-<area shape="rect" id="Node000007" href="$class_date.html#a81b10f48eadbf944836618d27e8f427a" title="Gets the month of the date." alt="" coords="456,132,574,159"/>
-<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="408,130,441,134,440,139,408,135"/>
-<area shape="rect" id="Node000008" href="$class_date.html#acda1623a6e13fdbeead7f62d0968d8da" title="Gets the year of the date." alt="" coords="462,183,569,209"/>
-<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="374,131,409,143,434,155,457,168,468,174,466,178,455,173,431,160,407,148,372,136"/>
+<area shape="rect" id="Node000001" title="Filters lessons by day." alt="" coords="5,48,161,91"/>
+<area shape="rect" id="Node000002" href="$_helper___functions_8h.html#a0d3fbaad2936b89eb0d594cba2929800" title="Filters a vector of pointers based on a predicate." alt="" coords="251,5,297,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,46,235,26,236,31,162,51"/>
+<area shape="rect" id="Node000003" href="$class_lesson.html#aeb91df86c4ab4dd9943e8c0df342c94c" title="Gets the day of the lesson." alt="" coords="215,56,332,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,67,199,67,199,72,161,72"/>
+<area shape="rect" id="Node000004" href="$_date_time_8cpp.html#a1783c3bc3f494fc8f7cb7dc1e6bc998b" title="Converts a WeekDays enum value to its string representation." alt="" coords="209,107,339,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="162,87,207,100,205,105,160,93"/>
 </map>

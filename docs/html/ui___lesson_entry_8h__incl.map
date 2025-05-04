@@ -1,0 +1,25 @@
+<map id="TullipApp/x64/Debug/qt/uic/ui_LessonEntry.h" name="TullipApp/x64/Debug/qt/uic/ui_LessonEntry.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="575,5,737,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,123,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="575,40,138,98,138,93,574,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="147,96,309,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="575,46,311,95,310,90,575,41"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="333,96,467,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="591,51,456,93,454,88,589,46"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="492,96,652,123"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="636,51,598,87,594,83,633,47"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="676,96,804,123"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="679,47,718,83,714,87,676,51"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="828,96,993,123"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="722,46,857,88,855,93,721,51"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="1018,96,1156,123"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="737,40,1004,90,1003,95,737,46"/>
+<area shape="rect" id="Node000009" href="$clickablelabel_8h.html" title="ClickableLabel class definition." alt="" coords="1180,96,1290,123"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="738,35,928,59,1165,93,1164,98,928,64,737,40"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1112,171,1174,197"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1220,125,1172,163,1169,159,1217,121"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1198,171,1271,197"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="1237,123,1237,155,1232,155,1232,123"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1294,171,1399,197"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="1256,121,1316,160,1313,164,1253,125"/>
+</map>

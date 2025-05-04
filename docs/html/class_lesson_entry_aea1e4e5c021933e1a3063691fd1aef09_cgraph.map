@@ -1,0 +1,9 @@
+<map id="LessonEntry::LessonEntry" name="LessonEntry::LessonEntry">
+<area shape="rect" id="Node000001" title="Constructs a LessonEntry widget." alt="" coords="5,72,181,99"/>
+<area shape="rect" id="Node000002" href="$class_lesson_entry.html#a3ccb52c9d4a0b2eb0d2c48082e2b05f6" title="Function called when the address label is clicked." alt="" coords="232,5,380,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,69,217,48,218,54,145,74"/>
+<area shape="rect" id="Node000003" href="$class_clickable_label.html#aba68cb811a595c6d90f5c994f2b31f4b" title="Signal emitted when the label is clicked." alt="" coords="229,72,384,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,83,213,83,213,88,181,88"/>
+<area shape="rect" id="Node000004" href="$_date_time_8cpp.html#a1783c3bc3f494fc8f7cb7dc1e6bc998b" title="Converts a WeekDays enum value to its string representation." alt="" coords="241,123,372,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="153,97,233,116,232,121,152,102"/>
+</map>

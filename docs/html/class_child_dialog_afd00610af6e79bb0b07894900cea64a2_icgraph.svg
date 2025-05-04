@@ -6,12 +6,23 @@
 <!-- Title: ChildDialog::populate_parents Pages: 1 -->
 <svg width="276pt" height="40pt"
  viewBox="0.00 0.00 275.50 40.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+
+<style type="text/css"><![CDATA[
+.node, .edge {opacity: 0.7;}
+.node.selected, .edge.selected {opacity: 1;}
+.edge:hover path { stroke: red; }
+.edge:hover polygon { stroke: red; fill: red; }
+]]></style>
+<script type="application/ecmascript" xlink:href="svg.min.js"/>
+<svg id="graph" class="graph">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 36)">
 <title>ChildDialog::populate_parents</title>
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Populates the parent options in the dialog.">
 <polygon fill="#999999" stroke="#666666" points="267.5,-32 158.5,-32 158.5,0 267.5,0 267.5,-32"/>
 <text text-anchor="start" x="166.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">ChildDialog::populate</text>
 <text text-anchor="middle" x="213" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">_parents</text>
@@ -21,7 +32,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="$class_child_dialog.html#a625705bbec9e219a2481316771d821ca" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="class_child_dialog.html#a625705bbec9e219a2481316771d821ca" target="_top" xlink:title="Constructs a ChildDialog object.">
 <polygon fill="white" stroke="#666666" points="122.5,-26 0,-26 0,-6 122.5,-6 122.5,-26"/>
 <text text-anchor="middle" x="61.25" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">ChildDialog::ChildDialog</text>
 </a>
@@ -37,4 +48,19 @@
 </g>
 </g>
 </g>
+</svg>
+</svg>
+
+<style type='text/css'>
+<![CDATA[
+[data-mouse-over-selected='false'] { opacity: 0.7; }
+[data-mouse-over-selected='true']  { opacity: 1.0; }
+]]>
+</style>
+<script type="application/ecmascript"><![CDATA[
+document.addEventListener('DOMContentLoaded', (event) => {
+  highlightEdges();
+  highlightAdjacentNodes();
+});
+]]></script>
 </svg>

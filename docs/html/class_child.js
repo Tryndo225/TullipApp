@@ -17,6 +17,7 @@ var class_child =
     [ "set_birth_date", "class_child.html#a529d3203301062bf069f23f4c7d6ebbe", null ],
     [ "set_dad", "class_child.html#a0bcf086365d1d6dc337d54381d0f4aef", null ],
     [ "set_mom", "class_child.html#a0b9c9ac57acedf6a8f9ed5cf9695010d", null ],
+    [ "operator<<", "class_child.html#a7e44a9fa1706cf6514aae81ad646eb02", null ],
     [ "birth_date_", "class_child.html#affbc4e30147b13aee15a9b6373feca6a", null ],
     [ "dad_", "class_child.html#aac228225ba67d1757ccbbed276b87163", null ],
     [ "mom_", "class_child.html#af1cce40a5410540a9480604c7fa13bac", null ]

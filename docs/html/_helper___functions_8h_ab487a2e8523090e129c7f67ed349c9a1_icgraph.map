@@ -1,27 +1,54 @@
 <map id="filter_multimap_by_keys" name="filter_multimap_by_keys">
-<area shape="rect" id="Node000001" title="Filters a multimap by its keys based on a predicate." alt="" coords="430,213,592,240"/>
-<area shape="rect" id="Node000002" href="$class_database.html#a14779910c7ac1a1265fce5a1ea3a4ef3" title="Filters children by age." alt="" coords="223,5,368,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="493,201,448,132,417,95,380,62,362,51,365,46,384,58,420,91,452,129,498,198"/>
-<area shape="rect" id="Node000003" href="$class_database.html#a448f32cb2e58118d83634666431562c2" title="Filters children by name." alt="" coords="223,72,368,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="482,205,436,167,381,129,358,118,360,113,383,124,440,162,486,201"/>
-<area shape="rect" id="Node000006" href="$class_database.html#a48cdf44f55b29d6141c5e00b88fa4d22" title="Filters children by surname." alt="" coords="223,139,368,181"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="450,211,366,185,368,179,452,206"/>
-<area shape="rect" id="Node000008" href="$class_database.html#a88926e9ac3cee00919043867779c00a8" title="Filters employees by name." alt="" coords="209,205,382,248"/>
-<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="415,229,382,229,382,224,415,224"/>
-<area shape="rect" id="Node000009" href="$class_database.html#a1cf2bc66256478999550845c5faa4b34" title="Filters employees by surname." alt="" coords="209,272,382,315"/>
-<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="452,248,368,274,366,269,450,243"/>
-<area shape="rect" id="Node000010" href="$class_database.html#a427341d23d0431b1e75b2c82c412f00a" title="Filters parents by name." alt="" coords="219,339,372,381"/>
-<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="486,253,440,291,383,329,360,340,358,336,381,324,436,287,482,249"/>
-<area shape="rect" id="Node000012" href="$class_database.html#a09a0e8fe44e256daff05eeba15c22153" title="Filters parents by surname." alt="" coords="219,405,372,448"/>
-<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="498,255,452,324,420,362,384,395,365,407,362,403,380,391,417,358,448,321,493,252"/>
-<area shape="rect" id="Node000004" href="$class_database.html#ad8e7c7035665c903a8a34b5dbff4e2a6" title="Filters lessons by a child&#39;s name." alt="" coords="5,39,161,81"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="208,82,161,75,161,70,209,77"/>
-<area shape="rect" id="Node000005" href="$class_database.html#a60ef6f17c1f6e1da26cf7fafd568164f" title="Gets a child by name and surname." alt="" coords="14,105,152,148"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="209,110,153,118,152,113,208,104"/>
-<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="208,149,152,140,153,135,209,144"/>
-<area shape="rect" id="Node000007" href="$class_database.html#abcc5c80902d844addb9fe92b8524976a" title="Filters lessons by a child&#39;s surname." alt="" coords="5,172,161,215"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="209,176,161,184,161,179,208,171"/>
-<area shape="rect" id="Node000011" href="$class_database.html#ad82c8f66e655d641f118c6162139a30b" title=" " alt="" coords="10,372,156,415"/>
-<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="204,377,157,384,156,379,203,372"/>
-<area shape="poly" id="edge13_Node000012_Node000011" title=" " alt="" coords="203,415,156,407,157,402,204,410"/>
+<area shape="rect" id="Node000001" title="Filters a multimap by its keys based on a predicate." alt="" coords="1526,213,1688,240"/>
+<area shape="rect" id="Node000002" href="$class_database.html#a14779910c7ac1a1265fce5a1ea3a4ef3" title="Filters children by age." alt="" coords="1319,5,1463,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1589,201,1544,132,1512,95,1476,62,1458,51,1460,46,1479,58,1516,91,1548,129,1593,198"/>
+<area shape="rect" id="Node000003" href="$class_database.html#a448f32cb2e58118d83634666431562c2" title="Filters children by name." alt="" coords="1319,139,1463,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1546,211,1462,185,1463,179,1547,206"/>
+<area shape="rect" id="Node000013" href="$class_database.html#a48cdf44f55b29d6141c5e00b88fa4d22" title="Filters children by surname." alt="" coords="1319,72,1463,115"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="1578,205,1532,167,1476,129,1454,118,1456,113,1479,124,1535,162,1581,201"/>
+<area shape="rect" id="Node000015" href="$class_database.html#ab4078647d304eaebd16c83baf22a2b18" title="Filters employees by name." alt="" coords="1304,272,1478,315"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="1547,248,1463,274,1462,269,1546,243"/>
+<area shape="rect" id="Node000018" href="$class_database.html#af7863b68cb40f5715660eeccaaf56f52" title="Filters employees by surname." alt="" coords="1304,205,1478,248"/>
+<area shape="poly" id="edge21_Node000001_Node000018" title=" " alt="" coords="1510,229,1478,229,1478,224,1510,224"/>
+<area shape="rect" id="Node000019" href="$class_database.html#a427341d23d0431b1e75b2c82c412f00a" title="Filters parents by name." alt="" coords="1314,405,1468,448"/>
+<area shape="poly" id="edge23_Node000001_Node000019" title=" " alt="" coords="1593,255,1548,324,1516,362,1479,395,1460,407,1458,403,1476,391,1512,358,1544,321,1589,252"/>
+<area shape="rect" id="Node000023" href="$class_database.html#a09a0e8fe44e256daff05eeba15c22153" title="Filters parents by surname." alt="" coords="1314,339,1468,381"/>
+<area shape="poly" id="edge28_Node000001_Node000023" title=" " alt="" coords="1581,253,1535,291,1479,329,1456,340,1454,336,1476,324,1532,287,1578,249"/>
+<area shape="rect" id="Node000004" href="$class_database.html#ad8e7c7035665c903a8a34b5dbff4e2a6" title="Filters lessons by a child&#39;s name." alt="" coords="1096,205,1251,248"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1306,189,1246,207,1245,202,1304,184"/>
+<area shape="rect" id="Node000006" href="$class_database.html#a60ef6f17c1f6e1da26cf7fafd568164f" title="Gets a child by name and surname." alt="" coords="1104,72,1242,115"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="1304,136,1242,117,1244,112,1305,131"/>
+<area shape="rect" id="Node000005" href="$class_database.html#a2474f58dd1a17687fe4bc21afb26b830" title="Imports data from a CSV file." alt="" coords="864,205,1040,248"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1080,229,1041,229,1041,224,1080,224"/>
+<area shape="rect" id="Node000007" href="$class_c_s_v___parser.html#a2645253cdd45f0fe2df1f4883ab64b36" title="Parses lesson&#39;s attendance from a CSV line." alt="" coords="863,72,1042,115"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1088,96,1042,96,1042,91,1088,91"/>
+<area shape="rect" id="Node000012" href="$class_c_s_v___parser.html#acc479fe8705c80c065e4d725a02c852d" title="Parses lesson&#39;s children from a CSV line." alt="" coords="863,139,1042,181"/>
+<area shape="poly" id="edge11_Node000006_Node000012" title=" " alt="" coords="1090,121,1026,141,1025,135,1088,116"/>
+<area shape="rect" id="Node000008" href="$class_c_s_v___parser.html#abf9be7d0476752028afd45de9be64877" title="Parses a lesson from a CSV line." alt="" coords="635,159,815,185"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="875,123,767,161,765,155,873,118"/>
+<area shape="rect" id="Node000009" href="$class_database.html#a5234a41c55542e88486c147ca399f386" title="Imports lessons from a CSV file." alt="" coords="410,159,587,201"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="620,178,588,180,588,174,620,173"/>
+<area shape="rect" id="Node000010" href="$class_database.html#af3b2c97f6ffbcff3ec1c0f78a91d6107" title="Imports data from a stream." alt="" coords="208,208,362,251"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="395,207,363,214,362,209,394,201"/>
+<area shape="rect" id="Node000011" href="$class_database.html#a0a08797a6ca7a3456150370e3f816d4c" title="Imports data from a CSV file." alt="" coords="5,208,160,251"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="192,232,160,232,160,227,192,227"/>
+<area shape="poly" id="edge12_Node000012_Node000008" title=" " alt="" coords="847,168,815,170,815,165,847,163"/>
+<area shape="poly" id="edge16_Node000013_Node000006" title=" " alt="" coords="1303,96,1243,96,1243,91,1303,91"/>
+<area shape="rect" id="Node000014" href="$class_database.html#abcc5c80902d844addb9fe92b8524976a" title="Filters lessons by a child&#39;s surname." alt="" coords="1096,139,1251,181"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="1306,122,1246,141,1245,135,1304,117"/>
+<area shape="poly" id="edge15_Node000014_Node000005" title=" " alt="" coords="1087,189,1026,207,1025,202,1085,184"/>
+<area shape="rect" id="Node000016" href="$class_database.html#ad50041d3d5067356b4581bed63a51449" title="Gets an employee by name and surname." alt="" coords="1090,272,1256,315"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="1289,296,1257,296,1257,291,1289,291"/>
+<area shape="rect" id="Node000017" href="$class_c_s_v___parser.html#a4732941a7b14e0908b4c94286d957ede" title="Parses lesson&#39;s employees from a CSV line." alt="" coords="863,272,1042,315"/>
+<area shape="poly" id="edge19_Node000016_Node000017" title=" " alt="" coords="1074,296,1042,296,1042,291,1074,291"/>
+<area shape="poly" id="edge20_Node000017_Node000008" title=" " alt="" coords="873,268,861,262,795,224,743,188,746,184,798,219,864,258,875,263"/>
+<area shape="poly" id="edge22_Node000018_Node000016" title=" " alt="" coords="1306,255,1246,274,1245,269,1304,250"/>
+<area shape="rect" id="Node000020" href="$class_database.html#ad82c8f66e655d641f118c6162139a30b" title="Gets a parent by name and surname." alt="" coords="1100,339,1246,381"/>
+<area shape="poly" id="edge24_Node000019_Node000020" title=" " alt="" coords="1304,403,1245,385,1246,379,1306,398"/>
+<area shape="rect" id="Node000021" href="$class_c_s_v___parser.html#ac72a5ce5b687b3d05f2d7e73d3ba42e4" title="Parses a child from a CSV line." alt="" coords="868,343,1036,369"/>
+<area shape="poly" id="edge25_Node000020_Node000021" title=" " alt="" coords="1085,361,1037,360,1037,355,1085,356"/>
+<area shape="rect" id="Node000022" href="$class_database.html#a5010b6ed864bd832f96c86e33097e95f" title="Imports children from a CSV file." alt="" coords="410,241,587,284"/>
+<area shape="poly" id="edge26_Node000021_Node000022" title=" " alt="" coords="868,342,587,283,588,278,869,336"/>
+<area shape="poly" id="edge27_Node000022_Node000010" title=" " alt="" coords="395,249,362,244,363,239,396,244"/>
+<area shape="poly" id="edge29_Node000023_Node000020" title=" " alt="" coords="1299,363,1247,363,1247,357,1299,357"/>
 </map>

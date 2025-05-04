@@ -3,7 +3,7 @@
  * @brief Defines the Person class and its derived classes: Child, Parent, and Employee.
  * @details This file contains the declarations of the Person class, which serves as a base class,
  *          and its derived classes that extend its functionality for specific use cases.
- */
+*/
 
 #ifndef PERSON_H_
 #define PERSON_H_
@@ -17,12 +17,12 @@
 #include "Data_Helper_Types.h"
 #include "Helper_Functions.h"
 
- /**
-  * @class Person
-  * @brief Represents a generic person.
-  * @details The Person class serves as a base class for other types of people, such as parents, children, and employees.
-  *          It provides basic attributes like name and surname, along with getter and setter methods.
-  */
+/**
+ * @class Person
+ * @brief Represents a generic person.
+ * @details The Person class serves as a base class for other types of people, such as parents, children, and employees.
+ *          It provides basic attributes like name and surname, along with getter and setter methods.
+*/
 class Person
 {
 protected:
@@ -33,18 +33,20 @@ public:
 	/**
 	 * @brief Default constructor.
 	 * @details Initializes a Person object with default values.
-	 */
+	*/
 	Person() = default;
 
 	/**
 	 * @brief Constructs a Person with the given name and surname.
+	 * @details Initializes a Person object with the specified name and surname.
 	 * @param name The first name of the person.
 	 * @param surname The last name of the person.
-	 */
+	*/
 	Person(const std::string& name, const std::string& surname);
 
 	/**
 	 * @brief Constructs a Person with the given name and surname (rvalue).
+	 * @details Initializes a Person object with the specified name and surname (rvalue).
 	 * @param name The first name of the person (rvalue).
 	 * @param surname The last name of the person (rvalue).
 	 */

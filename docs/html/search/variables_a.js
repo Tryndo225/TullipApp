@@ -9,5 +9,5 @@ var searchData=
   ['mom_5flabel_6',['mom_label',['../class_ui___child_dialog_class.html#aaf40b3f469248f0e5ffa47718a19e022',1,'Ui_ChildDialogClass']]],
   ['month_5frange_7',['MONTH_RANGE',['../_date_time___exceptions_8h.html#ab10056c811a81ab85dbb297791483d22',1,'DateTime_Exceptions.h']]],
   ['months_5farray_8',['months_array',['../_date_time_8h.html#a8ec404ce68fef27cf06859d72cfce43c',1,'DateTime.h']]],
-  ['mother_5ffull_5fname_9',['mother_full_name',['../class_ui___child_entry_class.html#a8600da35036781d889b9f06ae07eff22',1,'Ui_ChildEntryClass']]]
+  ['mother_5ffull_5fname_9',['mother_full_name',['../class_ui___child_entry_class.html#a1266184478217b1d9e5f4b4d0a1b4780',1,'Ui_ChildEntryClass']]]
 ];

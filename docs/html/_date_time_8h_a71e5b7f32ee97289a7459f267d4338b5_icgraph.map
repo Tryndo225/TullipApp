@@ -1,0 +1,5 @@
+<map id="string_to_weekday" name="string_to_weekday">
+<area shape="rect" id="Node000001" title="Converts a string representation of a weekday to its corresponding WeekDays enum value." alt="" coords="191,5,321,32"/>
+<area shape="rect" id="Node000002" href="$class_schedule.html#abe518525441640ec47ad162d2a900769" title="Constructs a Schedule from an encoded time." alt="" coords="5,5,143,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,21,143,21,143,16,175,16"/>
+</map>

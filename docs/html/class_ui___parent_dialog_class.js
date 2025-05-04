@@ -1,0 +1,25 @@
+var class_ui___parent_dialog_class =
+[
+    [ "retranslateUi", "class_ui___parent_dialog_class.html#a3cc9ee2346239ead505ed9346e19f24a", null ],
+    [ "setupUi", "class_ui___parent_dialog_class.html#ad158c97d6514862870d53d69fcbb9a1a", null ],
+    [ "cancelButton", "class_ui___parent_dialog_class.html#ac7e4616d6aeb868fe68559aa943964a7", null ],
+    [ "children", "class_ui___parent_dialog_class.html#a739e8ae6626e3bcb73987a3225ff300e", null ],
+    [ "children_contents", "class_ui___parent_dialog_class.html#a6f2ba5b1272a80658039c1a203d98c99", null ],
+    [ "children_label", "class_ui___parent_dialog_class.html#a7ffcf8cd4cefc690c3d7f4765d328d99", null ],
+    [ "email_edit", "class_ui___parent_dialog_class.html#a17657ad87a41978bbabdfe433d9ac00f", null ],
+    [ "email_label", "class_ui___parent_dialog_class.html#a384ac24b78e5156e855dca90d12149f7", null ],
+    [ "gender_comboBox", "class_ui___parent_dialog_class.html#ad3a892b05cd11e7c051b9726d58a2a02", null ],
+    [ "gender_label", "class_ui___parent_dialog_class.html#a0876a44b1600b2f11b5501748a556045", null ],
+    [ "gridLayout", "class_ui___parent_dialog_class.html#aa34e74046b45920a88a8dd083d4fb736", null ],
+    [ "line", "class_ui___parent_dialog_class.html#a91229dccb4fc40c250d2fd2ed4795981", null ],
+    [ "line_2", "class_ui___parent_dialog_class.html#a71cadbb6ac061966e1b1663d07a98e2a", null ],
+    [ "line_3", "class_ui___parent_dialog_class.html#a2ce5959a0d550d17b344149c5ff89eea", null ],
+    [ "line_4", "class_ui___parent_dialog_class.html#a46853b49d3da0975e3b82d1e5c2c2fa2", null ],
+    [ "line_5", "class_ui___parent_dialog_class.html#a2898a0edd92eae9987dec5c0dfcf91f5", null ],
+    [ "name_edit", "class_ui___parent_dialog_class.html#ac2c725fa1b2264b6237ea01f8a99a6cb", null ],
+    [ "name_label", "class_ui___parent_dialog_class.html#ac20ebeb64b97ad16ee6eaff2188330fe", null ],
+    [ "okButton", "class_ui___parent_dialog_class.html#a208509bc0d394b06714fab84c03ec289", null ],
+    [ "surname_edit", "class_ui___parent_dialog_class.html#a8e618e01da4f459bd4734d274bfbb392", null ],
+    [ "surname_label", "class_ui___parent_dialog_class.html#a2faf287a45626226ba0728357d7638a7", null ],
+    [ "verticalLayout", "class_ui___parent_dialog_class.html#a9c66a03ff906c9740d4cdadd4c690358", null ]
+];

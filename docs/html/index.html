@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TullipApp: Main Page</title>
+<title>TullipApp: Tullip App Documentation</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -98,10 +98,174 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">TullipApp Documentation</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">Tullip App Documentation </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="toc"><h3>Table of Contents</h3>
+<ul>
+  <li class="level1">
+    <a href="#intro_sec">Introduction</a>
+  </li>
+  <li class="level1">
+    <a href="#features_sec">Key Features</a>
+  </li>
+  <li class="level1">
+    <a href="#ui_overview_sec">User Interface Overview</a>
+  </li>
+  <li class="level1">
+    <a href="#dialogs_sec">Data Entry Dialogs</a>
+  </li>
+  <li class="level1">
+    <a href="#usage_sec">How to Operate</a>
+  </li>
+  <li class="level1">
+    <a href="#modules_sec">Project Structure</a>
+  </li>
+  <li class="level1">
+    <a href="#build_sec">Building and Running</a>
+    <ul>
+      <li class="level2">
+        <a href="#requirements">Sub-requirements</a>
+      </li>
+      <li class="level2">
+        <a href="#build_steps">Build Steps</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+</div>
+<div class="textblock"><h1><a class="anchor" id="intro_sec"></a>
+Introduction</h1>
+<p>Tullip App is a Qt-based desktop application for managing a simple database of Children, Parents, and Employees. It provides a tabbed interface, powerful sorting and searching, import/export via CSV, and automatic quick-save functionality.</p>
+<h1><a class="anchor" id="features_sec"></a>
+Key Features</h1>
+<ul>
+<li><b>CRUD Operations</b>: Create, Read, Update, Delete entries for Children, Parents, and Employees via intuitive dialogs.</li>
+<li><b>Tabbed Interface</b>: Switch between Children, Parents, and Employees modules using a clear tab structure.</li>
+<li><b>Advanced Sorting &amp; Filtering</b>: Click column headers to sort tables; use the search box to filter by name or surname in real-time.</li>
+<li><b>Import/Export</b>: Load and save the entire database to CSV files via the File menu.</li>
+<li><b>Automatic Quick-Save</b>: On application exit, unsaved changes are written to <code>autosave.csv</code> in the working directory.</li>
+</ul>
+<h1><a class="anchor" id="ui_overview_sec"></a>
+User Interface Overview</h1>
+<ul>
+<li><b>Menu Bar</b>:<ul>
+<li><code>File</code> → <code>Save as...</code>: Saves the current database to CSV. (saves the path for quick-save).</li>
+<li><code>File</code> → <code>Import...</code>: Open a CSV to load entries (saves the path for quick-save).</li>
+<li><code>File</code> → <code>Export...</code>: Expoty current database to CSV.</li>
+<li>Exit: Closes the application. (unsaved changes are quick-saved to <em>path</em>_quick_save.csv).</li>
+</ul>
+</li>
+<li><b>Main Tabs</b>:<ul>
+<li><b>Children</b>: Table of child records.</li>
+<li><b>Parents</b>: Table of parent records.</li>
+<li><b>Employees</b>: Table of employee records.</li>
+<li><b>Lessons</b>: Table of lesson records.</li>
+</ul>
+</li>
+<li><b>Table Controls</b>:<ul>
+<li><b>Add</b>: Opens a dialog to enter a new record.</li>
+<li><b>Edit</b>: Modify the selected record.</li>
+<li><b>Remove</b>: Remove the selected record.</li>
+<li><b>Search Box</b>: Filter rows by typing part of a name or surname.</li>
+</ul>
+</li>
+</ul>
+<h1><a class="anchor" id="dialogs_sec"></a>
+Data Entry Dialogs</h1>
+<p>Each module (<a class="el" href="class_child.html" title="Represents a child.">Child</a>, <a class="el" href="class_parent.html" title="Represents a parent.">Parent</a>, <a class="el" href="class_employee.html" title="Represents an employee.">Employee</a>) has a corresponding dialog for adding or editing records. Common fields include:</p><ul>
+<li><b>Name</b> (string)</li>
+<li><b>Surname</b> (string)</li>
+<li><b>Additional Fields</b>:<ul>
+<li>Children: <a class="el" href="class_date.html" title="Represents a date (day, month, year).">Date</a> of Birth, <a class="el" href="class_parent.html" title="Represents a parent.">Parent(s)</a> (Mother, Father)</li>
+<li>Parents: <a class="el" href="class_email.html" title="Represents an email address.">Email</a>, <a class="el" href="class_child.html" title="Represents a child.">Child(ren)</a></li>
+<li>Employees: <a class="el" href="class_email.html" title="Represents an email address.">Email</a>, <a class="el" href="class_phone.html" title="Represents a phone number.">Phone</a>, Hours Worked</li>
+</ul>
+</li>
+</ul>
+<h1><a class="anchor" id="usage_sec"></a>
+How to Operate</h1>
+<ol type="1">
+<li><b>Launching</b>: Run the <code>TullipApp</code> executable.</li>
+<li><b>Adding Records</b>:<ul>
+<li>Select the appropriate tab (e.g., Children).</li>
+<li>Click <b>Add</b>, fill in fields, and press <b>OK</b>.</li>
+</ul>
+</li>
+<li><b>Editing Records</b>:<ul>
+<li>Select a row and click <b>Edit</b>.</li>
+<li>Modify data in the dialog and click <b>Save</b>.</li>
+</ul>
+</li>
+<li><b>Deleting Records</b>:<ul>
+<li>Select one or more rows.</li>
+<li>Click <b>Delete</b> and confirm in the pop-up.</li>
+</ul>
+</li>
+<li><b>Sorting</b>:<ul>
+<li>Click any column header to toggle ascending/descending sort.</li>
+</ul>
+</li>
+<li><b>Searching</b>:<ul>
+<li>Enter text in the search box above the table to dynamically filter rows matching name or surname.</li>
+</ul>
+</li>
+<li><b>Importing/Exporting</b>:<ul>
+<li>Use <code>File → Save as...</code> to save the current database to CSV.</li>
+<li>Use <code>File → Import...</code> to select a CSV file matching the data schema.</li>
+<li>Use <code>File → Export...</code> to save all current records to CSV.</li>
+</ul>
+</li>
+<li><b>Quick-Save</b>:<ul>
+<li>On exit, unsaved modifications are automatically written to <code>*path*_quick_save.csv</code>. You may re-import this file on next launch.</li>
+</ul>
+</li>
+</ol>
+<h1><a class="anchor" id="modules_sec"></a>
+Project Structure</h1>
+<ul>
+<li><b><a class="el" href="class_data_base_g_u_i.html" title="Represents the graphical user interface for the database.">DataBaseGUI</a></b>: Main window and signal-slot logic (<code><a class="el" href="_data_base_g_u_i_8h.html" title="Defines the DataBaseGUI class for managing the graphical user interface of the database.">DataBaseGUI.h</a>/</code>.cpp, <code><a class="el" href="class_data_base_g_u_i.html#aaa918d8ba7107b58113eb2b6c1aec71b" title="The user interface for the GUI.">DataBaseGUI.ui</a></code>)</li>
+<li><b><a class="el" href="class_database.html" title="Manages data related to lessons, parents, children, and employees.">Database</a></b>: In-memory storage and CSV serialization (<code><a class="el" href="_data_base_8h.html" title="Defines the Database class for managing lessons, parents, children, and employees.">DataBase.h</a>/</code>.cpp)</li>
+<li><b><a class="el" href="class_date.html" title="Represents a date (day, month, year).">Date</a></b>: <a class="el" href="class_date.html" title="Represents a date (day, month, year).">Date</a> handling and validation (<code><a class="el" href="_date_time_8h.html" title="Defines classes and utilities for working with dates, times, and combined date-time values.">DateTime.h</a>/</code>.cpp)</li>
+<li><b><a class="el" href="class_time.html" title="Represents a time (hours, minutes, seconds, and time zone).">Time</a></b>: <a class="el" href="class_time.html" title="Represents a time (hours, minutes, seconds, and time zone).">Time</a> handling and validation (<code><a class="el" href="_date_time_8h.html" title="Defines classes and utilities for working with dates, times, and combined date-time values.">DateTime.h</a>/</code>.cpp) <b><a class="el" href="class_date_time.html" title="Represents a combined date and time.">DateTime</a></b>: <a class="el" href="class_date.html" title="Represents a date (day, month, year).">Date</a> and time handling (<code><a class="el" href="_date_time_8h.html" title="Defines classes and utilities for working with dates, times, and combined date-time values.">DateTime.h</a>/</code>.cpp)</li>
+<li><b><a class="el" href="class_schedule.html">Schedule</a></b>: Class representing a schedule with weekday and time (<code><a class="el" href="_date_time_8h.html" title="Defines classes and utilities for working with dates, times, and combined date-time values.">DateTime.h</a>/</code>.cpp)</li>
+<li><b><a class="el" href="class_date_time.html" title="Represents a combined date and time.">DateTime</a> Exceptions</b>: Custom exceptions for date/time errors (<code><a class="el" href="_date_time___exceptions_8h.html" title="Defines error messages and the DateTimeError exception class for date and time operations.">DateTime_Exceptions.h</a>/</code>.cpp)</li>
+<li><b><a class="el" href="class_person.html" title="Represents a generic person.">Person</a></b>: <a class="el" href="class_person.html" title="Represents a generic person.">Person</a> base class for <a class="el" href="class_child.html" title="Represents a child.">Child</a>, <a class="el" href="class_parent.html" title="Represents a parent.">Parent</a>, and <a class="el" href="class_employee.html" title="Represents an employee.">Employee</a> (<code><a class="el" href="_person_8h.html" title="Defines the Person class and its derived classes: Child, Parent, and Employee.">Person.h</a>/</code>.cpp)</li>
+<li><b><a class="el" href="class_child.html" title="Represents a child.">Child</a></b>: Class representing a child with parents (<code><a class="el" href="_person_8h.html" title="Defines the Person class and its derived classes: Child, Parent, and Employee.">Person.h</a>/</code>.cpp)</li>
+<li><b><a class="el" href="class_parent.html" title="Represents a parent.">Parent</a></b>: Class representing a parent with children (<code><a class="el" href="_person_8h.html" title="Defines the Person class and its derived classes: Child, Parent, and Employee.">Person.h</a>/</code>.cpp)</li>
+<li><b><a class="el" href="class_employee.html" title="Represents an employee.">Employee</a></b>: Class representing an employee (<code><a class="el" href="_person_8h.html" title="Defines the Person class and its derived classes: Child, Parent, and Employee.">Person.h</a>/</code>.cpp)</li>
+<li><b><a class="el" href="class_lesson.html" title="Represents a lesson.">Lesson</a></b>: Class representing a lesson with schedule, children and employees (<code><a class="el" href="_lesson_8h.html" title="Defines the Lesson class, which represents a lesson with its associated details.">Lesson.h</a>/</code>.cpp)</li>
+<li><b><a class="el" href="class_address.html" title="Represents a physical address.">Address</a></b>: Class representing a physical address (<code><a class="el" href="_data___helper___types_8h.html" title="Defines utility classes for managing contact-related data such as email, phone, and address.">Data_Helper_Types.h</a>/</code>.cpp)</li>
+<li><b><a class="el" href="class_email.html" title="Represents an email address.">Email</a></b>: Class representing an email address (<code><a class="el" href="_data___helper___types_8h.html" title="Defines utility classes for managing contact-related data such as email, phone, and address.">Data_Helper_Types.h</a>/</code>.cpp)</li>
+<li><b><a class="el" href="class_phone.html" title="Represents a phone number.">Phone</a></b>: Class representing a phone number (<code><a class="el" href="_data___helper___types_8h.html" title="Defines utility classes for managing contact-related data such as email, phone, and address.">Data_Helper_Types.h</a>/</code>.cpp)</li>
+<li><b>Helper Functions</b>: Utility functions (<code><a class="el" href="_helper___functions_8h.html" title="Provides utility functions and templates for common operations.">Helper_Functions.h</a>/</code>.cpp)</li>
+<li><b>CSV Parser</b>: Functions for parsing CSV files (<code><a class="el" href="_data_base___parser___functions_8h.html">DataBase_Parser_Functions.h</a>/</code>.cpp)</li>
+<li><b>Entries &amp; Dialogs</b>:<ul>
+<li><code>ChildEntry/UI</code> widget &amp; <code><a class="el" href="class_child_dialog.html" title="Dialog for managing child-related information.">ChildDialog</a></code> </li>
+<li><code>ParentEntry/UI</code> widget &amp; <code><a class="el" href="class_parent_dialog.html" title="Dialog for managing parent-related information.">ParentDialog</a></code> </li>
+<li><code>EmployeeEntry/UI</code> widget &amp; <code><a class="el" href="class_employee_dialog.html" title="Dialog for managing employee information.">EmployeeDialog</a></code> </li>
+</ul>
+</li>
+</ul>
+<h1><a class="anchor" id="build_sec"></a>
+Building and Running</h1>
+<h2><a class="anchor" id="requirements"></a>
+Sub-requirements</h2>
+<ul>
+<li>Qt 5.x or 6.x</li>
+<li>CMake 3.10+</li>
+<li>C++17 compiler (e.g., GCC 9+, Clang 10+, MSVC 2019+)</li>
+</ul>
+<h2><a class="anchor" id="build_steps"></a>
+Build Steps</h2>
+<div class="fragment"><div class="line">git clone https://github.com/Tryndo225/TullipApp.git</div>
+<div class="line">cd repo</div>
+<div class="line">mkdir build &amp;&amp; cd build</div>
+<div class="line">cmake ..</div>
+<div class="line">make</div>
+<div class="line">./TullipApp</div>
+</div><!-- fragment --> </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->
 </div><!-- doc-content -->

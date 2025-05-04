@@ -1,0 +1,27 @@
+<map id="DataBaseGUI::lesson_tab_clear" name="DataBaseGUI::lesson_tab_clear">
+<area shape="rect" id="Node000001" title="Clears the lessons tab." alt="" coords="1130,50,1279,93"/>
+<area shape="rect" id="Node000002" href="$class_data_base_g_u_i.html#a74e047889e913eae69ec40ec17f53c9d" title="Populates the lessons tab with a multimap of lessons." alt="" coords="247,17,407,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1115,48,1081,41,970,21,883,11,795,8,681,12,536,21,408,32,407,27,536,15,681,6,795,3,883,5,971,16,1083,36,1116,43"/>
+<area shape="rect" id="Node000003" href="$class_data_base_g_u_i.html#aa6b02e4e81b0113fb1c75d7d5ef0be59" title="Populates the lessons tab with a list of lessons." alt="" coords="901,50,1062,93"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1115,74,1062,74,1062,69,1115,69"/>
+<area shape="rect" id="Node000012" href="$class_data_base_g_u_i.html#a3934a954ace9260b0d51b864bc3e6035" title="Destructor for DataBaseGUI." alt="" coords="881,117,1082,144"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="1116,99,1083,108,1039,119,1037,114,1081,102,1114,93"/>
+<area shape="rect" id="Node000004" href="$class_data_base_g_u_i.html#a55b3c6d3607f17f55d4c321e97fdce7f" title="Searches for lessons based on the provided child name and surname." alt="" coords="682,21,832,64"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="885,62,832,55,832,49,886,56"/>
+<area shape="rect" id="Node000005" href="$class_data_base_g_u_i.html#a1ad152b7becf3e0051cdd5dbae6d4abc" title="Selects the appropriate sorting to use based on lesson sort index." alt="" coords="681,138,833,181"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="898,101,882,107,805,140,803,135,880,102,897,96"/>
+<area shape="rect" id="Node000006" href="$class_data_base_g_u_i.html#a66a3e89a9852de3522d98f2c1f8cdeed" title="Removes a lesson from the database." alt="" coords="470,72,619,114"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="672,136,614,117,616,112,673,131"/>
+<area shape="rect" id="Node000007" href="$class_data_base_g_u_i.html#a0478b87f545d97b9e3ef55858242878b" title="Changes the sorting method for lessons." alt="" coords="470,138,619,181"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="666,162,619,162,619,157,666,157"/>
+<area shape="rect" id="Node000008" href="$class_data_base_g_u_i.html#a438b5070d6a58ffa5e884d18740852c6" title="Handles tab change events." alt="" coords="455,205,633,232"/>
+<area shape="poly" id="edge9_Node000005_Node000008" title=" " alt="" coords="667,187,596,207,595,202,666,182"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="454,73,407,61,408,56,455,68"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="634,86,901,73,901,78,635,91"/>
+<area shape="rect" id="Node000009" href="$class_data_base_g_u_i.html#a6c35e47ed05a80db144f240dee805a9d" title="Sets up the GUI." alt="" coords="255,205,398,232"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="440,221,399,221,399,216,440,216"/>
+<area shape="rect" id="Node000010" href="$class_data_base_g_u_i.html#a2c83afe3a30fb5166d275d9a74d33196" title="Default constructor." alt="" coords="5,180,199,206"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="239,211,199,207,199,201,240,206"/>
+<area shape="rect" id="Node000011" href="$class_data_base_g_u_i.html#aba10d1d8e9fb151632ff34de418cee82" title="Constructs a DataBaseGUI object." alt="" coords="5,230,199,257"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="240,231,199,235,199,230,239,225"/>
+</map>

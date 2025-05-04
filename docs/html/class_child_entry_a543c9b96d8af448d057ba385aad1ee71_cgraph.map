@@ -1,0 +1,5 @@
+<map id="ChildEntry::search_father" name="ChildEntry::search_father">
+<area shape="rect" id="Node000001" title="Search function that is called when the user clicks on the child&#39;s father label." alt="" coords="5,5,135,48"/>
+<area shape="rect" id="Node000002" href="$class_child_entry.html#a11d827331ad040002cce25952c27e47a" title="Signal emitted when a parent search is requested." alt="" coords="183,5,354,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,24,167,24,167,29,135,29"/>
+</map>

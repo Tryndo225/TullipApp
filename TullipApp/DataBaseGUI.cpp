@@ -130,6 +130,9 @@ void DataBaseGUI::tab_change(int index)
 	case 2:
 		sort_to_populate_employee_tab();
 		break;
+	case 3:
+		sort_to_populate_lesson_tab();
+		break;
 	default:
 		break;
 	}
@@ -237,6 +240,12 @@ void DataBaseGUI::employee_remove(Employee* employee)
 	sort_to_populate_employee_tab();
 }
 
+void DataBaseGUI::lesson_remove(Lesson* lesson)
+{
+	database_.remove_lesson(lesson);
+	sort_to_populate_lesson_tab();
+}
+
 // Search operations
 void DataBaseGUI::child_search_by_pointer(Child* child)
 {
@@ -286,6 +295,14 @@ void DataBaseGUI::employee_search()
 	populate_employee_tab(employees);
 }
 
+void DataBaseGUI::lesson_search()
+{
+	auto search_name = ui.lessons_search_by_child_name_bar->text();
+	auto search_surname = ui.lessons_search_by_child_surname_bar->text();
+	auto lessons = database_.search_lessons_by_child_name_surname(search_name.toStdString(), search_surname.toStdString());
+	populate_lesson_tab(lessons);
+}
+
 // Sort change trackers
 void DataBaseGUI::child_sort_change(int sort_index)
 {
@@ -309,6 +326,14 @@ void DataBaseGUI::employee_sort_change(int sort_index)
 	ui.employee_search_name_bar->clear();
 	ui.employee_search_surname_bar->clear();
 	sort_to_populate_employee_tab();
+}
+
+void DataBaseGUI::lesson_sort_change(int sort_index)
+{
+	lesson_sort_index_ = sort_index;
+	ui.lessons_search_by_child_name_bar->clear();
+	ui.lessons_search_by_child_surname_bar->clear();
+	sort_to_populate_lesson_tab();
 }
 
 // Sort functions
@@ -357,6 +382,24 @@ void DataBaseGUI::sort_to_populate_employee_tab()
 		break;
 	case 1:
 		populate_employee_tab(database_.sort_employees_by_surname());
+		break;
+	default:
+		break;
+	}
+}
+
+void DataBaseGUI::sort_to_populate_lesson_tab()
+{
+	switch (lesson_sort_index_)
+	{
+	case 0:
+		populate_lesson_tab(database_.sort_lessons_by_day());
+		break;
+	case 1:
+		populate_lesson_tab(database_.sort_lessons_by_time());
+		break;
+	case 2:
+		populate_lesson_tab(database_.sort_lessons_by_schedule());
 		break;
 	default:
 		break;
@@ -413,6 +456,20 @@ void DataBaseGUI::populate_employee_tab(const std::multimap<T, Employee*>& emplo
 	ui.employees_scroll->verticalScrollBar()->setValue(0);
 }
 
+template<typename T>
+void DataBaseGUI::populate_lesson_tab(const std::multimap<T, Lesson*>& lessons)
+{
+	lesson_tab_clear();
+	for (const auto& [key, lesson] : lessons)
+	{
+		auto* entry = new LessonEntry(this, lesson);
+		// connect(entry, &LessonEntry::viewRequested, this, &DataBaseGUI::lesson_view);
+		connect(entry, &LessonEntry::removeRequested, this, &DataBaseGUI::lesson_remove);
+		ui.lessons_scroll_contents->layout()->addWidget(entry);
+	}
+	ui.lessons_scroll->verticalScrollBar()->setValue(0);
+}
+
 void DataBaseGUI::populate_children_tab(const std::vector<Child*>& children)
 {
 	// Clear the existing entries in the tab
@@ -456,6 +513,18 @@ void DataBaseGUI::populate_employee_tab(const std::vector<Employee*>& employees)
 		ui.employees_scroll_contents->layout()->addWidget(entry);
 	}
 	ui.employees_scroll->verticalScrollBar()->setValue(0);
+}
+
+void DataBaseGUI::populate_lesson_tab(const std::vector<Lesson*>& lessons)
+{
+	lesson_tab_clear();
+	for (const auto& lesson : lessons)
+	{
+		auto* entry = new LessonEntry(this, lesson);
+		connect(entry, &LessonEntry::removeRequested, this, &DataBaseGUI::lesson_remove);
+		ui.lessons_scroll_contents->layout()->addWidget(entry);
+	}
+	ui.lessons_scroll->verticalScrollBar()->setValue(0);
 }
 
 // Clear functions
@@ -510,6 +579,22 @@ void DataBaseGUI::employee_tab_clear()
 	}
 }
 
+void DataBaseGUI::lesson_tab_clear()
+{
+	QLayout* layout = ui.lessons_scroll_contents->layout();
+	QLayoutItem* item;
+	while ((item = layout->takeAt(0)) != nullptr)
+	{
+		QWidget* widget = item->widget();
+		if (widget)
+		{
+			widget->setParent(nullptr);
+			delete widget;
+		}
+		delete item;
+	}
+}
+
 // Destructor
 DataBaseGUI::~DataBaseGUI()
 {
@@ -528,4 +613,11 @@ DataBaseGUI::~DataBaseGUI()
 
 	children_tab_clear();
 	parent_tab_clear();
+	employee_tab_clear();
+	lesson_tab_clear();
+
+	for (auto& connection : connections_)
+	{
+		disconnect(connection);
+	}
 }

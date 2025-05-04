@@ -1,0 +1,11 @@
+<map id="Database::search_lavenstein_name_surname" name="Database::search_lavenstein_name_surname">
+<area shape="rect" id="Node000001" title="Searches for closest match of name + surname to reference string in a vector of pointers." alt="" coords="472,56,662,99"/>
+<area shape="rect" id="Node000002" href="$class_database.html#aa028e0425b0ca6c86d2695d61a5140a9" title="Searches for children by a reference string based on lavenstein distance from their name + surname." alt="" coords="239,13,415,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="456,57,393,43,394,38,457,51"/>
+<area shape="rect" id="Node000004" href="$class_database.html#a2a41f3674047305eacb6d227caa6172f" title="Searches for employees by a reference string based on lavenstein distance from their name + surname." alt="" coords="230,64,424,91"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="456,80,425,80,425,75,456,75"/>
+<area shape="rect" id="Node000005" href="$class_database.html#ac6c18f4f2fffe82e1c602b8a967cea1f" title="Searches for parents by a reference string based on lavenstein distance from their name + surname." alt="" coords="240,115,414,141"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="457,103,394,117,393,111,456,98"/>
+<area shape="rect" id="Node000003" href="$class_database.html#a2474f58dd1a17687fe4bc21afb26b830" title="Imports data from a CSV file." alt="" coords="5,5,182,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="223,29,182,29,182,24,223,24"/>
+</map>

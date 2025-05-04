@@ -7,5 +7,7 @@ var class_child_dialog =
     [ "set_parents", "class_child_dialog.html#a39598733e0625fad557a013f5e588f3b", null ],
     [ "child_", "class_child_dialog.html#a61ddd34a4b165ef9ebd0a775aba7ea5d", null ],
     [ "database_", "class_child_dialog.html#ac5a4069273ed06002deca6bafbc7d926", null ],
+    [ "past_dad_", "class_child_dialog.html#a3e7745d144de7eebbfaa194127c98369", null ],
+    [ "past_mom_", "class_child_dialog.html#a1a16eacbb12b33fd0aff9fc7bcc4f14b", null ],
     [ "ui", "class_child_dialog.html#ae5407b9c1ea43580259e87f280bb929d", null ]
 ];

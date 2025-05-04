@@ -1,0 +1,5 @@
+<map id="EmployeeEntry" name="EmployeeEntry">
+<area shape="rect" id="Node000001" title="Represents a GUI widget for an employee entry." alt="" coords="5,123,168,299"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="56,5,118,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,90,90,123,84,123,84,90"/>
+</map>

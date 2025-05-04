@@ -1,14 +1,14 @@
 <map id="Child" name="Child">
-<area shape="rect" id="Node000001" title="Represents a child." alt="" coords="100,1004,201,1287"/>
+<area shape="rect" id="Node000001" title="Represents a child." alt="" coords="96,961,197,1244"/>
 <area shape="rect" id="Node000002" href="$class_person.html" title="Represents a generic person." alt="" coords="5,124,112,492"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="57,507,63,709,72,817,87,924,105,1004,100,1005,82,924,67,818,58,709,52,507"/>
-<area shape="rect" id="Node000004" href="$class_parent.html" title="Represents a parent." alt="" coords="96,556,205,924"/>
-<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="104,506,114,556,109,557,98,507"/>
-<area shape="rect" id="Node000003" href="$class_date.html" title="Represents a date (day, month, year)." alt="" coords="229,577,403,903"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="253,903,210,1006,205,1004,248,901"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="154,924,154,987,148,987,148,924"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,506,66,689,74,786,87,881,104,961,99,962,82,882,69,786,61,689,54,507"/>
+<area shape="rect" id="Node000004" href="$class_parent.html" title="Represents a parent." alt="" coords="96,567,197,871"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="104,506,117,566,112,567,99,507"/>
+<area shape="rect" id="Node000003" href="$class_date.html" title="Represents a date (day, month, year)." alt="" coords="221,556,395,881"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="242,882,206,967,201,965,238,880"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="150,870,150,945,144,945,144,870"/>
 <area shape="rect" id="Node000005" href="$class_email.html" title="Represents an email address." alt="" coords="137,156,232,460"/>
-<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="175,460,169,539,164,539,170,459"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="173,460,165,550,160,550,168,459"/>
 <area shape="rect" id="Node000006" href="$class_contacts.html" title="Base class for contact&#45;related utilities." alt="" coords="116,5,252,75"/>
 <area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="187,90,187,156,182,156,182,90"/>
 </map>

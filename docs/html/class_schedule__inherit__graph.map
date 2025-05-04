@@ -1,0 +1,5 @@
+<map id="Schedule" name="Schedule">
+<area shape="rect" id="Node000001" title=" " alt="" coords="19,379,120,661"/>
+<area shape="rect" id="Node000002" href="$class_time.html" title="Represents a time (hours, minutes, seconds, and time zone)." alt="" coords="5,5,134,331"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,346,72,379,67,379,67,346"/>
+</map>

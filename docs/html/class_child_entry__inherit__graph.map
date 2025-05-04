@@ -1,5 +1,5 @@
 <map id="ChildEntry" name="ChildEntry">
-<area shape="rect" id="Node000001" title="Represents a GUI widget for a child entry." alt="" coords="5,123,192,299"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="68,5,130,75"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,90,102,123,96,123,96,90"/>
+<area shape="rect" id="Node000001" title="Represents a GUI widget for a child entry." alt="" coords="5,123,139,299"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="42,5,103,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,90,75,123,70,123,70,90"/>
 </map>

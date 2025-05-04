@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ui_0',['ui',['../class_child_dialog.html#ae5407b9c1ea43580259e87f280bb929d',1,'ChildDialog::ui'],['../class_child_entry.html#adae1ba9d47decbf51bea28a05fe025c9',1,'ChildEntry::ui'],['../class_data_base_g_u_i.html#aaa918d8ba7107b58113eb2b6c1aec71b',1,'DataBaseGUI::ui']]]
+  ['ui_0',['ui',['../class_child_check_box.html#a471ef4c1e43d08f29143a61620e21ce2',1,'ChildCheckBox::ui'],['../class_child_dialog.html#ae5407b9c1ea43580259e87f280bb929d',1,'ChildDialog::ui'],['../class_child_entry.html#adae1ba9d47decbf51bea28a05fe025c9',1,'ChildEntry::ui'],['../class_child_label.html#af46003549b002a518231b6abeae2abe8',1,'ChildLabel::ui'],['../class_data_base_g_u_i.html#aaa918d8ba7107b58113eb2b6c1aec71b',1,'DataBaseGUI::ui'],['../class_employee_dialog.html#af31fa303f92c518d1aea59b16df96bb2',1,'EmployeeDialog::ui'],['../class_employee_entry.html#a086f9912d54c03e4f09b025af15bea40',1,'EmployeeEntry::ui'],['../class_lesson_entry.html#ab18e2c4b77551fdf6da41cdc66c56695',1,'LessonEntry::ui'],['../class_parent_dialog.html#a7eaded111e53ed716eb9d836e75272cf',1,'ParentDialog::ui'],['../class_parent_entry.html#ae0e418c20e73c0790355d974ccb146a1',1,'ParentEntry::ui']]]
 ];

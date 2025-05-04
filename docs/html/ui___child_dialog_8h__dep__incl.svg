@@ -32,7 +32,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="_child_dialog_8h.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="_child_dialog_8h.html" target="_top" xlink:title="Defines the ChildDialog class for managing child&#45;related information.">
 <polygon fill="white" stroke="#666666" points="270.25,-156 152.25,-156 152.25,-136 270.25,-136 270.25,-156"/>
 <text text-anchor="middle" x="211.25" y="-142.5" font-family="Helvetica,sans-Serif" font-size="10.00">TullipApp/ChildDialog.h</text>
 </a>

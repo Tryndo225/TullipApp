@@ -128,7 +128,7 @@ void Database::search_lavenstein_name_surname(std::vector<T*>& vector, const std
 Lesson* Database::add_lesson(const Lesson& lesson)
 {
 	lessons_.emplace_back(std::make_unique<Lesson>(lesson));
-	lesson_by_datetime.insert({ lesson.get_datetime(), lessons_.back().get() });
+	lesson_by_schedule.insert({ lesson.get_schedule(), lessons_.back().get() });
 	return lessons_.back().get();
 }
 
@@ -136,18 +136,46 @@ void Database::remove_lesson(const Lesson* lesson)
 {
 	remove_all(lessons_, *lesson);
 
-	auto it = lesson_by_datetime.find(lesson->get_datetime());
-	while (it != lesson_by_datetime.end() && it->second != lesson) it++;
+	auto it = lesson_by_schedule.find(lesson->get_schedule());
+	while (it != lesson_by_schedule.end() && it->second != lesson) it++;
 
-	if (it != lesson_by_datetime.end())
+	if (it != lesson_by_schedule.end())
 	{
-		lesson_by_datetime.erase(it);
+		lesson_by_schedule.erase(it);
 	}
 }
 
-std::multimap<DateTime, Lesson*>& Database::sort_lessons_by_datetime()
+std::vector<Lesson*> Database::search_lessons_by_child_name_surname(const std::string& reference_name, const std::string& reference_surname) const
 {
-	return lesson_by_datetime;
+	auto likely_child = search_children(reference_name, reference_surname)[0];
+	return filter_lesson_by_child_name(likely_child->get_name(), filter_lesson_by_child_surname(likely_child->get_surname()));
+}
+
+std::vector<Lesson*> Database::sort_lessons_by_time() const
+{
+	std::vector<Lesson*> lessons;
+	for (const auto& lesson : lessons_)
+	{
+		lessons.push_back(lesson.get());
+	}
+	std::sort(lessons.begin(), lessons.end(), [](Lesson* a, Lesson* b) { return a->get_schedule() < b->get_schedule(); });
+	return lessons;
+}
+
+std::vector<Lesson*> Database::sort_lessons_by_day() const
+{
+	std::vector<Lesson*> lessons;
+	for (const auto& lesson : lessons_)
+	{
+		lessons.push_back(lesson.get());
+	}
+	std::sort(lessons.begin(), lessons.end(), [](Lesson* a, Lesson* b) { return a->get_day() < b->get_day(); });
+	return lessons;
+}
+
+std::multimap<Schedule, Lesson*>& Database::sort_lessons_by_schedule()
+{
+	return lesson_by_schedule;
 }
 
 std::vector<Lesson*> Database::filter_lesson_by_day(const std::string& day, std::optional <std::vector<Lesson*>> lessons) const
@@ -156,14 +184,14 @@ std::vector<Lesson*> Database::filter_lesson_by_day(const std::string& day, std:
 	{
 		return filter(lessons.value(), [day](Lesson& lesson)
 			{
-				return weekday_to_string(Date::get_weekday_from_date(lesson.get_date())) == day;
+				return weekday_to_string(lesson.get_day()) == day;
 			});
 	}
 	else
 	{
 		return filter(lessons_, [day](Lesson& lesson)
 			{
-				return weekday_to_string(Date::get_weekday_from_date(lesson.get_date())) == day;
+				return weekday_to_string(lesson.get_day()) == day;
 			});
 	}
 }
@@ -745,5 +773,5 @@ void Database::clear()
 	parent_by_email.clear();
 	employee_by_name.clear();
 	employee_by_surname.clear();
-	lesson_by_datetime.clear();
+	lesson_by_schedule.clear();
 }

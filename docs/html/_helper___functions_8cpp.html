@@ -122,6 +122,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a6da60855251a74f88e27221bee273248" id="r_a6da60855251a74f88e27221bee273248"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6da60855251a74f88e27221bee273248">lavenstein_distance</a> (const std::string &amp;string, const std::string &amp;reference)</td></tr>
 <tr class="memdesc:a6da60855251a74f88e27221bee273248"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Levenshtein distance between two strings.  <br /></td></tr>
 <tr class="separator:a6da60855251a74f88e27221bee273248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c057a2026f63808ded48a7a31cecc96" id="r_a6c057a2026f63808ded48a7a31cecc96"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c057a2026f63808ded48a7a31cecc96">search_lavenstein_name_surname_helper</a> (const std::string &amp;name, const std::string &amp;surname, const std::string &amp;reference_name, const std::string &amp;reference_surname)</td></tr>
+<tr class="memdesc:a6c057a2026f63808ded48a7a31cecc96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to calculate lavenstein distance for name + surname.  <br /></td></tr>
+<tr class="separator:a6c057a2026f63808ded48a7a31cecc96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40b443ced6fb40c747991e41e12494f4" id="r_a40b443ced6fb40c747991e41e12494f4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40b443ced6fb40c747991e41e12494f4">to_lower</a> (std::string str)</td></tr>
+<tr class="memdesc:a40b443ced6fb40c747991e41e12494f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coverts a string to lowercase.  <br /></td></tr>
+<tr class="separator:a40b443ced6fb40c747991e41e12494f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a6da60855251a74f88e27221bee273248" name="a6da60855251a74f88e27221bee273248"></a>
@@ -152,6 +158,13 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The Levenshtein distance between the two strings. </dd></dl>
+<div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="_helper___functions_8cpp_a6da60855251a74f88e27221bee273248_icgraph.svg" width="360" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -188,13 +201,89 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-2" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="_helper___functions_8cpp_ad88d463f2a035bc0c46649cbf4890bd4_icgraph.svg" width="524" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+
+</div>
+</div>
+<a id="a6c057a2026f63808ded48a7a31cecc96" name="a6c057a2026f63808ded48a7a31cecc96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c057a2026f63808ded48a7a31cecc96">&#9670;&#160;</a></span>search_lavenstein_name_surname_helper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t search_lavenstein_name_surname_helper </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>surname</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>reference_name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>reference_surname</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Helper function to calculate lavenstein distance for name + surname. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name to compare. </td></tr>
+    <tr><td class="paramname">surname</td><td>The surname to compare. </td></tr>
+    <tr><td class="paramname">reference_name</td><td>The reference name. </td></tr>
+    <tr><td class="paramname">reference_surname</td><td>The reference surname. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The lavenstein distance. </dd></dl>
+<div id="dynsection-3" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="_helper___functions_8cpp_a6c057a2026f63808ded48a7a31cecc96_cgraph.svg" width="360" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a40b443ced6fb40c747991e41e12494f4" name="a40b443ced6fb40c747991e41e12494f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40b443ced6fb40c747991e41e12494f4">&#9670;&#160;</a></span>to_lower()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string to_lower </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>str</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Coverts a string to lowercase. </p>
+<p>This function converts all characters in the given string to their lowercase equivalent. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>The string to convert. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The lowercase version of the input string. </dd></dl>
 
 </div>
 </div>

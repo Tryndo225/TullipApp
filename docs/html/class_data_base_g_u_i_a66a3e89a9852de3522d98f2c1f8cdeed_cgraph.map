@@ -1,0 +1,12 @@
+<map id="DataBaseGUI::lesson_remove" name="DataBaseGUI::lesson_remove">
+<area shape="rect" id="Node000001" title="Removes a lesson from the database." alt="" coords="5,35,155,77"/>
+<area shape="rect" id="Node000002" href="$class_data_base_g_u_i.html#a1ad152b7becf3e0051cdd5dbae6d4abc" title="Selects the appropriate sorting to use based on lesson sort index." alt="" coords="203,5,354,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,42,187,37,188,43,156,48"/>
+<area shape="rect" id="Node000003" href="$class_data_base_g_u_i.html#aa6b02e4e81b0113fb1c75d7d5ef0be59" title="Populates the lessons tab with a list of lessons." alt="" coords="402,35,562,77"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="355,35,387,40,386,45,354,40"/>
+<area shape="poly" id="edge3_Node000003_Node000001" title=" " alt="" coords="401,62,354,63,203,63,170,62,170,57,203,57,354,57,401,56"/>
+<area shape="rect" id="Node000004" href="$class_data_base_g_u_i.html#a2cb0d5bb3e2e1795dd1e9fd61d51544c" title="Clears the lessons tab." alt="" coords="640,5,789,48"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="562,43,624,35,625,41,563,49"/>
+<area shape="rect" id="Node000005" href="$class_lesson_entry.html#ac407f16eaac263953c0c07079cac4064" title="Signal emitted when a lesson removal is requested." alt="" coords="610,72,819,99"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="563,63,595,68,595,73,562,69"/>
+</map>

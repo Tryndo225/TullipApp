@@ -1,0 +1,9 @@
+<map id="DataBaseGUI::tab_change" name="DataBaseGUI::tab_change">
+<area shape="rect" id="Node000001" title="Handles tab change events." alt="" coords="438,31,616,57"/>
+<area shape="rect" id="Node000002" href="$class_data_base_g_u_i.html#a6c35e47ed05a80db144f240dee805a9d" title="Sets up the GUI." alt="" coords="247,31,390,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="423,47,391,47,391,41,423,41"/>
+<area shape="rect" id="Node000003" href="$class_data_base_g_u_i.html#a2c83afe3a30fb5166d275d9a74d33196" title="Default constructor." alt="" coords="5,5,199,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="231,37,199,33,199,27,232,31"/>
+<area shape="rect" id="Node000004" href="$class_data_base_g_u_i.html#aba10d1d8e9fb151632ff34de418cee82" title="Constructs a DataBaseGUI object." alt="" coords="5,56,199,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="232,57,199,61,199,55,231,51"/>
+</map>

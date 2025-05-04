@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "TullipApp", "index.html", [
+    [ "Tullip App Documentation", "index.html", "index" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -35,7 +36,7 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ],
+        [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Related Symbols", "functions_rela.html", null ]
       ] ]
     ] ],
@@ -54,9 +55,10 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_child_dialog_8cpp.html",
-"class_date.html#a81b10f48eadbf944836618d27e8f427a",
-"class_ui___data_base_g_u_i_class.html#a6bed2f5c345bb285491d09693098ece1"
+"_child_check_box_8cpp.html",
+"class_data_base_g_u_i.html#a7db832ef3939cc57a78a16f4c09994a6",
+"class_lesson.html#acdca7dd0eb5fed531561dd08fafd213b",
+"class_ui___data_base_g_u_i_class.html#ad393ba8af12eb29460aba8a6f92cc939"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

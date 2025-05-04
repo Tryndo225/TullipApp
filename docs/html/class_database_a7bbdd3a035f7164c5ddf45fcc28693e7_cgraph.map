@@ -1,0 +1,9 @@
+<map id="Database::update_employee_start" name="Database::update_employee_start">
+<area shape="rect" id="Node000001" title="Removes an employee&#39;s information from the maps." alt="" coords="5,48,193,91"/>
+<area shape="rect" id="Node000002" href="$class_person.html#a6b1fec00d8d1f5af1a2977dc3f5f9eb8" title="Gets the first name of the person." alt="" coords="274,5,401,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,47,258,33,259,38,194,52"/>
+<area shape="rect" id="Node000003" href="$class_person.html#a7b3c8db44a49c4ba8c4838e19a235613" title="Gets the last name of the person." alt="" coords="265,56,410,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,67,249,67,249,72,193,72"/>
+<area shape="rect" id="Node000004" href="$class_database.html#a764574ac9e94b5ab7eb8d106b9113bec" title="Removes an entry from a multimap." alt="" coords="241,107,434,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="194,87,257,100,256,106,193,92"/>
+</map>

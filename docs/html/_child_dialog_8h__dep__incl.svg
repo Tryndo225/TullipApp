@@ -6,12 +6,23 @@
 <!-- Title: TullipApp/ChildDialog.h Pages: 1 -->
 <svg width="447pt" height="164pt"
  viewBox="0.00 0.00 446.75 164.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+
+<style type="text/css"><![CDATA[
+.node, .edge {opacity: 0.7;}
+.node.selected, .edge.selected {opacity: 1;}
+.edge:hover path { stroke: red; }
+.edge:hover polygon { stroke: red; fill: red; }
+]]></style>
+<script type="application/ecmascript" xlink:href="svg.min.js"/>
+<svg id="graph" class="graph">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 160)">
 <title>TullipApp/ChildDialog.h</title>
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Defines the ChildDialog class for managing child&#45;related information.">
 <polygon fill="#999999" stroke="#666666" points="270.25,-156 152.25,-156 152.25,-136 270.25,-136 270.25,-156"/>
 <text text-anchor="middle" x="211.25" y="-142.5" font-family="Helvetica,sans-Serif" font-size="10.00">TullipApp/ChildDialog.h</text>
 </a>
@@ -20,7 +31,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="$_child_dialog_8cpp.html" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="_child_dialog_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="128.5,-94 0,-94 0,-74 128.5,-74 128.5,-94"/>
 <text text-anchor="middle" x="64.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">TullipApp/ChildDialog.cpp</text>
 </a>
@@ -38,7 +49,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="$_data_base_g_u_i_8h.html" xlink:title="Defines the DataBaseGUI class for managing the graphical user interface of the database.">
+<g id="a_Node000003"><a xlink:href="_data_base_g_u_i_8h.html" target="_top" xlink:title="Defines the DataBaseGUI class for managing the graphical user interface of the database.">
 <polygon fill="white" stroke="#666666" points="275.88,-94 146.62,-94 146.62,-74 275.88,-74 275.88,-94"/>
 <text text-anchor="middle" x="211.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">TullipApp/DataBaseGUI.h</text>
 </a>
@@ -56,7 +67,7 @@
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="$moc___child_dialog_8cpp.html" xlink:title=" ">
+<g id="a_Node000007"><a xlink:href="moc___child_dialog_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="438.75,-100 293.75,-100 293.75,-68 438.75,-68 438.75,-100"/>
 <text text-anchor="start" x="301.75" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00">TullipApp/x64/Debug</text>
 <text text-anchor="middle" x="366.25" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/qt/moc/moc_ChildDialog.cpp</text>
@@ -75,7 +86,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="$_data_base_g_u_i_8cpp.html" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="_data_base_g_u_i_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="143.12,-26 3.38,-26 3.38,-6 143.12,-6 143.12,-26"/>
 <text text-anchor="middle" x="73.25" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">TullipApp/DataBaseGUI.cpp</text>
 </a>
@@ -93,7 +104,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="$_main_8cpp.html" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="_main_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="260.88,-26 161.62,-26 161.62,-6 260.88,-6 260.88,-26"/>
 <text text-anchor="middle" x="211.25" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">TullipApp/Main.cpp</text>
 </a>
@@ -111,7 +122,7 @@
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="$moc___data_base_g_u_i_8cpp.html" xlink:title=" ">
+<g id="a_Node000006"><a xlink:href="moc___data_base_g_u_i_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="435.38,-32 279.12,-32 279.12,0 435.38,0 435.38,-32"/>
 <text text-anchor="start" x="287.12" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">TullipApp/x64/Debug</text>
 <text text-anchor="middle" x="357.25" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">/qt/moc/moc_DataBaseGUI.cpp</text>
@@ -128,4 +139,19 @@
 </g>
 </g>
 </g>
+</svg>
+</svg>
+
+<style type='text/css'>
+<![CDATA[
+[data-mouse-over-selected='false'] { opacity: 0.7; }
+[data-mouse-over-selected='true']  { opacity: 1.0; }
+]]>
+</style>
+<script type="application/ecmascript"><![CDATA[
+document.addEventListener('DOMContentLoaded', (event) => {
+  highlightEdges();
+  highlightAdjacentNodes();
+});
+]]></script>
 </svg>

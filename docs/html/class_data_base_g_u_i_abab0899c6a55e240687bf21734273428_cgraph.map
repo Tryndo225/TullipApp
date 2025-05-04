@@ -1,0 +1,17 @@
+<map id="DataBaseGUI::populate_employee_tab" name="DataBaseGUI::populate_employee_tab">
+<area shape="rect" id="Node000001" title="Populates the parent tab with a list of parents." alt="" coords="5,140,166,183"/>
+<area shape="rect" id="Node000002" href="$class_employee_entry.html#ada71cffbda6a2614d266a6cc85d6684a" title="Signal emitted when a employee edit is requested." alt="" coords="225,5,427,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,138,148,89,179,63,212,42,226,35,228,40,215,46,182,67,152,93,106,141"/>
+<area shape="rect" id="Node000003" href="$class_data_base_g_u_i.html#ae9c0b91905f7d70563c285cd9b5dace3" title="Edits an existing employee in the database." alt="" coords="228,56,424,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="121,137,164,114,213,92,235,85,237,90,215,97,166,119,124,142"/>
+<area shape="rect" id="Node000005" href="$class_data_base_g_u_i.html#a4b70294327e9c316224af10d7a369749" title="Removes an employee from the database." alt="" coords="242,107,410,149"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="166,148,226,139,227,144,166,153"/>
+<area shape="rect" id="Node000006" href="$class_data_base_g_u_i.html#aa5bbb368e92b4bf89edf9071df42aab3" title="Clears the parent tab." alt="" coords="242,173,410,216"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="166,170,227,178,226,184,166,175"/>
+<area shape="rect" id="Node000007" href="$class_employee_entry.html#a6f579e66e8fc13dbc45c940edfc50b32" title="Signal emitted when a employee removal is requested." alt="" coords="214,240,438,267"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="124,181,166,204,215,226,237,233,235,238,213,230,164,209,121,186"/>
+<area shape="rect" id="Node000004" href="$class_data_base_g_u_i.html#a0298d31c219c66a65a01eb01372e254d" title="Selects the appropriate sorting to use based on employee sort index." alt="" coords="486,107,651,149"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="390,81,439,92,472,100,470,105,437,97,389,86"/>
+<area shape="poly" id="edge4_Node000004_Node000001" title=" " alt="" coords="559,151,541,182,514,219,480,254,439,281,378,304,327,311,275,302,213,281,181,265,153,243,109,197,113,193,157,239,184,260,215,276,276,297,327,305,377,299,437,276,477,250,510,215,536,179,554,148"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="410,125,470,125,470,131,410,131"/>
+</map>

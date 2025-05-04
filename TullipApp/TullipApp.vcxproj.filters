@@ -98,8 +98,11 @@
     <ClCompile Include="EmployeeEntry.cpp">
       <Filter>Source Files\UI</Filter>
     </ClCompile>
+    <ClCompile Include="LessonEntry.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
     <ClCompile Include="EmployeeDialog.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\UI</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -112,26 +115,29 @@
     <QtMoc Include="ChildDialog.h">
       <Filter>Header Files\UI</Filter>
     </QtMoc>
-    <QtMoc Include="ParentEntry.h">
-      <Filter>Header Files\UI</Filter>
-    </QtMoc>
-    <QtMoc Include="clickablelabel.h">
-      <Filter>Resource Files</Filter>
-    </QtMoc>
     <QtMoc Include="ChildLabel.h">
-      <Filter>Header Files\UI</Filter>
-    </QtMoc>
-    <QtMoc Include="ParentDialog.h">
       <Filter>Header Files\UI</Filter>
     </QtMoc>
     <QtMoc Include="ChildCheckBox.h">
       <Filter>Header Files\UI</Filter>
     </QtMoc>
+    <QtMoc Include="EmployeeDialog.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
     <QtMoc Include="EmployeeEntry.h">
       <Filter>Header Files\UI</Filter>
     </QtMoc>
-    <QtMoc Include="EmployeeDialog.h">
-      <Filter>Header Files</Filter>
+    <QtMoc Include="LessonEntry.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="ParentDialog.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="ParentEntry.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="clickablelabel.h">
+      <Filter>Resource Files</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +166,9 @@
       <Filter>Resource Files</Filter>
     </QtUic>
     <QtUic Include="EmployeeDialog.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
+    <QtUic Include="LessonEntry.ui">
       <Filter>Resource Files</Filter>
     </QtUic>
   </ItemGroup>

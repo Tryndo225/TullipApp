@@ -1,0 +1,5 @@
+<map id="ChildLabel" name="ChildLabel">
+<area shape="rect" id="Node000001" title="Represents a label for displaying child name." alt="" coords="5,123,106,235"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="25,5,87,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,90,58,123,53,123,53,90"/>
+</map>

@@ -1,5 +1,5 @@
 <map id="ChildDialog::ChildDialog" name="ChildDialog::ChildDialog">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,169,40"/>
-<area shape="rect" id="Node000002" href="$class_child_dialog.html#afd00610af6e79bb0b07894900cea64a2" title=" " alt="" coords="217,5,362,48"/>
+<area shape="rect" id="Node000001" title="Constructs a ChildDialog object." alt="" coords="5,13,169,40"/>
+<area shape="rect" id="Node000002" href="$class_child_dialog.html#afd00610af6e79bb0b07894900cea64a2" title="Populates the parent options in the dialog." alt="" coords="217,5,362,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,24,201,24,201,29,169,29"/>
 </map>

@@ -1,0 +1,15 @@
+<map id="TullipApp/EmployeeDialog.h" name="TullipApp/EmployeeDialog.h">
+<area shape="rect" id="Node000001" title="Defines the EmployeeDialog class for editing employee information." alt="" coords="399,5,584,32"/>
+<area shape="rect" id="Node000002" href="$_data_base_g_u_i_8h.html" title="Defines the DataBaseGUI class for managing the graphical user interface of the database." alt="" coords="196,88,369,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="446,40,316,90,314,85,444,35"/>
+<area shape="rect" id="Node000006" href="$_employee_dialog_8cpp.html" title=" " alt="" coords="392,88,592,115"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="494,48,494,88,489,88,489,48"/>
+<area shape="rect" id="Node000007" href="$moc___employee_dialog_8cpp.html" title=" " alt="" coords="616,80,837,123"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="544,35,667,77,665,82,542,40"/>
+<area shape="rect" id="Node000003" href="$_data_base_g_u_i_8cpp.html" title=" " alt="" coords="5,179,192,205"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="244,124,126,180,124,176,241,119"/>
+<area shape="rect" id="Node000004" href="$_main_8cpp.html" title=" " alt="" coords="216,179,349,205"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="285,130,285,178,280,178,280,130"/>
+<area shape="rect" id="Node000005" href="$moc___data_base_g_u_i_8cpp.html" title=" " alt="" coords="373,171,581,213"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="325,119,433,168,431,173,323,124"/>
+</map>

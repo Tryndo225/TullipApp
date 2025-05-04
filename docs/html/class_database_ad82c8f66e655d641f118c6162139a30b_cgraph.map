@@ -1,5 +1,5 @@
 <map id="Database::get_parent_by_name_surname" name="Database::get_parent_by_name_surname">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,152,81"/>
+<area shape="rect" id="Node000001" title="Gets a parent by name and surname." alt="" coords="5,39,152,81"/>
 <area shape="rect" id="Node000002" href="$class_database.html#a427341d23d0431b1e75b2c82c412f00a" title="Filters parents by name." alt="" coords="200,5,353,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,45,184,40,185,45,152,50"/>
 <area shape="rect" id="Node000005" href="$class_database.html#a09a0e8fe44e256daff05eeba15c22153" title="Filters parents by surname." alt="" coords="200,72,353,115"/>

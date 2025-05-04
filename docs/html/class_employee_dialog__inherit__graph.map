@@ -1,0 +1,5 @@
+<map id="EmployeeDialog" name="EmployeeDialog">
+<area shape="rect" id="Node000001" title="Dialog for managing employee information." alt="" coords="5,123,140,256"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="44,5,102,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,90,76,123,70,123,70,90"/>
+</map>

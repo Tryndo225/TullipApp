@@ -107,7 +107,6 @@ public:
 
 	/**
 	 * @brief Outputs the error message to a stream.
-	 * @details This friend function allows the `DateTimeError` object to be output directly to a stream.
 	 * @param stream The output stream.
 	 * @param error The `DateTimeError` object to output.
 	 * @return The output stream.

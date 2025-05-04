@@ -1,19 +1,5 @@
 var searchData=
 [
-  ['_7eaddress_0',['~Address',['../class_address.html#aaea1dee22ef8c44f8c070e5ac849f9be',1,'Address']]],
-  ['_7echild_1',['~Child',['../class_child.html#a264b4ab372882b4f32c20e094030debb',1,'Child']]],
-  ['_7echilddialog_2',['~ChildDialog',['../class_child_dialog.html#a266850d5f72b6242f60185213622cf52',1,'ChildDialog']]],
-  ['_7echildentry_3',['~ChildEntry',['../class_child_entry.html#a43a9bd8ebcdc53f3037b06f33c8dda60',1,'ChildEntry']]],
-  ['_7edatabase_4',['~Database',['../class_database.html#a341cd0fe8c615e829e3a22b74c208bb5',1,'Database']]],
-  ['_7edatabasegui_5',['~DataBaseGUI',['../class_data_base_g_u_i.html#a3934a954ace9260b0d51b864bc3e6035',1,'DataBaseGUI']]],
-  ['_7edate_6',['~Date',['../class_date.html#aed2e9377823a8463c8f9a75babc2cbf5',1,'Date']]],
-  ['_7edatetime_7',['~DateTime',['../class_date_time.html#ab52dd76bf1b1d41ffbe74bf977fc513c',1,'DateTime']]],
-  ['_7edatetimeerror_8',['~DateTimeError',['../class_date_time_error.html#ab6ef67af5d13cd101e5c28d46a322237',1,'DateTimeError']]],
-  ['_7eemail_9',['~Email',['../class_email.html#ab62f0b1f665c0db7f76692ce2b37a460',1,'Email']]],
-  ['_7eemployee_10',['~Employee',['../class_employee.html#a41fe4b92232a2077c7326b47163fc885',1,'Employee']]],
-  ['_7elesson_11',['~Lesson',['../class_lesson.html#a2ba1e0f3d8446333012273f40494e8d0',1,'Lesson']]],
-  ['_7eparent_12',['~Parent',['../class_parent.html#a707fd2a055909b06ba51a2def09d05e6',1,'Parent']]],
-  ['_7eperson_13',['~Person',['../class_person.html#a7ce7b950524af9719b30a6e33c48576e',1,'Person']]],
-  ['_7ephone_14',['~Phone',['../class_phone.html#a8b50a7b9033570e7f17ca5dff87a512e',1,'Phone']]],
-  ['_7etime_15',['~Time',['../class_time.html#a6edfddd1575793015d93e70fb725256c',1,'Time']]]
+  ['weekday_5fto_5fstring_0',['weekday_to_string',['../_date_time_8cpp.html#a1783c3bc3f494fc8f7cb7dc1e6bc998b',1,'weekday_to_string(WeekDays weekday):&#160;DateTime.cpp'],['../_date_time_8h.html#a1783c3bc3f494fc8f7cb7dc1e6bc998b',1,'weekday_to_string(WeekDays weekday):&#160;DateTime.cpp']]],
+  ['what_1',['what',['../class_date_time_error.html#ae6acc8c780c4fc150cb8c6f37c7bc02f',1,'DateTimeError']]]
 ];

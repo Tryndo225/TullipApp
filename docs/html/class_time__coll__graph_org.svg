@@ -27,16 +27,16 @@
 <text text-anchor="start" x="4" y="-134.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="14" y="-134.5" font-family="Helvetica,sans-Serif" font-size="10.00">Time()</text>
 <text text-anchor="start" x="4" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="14" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">operator=()</text>
+<text text-anchor="start" x="14" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">Time()</text>
 <text text-anchor="start" x="4" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="14" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">operator=()</text>
 <text text-anchor="start" x="4" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="14" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00">set_seconds()</text>
+<text text-anchor="start" x="14" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00">operator=()</text>
 <text text-anchor="start" x="4" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="14" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">get_seconds()</text>
+<text text-anchor="start" x="14" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">set_seconds()</text>
 <text text-anchor="start" x="4" y="-54.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="14" y="-54.5" font-family="Helvetica,sans-Serif" font-size="10.00">set_minutes()</text>
-<text text-anchor="start" x="14" y="-38.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 16 more...</text>
+<text text-anchor="start" x="14" y="-54.5" font-family="Helvetica,sans-Serif" font-size="10.00">get_seconds()</text>
+<text text-anchor="start" x="14" y="-38.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 17 more...</text>
 <text text-anchor="start" x="4" y="-22.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="14" y="-22.5" font-family="Helvetica,sans-Serif" font-size="10.00">get_current_time()</text>
 <text text-anchor="start" x="4.38" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">#</text>

@@ -1,5 +1,5 @@
 <map id="Time::operator!=" name="Time::operator!=">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,123,32"/>
+<area shape="rect" id="Node000001" title="Compares two times for inequality." alt="" coords="5,5,123,32"/>
 <area shape="rect" id="Node000002" href="$class_time.html#a0eedb4e626b8e3fdcaf63519b86ea778" title="Default constructor." alt="" coords="171,5,258,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,16,155,16,155,21,123,21"/>
 </map>

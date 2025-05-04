@@ -70,6 +70,14 @@ std::string month_to_string(Months month);
 std::ostream& operator<<(std::ostream& stream, const Months& month);
 
 /**
+ * @brief Converts a string representation of a month to its corresponding `Months` enum value.
+ * @param month_string The string representation of the month.
+ * @return The corresponding `Months` enum value.
+ * @throws DateTimeError if the month string is invalid.
+ */
+Months string_to_month(const std::string& month_string);
+
+/**
  * @brief Array of weekday names.
  * @details Provides string representations of the days of the week.
  */
@@ -114,6 +122,14 @@ std::string weekday_to_string(WeekDays weekday);
  * @return The output stream.
  */
 std::ostream& operator<<(std::ostream& stream, const WeekDays& weekday);
+
+/**
+ * @brief Converts a string representation of a weekday to its corresponding `WeekDays` enum value.
+ * @param weekday_string The string representation of the weekday.
+ * @return The corresponding `WeekDays` enum value.
+ * @throws DateTimeError if the weekday string is invalid.
+ */
+WeekDays string_to_weekday(const std::string& weekday_string);
 
 /**
  * @class Date
@@ -222,16 +238,51 @@ public:
 	 */
 	inline void print_short(std::ostream& stream) const;
 
-	// Comparison operators
+	/**
+	* @brief Compares two dates for equality.
+	* @param date The date to compare with.
+	* @return true if the dates are equal, false otherwise.
+	*/
 	bool operator==(const Date& date) const;
+
+	/**
+	 * @brief Compares two dates for inequality.
+	 * @param date The date to compare with.
+	 * @return true if the dates are not equal, false otherwise.
+	 */
 	bool operator!=(const Date& date) const;
+
+	/**
+	 * @brief Compares two dates for ordering.
+	 * @param date The date to compare with.
+	 * @return true if this date is less than the given date, false otherwise.
+	 */
 	bool operator<(const Date& date) const;
+
+	/**
+	 * @brief Compares two dates for ordering.
+	 * @param date The date to compare with.
+	 * @return true if this date is greater than the given date, false otherwise.
+	 */
 	bool operator>(const Date& date) const;
+
+	/**
+	 * @brief Compares two dates for ordering.
+	 * @param date The date to compare with.
+	 * @return true if this date is less than or equal to the given date, false otherwise.
+	 */
 	bool operator<=(const Date& date) const;
+
+	/**
+	 * @brief Compares two dates for ordering.
+	 * @param date The date to compare with.
+	 * @return true if this date is greater than or equal to the given date, false otherwise.
+	 */
 	bool operator>=(const Date& date) const;
 
 	/**
 	 * @brief Subtracts two dates.
+	 * @details This operator calculates the difference between two dates.
 	 * @param date The date to subtract.
 	 * @return The difference as a `Date` object.
 	 */
@@ -398,12 +449,46 @@ public:
 	 */
 	void print_short(std::ostream& stream) const;
 
-	// Comparison operators
+	/**
+	 * @brief Compares two times for equality.
+	 * @param time The time to compare with.
+	 * @return true if the times are equal, false otherwise.
+	 */
 	bool operator==(const Time& time) const;
+
+	/**
+	 * @brief Compares two times for inequality.
+	 * @param time The time to compare with.
+	 * @return true if the times are not equal, false otherwise.
+	 */
 	bool operator!=(const Time& time) const;
+
+	/**
+	 * @brief Compares two times for ordering.
+	 * @param time The time to compare with.
+	 * @return true if this time is less than the given time, false otherwise.
+	 */
 	bool operator<(const Time& time) const;
+
+	/**
+	 * @brief Compares two times for ordering.
+	 * @param time The time to compare with.
+	 * @return true if this time is greater than the given time, false otherwise.
+	 */
 	bool operator>(const Time& time) const;
+
+	/**
+	 * @brief Compares two times for ordering.
+	 * @param time The time to compare with.
+	 * @return true if this time is less than or equal to the given time, false otherwise.
+	 */
 	bool operator<=(const Time& time) const;
+
+	/**
+	 * @brief Compares two times for ordering.
+	 * @param time The time to compare with.
+	 * @return true if this time is greater than or equal to the given time, false otherwise.
+	 */
 	bool operator>=(const Time& time) const;
 
 	/**
@@ -456,10 +541,16 @@ public:
 	 */
 	DateTime(unsigned short day, unsigned short month, unsigned int year, unsigned short hours, unsigned short mins, unsigned short secs);
 
+	/**
+	 * @brief Constructs a `DateTime` from a `Date` and a `Time`.
+	 * @param date The `Date` value.
+	 * @param time The `Time` value.
+	 */
+	DateTime(Date date, Time time);
+
 	// Rule of 5
 	DateTime(const DateTime& date_time) = default;
 	DateTime(DateTime&& date_time) = default;
-	DateTime(const Date& date, const Time& time);
 	DateTime& operator=(const DateTime& date_time) = default;
 	DateTime& operator=(DateTime&& date_time) = default;
 
@@ -467,7 +558,7 @@ public:
 	 * @brief Sets the date component of the `DateTime`.
 	 * @param date The new `Date` value.
 	 */
-	void set_date(const Date& date);
+	void set_date(Date date);
 
 	/**
 	 * @brief Gets the date component of the `DateTime`.
@@ -479,7 +570,7 @@ public:
 	 * @brief Sets the time component of the `DateTime`.
 	 * @param time The new `Time` value.
 	 */
-	void set_time(const Time& time);
+	void set_time(Time time);
 
 	/**
 	 * @brief Gets the time component of the `DateTime`.
@@ -505,12 +596,46 @@ public:
 	 */
 	void print_short(std::ostream& stream) const;
 
-	// Comparison operators
+	/**
+	 * @brief Compares two `DateTime` objects for equality.
+	 * @param date_time The `DateTime` object to compare with.
+	 * @return true if the `DateTime` objects are equal, false otherwise.
+	 */
 	bool operator==(const DateTime& date_time) const;
+
+	/**
+	 * @brief Compares two `DateTime` objects for inequality.
+	 * @param date_time The `DateTime` object to compare with.
+	 * @return true if the `DateTime` objects are not equal, false otherwise.
+	 */
 	bool operator!=(const DateTime& date_time) const;
+
+	/**
+	 * @brief Compares two `DateTime` objects for ordering.
+	 * @param date_time The `DateTime` object to compare with.
+	 * @return true if this `DateTime` is less than the given `DateTime`, false otherwise.
+	 */
 	bool operator<(const DateTime& date_time) const;
+
+	/**
+	 * @brief Compares two `DateTime` objects for ordering.
+	 * @param date_time The `DateTime` object to compare with.
+	 * @return true if this `DateTime` is greater than the given `DateTime`, false otherwise.
+	 */
 	bool operator>(const DateTime& date_time) const;
+
+	/**
+	 * @brief Compares two `DateTime` objects for ordering.
+	 * @param date_time The `DateTime` object to compare with.
+	 * @return true if this `DateTime` is less than or equal to the given `DateTime`, false otherwise.
+	 */
 	bool operator<=(const DateTime& date_time) const;
+
+	/**
+	 * @brief Compares two `DateTime` objects for ordering.
+	 * @param date_time The `DateTime` object to compare with.
+	 * @return true if this `DateTime` is greater than or equal to the given `DateTime`, false otherwise.
+	 */
 	bool operator>=(const DateTime& date_time) const;
 
 	/**
@@ -533,4 +658,113 @@ public:
 	~DateTime() = default;
 };
 
-#endif
+class Schedule : public Time
+{
+private:
+	WeekDays day_;
+public:
+	/**
+	 * @brief Default constructor.
+	 */
+	Schedule() = default;
+
+	/**
+	 * @brief Constructs a `Schedule` from a `Time` and a `WeekDays` value.
+	 * @param time The `Time` value.
+	 * @param day The `WeekDays` value.
+	 */
+	Schedule(WeekDays day, Time time);
+
+	/**
+	 * @brief Constructs a `Schedule` from an encoded time.
+	 * @details Constructs a `Schedule` from an encoded time value and a `WeekDays` value.
+	 * @param time The encoded time value.
+	 */
+	Schedule(const std::string& schedule_string);
+
+	// Rule of 5
+	Schedule(const Schedule& schedule) = default;
+	Schedule(Schedule&& schedule) = default;
+	Schedule& operator=(const Schedule& schedule) = default;
+	Schedule& operator=(Schedule&& schedule) = default;
+
+	/**
+	 * @brief Gets the day of the week of the schedule.
+	 */
+	WeekDays get_day() const { return day_; }
+
+	/**
+	 * @brief Sets the day of the week of the schedule.
+	 * @param day The new `WeekDays` value.
+	 */
+	void set_day(WeekDays day) { day_ = day; }
+
+	/**
+	 * @brief Gets the time of the schedule.
+	 * @return The `Time` value.
+	 */
+	inline Time get_time() const { return Time(time_); }
+
+	/**
+	 * @brief Sets the time of the schedule.
+	 * @param time The new `Time` value.
+	 */
+	void set_time(Time time);
+
+	/**
+	* @brief Compares two `Schedule` objects for equality.
+	* @param schedule The `Schedule` object to compare with.
+	* @return true if the `Schedule` objects are equal, false otherwise.
+	*/
+	bool operator==(const Schedule& schedule) const;
+
+	/**
+	 * @brief Compares two `Schedule` objects for inequality.
+	 * @param schedule The `Schedule` object to compare with.
+	 * @return true if the `Schedule` objects are not equal, false otherwise.
+	 */
+	bool operator!=(const Schedule& schedule) const;
+
+	/**
+	 * @brief Compares two `Schedule` objects for ordering.
+	 * @param schedule The `Schedule` object to compare with.
+	 * @return true if this `Schedule` is less than the given `Schedule`, false otherwise.
+	 */
+	bool operator<(const Schedule& schedule) const;
+
+	/**
+	 * @brief Compares two `Schedule` objects for ordering.
+	 * @param schedule The `Schedule` object to compare with.
+	 * @return true if this `Schedule` is greater than the given `Schedule`, false otherwise.
+	 */
+	bool operator>(const Schedule& schedule) const;
+
+	/**
+	 * @brief Compares two `Schedule` objects for ordering.
+	 * @param schedule The `Schedule` object to compare with.
+	 * @return true if this `Schedule` is less than or equal to the given `Schedule`, false otherwise.
+	 */
+	bool operator<=(const Schedule& schedule) const;
+
+	/**
+	 * @brief Compares two `Schedule` objects for ordering.
+	 * @param schedule The `Schedule` object to compare with.
+	 * @return true if this `Schedule` is greater than or equal to the given `Schedule`, false otherwise.
+	 */
+	bool operator>=(const Schedule& schedule) const;
+
+	/**
+	 * @brief Destructor.
+	 */
+	~Schedule() = default;
+
+	/**
+	 * @brief Outputs the `Schedule` to a stream.
+	 * @param stream The output stream.
+	 * @param schedule The `Schedule` object to output.
+	 * @return The output stream.
+	 */
+	friend std::ostream& operator<<(std::ostream& stream, const Schedule& schedule);
+};
+
+#endif // !DATETIME_H_

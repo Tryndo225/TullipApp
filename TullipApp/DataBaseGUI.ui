@@ -39,7 +39,7 @@
        <bool>true</bool>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>3</number>
       </property>
       <widget class="QWidget" name="children_tab">
        <attribute name="title">
@@ -429,21 +429,103 @@
         <string>Lessons</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout_4">
-        <item row="0" column="0">
+        <property name="leftMargin">
+         <number>2</number>
+        </property>
+        <property name="topMargin">
+         <number>2</number>
+        </property>
+        <property name="rightMargin">
+         <number>2</number>
+        </property>
+        <property name="bottomMargin">
+         <number>2</number>
+        </property>
+        <item row="1" column="2">
+         <widget class="QLineEdit" name="lessons_search_by_child_name_bar">
+          <property name="placeholderText">
+           <string>Child name...</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QComboBox" name="lessons_sort_selector">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>0</height>
+           </size>
+          </property>
+          <item>
+           <property name="text">
+            <string>Sort By Day</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Sort By Time</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Sort By Schedule</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QPushButton" name="lessons_add_button">
+          <property name="minimumSize">
+           <size>
+            <width>95</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Add Lesson</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QLineEdit" name="lessons_search_by_child_surname_bar">
+          <property name="placeholderText">
+           <string>Child surname...</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="4">
          <widget class="QScrollArea" name="lessons_scroll">
           <property name="widgetResizable">
            <bool>true</bool>
           </property>
-          <widget class="QWidget" name="lesson_scroll_contents">
+          <widget class="QWidget" name="lessons_scroll_contents">
            <property name="geometry">
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>1171</width>
-             <height>503</height>
+             <width>1185</width>
+             <height>487</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_4">
+            <property name="leftMargin">
+             <number>2</number>
+            </property>
+            <property name="topMargin">
+             <number>2</number>
+            </property>
+            <property name="rightMargin">
+             <number>2</number>
+            </property>
+            <property name="bottomMargin">
+             <number>2</number>
+            </property>
             <item>
              <widget class="QWidget" name="widget_4" native="true"/>
             </item>

@@ -1,0 +1,5 @@
+<map id="Lesson::get_day" name="Lesson::get_day">
+<area shape="rect" id="Node000001" title="Gets the day of the lesson." alt="" coords="209,13,326,40"/>
+<area shape="rect" id="Node000002" href="$class_database.html#a3ab08425557dc0b07c6452f30c5a2710" title="Filters lessons by day." alt="" coords="5,5,161,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,29,161,29,161,24,193,24"/>
+</map>

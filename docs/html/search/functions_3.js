@@ -1,12 +1,24 @@
 var searchData=
 [
-  ['editrequested_0',['editRequested',['../class_child_entry.html#abda9dea89937d77c4def3fb81d964ff9',1,'ChildEntry']]],
+  ['editrequested_0',['editRequested',['../class_child_entry.html#abda9dea89937d77c4def3fb81d964ff9',1,'ChildEntry::editRequested()'],['../class_employee_entry.html#ada71cffbda6a2614d266a6cc85d6684a',1,'EmployeeEntry::editRequested()'],['../class_parent_entry.html#ab0a6b9993e8f1dc2f58ceedfee0f7d0b',1,'ParentEntry::editRequested()']]],
   ['email_1',['Email',['../class_email.html#a5b74ed2ee8c170edc6d32eee149c2edf',1,'Email::Email()=default'],['../class_email.html#a4aec3ddbac56c2da4faf40652e6d5f86',1,'Email::Email(const std::string &amp;email)'],['../class_email.html#af42f954415662041c5939cd8553c909d',1,'Email::Email(std::string &amp;&amp;email)'],['../class_email.html#af9c9353130d70f6d6e4790e244ef5088',1,'Email::Email(const Email &amp;email)=default'],['../class_email.html#adc7a4b88497e9b791e91df8aa37545e4',1,'Email::Email(Email &amp;&amp;email) noexcept=default']]],
-  ['employee_2',['Employee',['../class_employee.html#adeb02af71c88626762caf273f421d548',1,'Employee::Employee()=default'],['../class_employee.html#a96197cd3cfc2b19d2af077f2e0934c21',1,'Employee::Employee(const std::string &amp;name, const std::string &amp;surname, const std::string &amp;email=&quot;&quot;, const std::string &amp;phone=&quot;&quot;)'],['../class_employee.html#acddb9a8f7c1e8f7901b3ebbb2e4321d5',1,'Employee::Employee(std::string &amp;&amp;name, std::string &amp;&amp;surname, std::string &amp;&amp;email=&quot;&quot;, std::string &amp;&amp;phone=&quot;&quot;)'],['../class_employee.html#a5984dd08a73408f13b7c19efbe31fc72',1,'Employee::Employee(const Employee &amp;employee)=default'],['../class_employee.html#a9b4d0af4e93406e46dbfe4edceb7e334',1,'Employee::Employee(Employee &amp;&amp;employee) noexcept=default']]],
-  ['export_5fchildren_5fto_5fcsv_5ffile_3',['export_Children_to_csv_file',['../class_database.html#a1aeb301c4e62896370c486cd3391b4c1',1,'Database']]],
-  ['export_5femployees_5fto_5fcsv_5ffile_4',['export_Employees_to_csv_file',['../class_database.html#a331a8626ba05195269528d4138ef9f81',1,'Database']]],
-  ['export_5flessons_5fto_5fcsv_5ffile_5',['export_Lessons_to_csv_file',['../class_database.html#a415d6b7c807f0ed446431d9a6349675f',1,'Database']]],
-  ['export_5fparents_5fto_5fcsv_5ffile_6',['export_Parents_to_csv_file',['../class_database.html#a73ac31eda79b61b8efc1ad4284c7b288',1,'Database']]],
-  ['export_5fto_5fcsv_5ffile_7',['export_to_csv_file',['../class_database.html#abb1803f9cdff3217957c971608d1a3ed',1,'Database']]],
-  ['export_5fto_5fstream_8',['export_to_stream',['../class_database.html#a8a90113565fef7051faccc65d304c665',1,'Database']]]
+  ['email_5fclicked_2',['email_clicked',['../class_employee_entry.html#a66fed1a69fc67e4f1a238c22d72728d1',1,'EmployeeEntry::email_clicked()'],['../class_parent_entry.html#a2c318ff837a37003040fdbd43838a573',1,'ParentEntry::email_clicked()']]],
+  ['employee_3',['Employee',['../class_employee.html#adeb02af71c88626762caf273f421d548',1,'Employee::Employee()=default'],['../class_employee.html#a96197cd3cfc2b19d2af077f2e0934c21',1,'Employee::Employee(const std::string &amp;name, const std::string &amp;surname, const std::string &amp;email=&quot;&quot;, const std::string &amp;phone=&quot;&quot;)'],['../class_employee.html#acddb9a8f7c1e8f7901b3ebbb2e4321d5',1,'Employee::Employee(std::string &amp;&amp;name, std::string &amp;&amp;surname, std::string &amp;&amp;email=&quot;&quot;, std::string &amp;&amp;phone=&quot;&quot;)'],['../class_employee.html#a5984dd08a73408f13b7c19efbe31fc72',1,'Employee::Employee(const Employee &amp;employee)=default'],['../class_employee.html#a9b4d0af4e93406e46dbfe4edceb7e334',1,'Employee::Employee(Employee &amp;&amp;employee) noexcept=default']]],
+  ['employee_5fadd_4',['employee_add',['../class_data_base_g_u_i.html#a0f194ae2af0655dbec77fea4c37a0388',1,'DataBaseGUI']]],
+  ['employee_5fedit_5',['employee_edit',['../class_data_base_g_u_i.html#ae9c0b91905f7d70563c285cd9b5dace3',1,'DataBaseGUI']]],
+  ['employee_5fremove_6',['employee_remove',['../class_data_base_g_u_i.html#a4b70294327e9c316224af10d7a369749',1,'DataBaseGUI']]],
+  ['employee_5fsearch_7',['employee_search',['../class_data_base_g_u_i.html#a54b1ac54d775ea37ae05fd54c756aebe',1,'DataBaseGUI']]],
+  ['employee_5fsearch_5fby_5fpointer_8',['employee_search_by_pointer',['../class_data_base_g_u_i.html#a3a2267784d541d4c74b143458aa7eedb',1,'DataBaseGUI']]],
+  ['employee_5fsort_5fchange_9',['employee_sort_change',['../class_data_base_g_u_i.html#a7db832ef3939cc57a78a16f4c09994a6',1,'DataBaseGUI']]],
+  ['employee_5ftab_5fclear_10',['employee_tab_clear',['../class_data_base_g_u_i.html#aa5bbb368e92b4bf89edf9071df42aab3',1,'DataBaseGUI']]],
+  ['employeedialog_11',['EmployeeDialog',['../class_employee_dialog.html#af8cd4306d2a24e9216442128df626c0f',1,'EmployeeDialog']]],
+  ['employeeentry_12',['EmployeeEntry',['../class_employee_entry.html#a80de24a339dce061075e03f78978f4a6',1,'EmployeeEntry']]],
+  ['erase_5fhours_5fworked_13',['erase_hours_worked',['../class_employee.html#a2ccfad51b3d54539c0093591ede6a239',1,'Employee']]],
+  ['export_5fchildren_5fto_5fcsv_5ffile_14',['export_Children_to_csv_file',['../class_database.html#a1aeb301c4e62896370c486cd3391b4c1',1,'Database']]],
+  ['export_5fdatabase_15',['export_database',['../class_data_base_g_u_i.html#a6d1fa1d2b21c9ba28a3a02eba85dc0d4',1,'DataBaseGUI']]],
+  ['export_5femployees_5fto_5fcsv_5ffile_16',['export_Employees_to_csv_file',['../class_database.html#a331a8626ba05195269528d4138ef9f81',1,'Database']]],
+  ['export_5flessons_5fto_5fcsv_5ffile_17',['export_Lessons_to_csv_file',['../class_database.html#a415d6b7c807f0ed446431d9a6349675f',1,'Database']]],
+  ['export_5fparents_5fto_5fcsv_5ffile_18',['export_Parents_to_csv_file',['../class_database.html#a73ac31eda79b61b8efc1ad4284c7b288',1,'Database']]],
+  ['export_5fto_5fcsv_5ffile_19',['export_to_csv_file',['../class_database.html#abb1803f9cdff3217957c971608d1a3ed',1,'Database']]],
+  ['export_5fto_5fstream_20',['export_to_stream',['../class_database.html#a8a90113565fef7051faccc65d304c665',1,'Database']]]
 ];

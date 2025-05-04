@@ -1,5 +1,5 @@
 <map id="DateTime::get_date" name="DateTime::get_date">
 <area shape="rect" id="Node000001" title="Gets the date component of the DateTime." alt="" coords="190,5,326,32"/>
-<area shape="rect" id="Node000002" href="$class_date_time.html#ac5e36db3765af3de5d7f33623dbd1ab1" title="Sets the time component of the DateTime." alt="" coords="5,5,142,32"/>
+<area shape="rect" id="Node000002" href="$class_date_time.html#abf0654f5c1fba759d370cc4ac99b4dca" title="Sets the time component of the DateTime." alt="" coords="5,5,142,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,21,142,21,142,16,174,16"/>
 </map>

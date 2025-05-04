@@ -1,0 +1,9 @@
+<map id="Ui::LessonEntryClass" name="Ui::LessonEntryClass">
+<area shape="rect" id="Node000001" title=" " alt="" coords="12,547,151,616"/>
+<area shape="rect" id="Node000002" href="$class_ui___lesson_entry_class.html" title=" " alt="" coords="13,279,151,497"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,512,84,547,79,547,79,512"/>
+<area shape="rect" id="Node000003" href="$class_clickable_label.html" title="A QLabel subclass that emits a clicked signal when the label is clicked." alt="" coords="5,124,158,215"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,214,84,262,79,262,79,214"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="56,5,108,75"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="84,90,84,124,79,124,79,90"/>
+</map>

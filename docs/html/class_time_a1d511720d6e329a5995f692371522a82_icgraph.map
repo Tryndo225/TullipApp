@@ -1,5 +1,7 @@
 <map id="Time::set_seconds" name="Time::set_seconds">
-<area shape="rect" id="Node000001" title="Sets the seconds of the time." alt="" coords="141,5,273,32"/>
-<area shape="rect" id="Node000002" href="$class_time.html#af188ac5c1b6cb0bd774b761f0bfdc3bd" title="Constructs a Time from hours, minutes, and seconds." alt="" coords="5,5,93,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,21,93,21,93,16,125,16"/>
+<area shape="rect" id="Node000001" title="Sets the seconds of the time." alt="" coords="141,31,273,57"/>
+<area shape="rect" id="Node000002" href="$class_time.html#a1f3ef09473068d4fabab7194731522ff" title="Constructs a Time from a string representation of the time." alt="" coords="5,5,93,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,34,93,28,94,23,126,28"/>
+<area shape="rect" id="Node000003" href="$class_time.html#af188ac5c1b6cb0bd774b761f0bfdc3bd" title="Constructs a Time from hours, minutes, and seconds." alt="" coords="5,56,93,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="126,60,94,65,93,60,125,54"/>
 </map>

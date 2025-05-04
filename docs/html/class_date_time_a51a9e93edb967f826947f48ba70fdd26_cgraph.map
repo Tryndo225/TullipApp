@@ -1,7 +1,10 @@
 <map id="DateTime::operator=" name="DateTime::operator=">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,31,147,57"/>
-<area shape="rect" id="Node000002" href="$class_date.html#a19cb325d7fc9e143f9095e7eadc8a1a4" title="Default constructor." alt="" coords="224,5,309,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,32,208,24,209,29,148,37"/>
+<area shape="rect" id="Node000002" href="$class_date.html#a19cb325d7fc9e143f9095e7eadc8a1a4" title="Default constructor." alt="" coords="387,5,472,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,36,371,20,372,25,147,42"/>
 <area shape="rect" id="Node000003" href="$class_date_time.html#afa7d2eb61840fe713cb4f98795c23a53" title="Default constructor." alt="" coords="195,56,338,83"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,51,180,55,179,60,147,56"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="311,53,371,34,373,39,313,58"/>
+<area shape="rect" id="Node000004" href="$class_time.html#a0eedb4e626b8e3fdcaf63519b86ea778" title="Default constructor." alt="" coords="386,56,473,83"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="339,67,370,67,370,72,339,72"/>
 </map>

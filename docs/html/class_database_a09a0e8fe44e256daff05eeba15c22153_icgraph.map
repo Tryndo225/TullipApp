@@ -1,5 +1,13 @@
 <map id="Database::filter_parent_by_surname" name="Database::filter_parent_by_surname">
-<area shape="rect" id="Node000001" title="Filters parents by surname." alt="" coords="200,5,353,48"/>
-<area shape="rect" id="Node000002" href="$class_database.html#ad82c8f66e655d641f118c6162139a30b" title=" " alt="" coords="5,5,152,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,29,152,29,152,24,184,24"/>
+<area shape="rect" id="Node000001" title="Filters parents by surname." alt="" coords="1045,5,1198,48"/>
+<area shape="rect" id="Node000002" href="$class_database.html#ad82c8f66e655d641f118c6162139a30b" title="Gets a parent by name and surname." alt="" coords="851,5,997,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1030,29,997,29,997,24,1030,24"/>
+<area shape="rect" id="Node000003" href="$class_c_s_v___parser.html#ac72a5ce5b687b3d05f2d7e73d3ba42e4" title="Parses a child from a CSV line." alt="" coords="634,13,803,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="835,29,803,29,803,24,835,24"/>
+<area shape="rect" id="Node000004" href="$class_database.html#a5010b6ed864bd832f96c86e33097e95f" title="Imports children from a CSV file." alt="" coords="410,5,586,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="619,29,587,29,587,24,619,24"/>
+<area shape="rect" id="Node000005" href="$class_database.html#af3b2c97f6ffbcff3ec1c0f78a91d6107" title="Imports data from a stream." alt="" coords="208,5,362,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="395,29,362,29,362,24,395,24"/>
+<area shape="rect" id="Node000006" href="$class_database.html#a0a08797a6ca7a3456150370e3f816d4c" title="Imports data from a CSV file." alt="" coords="5,5,160,48"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="192,29,160,29,160,24,192,24"/>
 </map>

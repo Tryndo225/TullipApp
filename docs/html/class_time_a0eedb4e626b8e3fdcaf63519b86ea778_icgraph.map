@@ -1,42 +1,106 @@
 <map id="Time::Time" name="Time::Time">
-<area shape="rect" id="Node000001" title="Default constructor." alt="" coords="408,436,495,463"/>
-<area shape="rect" id="Node000002" href="$class_date_time.html#a441be26f8869a84a597ab5a86567c5fd" title=" " alt="" coords="211,5,354,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="445,421,435,335,417,223,391,116,376,74,358,46,344,35,347,31,362,42,380,72,397,114,422,222,440,335,450,420"/>
-<area shape="rect" id="Node000003" href="$class_date_time.html#a4543e8fa355d1f18d63d1b3c62008643" title=" " alt="" coords="211,56,354,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="444,421,432,345,414,248,388,156,374,121,358,96,343,85,347,81,362,93,379,118,393,154,419,247,438,344,449,420"/>
-<area shape="rect" id="Node000004" href="$class_date_time.html#ac463d3a3129c42752cada995b102df8b" title="Constructs a DateTime from day, month, year, hours, minutes, and seconds." alt="" coords="211,107,354,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="447,421,441,365,427,294,401,220,382,185,358,154,333,136,336,132,362,150,386,182,406,218,432,293,447,364,452,420"/>
-<area shape="rect" id="Node000005" href="$class_date_time.html#a4456e1a9119ecd64441d20d541dc8568" title="Gets the current date and time." alt="" coords="5,171,157,213"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="447,421,442,370,429,308,418,277,402,247,383,220,358,198,336,185,312,175,259,166,206,167,158,174,157,169,206,162,260,161,313,170,338,180,362,194,387,217,407,244,422,275,434,307,448,369,453,420"/>
-<area shape="rect" id="Node000006" href="$class_time.html#ae9b71bc06b2c5a28a96e46e7f1d0a239" title="Gets the current time." alt="" coords="205,208,360,235"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="443,422,433,383,416,336,392,289,358,249,341,237,344,233,362,245,396,286,421,334,438,382,448,421"/>
-<area shape="rect" id="Node000007" href="$class_date_time.html#a12991398e93cd333b42eb0531341184d" title="Gets the time component of the DateTime." alt="" coords="214,259,350,285"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="438,423,409,360,386,328,358,299,340,288,342,284,362,295,390,324,413,358,443,420"/>
-<area shape="rect" id="Node000009" href="$class_time.html#a4029a4af02c185345ef9b209f31450bd" title=" " alt="" coords="224,309,341,336"/>
-<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="431,425,400,386,359,350,336,339,339,334,361,346,404,383,435,422"/>
-<area shape="rect" id="Node000010" href="$class_time.html#a3dee842a041ca4e8d9c1e9eb267b3801" title=" " alt="" coords="226,360,339,387"/>
-<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="414,430,359,401,329,390,331,385,361,396,417,425"/>
-<area shape="rect" id="Node000011" href="$class_time.html#a51bd0fe65976379c55deefc3a495680b" title="Outputs the time to a stream." alt="" coords="222,411,343,437"/>
-<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="392,443,343,436,344,430,393,438"/>
-<area shape="rect" id="Node000012" href="$class_time.html#ad4f6e1d73590a2c89aa5d80813f74ab1" title=" " alt="" coords="222,461,343,488"/>
-<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="393,461,344,468,343,463,392,455"/>
-<area shape="rect" id="Node000013" href="$class_time.html#a9bb9e2d94a8b7e334c7373174ed553b9" title=" " alt="" coords="226,512,339,539"/>
-<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="417,473,361,502,331,514,329,509,359,498,414,469"/>
-<area shape="rect" id="Node000014" href="$class_time.html#a8c931f8b593f5889ee586c19fda81870" title=" " alt="" coords="226,563,339,589"/>
-<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="435,477,404,516,361,553,339,565,336,560,359,548,400,512,431,474"/>
-<area shape="rect" id="Node000015" href="$class_time.html#a358022173825bc5eb75e2101df0f78e4" title=" " alt="" coords="222,613,343,640"/>
-<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="443,478,413,541,390,574,362,603,342,615,340,610,358,599,386,571,409,538,438,476"/>
-<area shape="rect" id="Node000016" href="$class_time.html#aca20d7c5d322ab8e950cddf64572a7d3" title=" " alt="" coords="226,664,339,691"/>
-<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="448,478,438,517,421,564,396,612,362,654,341,667,338,663,358,650,392,609,416,562,433,516,443,477"/>
-<area shape="rect" id="Node000017" href="$class_time.html#ab8785e557e3d70b465f0487ede95b996" title=" " alt="" coords="222,715,343,741"/>
-<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="451,478,444,527,428,587,402,650,384,679,362,705,345,716,342,712,358,701,380,676,398,647,423,586,438,526,446,478"/>
-<area shape="rect" id="Node000018" href="$class_date_time.html#ac5e36db3765af3de5d7f33623dbd1ab1" title="Sets the time component of the DateTime." alt="" coords="214,765,350,792"/>
-<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="453,478,448,536,435,610,424,649,408,687,388,723,362,755,346,767,343,763,358,751,383,720,403,685,419,647,430,608,443,535,448,478"/>
-<area shape="rect" id="Node000019" href="$class_time.html#a84762ec51f9aa67202ad044de2e37ff5" title=" " alt="" coords="239,816,326,843"/>
-<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="449,479,438,555,419,652,393,744,379,781,362,806,346,818,327,826,325,821,343,813,358,802,374,778,388,743,414,651,432,554,444,478"/>
-<area shape="rect" id="Node000020" href="$class_time.html#a1cb90ccc61157970eca760467516a97b" title=" " alt="" coords="239,867,326,893"/>
-<area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="450,478,440,564,422,677,397,784,380,827,362,856,346,869,328,876,325,872,343,864,358,853,376,825,391,783,417,676,435,563,445,478"/>
-<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="189,210,157,206,157,200,189,205"/>
-<area shape="rect" id="Node000008" href="$class_date_time.html#a55aeb70b786c22cd521ce0f1ce89489f" title="Sets the date component of the DateTime." alt="" coords="13,259,149,285"/>
-<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="199,275,150,275,150,269,199,269"/>
+<area shape="rect" id="Node000001" title="Default constructor." alt="" coords="408,807,495,833"/>
+<area shape="rect" id="Node000002" href="$class_date_time.html#afa7d2eb61840fe713cb4f98795c23a53" title="Default constructor." alt="" coords="211,376,354,403"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="445,792,435,706,417,594,391,486,376,445,358,416,344,405,347,401,362,413,380,442,397,485,422,593,440,705,450,791"/>
+<area shape="rect" id="Node000004" href="$class_date_time.html#ac6533d92cc1ce22a7768a029d406e2fe" title="Constructs a DateTime from an encoded date and time value." alt="" coords="9,5,153,32"/>
+<area shape="poly" id="edge17_Node000001_Node000004" title=" " alt="" coords="447,791,444,655,431,461,420,362,404,270,384,193,371,163,358,140,338,117,315,98,261,66,205,45,152,31,154,26,207,40,264,61,318,93,342,114,362,137,376,161,389,192,409,269,425,361,436,461,449,655,453,791"/>
+<area shape="rect" id="Node000006" href="$class_date_time.html#a4456e1a9119ecd64441d20d541dc8568" title="Gets the current date and time." alt="" coords="5,56,157,99"/>
+<area shape="poly" id="edge20_Node000001_Node000006" title=" " alt="" coords="447,791,441,668,427,495,416,406,400,325,381,257,358,209,338,187,315,167,263,134,208,110,156,94,158,89,210,105,266,129,318,162,342,183,362,207,386,255,406,323,421,405,432,494,447,668,452,791"/>
+<area shape="rect" id="Node000017" href="$class_date_time.html#abf0654f5c1fba759d370cc4ac99b4dca" title="Sets the time component of the DateTime." alt="" coords="13,731,149,757"/>
+<area shape="poly" id="edge52_Node000001_Node000017" title=" " alt="" coords="444,792,432,724,413,641,388,564,374,536,358,518,319,495,282,487,245,495,206,518,187,540,178,563,177,587,179,613,183,639,183,666,176,694,159,720,143,732,140,728,155,717,171,692,178,666,177,640,174,613,171,587,173,562,182,537,203,514,243,490,282,482,321,490,362,514,378,533,393,562,419,640,437,723,449,791"/>
+<area shape="rect" id="Node000018" href="$class_date_time.html#adba99df4a083c3f1d4859c60e935cf2c" title="Constructs a DateTime from a Date and a Time." alt="" coords="211,528,354,555"/>
+<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="446,792,438,743,423,684,398,622,380,594,358,569,342,557,345,553,362,565,384,590,402,620,428,682,444,742,451,791"/>
+<area shape="rect" id="Node000019" href="$class_date_time.html#ac463d3a3129c42752cada995b102df8b" title="Constructs a DateTime from day, month, year, hours, minutes, and seconds." alt="" coords="211,579,354,605"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="443,793,433,754,416,707,392,660,358,619,341,608,344,604,362,615,396,657,421,705,438,752,448,791"/>
+<area shape="rect" id="Node000020" href="$class_time.html#ae9b71bc06b2c5a28a96e46e7f1d0a239" title="Gets the current time." alt="" coords="205,220,360,247"/>
+<area shape="poly" id="edge21_Node000001_Node000020" title=" " alt="" coords="445,791,437,715,421,608,395,486,358,365,324,298,292,249,296,246,329,296,362,363,400,485,426,607,442,715,451,791"/>
+<area shape="rect" id="Node000021" href="$class_date_time.html#a12991398e93cd333b42eb0531341184d" title="Gets the time component of the DateTime." alt="" coords="214,427,350,453"/>
+<area shape="poly" id="edge23_Node000001_Node000021" title=" " alt="" coords="448,791,446,727,434,643,422,598,406,554,385,512,358,474,334,456,337,452,362,470,390,509,411,551,427,596,439,642,451,727,454,791"/>
+<area shape="rect" id="Node000022" href="$class_schedule.html#a838e22be765e92218e20e7f1082de9ef" title="Gets the time of the schedule." alt="" coords="216,629,349,656"/>
+<area shape="poly" id="edge25_Node000001_Node000022" title=" " alt="" coords="438,793,409,731,386,698,358,670,340,659,342,654,362,666,390,695,413,728,443,791"/>
+<area shape="rect" id="Node000023" href="$class_time.html#a4029a4af02c185345ef9b209f31450bd" title="Compares two times for inequality." alt="" coords="224,680,341,707"/>
+<area shape="poly" id="edge26_Node000001_Node000023" title=" " alt="" coords="431,796,400,757,359,721,336,710,339,705,361,716,404,753,435,792"/>
+<area shape="rect" id="Node000024" href="$class_time.html#a3dee842a041ca4e8d9c1e9eb267b3801" title="Compares two times for ordering." alt="" coords="226,731,339,757"/>
+<area shape="poly" id="edge27_Node000001_Node000024" title=" " alt="" coords="414,801,359,772,329,760,331,755,361,767,417,796"/>
+<area shape="rect" id="Node000025" href="$class_time.html#a51bd0fe65976379c55deefc3a495680b" title="Outputs the time to a stream." alt="" coords="222,781,343,808"/>
+<area shape="poly" id="edge28_Node000001_Node000025" title=" " alt="" coords="392,814,343,806,344,801,393,809"/>
+<area shape="rect" id="Node000026" href="$class_time.html#ad4f6e1d73590a2c89aa5d80813f74ab1" title="Compares two times for ordering." alt="" coords="222,832,343,859"/>
+<area shape="poly" id="edge29_Node000001_Node000026" title=" " alt="" coords="393,831,344,839,343,834,392,826"/>
+<area shape="rect" id="Node000027" href="$class_time.html#a9bb9e2d94a8b7e334c7373174ed553b9" title=" " alt="" coords="226,883,339,909"/>
+<area shape="poly" id="edge30_Node000001_Node000027" title=" " alt="" coords="417,844,361,873,331,885,329,880,359,868,414,839"/>
+<area shape="rect" id="Node000028" href="$class_time.html#a8c931f8b593f5889ee586c19fda81870" title=" " alt="" coords="226,933,339,960"/>
+<area shape="poly" id="edge31_Node000001_Node000028" title=" " alt="" coords="435,848,404,887,361,924,339,935,336,930,359,919,400,883,431,844"/>
+<area shape="rect" id="Node000029" href="$class_time.html#a358022173825bc5eb75e2101df0f78e4" title="Compares two times for equality." alt="" coords="222,984,343,1011"/>
+<area shape="poly" id="edge32_Node000001_Node000029" title=" " alt="" coords="443,849,413,912,390,945,362,974,342,986,340,981,358,970,386,942,409,909,438,847"/>
+<area shape="rect" id="Node000030" href="$class_time.html#aca20d7c5d322ab8e950cddf64572a7d3" title="Compares two times for ordering." alt="" coords="226,1035,339,1061"/>
+<area shape="poly" id="edge33_Node000001_Node000030" title=" " alt="" coords="448,849,438,888,421,935,396,983,362,1025,341,1038,338,1033,358,1021,392,980,416,933,433,886,443,847"/>
+<area shape="rect" id="Node000031" href="$class_time.html#ab8785e557e3d70b465f0487ede95b996" title="Compares two times for ordering." alt="" coords="222,1085,343,1112"/>
+<area shape="poly" id="edge34_Node000001_Node000031" title=" " alt="" coords="451,849,444,898,428,958,402,1020,384,1050,362,1075,345,1087,342,1083,358,1071,380,1046,398,1018,423,956,438,897,446,848"/>
+<area shape="rect" id="Node000032" href="$class_schedule.html#a0955f841014983081fa935149096fb0e" title="Default constructor." alt="" coords="214,1136,351,1163"/>
+<area shape="poly" id="edge35_Node000001_Node000032" title=" " alt="" coords="453,849,448,907,435,980,424,1019,408,1058,388,1094,362,1126,346,1138,343,1133,358,1122,383,1091,403,1055,419,1018,430,979,443,906,448,849"/>
+<area shape="rect" id="Node000043" href="$class_schedule.html#abe518525441640ec47ad162d2a900769" title="Constructs a Schedule from an encoded time." alt="" coords="12,1389,150,1416"/>
+<area shape="poly" id="edge50_Node000001_Node000043" title=" " alt="" coords="454,849,452,915,441,1002,429,1048,413,1094,391,1138,362,1176,343,1193,323,1202,283,1207,244,1211,225,1219,207,1234,193,1252,187,1269,184,1305,180,1342,173,1361,159,1379,143,1391,139,1387,155,1375,168,1358,175,1341,178,1305,181,1268,189,1249,203,1230,223,1214,243,1206,283,1201,321,1197,340,1188,358,1173,386,1135,408,1092,424,1047,436,1001,447,914,449,849"/>
+<area shape="rect" id="Node000045" href="$class_schedule.html#ade3979165491f3e13763c7b0b1d40aa8" title="Sets the time of the schedule." alt="" coords="14,1440,148,1467"/>
+<area shape="poly" id="edge53_Node000001_Node000045" title=" " alt="" coords="450,849,441,936,423,1051,398,1161,381,1204,362,1234,343,1249,323,1257,283,1258,244,1258,225,1264,207,1278,192,1296,185,1314,183,1352,181,1390,173,1410,159,1430,143,1442,140,1437,155,1426,169,1408,175,1389,178,1351,180,1313,188,1293,203,1274,223,1260,243,1253,283,1252,322,1251,340,1245,358,1230,376,1202,392,1159,418,1050,436,936,445,848"/>
+<area shape="rect" id="Node000047" href="$class_schedule.html#ad86ca607168a96dd9e33db56d28331eb" title="Constructs a Schedule from a Time and a WeekDays value." alt="" coords="214,1288,351,1315"/>
+<area shape="poly" id="edge51_Node000001_Node000047" title=" " alt="" coords="451,849,441,943,424,1068,398,1189,381,1237,362,1271,338,1289,335,1285,358,1268,376,1235,393,1188,419,1068,436,943,445,849"/>
+<area shape="rect" id="Node000048" href="$class_time.html#a84762ec51f9aa67202ad044de2e37ff5" title=" " alt="" coords="239,1339,326,1365"/>
+<area shape="poly" id="edge54_Node000001_Node000048" title=" " alt="" coords="452,849,444,954,429,1097,417,1169,402,1235,384,1290,362,1328,346,1341,327,1349,325,1344,343,1337,358,1325,379,1288,397,1234,412,1168,424,1096,439,953,446,848"/>
+<area shape="rect" id="Node000049" href="$class_time.html#a1cb90ccc61157970eca760467516a97b" title=" " alt="" coords="239,1389,326,1416"/>
+<area shape="poly" id="edge55_Node000001_Node000049" title=" " alt="" coords="452,849,446,963,432,1121,420,1202,405,1276,386,1337,362,1379,346,1392,327,1400,325,1395,343,1387,358,1376,381,1334,400,1274,415,1201,427,1121,441,963,447,849"/>
+<area shape="rect" id="Node000003" href="$class_date_time.html#afe2a93ac0deff24cd64b1df19b8e609d" title=" " alt="" coords="9,629,153,656"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="209,414,207,416,190,441,182,466,181,491,183,516,185,541,184,567,176,593,159,619,143,631,140,627,155,616,172,591,179,566,180,541,178,516,176,491,177,465,185,439,203,413,205,410"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="260,364,230,317,202,260,192,227,189,197,189,145,188,120,184,96,174,72,155,46,141,35,144,31,159,42,178,69,189,95,194,120,194,144,194,197,198,226,207,258,235,314,265,362"/>
+<area shape="rect" id="Node000005" href="$class_date_time.html#a4543e8fa355d1f18d63d1b3c62008643" title=" " alt="" coords="9,123,153,149"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="262,364,202,260,190,231,183,207,174,185,155,163,137,152,140,148,158,159,179,183,188,205,195,229,207,257,267,361"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="261,364,232,316,202,260,189,217,185,181,177,148,169,131,155,112,142,101,145,97,159,109,173,128,182,146,190,180,194,216,207,258,236,314,265,361"/>
+<area shape="rect" id="Node000007" href="$class_date_time.html#a51f32ed09628f68882c158c066ceab95" title="Compares two DateTime objects for inequality." alt="" coords="8,173,154,200"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="266,363,224,289,192,249,155,214,135,203,138,198,158,210,196,245,228,286,271,361"/>
+<area shape="rect" id="Node000008" href="$class_date_time.html#a84ad139b8b85ab9bc76ba68d8572128d" title="Compares two DateTime objects for ordering." alt="" coords="10,224,152,251"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="260,365,215,314,186,288,155,265,133,254,135,249,158,260,190,284,219,311,264,362"/>
+<area shape="rect" id="Node000009" href="$class_date_time.html#a4428b32e7ec538b2fee1bfcf5f377f45" title="Outputs the DateTime to a stream." alt="" coords="6,275,156,301"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="248,369,205,342,156,316,128,304,130,300,158,311,207,338,251,365"/>
+<area shape="rect" id="Node000010" href="$class_date_time.html#a22d5c14577a0faf951150374cd760722" title="Compares two DateTime objects for ordering." alt="" coords="6,325,156,352"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="211,374,136,355,138,350,212,369"/>
+<area shape="rect" id="Node000011" href="$class_date_time.html#a1d8c5ba265c329af73368e6d1e9534f1" title=" " alt="" coords="10,376,152,403"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="195,392,152,392,152,387,195,387"/>
+<area shape="rect" id="Node000012" href="$class_date_time.html#a51a9e93edb967f826947f48ba70fdd26" title=" " alt="" coords="10,427,152,453"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="212,410,138,429,136,423,211,405"/>
+<area shape="rect" id="Node000013" href="$class_date_time.html#ad9d8f56c70bec30f6a72afb181ac9933" title="Compares two DateTime objects for equality." alt="" coords="6,477,156,504"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="215,412,206,417,192,429,183,442,173,454,158,468,135,479,133,474,155,463,170,451,178,438,188,425,203,412,213,407"/>
+<area shape="rect" id="Node000014" href="$class_date_time.html#a1e7c3917dce4c94bd45b0654c6eb0e58" title="Compares two DateTime objects for ordering." alt="" coords="10,528,152,555"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="211,413,206,417,196,429,189,441,183,466,177,492,170,505,158,518,141,530,138,525,155,514,166,502,172,490,178,465,184,439,191,426,203,413,208,409"/>
+<area shape="rect" id="Node000015" href="$class_date_time.html#af4350196c94c845c21893ab0286f80ed" title="Compares two DateTime objects for ordering." alt="" coords="6,579,156,605"/>
+<area shape="poly" id="edge14_Node000002_Node000015" title=" " alt="" coords="210,414,207,416,193,435,186,453,183,491,181,529,173,549,159,569,143,580,140,576,155,565,169,546,175,528,178,490,181,452,188,432,203,413,206,410"/>
+<area shape="rect" id="Node000016" href="$class_date_time.html#a00b7c957d1a02b2b48639dcb661b9fde" title="Sets the date component of the DateTime." alt="" coords="13,680,149,707"/>
+<area shape="poly" id="edge15_Node000002_Node000016" title=" " alt="" coords="209,414,207,416,186,448,179,479,179,510,183,541,188,572,188,604,180,637,159,670,144,682,141,677,155,666,175,635,183,604,182,573,178,542,173,510,173,478,182,446,203,413,205,410"/>
+<area shape="poly" id="edge16_Node000002_Node000017" title=" " alt="" coords="209,414,207,416,183,454,175,492,176,529,183,566,190,604,192,642,183,681,159,720,145,732,141,728,155,717,178,679,186,641,185,604,178,567,171,529,170,491,178,452,203,413,205,411"/>
+<area shape="poly" id="edge22_Node000020_Node000006" title=" " alt="" coords="258,210,213,162,155,113,136,101,139,97,158,108,217,158,262,206"/>
+<area shape="poly" id="edge24_Node000021_Node000016" title=" " alt="" coords="218,463,207,474,191,498,184,522,184,571,186,595,184,620,176,645,159,670,143,682,140,677,155,666,171,642,179,619,180,595,179,571,178,522,186,496,203,470,215,459"/>
+<area shape="rect" id="Node000033" href="$class_schedule.html#a843fa42de097ed1080efb5f9bc8a4298" title="Compares two Schedule objects for inequality." alt="" coords="10,933,152,960"/>
+<area shape="poly" id="edge36_Node000032_Node000033" title=" " alt="" coords="206,1129,203,1126,188,1106,181,1087,178,1048,175,1011,169,992,155,974,140,963,143,958,159,970,173,990,181,1009,183,1048,186,1086,193,1104,207,1122,210,1125"/>
+<area shape="rect" id="Node000034" href="$class_schedule.html#a9cc500cb0d57e448e217bc0c96c81d51" title="Compares two Schedule objects for ordering." alt="" coords="12,984,150,1011"/>
+<area shape="poly" id="edge37_Node000032_Node000034" title=" " alt="" coords="208,1130,203,1126,191,1113,184,1100,178,1074,172,1049,166,1037,155,1025,138,1014,141,1009,158,1021,170,1034,177,1047,183,1073,189,1098,196,1110,206,1122,211,1126"/>
+<area shape="rect" id="Node000035" href="$class_schedule.html#a2d68fb0c1961d13c9560cc0ac52e649a" title="Outputs the Schedule to a stream." alt="" coords="8,1035,154,1061"/>
+<area shape="poly" id="edge38_Node000032_Node000035" title=" " alt="" coords="213,1132,203,1126,188,1113,178,1100,170,1088,155,1076,133,1064,135,1060,158,1071,173,1084,183,1097,192,1110,206,1122,215,1127"/>
+<area shape="rect" id="Node000036" href="$class_schedule.html#a8aa012744c37e4e5431c580cd05fc741" title="Compares two Schedule objects for ordering." alt="" coords="8,1085,154,1112"/>
+<area shape="poly" id="edge39_Node000032_Node000036" title=" " alt="" coords="211,1134,136,1115,138,1110,212,1129"/>
+<area shape="rect" id="Node000037" href="$class_schedule.html#a8274ca427c3d96369e5baac5ec75291c" title=" " alt="" coords="12,1136,150,1163"/>
+<area shape="poly" id="edge40_Node000032_Node000037" title=" " alt="" coords="198,1152,151,1152,151,1147,198,1147"/>
+<area shape="rect" id="Node000038" href="$class_schedule.html#ac340cded6bc09c72919976e2f2c3425f" title=" " alt="" coords="12,1187,150,1213"/>
+<area shape="poly" id="edge41_Node000032_Node000038" title=" " alt="" coords="212,1170,138,1189,136,1183,211,1165"/>
+<area shape="rect" id="Node000039" href="$class_schedule.html#a7ebf0816db09d6eb3827b01104fcfbfb" title="Compares two Schedule objects for equality." alt="" coords="8,1237,154,1264"/>
+<area shape="poly" id="edge42_Node000032_Node000039" title=" " alt="" coords="228,1172,206,1183,183,1206,173,1216,158,1228,134,1239,131,1234,155,1223,169,1212,179,1202,203,1179,226,1167"/>
+<area shape="rect" id="Node000040" href="$class_schedule.html#af0deef44847ea5ff98918db966346f40" title="Compares two Schedule objects for ordering." alt="" coords="12,1288,150,1315"/>
+<area shape="poly" id="edge43_Node000032_Node000040" title=" " alt="" coords="222,1172,207,1183,190,1206,184,1230,177,1254,158,1278,140,1290,137,1285,155,1274,172,1251,179,1228,185,1204,203,1179,219,1168"/>
+<area shape="rect" id="Node000041" href="$class_schedule.html#a58b3d730254f9dfd3593745fe0e1dc53" title="Compares two Schedule objects for ordering." alt="" coords="8,1339,154,1365"/>
+<area shape="poly" id="edge44_Node000032_Node000041" title=" " alt="" coords="219,1173,207,1183,194,1201,187,1219,184,1255,180,1291,173,1310,159,1329,143,1340,139,1336,155,1325,168,1307,175,1290,179,1254,182,1218,189,1199,203,1180,216,1168"/>
+<area shape="rect" id="Node000042" href="$class_schedule.html#a1b52f30c69770e7597d9da43d2d59edc" title=" " alt="" coords="12,781,150,808"/>
+<area shape="poly" id="edge45_Node000032_Node000042" title=" " alt="" coords="205,1128,203,1126,178,1086,170,1047,171,1009,178,972,185,934,186,897,178,860,155,822,141,811,145,807,159,818,183,858,192,897,190,935,183,973,176,1010,175,1047,183,1084,207,1122,209,1124"/>
+<area shape="poly" id="edge46_Node000032_Node000043" title=" " alt="" coords="218,1173,207,1183,191,1208,184,1232,184,1280,186,1304,184,1329,176,1354,159,1379,143,1391,140,1387,155,1375,171,1352,179,1328,180,1304,179,1280,178,1231,186,1206,203,1180,215,1169"/>
+<area shape="rect" id="Node000044" href="$class_schedule.html#a2307ccd38ed47680fc5a119ef306dbcb" title=" " alt="" coords="12,832,150,859"/>
+<area shape="poly" id="edge47_Node000032_Node000044" title=" " alt="" coords="205,1128,203,1126,182,1093,173,1061,173,1029,178,997,182,966,183,935,175,904,155,872,141,861,144,857,159,869,180,902,188,934,188,966,183,998,179,1029,179,1060,186,1091,207,1122,209,1125"/>
+<area shape="poly" id="edge48_Node000032_Node000045" title=" " alt="" coords="255,1175,229,1202,207,1233,195,1261,190,1287,190,1335,190,1358,186,1381,177,1405,159,1430,143,1442,140,1437,155,1426,172,1403,181,1380,185,1358,185,1335,185,1286,190,1260,202,1231,225,1198,251,1171"/>
+<area shape="rect" id="Node000046" href="$class_schedule.html#a9c9ef58b055b53bcba2621650b2763d8" title="Destructor." alt="" coords="8,883,154,909"/>
+<area shape="poly" id="edge49_Node000032_Node000046" title=" " alt="" coords="205,1128,203,1126,185,1100,177,1074,176,1048,178,1023,180,998,179,973,172,948,155,923,140,912,143,908,159,920,176,946,184,972,185,998,183,1023,181,1048,182,1073,190,1097,207,1122,209,1125"/>
 </map>

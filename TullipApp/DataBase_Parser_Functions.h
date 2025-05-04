@@ -14,6 +14,7 @@ class CSV_Parser
 public:
 	/**
 	 * @brief Parses a lesson from a CSV line.
+	 * @details This function extracts lesson details from a CSV line and adds it to the database.
 	 * @param line The CSV line containing lesson data.
 	 * @param database The database to which the lesson will be added.
 	 */
@@ -21,6 +22,7 @@ public:
 
 	/**
 	 * @brief Parses a child from a CSV line.
+	 * @details This function extracts child details from a CSV line and adds it to the database.
 	 * @param line The CSV line containing child data.
 	 * @param database The database to which the child will be added.
 	 */
@@ -28,6 +30,7 @@ public:
 
 	/**
 	 * @brief Parses a parent from a CSV line.
+	 * @details This function extracts parent details from a CSV line and adds it to the database.
 	 * @param line The CSV line containing parent data.
 	 * @param database The database to which the parent will be added.
 	 */
@@ -35,6 +38,7 @@ public:
 
 	/**
 	 * @brief Parses an employee from a CSV line.
+	 * @details This function extracts employee details from a CSV line and adds it to the database.
 	 * @param line The CSV line containing employee data.
 	 * @param database The database to which the employee will be added.
 	 */
@@ -43,6 +47,7 @@ public:
 private:
 	/**
 	 * @brief Parses lesson's employees from a CSV line.
+	 * @details Helper function to parse_lesson. It extracts lesson's employees from a CSV line and adds them to the lesson.
 	 * @param line The CSV line containing lesson's employees data.
 	 * @param database The database from which it searches employees.
 	 */
@@ -50,6 +55,7 @@ private:
 
 	/**
 	 * @brief Parses lesson's children from a CSV line.
+	 * @details Helper function to parse_lesson. It extracts lesson's children from a CSV line and adds them to the lesson.
 	 * @param line The CSV line containing lesson's children data.
 	 * @param database The database from which it searches children.
 	 */
@@ -57,6 +63,7 @@ private:
 
 	/**
 	 * @brief Parses lesson's attendance from a CSV line.
+	 * @details Helper function to parse_lesson. It extracts lesson's attendance from a CSV line and adds them to the lesson.
 	 * @param line The CSV line containing lesson's attendance data.
 	 * @param database The database from which it searches children.
 	 */

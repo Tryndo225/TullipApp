@@ -43,7 +43,7 @@ private:
 	std::multimap<std::string, Employee*> employee_by_name; ///< Map of employees by name.
 	std::multimap<std::string, Employee*> employee_by_surname; ///< Map of employees by surname.
 
-	std::multimap<DateTime, Lesson*> lesson_by_datetime; ///< Map of lessons by date and time.
+	std::multimap<Schedule, Lesson*> lesson_by_schedule; ///< Map of lessons by date and time.
 
 	/**
 	 * @brief Imports lessons from a CSV file.
@@ -138,10 +138,28 @@ public:
 	void remove_lesson(const Lesson* lesson);
 
 	/**
+	 * @brief Imports data from a CSV file.
+	 * @param stream The input stream to read from. Defaults to `std::cin`.
+	 */
+	std::vector<Lesson*> search_lessons_by_child_name_surname(const std::string& reference_name, const std::string& reference_surname) const;
+
+	/**
+	 * @brief Sorts lessons by time.
+	 * @return A vector of pointers to lessons sorted by time.
+	 */
+	std::vector<Lesson*> sort_lessons_by_time() const;
+
+	/**
+	 * @brief Sorts lessons by day.
+	 * @return A vector of pointers to lessons sorted by day.
+	 */
+	std::vector<Lesson*> sort_lessons_by_day() const;
+
+	/**
 	 * @brief Sorts lessons by date and time.
 	 * @return A reference to the multimap of lessons sorted by date and time.
 	 */
-	std::multimap<DateTime, Lesson*>& sort_lessons_by_datetime();
+	std::multimap<Schedule, Lesson*>& sort_lessons_by_schedule();
 
 	/**
 	 * @brief Filters lessons by day.

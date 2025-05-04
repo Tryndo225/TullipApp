@@ -1,5 +1,6 @@
 #include <sstream>
 #include "DateTime.h"
+#include <format>
 
 // Enum classes
 std::string month_to_string(Months month)
@@ -12,6 +13,18 @@ std::ostream& operator<<(std::ostream& stream, const Months& month)
 	return stream;
 }
 
+Months string_to_month(const std::string& month_string)
+{
+	for (int i = 0; i < static_cast<int>(Months::End); ++i)
+	{
+		if (month_string == months_array[i])
+		{
+			return (Months)i;
+		}
+	}
+	throw DateTimeError(MONTH_RANGE);
+}
+
 std::string weekday_to_string(WeekDays weekday)
 {
 	return weekdays_array[static_cast<int>(weekday)];
@@ -21,6 +34,18 @@ std::ostream& operator<<(std::ostream& stream, const WeekDays& weekday)
 {
 	stream << weekday_to_string(weekday) << std::endl;
 	return stream;
+}
+
+WeekDays string_to_weekday(const std::string& weekday_string)
+{
+	for (int i = 0; i < static_cast<int>(WeekDays::End); ++i)
+	{
+		if (weekday_string == weekdays_array[i])
+		{
+			return (WeekDays)i;
+		}
+	}
+	throw DateTimeError(DAY_RANGE);
 }
 
 // Date Class
@@ -246,9 +271,11 @@ Time::Time(const std::string& time_string)
 	std::getline(time_stream, hours, ':');
 	std::getline(time_stream, minutes, ':');
 	std::getline(time_stream, seconds);
+
 	unsigned short short_hours = static_cast<unsigned short>(std::stoul(hours));
 	unsigned short short_minutes = static_cast<unsigned short>(std::stoul(minutes));
 	unsigned short short_seconds = static_cast<unsigned short>(std::stoul(seconds));
+
 	time_ = 0;
 	update_zone(false);
 	set_seconds(short_seconds);
@@ -378,20 +405,7 @@ void Time::update_zone(bool should_update_time)
 
 std::string Time::get_time_string() const
 {
-	std::string time = std::to_string(get_hours()) + ":" + std::to_string(get_minutes()) + ":" + std::to_string(get_seconds());
-	if (get_hours() < 10)
-	{
-		time = "0" + time;
-	}
-	if (get_minutes() < 10)
-	{
-		time = time.substr(0, 3) + "0" + time.substr(3);
-	}
-	if (get_seconds() < 10)
-	{
-		time = time.substr(0, 6) + "0" + time.substr(6);
-	}
-	return time;
+	return std::format("{:02}", get_hours()) + ":" + std::format("{:02}", get_minutes()) + ":" + std::format("{:02}", get_seconds());
 }
 
 void Time::print_short(std::ostream& stream) const
@@ -493,14 +507,14 @@ DateTime::DateTime(const std::string& date_time_string)
 	*this = DateTime(std::move(date), std::move(time));
 }
 
-DateTime::DateTime(const Date& date, const Time& time) : Date(date), Time(time) {}
+DateTime::DateTime(Date date, Time time) : Date(date), Time(time) {}
 
-void DateTime::set_date(const Date& date)
+void DateTime::set_date(Date date)
 {
 	*this = DateTime(date, get_time());
 }
 
-void DateTime::set_time(const Time& time)
+void DateTime::set_time(Time time)
 {
 	*this = DateTime(get_date(), time);
 }
@@ -565,5 +579,63 @@ bool DateTime::operator>=(const DateTime& date_time) const
 std::ostream& operator<<(std::ostream& stream, const DateTime& dateTime)
 {
 	dateTime.print_short(stream);
+	return stream;
+}
+
+// Schedule Class
+// Constructors
+Schedule::Schedule(WeekDays day, Time time) : day_(day), Time(time) {}
+
+Schedule::Schedule(const std::string& schedule_string)
+{
+	std::istringstream schedule_stream(schedule_string);
+	std::string time_string, day_string;
+	std::getline(schedule_stream, day_string, ' ');
+	std::getline(schedule_stream, time_string);
+	day_ = string_to_weekday(day_string);
+	Time time(time_string);
+	*this = Schedule(day_, std::move(time));
+}
+
+// Setters
+void Schedule::set_time(Time time)
+{
+	*this = Schedule(get_day(), time);
+}
+
+// Operator overloads
+bool Schedule::operator==(const Schedule& schedule) const
+{
+	return (day_ == schedule.day_ && time_ == schedule.time_);
+}
+
+bool Schedule::operator!=(const Schedule& schedule) const
+{
+	return !(*this == schedule);
+}
+
+bool Schedule::operator>(const Schedule& schedule) const
+{
+	return (day_ > schedule.day_ || (day_ == schedule.day_ && time_ > schedule.time_));
+}
+
+bool Schedule::operator<(const Schedule& schedule) const
+{
+	return (day_ < schedule.day_ || (day_ == schedule.day_ && time_ < schedule.time_));
+}
+
+bool Schedule::operator<=(const Schedule& schedule) const
+{
+	return (day_ <= schedule.day_ || (day_ == schedule.day_ && time_ <= schedule.time_));
+}
+
+bool Schedule::operator>=(const Schedule& schedule) const
+{
+	return (day_ >= schedule.day_ || (day_ == schedule.day_ && time_ >= schedule.time_));
+}
+
+std::ostream& operator<<(std::ostream& stream, const Schedule& schedule)
+{
+	stream << weekday_to_string(schedule.day_) << " " << schedule.get_time_string();
 	return stream;
 }

@@ -172,6 +172,7 @@
     <ClInclude Include="Lesson.h" />
     <QtMoc Include="ParentEntry.h" />
     <QtMoc Include="ParentDialog.h" />
+    <QtMoc Include="LessonEntry.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Data_Helper_Types.h" />
   </ItemGroup>
@@ -187,6 +188,7 @@
     <ClCompile Include="EmployeeDialog.cpp" />
     <ClCompile Include="EmployeeEntry.cpp" />
     <ClCompile Include="Lesson.cpp" />
+    <ClCompile Include="LessonEntry.cpp" />
     <ClCompile Include="ParentDialog.cpp" />
     <ClCompile Include="ParentEntry.cpp" />
     <ClCompile Include="Person.cpp" />
@@ -213,6 +215,7 @@
     <QtUic Include="ChildDialog.ui" />
     <QtUic Include="EmployeeDialog.ui" />
     <QtUic Include="EmployeeEntry.ui" />
+    <QtUic Include="LessonEntry.ui" />
     <QtUic Include="ParentDialog.ui" />
     <QtUic Include="ParentEntry.ui" />
   </ItemGroup>

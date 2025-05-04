@@ -1,12 +1,12 @@
 #include "Lesson.h"
 #include <iostream>
 
-Lesson::Lesson(const DateTime& datetime, const Address& address, const std::map<Child*, std::optional<Date>>& children)
-	: datetime_(datetime), address_(address), children_(children) {
+Lesson::Lesson(const Schedule& schedule, const Address& address, const std::map<Child*, std::optional<Date>>& children)
+	: schedule_(schedule), address_(address), children_(children) {
 }
 
-Lesson::Lesson(DateTime&& datetime, std::string&& address, std::map<Child*, std::optional<Date>>&& children)
-	: datetime_(datetime), address_(address), children_(std::move(children)) {
+Lesson::Lesson(Schedule&& schedule, std::string&& address, std::map<Child*, std::optional<Date>>&& children)
+	: schedule_(schedule), address_(address), children_(std::move(children)) {
 }
 
 const std::vector<Employee*> Lesson::get_employees() const
@@ -101,7 +101,7 @@ void Lesson::set_absent(const Date& date, Child* child)
 
 std::ostream& operator<<(std::ostream& stream, const Lesson& lesson)
 {
-	stream << lesson.datetime_ << "," << lesson.address_ << ",{";
+	stream << lesson.schedule_ << "," << lesson.address_ << ",{";
 	for (auto it = lesson.employees_.begin(); it != lesson.employees_.end(); ++it)
 	{
 		stream << (*it)->get_name() << " " << (*it)->get_surname();

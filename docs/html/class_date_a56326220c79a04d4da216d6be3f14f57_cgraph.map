@@ -1,5 +1,5 @@
 <map id="Date::operator&lt;=" name="Date::operator&lt;=">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,126,32"/>
+<area shape="rect" id="Node000001" title="Compares two dates for ordering." alt="" coords="5,5,126,32"/>
 <area shape="rect" id="Node000002" href="$class_date.html#a19cb325d7fc9e143f9095e7eadc8a1a4" title="Default constructor." alt="" coords="174,5,259,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,16,158,16,158,21,126,21"/>
 </map>

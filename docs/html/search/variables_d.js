@@ -1,11 +1,21 @@
 var searchData=
 [
-  ['parent_5fby_5femail_0',['parent_by_email',['../class_database.html#a03dab9130abeb3eec524d3975c761f66',1,'Database']]],
-  ['parent_5fby_5fname_1',['parent_by_name',['../class_database.html#a1864c06eb305430c32cad5c566049825',1,'Database']]],
-  ['parent_5fby_5fsurname_2',['parent_by_surname',['../class_database.html#a76e59cab41d63816c5d531d282fcf142',1,'Database']]],
-  ['parents_5f_3',['parents_',['../class_database.html#a2a3c624e087b2d5a117b690da8eb03d2',1,'Database']]],
-  ['parents_5fscroll_4',['parents_scroll',['../class_ui___data_base_g_u_i_class.html#a1ee697da374056bb6e0b0194ecb9d2b2',1,'Ui_DataBaseGUIClass']]],
-  ['parents_5fscroll_5fcontents_5',['parents_scroll_contents',['../class_ui___data_base_g_u_i_class.html#a6a26146c2649902646c26e55bbfbd751',1,'Ui_DataBaseGUIClass']]],
-  ['parents_5ftab_6',['parents_tab',['../class_ui___data_base_g_u_i_class.html#a5afdf227c02125f34f490451f0449374',1,'Ui_DataBaseGUIClass']]],
-  ['phone_5f_7',['phone_',['../class_phone.html#a57de65f94f3126cc2a3737ee09f52336',1,'Phone::phone_'],['../class_employee.html#aedec4a63dd6bec0d988c3292af2c971e',1,'Employee::phone_']]]
+  ['parent_5fadd_5fbutton_0',['parent_add_button',['../class_ui___data_base_g_u_i_class.html#abb20e6abf599b94e5ae93a3d77c312f8',1,'Ui_DataBaseGUIClass']]],
+  ['parent_5fby_5femail_1',['parent_by_email',['../class_database.html#a03dab9130abeb3eec524d3975c761f66',1,'Database']]],
+  ['parent_5fby_5fname_2',['parent_by_name',['../class_database.html#a1864c06eb305430c32cad5c566049825',1,'Database']]],
+  ['parent_5fby_5fsurname_3',['parent_by_surname',['../class_database.html#a76e59cab41d63816c5d531d282fcf142',1,'Database']]],
+  ['parent_5fsearch_5fname_5fbar_4',['parent_search_name_bar',['../class_ui___data_base_g_u_i_class.html#a0199581072f074113dd8115566178a9a',1,'Ui_DataBaseGUIClass']]],
+  ['parent_5fsearch_5fsurname_5fbar_5',['parent_search_surname_bar',['../class_ui___data_base_g_u_i_class.html#aa970ebf3ecf916c5968123ad2fee574d',1,'Ui_DataBaseGUIClass']]],
+  ['parent_5fsort_5findex_5f_6',['parent_sort_index_',['../class_data_base_g_u_i.html#ae04fa07e5a90f731d92ab29924c01e7e',1,'DataBaseGUI']]],
+  ['parent_5fsort_5fselector_7',['parent_sort_selector',['../class_ui___data_base_g_u_i_class.html#a913936ec0f31a049f76df99f0bca40ba',1,'Ui_DataBaseGUIClass']]],
+  ['parents_5f_8',['parents_',['../class_database.html#a2a3c624e087b2d5a117b690da8eb03d2',1,'Database']]],
+  ['parents_5fscroll_9',['parents_scroll',['../class_ui___data_base_g_u_i_class.html#a1ee697da374056bb6e0b0194ecb9d2b2',1,'Ui_DataBaseGUIClass']]],
+  ['parents_5fscroll_5fcontents_10',['parents_scroll_contents',['../class_ui___data_base_g_u_i_class.html#a6a26146c2649902646c26e55bbfbd751',1,'Ui_DataBaseGUIClass']]],
+  ['parents_5ftab_11',['parents_tab',['../class_ui___data_base_g_u_i_class.html#a5afdf227c02125f34f490451f0449374',1,'Ui_DataBaseGUIClass']]],
+  ['past_5fdad_5f_12',['past_dad_',['../class_child_dialog.html#a3e7745d144de7eebbfaa194127c98369',1,'ChildDialog']]],
+  ['past_5fmom_5f_13',['past_mom_',['../class_child_dialog.html#a1a16eacbb12b33fd0aff9fc7bcc4f14b',1,'ChildDialog']]],
+  ['phone_14',['phone',['../class_ui___employee_entry_class.html#a04e4266501d935ca3b6a2c503bb49a82',1,'Ui_EmployeeEntryClass']]],
+  ['phone_5f_15',['phone_',['../class_phone.html#a57de65f94f3126cc2a3737ee09f52336',1,'Phone::phone_'],['../class_employee.html#aedec4a63dd6bec0d988c3292af2c971e',1,'Employee::phone_']]],
+  ['phone_5fedit_16',['phone_edit',['../class_ui___employee_dialog_class.html#ae547597de100c6741b2c67f06698db44',1,'Ui_EmployeeDialogClass']]],
+  ['phone_5flabel_17',['phone_label',['../class_ui___employee_dialog_class.html#aeeb57e57429cbdd8ec94144b725507d6',1,'Ui_EmployeeDialogClass']]]
 ];

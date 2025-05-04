@@ -14,6 +14,7 @@ var class_person =
     [ "operator==", "class_person.html#a3115c6aff8a8fb9047ea9ec7c901c491", null ],
     [ "set_name", "class_person.html#aa25a9b4324278e0c849e3b424934f470", null ],
     [ "set_surname", "class_person.html#addf7c3a56883763c62bb35cc91da141e", null ],
+    [ "operator<<", "class_person.html#a230c1488b4e7d60cbca9645275ba79fa", null ],
     [ "name_", "class_person.html#a4b84c9da9f39099f54ee1c1c6fc56c0c", null ],
     [ "surname_", "class_person.html#abf9e2c1ffbeec1a16f8f99821458e74d", null ]
 ];

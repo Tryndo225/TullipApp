@@ -1,0 +1,9 @@
+<map id="Database::add_child" name="Database::add_child">
+<area shape="rect" id="Node000001" title="Adds a child to the database." alt="" coords="5,56,146,83"/>
+<area shape="rect" id="Node000002" href="$class_child.html#a54d980b94b52ef8ad5c52eb4dfc265c5" title="Gets the birth date of the child." alt="" coords="196,5,337,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,53,198,34,199,39,129,58"/>
+<area shape="rect" id="Node000003" href="$class_person.html#a6b1fec00d8d1f5af1a2977dc3f5f9eb8" title="Gets the first name of the person." alt="" coords="203,56,330,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="146,67,187,67,187,72,146,72"/>
+<area shape="rect" id="Node000004" href="$class_person.html#a7b3c8db44a49c4ba8c4838e19a235613" title="Gets the last name of the person." alt="" coords="194,107,339,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="129,81,199,100,198,105,128,86"/>
+</map>

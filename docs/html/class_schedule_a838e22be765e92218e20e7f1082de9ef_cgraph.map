@@ -1,0 +1,5 @@
+<map id="Schedule::get_time" name="Schedule::get_time">
+<area shape="rect" id="Node000001" title="Gets the time of the schedule." alt="" coords="5,5,139,32"/>
+<area shape="rect" id="Node000002" href="$class_time.html#a0eedb4e626b8e3fdcaf63519b86ea778" title="Default constructor." alt="" coords="187,5,274,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,16,171,16,171,21,139,21"/>
+</map>

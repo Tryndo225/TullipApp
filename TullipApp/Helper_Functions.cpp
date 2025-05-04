@@ -48,3 +48,9 @@ size_t search_lavenstein_name_surname_helper(const std::string& name, const std:
 	}
 	return distance;
 }
+
+std::string to_lower(std::string str)
+{
+	std::transform(str.begin(), str.end(), str.begin(), ::tolower);
+	return str;
+}

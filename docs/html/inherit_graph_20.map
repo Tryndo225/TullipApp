@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,132,78,159"/>
+<area shape="rect" id="Node000001" href="$class_child_check_box.html" title="Represents a checkbox widget for a child." alt="" coords="126,5,238,32"/>
+<area shape="poly" id="edge15_Node000000_Node000001" title=" " alt="" coords="57,117,86,79,124,42,143,30,146,35,127,46,90,83,61,121"/>
+<area shape="rect" id="Node000002" href="$class_child_entry.html" title="Represents a GUI widget for a child entry." alt="" coords="141,56,223,83"/>
+<area shape="poly" id="edge16_Node000000_Node000002" title=" " alt="" coords="75,121,124,92,148,81,150,86,127,97,78,126"/>
+<area shape="rect" id="Node000003" href="$class_child_label.html" title="Represents a label for displaying child name." alt="" coords="141,107,223,133"/>
+<area shape="poly" id="edge17_Node000000_Node000003" title=" " alt="" coords="93,133,140,125,141,130,94,139"/>
+<area shape="rect" id="Node000004" href="$class_employee_entry.html" title="Represents a GUI widget for an employee entry." alt="" coords="127,157,237,184"/>
+<area shape="poly" id="edge18_Node000000_Node000004" title=" " alt="" coords="94,152,127,158,126,163,93,157"/>
+<area shape="rect" id="Node000005" href="$class_lesson_entry.html" title="Represents a GUI widget for a lesson entry." alt="" coords="135,208,229,235"/>
+<area shape="poly" id="edge19_Node000000_Node000005" title=" " alt="" coords="78,165,127,194,150,205,148,210,124,198,75,169"/>
+<area shape="rect" id="Node000006" href="$class_parent_entry.html" title="Represents a GUI widget for a parent entry." alt="" coords="137,259,227,285"/>
+<area shape="poly" id="edge20_Node000000_Node000006" title=" " alt="" coords="61,170,90,208,127,245,146,256,143,260,124,249,86,211,57,173"/>
+</map>
