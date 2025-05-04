@@ -6,6 +6,7 @@
 #include <fstream>
 #include <string>
 
+// Constructors
 DataBaseGUI::DataBaseGUI()
 	: QMainWindow(nullptr), database_(Database())
 {
@@ -22,6 +23,7 @@ DataBaseGUI::DataBaseGUI(Database&& database, QWidget* parent)
 	setup();
 }
 
+// Setup the GUI
 void DataBaseGUI::setup()
 {
 	ui.tabs->setCurrentIndex(0);
@@ -42,8 +44,14 @@ void DataBaseGUI::setup()
 	connect(ui.parent_sort_selector, QOverload<int>::of(&QComboBox::currentIndexChanged), this, &DataBaseGUI::parent_sort_change);
 	connect(ui.parent_search_name_bar, &QLineEdit::returnPressed, this, &DataBaseGUI::parent_search);
 	connect(ui.parent_search_surname_bar, &QLineEdit::returnPressed, this, &DataBaseGUI::parent_search);
+
+	connect(ui.employee_add_button, &QPushButton::clicked, this, &DataBaseGUI::employee_add);
+	connect(ui.employee_sort_selector, QOverload<int>::of(&QComboBox::currentIndexChanged), this, &DataBaseGUI::employee_sort_change);
+	connect(ui.employee_search_name_bar, &QLineEdit::returnPressed, this, &DataBaseGUI::employee_search);
+	connect(ui.employee_search_surname_bar, &QLineEdit::returnPressed, this, &DataBaseGUI::employee_search);
 }
 
+// Database operations
 void DataBaseGUI::save_database()
 {
 	QString file_path = QFileDialog::getSaveFileName(this, "Save Database", "", "Database Files (*.csv);;All Files (*)");
@@ -108,6 +116,7 @@ void DataBaseGUI::export_database()
 	}
 }
 
+// Database tab logger
 void DataBaseGUI::tab_change(int index)
 {
 	switch (index)
@@ -118,11 +127,15 @@ void DataBaseGUI::tab_change(int index)
 	case 1:
 		sort_to_populate_parent_tab();
 		break;
+	case 2:
+		sort_to_populate_employee_tab();
+		break;
 	default:
 		break;
 	}
 }
 
+// Add operations
 void DataBaseGUI::child_add()
 {
 	Child* child = new Child();
@@ -135,6 +148,31 @@ void DataBaseGUI::child_add()
 	delete child;
 }
 
+void DataBaseGUI::parent_add()
+{
+	Parent* parent = new Parent();
+	ParentDialog dialog(this, parent, database_);
+	if (dialog.exec() == QDialog::Accepted)
+	{
+		database_.add_parent(*parent);
+		sort_to_populate_parent_tab();
+	}
+	delete parent;
+}
+
+void DataBaseGUI::employee_add()
+{
+	Employee* employee = new Employee();
+	EmployeeDialog dialog(this, employee);
+	if (dialog.exec() == QDialog::Accepted)
+	{
+		database_.add_employee(*employee);
+		sort_to_populate_employee_tab();
+	}
+	delete employee;
+}
+
+// Edit operations
 void DataBaseGUI::child_edit(Child* child)
 {
 	database_.update_child_start(child);
@@ -148,129 +186,6 @@ void DataBaseGUI::child_edit(Child* child)
 	{
 		database_.update_child_end(child);
 	}
-}
-
-void DataBaseGUI::child_remove(Child* child)
-{
-	if (child->get_mom() != nullptr)
-	{
-		child->get_mom()->remove_child(child);
-	}
-	if (child->get_dad() != nullptr)
-	{
-		child->get_dad()->remove_child(child);
-	}
-	database_.remove_child(child);
-	sort_to_populate_children_tab();
-}
-
-void DataBaseGUI::child_sort_change(int sort_index)
-{
-	child_sort_index_ = sort_index;
-	ui.children_search_name_bar->clear();
-	ui.children_search_surname_bar->clear();
-	sort_to_populate_children_tab();
-}
-
-void DataBaseGUI::child_search_by_pointer(Child* child)
-{
-	ui.tabs->setCurrentIndex(0);
-	ui.children_search_name_bar->setText(QString::fromStdString(child->get_name()));
-	ui.children_search_surname_bar->setText(QString::fromStdString(child->get_surname()));
-	child_search();
-}
-
-void DataBaseGUI::child_search()
-{
-	auto search_name = ui.children_search_name_bar->text();
-	auto search_surname = ui.children_search_surname_bar->text();
-	auto children = database_.search_children(search_name.toStdString(), search_surname.toStdString());
-	populate_children_tab(children);
-}
-
-void DataBaseGUI::sort_to_populate_children_tab()
-{
-	switch (child_sort_index_)
-	{
-	case 0:
-		populate_children_tab(database_.sort_children_by_name());
-		break;
-	case 1:
-		populate_children_tab(database_.sort_children_by_surname());
-		break;
-	case 2:
-		populate_children_tab(database_.sort_children_by_birth_date());
-		break;
-	default:
-		break;
-	}
-}
-
-template<typename T>
-void DataBaseGUI::populate_children_tab(const std::multimap<T, Child*>& children)
-{
-	// Clear the existing entries in the tab
-	children_tab_clear();
-
-	// Populate the tab with new entries
-	for (const auto& [key, child] : children)
-	{
-		auto* entry = new ChildEntry(this, child);
-		connect(entry, &ChildEntry::editRequested, this, &DataBaseGUI::child_edit);
-		connect(entry, &ChildEntry::removeRequested, this, &DataBaseGUI::child_remove);
-		connect(entry, &ChildEntry::parrentSearchRequested, this, &DataBaseGUI::parent_search_by_pointer);
-
-		ui.children_scroll_contents->layout()->addWidget(entry);
-	}
-	ui.children_scroll->verticalScrollBar()->setValue(0);
-}
-
-void DataBaseGUI::populate_children_tab(const std::vector<Child*>& children)
-{
-	// Clear the existing entries in the tab
-	children_tab_clear();
-
-	// Populate the tab with new entries
-	for (const auto& child : children)
-	{
-		auto* entry = new ChildEntry(this, child);
-		connect(entry, &ChildEntry::editRequested, this, &DataBaseGUI::child_edit);
-		connect(entry, &ChildEntry::removeRequested, this, &DataBaseGUI::child_remove);
-		connect(entry, &ChildEntry::parrentSearchRequested, this, &DataBaseGUI::parent_search_by_pointer);
-		ui.children_scroll_contents->layout()->addWidget(entry);
-	}
-	ui.children_scroll->verticalScrollBar()->setValue(0);
-}
-
-void DataBaseGUI::children_tab_clear()
-{
-	// Clear the existing entries in the tab
-	QLayout* layout = ui.children_scroll_contents->layout();
-
-	// Delete all items in the layout
-	QLayoutItem* item;
-	while ((item = layout->takeAt(0)) != nullptr)
-	{
-		QWidget* widget = item->widget();
-		if (widget)
-		{
-			widget->setParent(nullptr);
-			delete widget;
-		}
-		delete item;
-	}
-}
-
-void DataBaseGUI::parent_add()
-{
-	Parent* parent = new Parent();
-	ParentDialog dialog(this, parent, database_);
-	if (dialog.exec() == QDialog::Accepted)
-	{
-		database_.add_parent(*parent);
-		sort_to_populate_parent_tab();
-	}
-	delete parent;
 }
 
 void DataBaseGUI::parent_edit(Parent* parent)
@@ -288,29 +203,47 @@ void DataBaseGUI::parent_edit(Parent* parent)
 	}
 }
 
+void DataBaseGUI::employee_edit(Employee* employee)
+{
+	database_.update_employee_start(employee);
+	EmployeeDialog dialog(this, employee);
+	if (dialog.exec() == QDialog::Accepted)
+	{
+		database_.update_employee_end(employee);
+		sort_to_populate_employee_tab();
+	}
+	else
+	{
+		database_.update_employee_end(employee);
+	}
+}
+
+// Remove operations
+void DataBaseGUI::child_remove(Child* child)
+{
+	database_.remove_child(child);
+	sort_to_populate_children_tab();
+}
+
 void DataBaseGUI::parent_remove(Parent* parent)
 {
-	for (auto& child : parent->get_children())
-	{
-		if (child->get_mom() == parent)
-		{
-			child->set_mom(nullptr);
-		}
-		else if (child->get_dad() == parent)
-		{
-			child->set_dad(nullptr);
-		}
-	}
 	database_.remove_parent(parent);
 	sort_to_populate_parent_tab();
 }
 
-void DataBaseGUI::parent_sort_change(int sort_index)
+void DataBaseGUI::employee_remove(Employee* employee)
 {
-	parent_sort_index_ = sort_index;
-	ui.parent_search_name_bar->clear();
-	ui.parent_search_surname_bar->clear();
-	sort_to_populate_parent_tab();
+	database_.remove_employee(employee);
+	sort_to_populate_employee_tab();
+}
+
+// Search operations
+void DataBaseGUI::child_search_by_pointer(Child* child)
+{
+	ui.tabs->setCurrentIndex(0);
+	ui.children_search_name_bar->setText(QString::fromStdString(child->get_name()));
+	ui.children_search_surname_bar->setText(QString::fromStdString(child->get_surname()));
+	child_search();
 }
 
 void DataBaseGUI::parent_search_by_pointer(Parent* parent)
@@ -321,12 +254,80 @@ void DataBaseGUI::parent_search_by_pointer(Parent* parent)
 	parent_search();
 }
 
+void DataBaseGUI::employee_search_by_pointer(Employee* employee)
+{
+	ui.tabs->setCurrentIndex(2);
+	ui.employee_search_name_bar->setText(QString::fromStdString(employee->get_name()));
+	ui.employee_search_surname_bar->setText(QString::fromStdString(employee->get_surname()));
+	employee_search();
+}
+
+void DataBaseGUI::child_search()
+{
+	auto search_name = ui.children_search_name_bar->text();
+	auto search_surname = ui.children_search_surname_bar->text();
+	auto children = database_.search_children(search_name.toStdString(), search_surname.toStdString());
+	populate_children_tab(children);
+}
+
 void DataBaseGUI::parent_search()
 {
 	auto search_name = ui.parent_search_name_bar->text();
 	auto search_surname = ui.parent_search_surname_bar->text();
 	auto parents = database_.search_parents(search_name.toStdString(), search_surname.toStdString());
 	populate_parent_tab(parents);
+}
+
+void DataBaseGUI::employee_search()
+{
+	auto search_name = ui.employee_search_name_bar->text();
+	auto search_surname = ui.employee_search_surname_bar->text();
+	auto employees = database_.search_employees(search_name.toStdString(), search_surname.toStdString());
+	populate_employee_tab(employees);
+}
+
+// Sort change trackers
+void DataBaseGUI::child_sort_change(int sort_index)
+{
+	child_sort_index_ = sort_index;
+	ui.children_search_name_bar->clear();
+	ui.children_search_surname_bar->clear();
+	sort_to_populate_children_tab();
+}
+
+void DataBaseGUI::parent_sort_change(int sort_index)
+{
+	parent_sort_index_ = sort_index;
+	ui.parent_search_name_bar->clear();
+	ui.parent_search_surname_bar->clear();
+	sort_to_populate_parent_tab();
+}
+
+void DataBaseGUI::employee_sort_change(int sort_index)
+{
+	employee_sort_index_ = sort_index;
+	ui.employee_search_name_bar->clear();
+	ui.employee_search_surname_bar->clear();
+	sort_to_populate_employee_tab();
+}
+
+// Sort functions
+void DataBaseGUI::sort_to_populate_children_tab()
+{
+	switch (child_sort_index_)
+	{
+	case 0:
+		populate_children_tab(database_.sort_children_by_name());
+		break;
+	case 1:
+		populate_children_tab(database_.sort_children_by_surname());
+		break;
+	case 2:
+		populate_children_tab(database_.sort_children_by_birth_date());
+		break;
+	default:
+		break;
+	}
 }
 
 void DataBaseGUI::sort_to_populate_parent_tab()
@@ -347,6 +348,41 @@ void DataBaseGUI::sort_to_populate_parent_tab()
 	}
 }
 
+void DataBaseGUI::sort_to_populate_employee_tab()
+{
+	switch (employee_sort_index_)
+	{
+	case 0:
+		populate_employee_tab(database_.sort_employees_by_name());
+		break;
+	case 1:
+		populate_employee_tab(database_.sort_employees_by_surname());
+		break;
+	default:
+		break;
+	}
+}
+
+// Populate functions
+template<typename T>
+void DataBaseGUI::populate_children_tab(const std::multimap<T, Child*>& children)
+{
+	// Clear the existing entries in the tab
+	children_tab_clear();
+
+	// Populate the tab with new entries
+	for (const auto& [key, child] : children)
+	{
+		auto* entry = new ChildEntry(this, child);
+		connect(entry, &ChildEntry::editRequested, this, &DataBaseGUI::child_edit);
+		connect(entry, &ChildEntry::removeRequested, this, &DataBaseGUI::child_remove);
+		connect(entry, &ChildEntry::parrentSearchRequested, this, &DataBaseGUI::parent_search_by_pointer);
+
+		ui.children_scroll_contents->layout()->addWidget(entry);
+	}
+	ui.children_scroll->verticalScrollBar()->setValue(0);
+}
+
 template<typename T>
 void DataBaseGUI::populate_parent_tab(const std::multimap<T, Parent*>& parents)
 {
@@ -363,6 +399,37 @@ void DataBaseGUI::populate_parent_tab(const std::multimap<T, Parent*>& parents)
 	ui.parents_scroll->verticalScrollBar()->setValue(0);
 }
 
+template<typename T>
+void DataBaseGUI::populate_employee_tab(const std::multimap<T, Employee*>& employees)
+{
+	employee_tab_clear();
+	for (const auto& [key, employee] : employees)
+	{
+		auto* entry = new EmployeeEntry(this, employee);
+		connect(entry, &EmployeeEntry::editRequested, this, &DataBaseGUI::employee_edit);
+		connect(entry, &EmployeeEntry::removeRequested, this, &DataBaseGUI::employee_remove);
+		ui.employees_scroll_contents->layout()->addWidget(entry);
+	}
+	ui.employees_scroll->verticalScrollBar()->setValue(0);
+}
+
+void DataBaseGUI::populate_children_tab(const std::vector<Child*>& children)
+{
+	// Clear the existing entries in the tab
+	children_tab_clear();
+
+	// Populate the tab with new entries
+	for (const auto& child : children)
+	{
+		auto* entry = new ChildEntry(this, child);
+		connect(entry, &ChildEntry::editRequested, this, &DataBaseGUI::child_edit);
+		connect(entry, &ChildEntry::removeRequested, this, &DataBaseGUI::child_remove);
+		connect(entry, &ChildEntry::parrentSearchRequested, this, &DataBaseGUI::parent_search_by_pointer);
+		ui.children_scroll_contents->layout()->addWidget(entry);
+	}
+	ui.children_scroll->verticalScrollBar()->setValue(0);
+}
+
 void DataBaseGUI::populate_parent_tab(const std::vector<Parent*>& parents)
 {
 	parent_tab_clear();
@@ -376,6 +443,37 @@ void DataBaseGUI::populate_parent_tab(const std::vector<Parent*>& parents)
 		ui.parents_scroll_contents->layout()->addWidget(entry);
 	}
 	ui.parents_scroll->verticalScrollBar()->setValue(0);
+}
+
+void DataBaseGUI::populate_employee_tab(const std::vector<Employee*>& employees)
+{
+	employee_tab_clear();
+	for (const auto& employee : employees)
+	{
+		auto* entry = new EmployeeEntry(this, employee);
+		connect(entry, &EmployeeEntry::editRequested, this, &DataBaseGUI::employee_edit);
+		connect(entry, &EmployeeEntry::removeRequested, this, &DataBaseGUI::employee_remove);
+		ui.employees_scroll_contents->layout()->addWidget(entry);
+	}
+	ui.employees_scroll->verticalScrollBar()->setValue(0);
+}
+
+// Clear functions
+void DataBaseGUI::children_tab_clear()
+{
+	QLayout* layout = ui.children_scroll_contents->layout();
+
+	QLayoutItem* item;
+	while ((item = layout->takeAt(0)) != nullptr)
+	{
+		QWidget* widget = item->widget();
+		if (widget)
+		{
+			widget->setParent(nullptr);
+			delete widget;
+		}
+		delete item;
+	}
 }
 
 void DataBaseGUI::parent_tab_clear()
@@ -396,6 +494,23 @@ void DataBaseGUI::parent_tab_clear()
 	}
 }
 
+void DataBaseGUI::employee_tab_clear()
+{
+	QLayout* layout = ui.employees_scroll_contents->layout();
+	QLayoutItem* item;
+	while ((item = layout->takeAt(0)) != nullptr)
+	{
+		QWidget* widget = item->widget();
+		if (widget)
+		{
+			widget->setParent(nullptr);
+			delete widget;
+		}
+		delete item;
+	}
+}
+
+// Destructor
 DataBaseGUI::~DataBaseGUI()
 {
 	if (!save_path_.empty())

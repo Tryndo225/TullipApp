@@ -10,11 +10,13 @@
 
 #include <QMainWindow>
 #include "ui_DataBaseGUI.h"
-#include "ChildEntry.h"
 #include "DataBase.h"
+#include "ChildEntry.h"
+#include "ParentEntry.h"
+#include "EmployeeEntry.h"
 #include "ChildDialog.h"
 #include "ParentDialog.h"
-#include "ParentEntry.h"
+#include "EmployeeDialog.h"
 
  /**
   * @class DataBaseGUI
@@ -49,12 +51,20 @@ public:
 	 */
 	void child_add();
 
+	void parent_add();
+
+	void employee_add();
+
 	/**
 	 * @brief Edits an existing child in the database.
 	 * @details This function opens a dialog for editing an existing child and updates the GUI upon completion.
 	 * @param child A pointer to the `Child` object to edit.
 	 */
 	void child_edit(Child* child);
+
+	void parent_edit(Parent* child);
+
+	void employee_edit(Employee* child);
 
 	/**
 	 * @brief Removes a child from the database.
@@ -63,21 +73,27 @@ public:
 	 */
 	void child_remove(Child* child);
 
-	void child_sort_change(int sort_index);
-
-	void child_search();
-	void child_search_by_pointer(Child* child);
-
-	void parent_add();
-
-	void parent_edit(Parent* child);
-
 	void parent_remove(Parent* child);
+
+	void employee_remove(Employee* child);
+
+	void child_sort_change(int sort_index);
 
 	void parent_sort_change(int sort_index);
 
+	void employee_sort_change(int sort_index);
+
+	void child_search();
+
 	void parent_search();
+
+	void employee_search();
+
+	void child_search_by_pointer(Child* child);
+
 	void parent_search_by_pointer(Parent* child);
+
+	void employee_search_by_pointer(Employee* child);
 
 	~DataBaseGUI();
 
@@ -88,6 +104,7 @@ private:
 
 	int child_sort_index_ = 1; ///< The current sort index for children.
 	int parent_sort_index_ = 1; ///< The current sort index for parents.
+	int employee_sort_index_ = 1; ///< The current sort index for employees.
 
 	std::string save_path_ = ""; ///< The path to save the database.
 
@@ -98,9 +115,6 @@ private:
 	 * @details This function initializes the GUI components and connects signals to slots.
 	 */
 	void setup();
-
-	void connection_enable();
-	void connection_disable();
 
 	/**
 	 * @brief Saves the current state of the database to a file.
@@ -132,10 +146,32 @@ private:
 	void sort_to_populate_children_tab();
 
 	/**
+	* @brief Selects the appropriate sorting to use based on parent sort index.
+	*/
+	void sort_to_populate_parent_tab();
+
+	/**
+	 * @brief Selects the appropriate sorting to use based on employee sort index.
+	 */
+	void sort_to_populate_employee_tab();
+
+	/**
 	 * @brief Populates the children tab with a list of children.
 	 * @param children A vector of pointers to `Child` objects to display.
 	 */
 	void populate_children_tab(const std::vector<Child*>& children);
+
+	/**
+	 * @brief Populates the parent tab with a list of parents.
+	 * @param parents A vector of pointers to `Parent` objects to display.
+	 */
+	void populate_parent_tab(const std::vector<Parent*>& children);
+
+	/**
+	 * @brief Populates the parent tab with a list of parents.
+	 * @param parents A vector of pointers to `Parent` objects to display.
+	 */
+	void populate_employee_tab(const std::vector<Employee*>& children);
 
 	/**
 	 * @brief Populates the children tab with a multimap of children.
@@ -146,23 +182,6 @@ private:
 	void populate_children_tab(const std::multimap<T, Child*>& children);
 
 	/**
-	 * @brief Clears the children tab.
-	 * @details Removes all entries from the children tab in the GUI.
-	 */
-	void children_tab_clear();
-
-	/**
-	 * @brief Selects the appropriate sorting to use based on parent sort index.
-	 */
-	void sort_to_populate_parent_tab();
-
-	/**
-	 * @brief Populates the parent tab with a list of parents.
-	 * @param parents A vector of pointers to `Parent` objects to display.
-	 */
-	void populate_parent_tab(const std::vector<Parent*>& children);
-
-	/**
 	 * @brief Populates the parent tab with a multimap of parents.
 	 * @tparam T The type of the key in the multimap.
 	 * @param children A multimap of keys and pointers to `Parent` objects to display.
@@ -171,10 +190,30 @@ private:
 	void populate_parent_tab(const std::multimap<T, Parent*>& children);
 
 	/**
+	 * @brief Populates the parent tab with a multimap of parents.
+	 * @tparam T The type of the key in the multimap.
+	 * @param children A multimap of keys and pointers to `Parent` objects to display.
+	 */
+	template<typename T>
+	void populate_employee_tab(const std::multimap<T, Employee*>& children);
+
+	/**
+	 * @brief Clears the children tab.
+	 * @details Removes all entries from the children tab in the GUI.
+	 */
+	void children_tab_clear();
+
+	/**
 	 * @brief Clears the parent tab.
 	 * @details Removes all entries from the parent tab in the GUI.
 	 */
 	void parent_tab_clear();
+
+	/**
+	 * @brief Clears the parent tab.
+	 * @details Removes all entries from the parent tab in the GUI.
+	 */
+	void employee_tab_clear();
 };
 
 #endif // DATABASEGUI_H

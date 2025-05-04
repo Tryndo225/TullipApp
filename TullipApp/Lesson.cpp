@@ -14,6 +14,11 @@ const std::vector<Employee*> Lesson::get_employees() const
 	return employees_;
 }
 
+void Lesson::remove_employee(Employee* employee)
+{
+	remove_all(employees_, employee);
+}
+
 const std::vector<Child*> Lesson::get_children() const
 {
 	std::vector<Child*> child_list;
@@ -58,6 +63,31 @@ const std::vector<std::pair<Child*, bool>> Lesson::get_attendance(const Date& da
 		}
 	}
 	return attendance_list;
+}
+
+void Lesson::set_attendance(const Date& date, const std::vector<Child*>& children)
+{
+	if (attendance_.find(date) == attendance_.end())
+	{
+		for (const auto& employee : employees_)
+		{
+			employee->add_working_hour();
+		}
+	}
+	attendance_[date] = children;
+}
+
+void Lesson::set_present(const Date& date, Child* child)
+{
+	auto it = attendance_.find(date);
+	if (it == attendance_.end())
+	{
+		for (const auto& employee : employees_)
+		{
+			employee->add_working_hour();
+		}
+	}
+	attendance_[date].push_back(child);
 }
 
 void Lesson::set_absent(const Date& date, Child* child)

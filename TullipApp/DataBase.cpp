@@ -272,6 +272,18 @@ void Database::update_parent_end(Parent* parent)
 
 void Database::remove_parent(const Parent* parent)
 {
+	for (auto& child : parent->get_children())
+	{
+		if (child->get_mom() == parent)
+		{
+			child->set_mom(nullptr);
+		}
+		else if (child->get_dad() == parent)
+		{
+			child->set_dad(nullptr);
+		}
+	}
+
 	remove_from_map(parent_by_name, parent->get_name(), parent);
 	remove_from_map(parent_by_surname, parent->get_surname(), parent);
 	remove_from_map(parent_by_email, parent->get_email().get_email(), parent);
@@ -406,6 +418,20 @@ void Database::update_child_end(Child* child)
 
 void Database::remove_child(Child* child)
 {
+	if (child->get_mom() != nullptr)
+	{
+		child->get_mom()->remove_child(child);
+	}
+	if (child->get_dad() != nullptr)
+	{
+		child->get_dad()->remove_child(child);
+	}
+
+	for (auto& lesson : lessons_)
+	{
+		lesson->remove_child(child);
+	}
+
 	remove_from_map(child_by_name, child->get_name(), child);
 	remove_from_map(child_by_surname, child->get_surname(), child);
 	remove_from_map(child_by_birth_date, child->get_birth_date(), child);
@@ -600,8 +626,13 @@ Employee* Database::get_employee_by_name_surname(const std::string& name_surname
 	}
 }
 
-void Database::remove_employee(const Employee* employee)
+void Database::remove_employee(Employee* employee)
 {
+	for (auto& lesson : lessons_)
+	{
+		lesson->remove_employee(employee);
+	}
+
 	remove_from_map(employee_by_name, employee->get_name(), employee);
 	remove_from_map(employee_by_surname, employee->get_surname(), employee);
 	remove_all(employees_, *employee);

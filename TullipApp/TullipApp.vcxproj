@@ -166,6 +166,8 @@
     <ClInclude Include="DataBase_Parser_Functions.h" />
     <ClInclude Include="DateTime.h" />
     <QtMoc Include="clickablelabel.h" />
+    <QtMoc Include="EmployeeEntry.h" />
+    <QtMoc Include="EmployeeDialog.h" />
     <ClInclude Include="Helper_Functions.h" />
     <ClInclude Include="Lesson.h" />
     <QtMoc Include="ParentEntry.h" />
@@ -182,6 +184,8 @@
     <ClCompile Include="DataBaseGUI.cpp" />
     <ClCompile Include="DataBase_Parser_Functions.cpp" />
     <ClCompile Include="DateTime.cpp" />
+    <ClCompile Include="EmployeeDialog.cpp" />
+    <ClCompile Include="EmployeeEntry.cpp" />
     <ClCompile Include="Lesson.cpp" />
     <ClCompile Include="ParentDialog.cpp" />
     <ClCompile Include="ParentEntry.cpp" />
@@ -207,6 +211,8 @@
     <QtUic Include="ChildLabel.ui" />
     <QtUic Include="DataBaseGUI.ui" />
     <QtUic Include="ChildDialog.ui" />
+    <QtUic Include="EmployeeDialog.ui" />
+    <QtUic Include="EmployeeEntry.ui" />
     <QtUic Include="ParentDialog.ui" />
     <QtUic Include="ParentEntry.ui" />
   </ItemGroup>

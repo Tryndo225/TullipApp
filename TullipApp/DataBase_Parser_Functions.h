@@ -9,7 +9,7 @@
 #include "Lesson.h"
 #include "Person.h"
 
-static class CSV_Parser
+class CSV_Parser
 {
 public:
 	/**
@@ -61,6 +61,6 @@ private:
 	 * @param database The database from which it searches children.
 	 */
 	static void parse_lesson_attendance(std::string& attendance_str, Lesson& lesson, Database& database);
-}
+};
 
 #endif // !DATABASE_PARSER_FUNCTIONS_H_

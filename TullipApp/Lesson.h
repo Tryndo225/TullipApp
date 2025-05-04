@@ -130,6 +130,12 @@ public:
 	inline void add_employee(Employee* employee) { employees_.push_back(employee); }
 
 	/**
+	 * @brief Removes an employee from the lesson.
+	 * @param employee A pointer to the Employee object to remove.
+	 */
+	void remove_employee(Employee* employee);
+
+	/**
 	 * @brief Gets the list of children participating in the lesson.
 	 * @return A vector of pointers to Child objects.
 	 */
@@ -162,13 +168,6 @@ public:
 	inline void set_child_to_payed(Child* child) { children_[child] = Date::get_current_date(); }
 
 	/**
-	 * @brief Sets the payment date of a child.
-	 * @param child A pointer to the Child object.
-	 * @param date The date of payment.
-	 */
-	inline void set_child_payment_date(Child* child, Date date) { children_[child] = date; }
-
-	/**
 	 * @brief Gets the payment date of a child.
 	 * @param child A pointer to the Child object.
 	 * @return The payment date of the child.
@@ -176,25 +175,32 @@ public:
 	inline Date get_child_payment_date(Child* child) const { return children_.at(child).value_or(Date()); }
 
 	/**
-	* Gets the list of children who attended the lesson on a specific date.
+	 * @brief Sets the payment date of a child.
+	 * @param child A pointer to the Child object.
+	 * @param date The date of payment.
+	 */
+	inline void set_child_payment_date(Child* child, Date date) { children_[child] = date; }
+
+	/**
+	* @brief Gets the list of children who attended the lesson on a specific date.
 	* @param date The date of the lesson.
 	* @return A vector of pairs containing pointers to Child objects and their attendance status (true for present, false for absent).
 	*/
 	const std::vector<std::pair<Child*, bool>> get_attendance(const Date& date);
 
 	/**
-	 * @brief Sets the attendance of children for a specific date.
+	 * @brief Sets the attendance of children for a specific date, if it is a new date it increments eployees hours.
 	 * @param date The date of the lesson.
 	 * @param children A vector of pointers to Child objects to mark as present.
 	 */
-	void set_attendance(const Date& date, const std::vector<Child*>& children) { attendance_[date] = children; }
+	void set_attendance(const Date& date, const std::vector<Child*>& children);
 
 	/**
 	* @brief Sets the attendance of child for a specific date.
 	* @param date The date of the lesson.
 	* @param child A pointer to the Child object to mark as present.
 	*/
-	inline void set_present(const Date& date, Child* child) { attendance_[date].push_back(child); }
+	void set_present(const Date& date, Child* child);
 
 	/**
 	 * @brief Sets a child as absent for a specific date.

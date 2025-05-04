@@ -433,6 +433,12 @@ public:
 	inline void set_phone(std::string&& phone) { phone_ = Phone(std::forward<std::string>(phone)); }
 
 	/**
+	 * @brief Increments the number of hours worked by the employee.
+	 * @details This method is used to track the number of hours worked.
+	 */
+	inline void add_working_hour() { ++hours_worked_; }
+
+	/**
 	 * @brief Gets the number of hours worked by the employee.
 	 * @return The number of hours worked.
 	 */
@@ -443,6 +449,12 @@ public:
 	 * @param hours_worked The new number of hours worked.
 	 */
 	inline void set_hours_worked(int hours_worked) { hours_worked_ = hours_worked; }
+
+	/**
+	 * @brief Resets the number of hours worked by the employee to zero.
+	 * @details This method is used to clear the hours worked.
+	 */
+	inline void erase_hours_worked() { hours_worked_ = 0; }
 
 	/**
 	 * @brief Destructor.

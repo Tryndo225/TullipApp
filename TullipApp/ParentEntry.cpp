@@ -33,8 +33,19 @@ void ParentEntry::setup_parent()
 
 void ParentEntry::email_clicked()
 {
-	database_parent_->get_email().copy();
-	QMessageBox::information(this, "Email Copied", "Email copied to clipboard: " + QString::fromStdString(database_parent_->get_email().get_email()));
+	if (database_parent_->get_email().get_email().empty())
+	{
+		QMessageBox::warning(this, "No Email", "No email address available.");
+		return;
+	}
+	if (!database_parent_->get_email().copy())
+	{
+		QMessageBox::warning(this, "Copy Failed", "Failed to copy email to clipboard.");
+	}
+	else
+	{
+		QMessageBox::information(this, "Email Copied", "Email copied to clipboard: " + QString::fromStdString(database_parent_->get_email().get_email()));
+	}
 }
 
 ParentEntry::~ParentEntry()

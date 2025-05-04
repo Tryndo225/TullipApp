@@ -380,7 +380,7 @@ public:
 	 * @brief Removes an employee from the database.
 	 * @param employee A pointer to the employee to remove.
 	 */
-	void remove_employee(const Employee* employee);
+	void remove_employee(Employee* employee);
 
 	/**
 	 * @brief Searches for employees by a reference string based on lavenstein distance from their name + surname.

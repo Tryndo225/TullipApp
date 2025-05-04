@@ -95,6 +95,12 @@
     <ClCompile Include="DataBase_Parser_Functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="EmployeeEntry.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EmployeeDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="ChildEntry.h">
@@ -121,6 +127,12 @@
     <QtMoc Include="ChildCheckBox.h">
       <Filter>Header Files\UI</Filter>
     </QtMoc>
+    <QtMoc Include="EmployeeEntry.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="EmployeeDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="DataBaseGUI.ui">
@@ -142,6 +154,12 @@
       <Filter>Resource Files</Filter>
     </QtUic>
     <QtUic Include="ChildCheckBox.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
+    <QtUic Include="EmployeeEntry.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
+    <QtUic Include="EmployeeDialog.ui">
       <Filter>Resource Files</Filter>
     </QtUic>
   </ItemGroup>
