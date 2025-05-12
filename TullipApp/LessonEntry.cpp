@@ -22,16 +22,16 @@ void LessonEntry::address_clicked()
 {
 	if (lesson_->get_address().get_address().empty())
 	{
-		QMessageBox::warning(this, "No Email", "No email address available.");
+		QMessageBox::warning(this, "No Address", "No address available.");
 		return;
 	}
 	if (!lesson_->get_address().copy())
 	{
-		QMessageBox::warning(this, "Copy Failed", "Failed to copy email to clipboard.");
+		QMessageBox::warning(this, "Copy Failed", "Failed to copy address to clipboard.");
 	}
 	else
 	{
-		QMessageBox::information(this, "Email Copied", "Email copied to clipboard: " + QString::fromStdString(lesson_->get_address().get_address()));
+		QMessageBox::information(this, "Address Copied", "Address copied to clipboard: " + QString::fromStdString(lesson_->get_address().get_address()));
 	}
 }
 

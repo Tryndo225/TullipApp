@@ -1,0 +1,14 @@
+<map id="ParentDialog::clear_children" name="ParentDialog::clear_children">
+<area shape="rect" id="Node000001" title="Clears the child checkboxes from the dialog." alt="" coords="665,101,798,144"/>
+<area shape="rect" id="Node000002" href="$class_parent_dialog.html#a75bd70150c2208775a5a7996c2a13b03" title="Populates the dialog with child checkboxes." alt="" coords="447,35,600,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="650,99,592,81,594,75,651,94"/>
+<area shape="rect" id="Node000005" href="$class_parent_dialog.html#a34519fed2a2112efcc451d36b85cebea" title="Populates the dialog with child checkboxes." alt="" coords="447,101,600,144"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="650,125,601,125,601,120,650,120"/>
+<area shape="rect" id="Node000006" href="$class_parent_dialog.html#ae86872a8640cc15bb3f9013a212f60f2" title="Destructor for ParentDialog." alt="" coords="430,168,617,195"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="651,149,618,159,577,170,576,165,617,153,650,144"/>
+<area shape="rect" id="Node000003" href="$class_parent_dialog.html#a35f4bfbef301aee353217e5a0d1224fb" title="Searches for children based on the input in the name and surname fields." alt="" coords="233,5,382,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="431,46,382,39,383,34,432,41"/>
+<area shape="rect" id="Node000004" href="$class_parent_dialog.html#a2479d341c86307fbb81dba6af772e976" title="Constructs a ParentDialog object." alt="" coords="5,43,185,69"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="432,62,382,63,233,63,185,62,185,56,233,57,382,57,432,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="218,42,185,46,185,41,217,36"/>
+</map>

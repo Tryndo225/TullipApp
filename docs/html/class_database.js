@@ -65,6 +65,8 @@ var class_database =
     [ "update_child_start", "class_database.html#a283eb646c12fff3f96e217bf5c3a7dc3", null ],
     [ "update_employee_end", "class_database.html#a0e3d65ad9e1957377f3cffa5f5275554", null ],
     [ "update_employee_start", "class_database.html#a7bbdd3a035f7164c5ddf45fcc28693e7", null ],
+    [ "update_lesson_end", "class_database.html#a19fbca1d66460d712681aa7ffd761c80", null ],
+    [ "update_lesson_start", "class_database.html#a4a177c6c35a2dab6017842abec500f8c", null ],
     [ "update_parent_end", "class_database.html#a3bdc14caecc90d02e843116c3c28f91c", null ],
     [ "update_parent_start", "class_database.html#a2f49b299c2bd30461bbd0fb27fce3a57", null ],
     [ "child_by_birth_date", "class_database.html#a8f6993b5fdcdbb30ad5aa7cab7b81ef7", null ],

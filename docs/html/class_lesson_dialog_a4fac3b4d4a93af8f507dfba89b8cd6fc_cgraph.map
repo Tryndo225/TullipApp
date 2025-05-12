@@ -1,0 +1,7 @@
+<map id="LessonDialog::~LessonDialog" name="LessonDialog::~LessonDialog">
+<area shape="rect" id="Node000001" title="Destructor for LessonDialog." alt="" coords="5,47,201,73"/>
+<area shape="rect" id="Node000002" href="$class_lesson_dialog.html#ab3e1766d811c3efd7fe55cc197f5f31a" title="Clears the children checkboxes from the dialog." alt="" coords="249,5,385,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,43,233,37,234,42,193,49"/>
+<area shape="rect" id="Node000003" href="$class_lesson_dialog.html#a3b170e2ee723cc875e1601fec67be0fc" title="Clears the employees checkboxes from the dialog." alt="" coords="249,72,385,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,71,234,78,233,83,192,77"/>
+</map>

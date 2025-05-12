@@ -1,0 +1,8 @@
+<map id="LessonDialog::populate_children" name="LessonDialog::populate_children">
+<area shape="rect" id="Node000001" title="Populates the dialog with children and employees." alt="" coords="442,35,599,77"/>
+<area shape="rect" id="Node000002" href="$class_lesson_dialog.html#ac10e391b7a2221ff937a30ccf61124b2" title="Searches for children based on the input in the name and surname fields." alt="" coords="241,5,394,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="427,45,394,40,394,35,427,40"/>
+<area shape="rect" id="Node000003" href="$class_lesson_dialog.html#a4ddf55a3925f45bd1cd3ecef02c261d5" title="Constructs a LessonDialog object." alt="" coords="5,43,193,69"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="426,62,394,63,241,63,193,62,193,56,241,57,394,57,426,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="226,42,194,46,193,41,225,36"/>
+</map>

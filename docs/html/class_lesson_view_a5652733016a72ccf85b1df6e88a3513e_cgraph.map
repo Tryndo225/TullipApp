@@ -1,0 +1,34 @@
+<map id="LessonView::LessonView" name="LessonView::LessonView">
+<area shape="rect" id="Node000001" title="Constructs a LessonView widget." alt="" coords="5,173,177,200"/>
+<area shape="rect" id="Node000002" href="$class_lesson_view.html#a5c8ce0a9e1fdc6fbda09de9aed2c0c8a" title="Function called when the address label is clicked." alt="" coords="235,5,381,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,171,151,117,186,86,223,58,231,53,234,58,226,62,189,90,155,121,106,175"/>
+<area shape="rect" id="Node000003" href="$class_lesson_view.html#a94bf6b3da58e7c3efc3976092a8c457e" title="Function called when the attendance button is clicked." alt="" coords="229,72,386,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="112,171,162,140,224,108,240,102,242,107,226,113,164,145,115,175"/>
+<area shape="rect" id="Node000004" href="$class_clickable_label.html#aba68cb811a595c6d90f5c994f2b31f4b" title="Signal emitted when the label is clicked." alt="" coords="230,123,386,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="151,170,232,151,233,156,152,175"/>
+<area shape="rect" id="Node000005" href="$class_lesson_view.html#a01642f9f2ac50e57169729fd7bfdd4e2" title="Function called when the edit button is clicked." alt="" coords="225,173,391,200"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="177,184,209,184,209,189,177,189"/>
+<area shape="rect" id="Node000009" href="$class_lesson_view.html#ab176e4c21a912197c8400af154e31f4c" title="Populates the children sections of the lesson view." alt="" coords="464,200,613,243"/>
+<area shape="poly" id="edge15_Node000001_Node000009" title=" " alt="" coords="155,198,225,209,341,218,448,220,448,225,341,223,224,215,154,203"/>
+<area shape="rect" id="Node000012" href="$class_lesson_view.html#ac71282939d24b3e03dcf13dc6902cfe4" title="Populates the employees section of the lesson view." alt="" coords="464,267,613,309"/>
+<area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="135,198,225,224,341,250,449,270,448,276,340,255,224,229,134,203"/>
+<area shape="rect" id="Node000015" href="$_date_time_8cpp.html#a1783c3bc3f494fc8f7cb7dc1e6bc998b" title="Converts a WeekDays enum value to its string representation." alt="" coords="473,333,603,360"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="113,198,162,231,226,264,285,286,347,305,459,331,457,336,345,310,283,291,224,269,160,236,110,203"/>
+<area shape="rect" id="Node000006" href="$class_lesson_view.html#a135ea5d7b92105e5c4fefaa94668ce34" title="Clears the children section of the lesson view." alt="" coords="448,48,628,75"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="370,170,389,159,405,141,412,123,420,103,437,85,445,80,448,84,441,89,425,106,417,125,410,144,393,163,372,175"/>
+<area shape="rect" id="Node000007" href="$class_lesson_view.html#acd1c89685ff061eb66c438b88eb2effb" title="Clears the employees section of the lesson view." alt="" coords="439,99,637,125"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="358,170,390,159,438,135,460,127,462,133,440,140,392,164,360,175"/>
+<area shape="rect" id="Node000008" href="$class_lesson_view.html#aa1cc5b2f31000f0aaa8180eab0fd17a1" title="Signal emitted when a lesson is edited." alt="" coords="450,149,626,176"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="391,175,435,171,435,176,392,181"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="392,197,449,205,448,210,391,202"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="334,198,383,225,440,252,455,258,453,263,438,257,380,229,332,203"/>
+<area shape="poly" id="edge14_Node000005_Node000015" title=" " alt="" coords="321,199,367,257,402,291,440,319,460,328,457,333,438,324,398,295,363,261,316,202"/>
+<area shape="rect" id="Node000010" href="$class_lesson_view.html#aa227f774e8716f77d11ee4485f14b94b" title="Signal emitted when a child is clicked." alt="" coords="700,161,872,188"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="613,205,696,189,697,194,614,210"/>
+<area shape="rect" id="Node000011" href="$class_person_label.html#aa2a831964f915778bba70329d5e8c7c9" title="Signal emitted when the person label is clicked." alt="" coords="700,212,872,239"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="613,220,684,221,684,226,613,225"/>
+<area shape="rect" id="Node000013" href="$class_lesson_view.html#a4275d407e328010c92ad6aa2e058274f" title="Signal emitted when an employee is clicked." alt="" coords="686,267,886,293"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="613,283,670,281,671,286,613,288"/>
+<area shape="rect" id="Node000014" href="$class_person_label.html#abb99c6dfcfd08b352e11819ee48b27e7" title="Signal emitted when the employee label is clicked." alt="" coords="685,317,887,344"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="614,298,690,311,689,317,613,303"/>
+</map>

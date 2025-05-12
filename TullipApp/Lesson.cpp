@@ -113,7 +113,7 @@ std::ostream& operator<<(std::ostream& stream, const Lesson& lesson)
 	stream << "},{";
 	for (auto it = lesson.children_.begin(); it != lesson.children_.end(); ++it)
 	{
-		stream << "[" << it->first->get_name() << " " << it->first->get_surname() << ",";
+		stream << "[" << it->first->get_name() << " " << it->first->get_surname() << "-";
 		if (it->second)
 		{
 			stream << it->second->get_date_string();
@@ -122,6 +122,7 @@ std::ostream& operator<<(std::ostream& stream, const Lesson& lesson)
 		{
 			stream << "No Payment";
 		}
+		stream << "]";
 		if (std::next(it) != lesson.children_.end())
 		{
 			stream << ",";

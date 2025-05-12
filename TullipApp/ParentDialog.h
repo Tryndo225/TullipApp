@@ -11,7 +11,7 @@
 #include "ui_ParentDialog.h"
 #include "Person.h"
 #include "Database.h"
-#include "ChildCheckBox.h"
+#include "PersonCheckBox.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class ParentDialogClass; };
@@ -45,6 +45,19 @@ public:
 	void populate_children(const std::multimap<std::string, Child*>& children);
 
 	/**
+	 * @brief Populates the dialog with child checkboxes.
+	 * @details This method creates checkboxes for each child in the database and adds them to the dialog.
+	 * @param children A vector of child pointers.
+	 */
+	void populate_children(const std::vector<Child*>& children);
+
+	/**
+	 * @brief Clears the child checkboxes from the dialog.
+	 * @details This method removes all child checkboxes from the dialog.
+	 */
+	void clear_children();
+
+	/**
 	 * @brief Accepts the dialog and updates the parent information.
 	 * @details This method is called when the user clicks the "OK" button in the dialog.
 	 *			It validates the input fields and updates the parent object accordingly.
@@ -53,6 +66,7 @@ public:
 
 	/**
 	 * @brief Destructor for `ParentDialog`.
+	 * @details Cleans up resources used by the dialog.
 	 */
 	~ParentDialog();
 
@@ -60,6 +74,12 @@ private:
 	Ui::ParentDialogClass ui; ///< The user interface for the parent dialog.
 	Database& database_; ///< Reference to the database being managed.
 	Parent* database_parent_; ///< Pointer to the `Parent` object being edited or added.
+
+	/**
+	 * @brief Searches for children based on the input in the name and surname fields.
+	 * @details This method filters the children based on the name and surname entered in the dialog.
+	 */
+	void children_search();
 };
 
 #endif // PARENTDIALOG_H_

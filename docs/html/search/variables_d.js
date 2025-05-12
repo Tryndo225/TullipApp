@@ -14,8 +14,10 @@ var searchData=
   ['parents_5ftab_11',['parents_tab',['../class_ui___data_base_g_u_i_class.html#a5afdf227c02125f34f490451f0449374',1,'Ui_DataBaseGUIClass']]],
   ['past_5fdad_5f_12',['past_dad_',['../class_child_dialog.html#a3e7745d144de7eebbfaa194127c98369',1,'ChildDialog']]],
   ['past_5fmom_5f_13',['past_mom_',['../class_child_dialog.html#a1a16eacbb12b33fd0aff9fc7bcc4f14b',1,'ChildDialog']]],
-  ['phone_14',['phone',['../class_ui___employee_entry_class.html#a04e4266501d935ca3b6a2c503bb49a82',1,'Ui_EmployeeEntryClass']]],
-  ['phone_5f_15',['phone_',['../class_phone.html#a57de65f94f3126cc2a3737ee09f52336',1,'Phone::phone_'],['../class_employee.html#aedec4a63dd6bec0d988c3292af2c971e',1,'Employee::phone_']]],
-  ['phone_5fedit_16',['phone_edit',['../class_ui___employee_dialog_class.html#ae547597de100c6741b2c67f06698db44',1,'Ui_EmployeeDialogClass']]],
-  ['phone_5flabel_17',['phone_label',['../class_ui___employee_dialog_class.html#aeeb57e57429cbdd8ec94144b725507d6',1,'Ui_EmployeeDialogClass']]]
+  ['person_5f_14',['person_',['../class_person_check_box.html#a789987111df38a6e37855f8a5041fb3c',1,'PersonCheckBox::person_'],['../class_person_label.html#a3bb46c1478a55339b6df1794e4687a99',1,'PersonLabel::person_']]],
+  ['person_5fcheckbox_15',['person_checkBox',['../class_ui___person_check_box_class.html#a5e72e95f22c7a93115daae9a1675499f',1,'Ui_PersonCheckBoxClass']]],
+  ['phone_16',['phone',['../class_ui___employee_entry_class.html#a04e4266501d935ca3b6a2c503bb49a82',1,'Ui_EmployeeEntryClass']]],
+  ['phone_5f_17',['phone_',['../class_phone.html#a57de65f94f3126cc2a3737ee09f52336',1,'Phone::phone_'],['../class_employee.html#aedec4a63dd6bec0d988c3292af2c971e',1,'Employee::phone_']]],
+  ['phone_5fedit_18',['phone_edit',['../class_ui___employee_dialog_class.html#ae547597de100c6741b2c67f06698db44',1,'Ui_EmployeeDialogClass']]],
+  ['phone_5flabel_19',['phone_label',['../class_ui___employee_dialog_class.html#aeeb57e57429cbdd8ec94144b725507d6',1,'Ui_EmployeeDialogClass']]]
 ];

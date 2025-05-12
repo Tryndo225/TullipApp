@@ -1,0 +1,15 @@
+<map id="PersonLabel::PersonLabel" name="PersonLabel::PersonLabel">
+<area shape="rect" id="Node000001" title="Constructs a PersonLabel for a given person and sets up the UI." alt="" coords="5,52,179,79"/>
+<area shape="rect" id="Node000002" href="$class_clickable_label.html#aba68cb811a595c6d90f5c994f2b31f4b" title="Signal emitted when the label is clicked." alt="" coords="227,23,382,49"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,51,211,46,212,51,180,56"/>
+<area shape="rect" id="Node000003" href="$class_person_label.html#a84dedd1b0abbbfdf9771882b02bbd9df" title="Handles the click event on the label." alt="" coords="230,73,379,116"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,75,215,80,214,85,179,80"/>
+<area shape="rect" id="Node000004" href="$class_person_label.html#aa2a831964f915778bba70329d5e8c7c9" title="Signal emitted when the person label is clicked." alt="" coords="444,5,617,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="354,70,429,41,454,34,455,39,431,47,356,75"/>
+<area shape="rect" id="Node000005" href="$class_person_label.html#abb99c6dfcfd08b352e11819ee48b27e7" title="Signal emitted when the employee label is clicked." alt="" coords="430,56,631,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="379,84,414,80,415,85,380,89"/>
+<area shape="rect" id="Node000006" href="$class_person_label.html#ade5af9adb820b8794d4d57edcc533fb4" title="Signal emitted when the parent label is clicked." alt="" coords="440,107,621,133"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="380,100,425,105,424,111,379,106"/>
+<area shape="rect" id="Node000007" href="$class_person_label.html#a7752e631bfbb1ed5f6d82259da3f057e" title="Signal emitted when the person label is clicked." alt="" coords="438,157,623,184"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="356,114,431,143,455,150,454,155,429,148,354,119"/>
+</map>

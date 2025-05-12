@@ -104,7 +104,7 @@ public:
 	 * @brief Destructor.
 	 * @details Cleans up resources used by the Person object.
 	 */
-	~Person() = default;
+	virtual ~Person() = default;
 
 	/**
 	 * @brief Outputs the Person object to a stream.

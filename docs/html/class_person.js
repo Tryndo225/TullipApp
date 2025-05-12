@@ -5,7 +5,7 @@ var class_person =
     [ "Person", "class_person.html#a6a2727fd6c4794225f43eb1fff0a7f49", null ],
     [ "Person", "class_person.html#a7383e9d5f5312f277282ebffda891c9a", null ],
     [ "Person", "class_person.html#ac1b1972ecae98641cc6ac35c1dd319ac", null ],
-    [ "~Person", "class_person.html#a7ce7b950524af9719b30a6e33c48576e", null ],
+    [ "~Person", "class_person.html#a22234d7de3132c581406f040196eef44", null ],
     [ "get_name", "class_person.html#a6b1fec00d8d1f5af1a2977dc3f5f9eb8", null ],
     [ "get_surname", "class_person.html#a7b3c8db44a49c4ba8c4838e19a235613", null ],
     [ "operator!=", "class_person.html#acf2ed09eb4f7ad5d87a23699ca593a41", null ],

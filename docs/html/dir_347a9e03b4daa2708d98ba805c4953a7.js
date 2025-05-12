@@ -1,14 +1,10 @@
 var dir_347a9e03b4daa2708d98ba805c4953a7 =
 [
     [ "x64", "dir_a16f121f07aef5742566f81bde73cca0.html", "dir_a16f121f07aef5742566f81bde73cca0" ],
-    [ "ChildCheckBox.cpp", "_child_check_box_8cpp.html", null ],
-    [ "ChildCheckBox.h", "_child_check_box_8h.html", "_child_check_box_8h" ],
     [ "ChildDialog.cpp", "_child_dialog_8cpp.html", null ],
     [ "ChildDialog.h", "_child_dialog_8h.html", "_child_dialog_8h" ],
     [ "ChildEntry.cpp", "_child_entry_8cpp.html", null ],
     [ "ChildEntry.h", "_child_entry_8h.html", "_child_entry_8h" ],
-    [ "ChildLabel.cpp", "_child_label_8cpp.html", null ],
-    [ "ChildLabel.h", "_child_label_8h.html", "_child_label_8h" ],
     [ "clickablelabel.h", "clickablelabel_8h.html", "clickablelabel_8h" ],
     [ "Data_Helper_Types.cpp", "_data___helper___types_8cpp.html", "_data___helper___types_8cpp" ],
     [ "Data_Helper_Types.h", "_data___helper___types_8h.html", "_data___helper___types_8h" ],
@@ -30,13 +26,21 @@ var dir_347a9e03b4daa2708d98ba805c4953a7 =
     [ "Helper_Functions.h", "_helper___functions_8h.html", "_helper___functions_8h" ],
     [ "Lesson.cpp", "_lesson_8cpp.html", "_lesson_8cpp" ],
     [ "Lesson.h", "_lesson_8h.html", "_lesson_8h" ],
+    [ "LessonDialog.cpp", "_lesson_dialog_8cpp.html", null ],
+    [ "LessonDialog.h", "_lesson_dialog_8h.html", "_lesson_dialog_8h" ],
     [ "LessonEntry.cpp", "_lesson_entry_8cpp.html", null ],
     [ "LessonEntry.h", "_lesson_entry_8h.html", "_lesson_entry_8h" ],
+    [ "LessonView.cpp", "_lesson_view_8cpp.html", null ],
+    [ "LessonView.h", "_lesson_view_8h.html", "_lesson_view_8h" ],
     [ "Main.cpp", "_main_8cpp.html", "_main_8cpp" ],
     [ "ParentDialog.cpp", "_parent_dialog_8cpp.html", null ],
     [ "ParentDialog.h", "_parent_dialog_8h.html", "_parent_dialog_8h" ],
     [ "ParentEntry.cpp", "_parent_entry_8cpp.html", null ],
     [ "ParentEntry.h", "_parent_entry_8h.html", "_parent_entry_8h" ],
     [ "Person.cpp", "_person_8cpp.html", "_person_8cpp" ],
-    [ "Person.h", "_person_8h.html", "_person_8h" ]
+    [ "Person.h", "_person_8h.html", "_person_8h" ],
+    [ "PersonCheckBox.cpp", "_person_check_box_8cpp.html", null ],
+    [ "PersonCheckBox.h", "_person_check_box_8h.html", "_person_check_box_8h" ],
+    [ "PersonLabel.cpp", "_person_label_8cpp.html", null ],
+    [ "PersonLabel.h", "_person_label_8h.html", "_person_label_8h" ]
 ];

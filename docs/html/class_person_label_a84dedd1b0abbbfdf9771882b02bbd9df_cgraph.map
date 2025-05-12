@@ -1,0 +1,11 @@
+<map id="PersonLabel::on_label_clicked" name="PersonLabel::on_label_clicked">
+<area shape="rect" id="Node000001" title="Handles the click event on the label." alt="" coords="5,73,155,116"/>
+<area shape="rect" id="Node000002" href="$class_person_label.html#aa2a831964f915778bba70329d5e8c7c9" title="Signal emitted when the person label is clicked." alt="" coords="217,5,390,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,70,202,41,226,34,228,39,204,47,130,75"/>
+<area shape="rect" id="Node000003" href="$class_person_label.html#abb99c6dfcfd08b352e11819ee48b27e7" title="Signal emitted when the employee label is clicked." alt="" coords="203,56,404,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="155,84,187,80,187,85,155,89"/>
+<area shape="rect" id="Node000004" href="$class_person_label.html#ade5af9adb820b8794d4d57edcc533fb4" title="Signal emitted when the parent label is clicked." alt="" coords="213,107,394,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="155,100,198,105,197,111,155,106"/>
+<area shape="rect" id="Node000005" href="$class_person_label.html#a7752e631bfbb1ed5f6d82259da3f057e" title="Signal emitted when the person label is clicked." alt="" coords="211,157,396,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="130,114,204,143,228,150,226,155,202,148,128,119"/>
+</map>

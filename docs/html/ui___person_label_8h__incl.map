@@ -1,0 +1,19 @@
+<map id="TullipApp/x64/Debug/qt/uic/ui_PersonLabel.h" name="TullipApp/x64/Debug/qt/uic/ui_PersonLabel.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="333,5,494,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,123,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="333,49,134,95,133,89,332,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="147,96,309,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="367,51,272,92,270,87,365,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="333,96,494,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="416,49,416,80,411,80,411,49"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="518,96,656,123"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="459,46,547,87,545,92,457,51"/>
+<area shape="rect" id="Node000006" href="$clickablelabel_8h.html" title="ClickableLabel class definition." alt="" coords="680,96,790,123"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="495,46,671,89,669,94,494,51"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="612,171,674,197"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="720,125,672,163,669,159,717,121"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="698,171,771,197"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="737,123,737,155,732,155,732,123"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="794,171,899,197"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="756,121,816,160,813,164,753,125"/>
+</map>

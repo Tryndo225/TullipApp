@@ -168,7 +168,16 @@ User Interface Overview</h1>
 <li><b>Add</b>: Opens a dialog to enter a new record.</li>
 <li><b>Edit</b>: Modify the selected record.</li>
 <li><b>Remove</b>: Remove the selected record.</li>
+<li><b>View</b>: View the selected lesson record.</li>
 <li><b>Search Box</b>: Filter rows by typing part of a name or surname.</li>
+<li><b>Sorting ComboBox</b>: Select sorting method for the table.</li>
+<li><b>Clickable Labels</b>: Click on a childer labels (when viewing parents) or parent labels (when viewing children) to be taken to the corresponding entry.</li>
+</ul>
+</li>
+<li><b><a class="el" href="class_lesson.html" title="Represents a lesson.">Lesson</a> View Controls</b>:<ul>
+<li><b>Edit</b>: Opens a dialog to edit the selected lesson.</li>
+<li><b>Attendance</b>: Opens a dialog to mark attendance for the selected lesson.</li>
+<li><b>Clickable Labels</b>: Click on a child label or employee label to be taken to the corresponding entry.</li>
 </ul>
 </li>
 </ul>
@@ -195,26 +204,26 @@ How to Operate</h1>
 </li>
 <li><b>Editing Records</b>:<ul>
 <li>Select a row and click <b>Edit</b>.</li>
-<li>Modify data in the dialog and click <b>Save</b>.</li>
+<li>Modify data in the dialog and click <b>OK</b>.</li>
 </ul>
 </li>
 <li><b>Deleting Records</b>:<ul>
 <li>Select one or more rows.</li>
-<li>Click <b>Delete</b> and confirm in the pop-up.</li>
+<li>Click <b>Remove</b> on the correspoding record.</li>
 </ul>
 </li>
 <li><b>Sorting</b>:<ul>
-<li>Click any column header to toggle ascending/descending sort.</li>
+<li>Select option from the ComboBox.</li>
 </ul>
 </li>
 <li><b>Searching</b>:<ul>
-<li>Enter text in the search box above the table to dynamically filter rows matching name or surname.</li>
+<li>Enter text in the search box bellow the table to dynamically filter records with matching/similar name or surname.</li>
 </ul>
 </li>
 <li><b>Importing/Exporting</b>:<ul>
 <li>Use <code>File → Save as...</code> to save the current database to CSV.</li>
 <li>Use <code>File → Import...</code> to select a CSV file matching the data schema.</li>
-<li>Use <code>File → Export...</code> to save all current records to CSV.</li>
+<li>Use <code>File → Export...</code> to export the current database to CSV.</li>
 </ul>
 </li>
 <li><b>Quick-Save</b>:<ul>
@@ -263,8 +272,7 @@ Build Steps</h2>
 <div class="line">cd repo</div>
 <div class="line">mkdir build &amp;&amp; cd build</div>
 <div class="line">cmake ..</div>
-<div class="line">make</div>
-<div class="line">./TullipApp</div>
+<div class="line">cmake --build .</div>
 </div><!-- fragment --> </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->

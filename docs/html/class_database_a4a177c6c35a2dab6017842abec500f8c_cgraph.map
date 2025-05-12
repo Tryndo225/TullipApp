@@ -1,0 +1,7 @@
+<map id="Database::update_lesson_start" name="Database::update_lesson_start">
+<area shape="rect" id="Node000001" title="Removes a lesson&#39;s information from the maps." alt="" coords="5,23,175,65"/>
+<area shape="rect" id="Node000002" href="$class_lesson.html#a25d5ac20ba2894748d604e75a00d756a" title="Gets the schedule of the lesson." alt="" coords="245,5,394,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,32,230,26,230,31,175,37"/>
+<area shape="rect" id="Node000003" href="$class_database.html#a764574ac9e94b5ab7eb8d106b9113bec" title="Removes an entry from a multimap." alt="" coords="223,56,416,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,51,207,54,207,60,175,56"/>
+</map>

@@ -1,5 +1,5 @@
 <map id="ParentDialog" name="ParentDialog">
-<area shape="rect" id="Node000001" title="Dialog for managing parent&#45;related information." alt="" coords="5,123,138,299"/>
+<area shape="rect" id="Node000001" title="Dialog for managing parent&#45;related information." alt="" coords="5,123,138,363"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="43,5,101,75"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,90,74,123,69,123,69,90"/>
 </map>

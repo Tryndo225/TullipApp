@@ -1,0 +1,7 @@
+<map id="LessonView::populate_employees" name="LessonView::populate_employees">
+<area shape="rect" id="Node000001" title="Populates the employees section of the lesson view." alt="" coords="5,23,155,65"/>
+<area shape="rect" id="Node000002" href="$class_lesson_view.html#a4275d407e328010c92ad6aa2e058274f" title="Signal emitted when an employee is clicked." alt="" coords="203,5,404,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,33,187,29,188,34,155,38"/>
+<area shape="rect" id="Node000003" href="$class_person_label.html#abb99c6dfcfd08b352e11819ee48b27e7" title="Signal emitted when the employee label is clicked." alt="" coords="203,56,404,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="155,50,187,53,187,59,155,55"/>
+</map>

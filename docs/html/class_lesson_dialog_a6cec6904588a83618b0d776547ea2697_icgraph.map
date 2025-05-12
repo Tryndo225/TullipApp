@@ -1,0 +1,5 @@
+<map id="LessonDialog::employees_search" name="LessonDialog::employees_search">
+<area shape="rect" id="Node000001" title="Searches for employees based on the input in the name and surname fields." alt="" coords="241,5,412,48"/>
+<area shape="rect" id="Node000002" href="$class_lesson_dialog.html#a4ddf55a3925f45bd1cd3ecef02c261d5" title="Constructs a LessonDialog object." alt="" coords="5,13,193,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,29,193,29,193,24,225,24"/>
+</map>

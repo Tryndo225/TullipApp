@@ -41,7 +41,14 @@
  *   - **Add**: Opens a dialog to enter a new record.
  *   - **Edit**: Modify the selected record.
  *   - **Remove**: Remove the selected record.
+ *	 - **View**: View the selected lesson record.
  *   - **Search Box**: Filter rows by typing part of a name or surname.
+ *   - **Sorting ComboBox**: Select sorting method for the table.
+ *	 - **Clickable Labels**: Click on a childer labels (when viewing parents) or parent labels (when viewing children) to be taken to the corresponding entry.
+ * - **Lesson View Controls**:
+ *	 - **Edit**: Opens a dialog to edit the selected lesson.
+ *	 - **Attendance**: Opens a dialog to mark attendance for the selected lesson.
+ *	 - **Clickable Labels**: Click on a child label or employee label to be taken to the corresponding entry.
  *
  * @section dialogs_sec Data Entry Dialogs
  * Each module (Child, Parent, Employee) has a corresponding dialog for
@@ -60,19 +67,19 @@
  *    - Click **Add**, fill in fields, and press **OK**.
  * 3. **Editing Records**:
  *    - Select a row and click **Edit**.
- *    - Modify data in the dialog and click **Save**.
+ *    - Modify data in the dialog and click **OK**.
  * 4. **Deleting Records**:
  *    - Select one or more rows.
- *    - Click **Delete** and confirm in the pop-up.
+ *    - Click **Remove** on the correspoding record.
  * 5. **Sorting**:
- *    - Click any column header to toggle ascending/descending sort.
+ *    - Select option from the ComboBox.
  * 6. **Searching**:
- *    - Enter text in the search box above the table to dynamically filter
- *      rows matching name or surname.
+ *    - Enter text in the search box bellow the table to dynamically filter
+ *      records with matching/similar name or surname.
  * 7. **Importing/Exporting**:
  *    - Use `File → Save as...` to save the current database to CSV.
  *    - Use `File → Import...` to select a CSV file matching the data schema.
- *    - Use `File → Export...` to save all current records to CSV.
+ *    - Use `File → Export...` to export the current database to CSV.
  * 8. **Quick-Save**:
  *    - On exit, unsaved modifications are automatically written to
  *      `*path*_quick_save.csv`. You may re-import this file on next launch.
@@ -130,8 +137,7 @@
  * cd repo
  * mkdir build && cd build
  * cmake ..
- * make
- * ./TullipApp
+ * cmake --build .
  * @endcode
  */
 
@@ -139,10 +145,8 @@ int main(int argc, char* argv[])
 {
 	QApplication app(argc, argv);
 
-	// 1) Tell Qt to use the Fusion style
 	app.setStyle(QStyleFactory::create("Fusion"));
 
-	// 2) Build a dark palette
 	QPalette dark;
 	dark.setColor(QPalette::Window, QColor(53, 53, 53));
 	dark.setColor(QPalette::WindowText, Qt::white);
@@ -160,7 +164,9 @@ int main(int argc, char* argv[])
 
 	app.setPalette(dark);
 
-	// (Optional) if you want tooltip backgrounds to match:
+	QFont font("Roboto");
+	app.setFont(font);
+
 	app.setStyleSheet("QToolTip { background-color: #353535; color: white; border: none; }");
 
 	Database database;

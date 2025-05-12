@@ -1,5 +1,8 @@
 <map id="ParentDialog::populate_children" name="ParentDialog::populate_children">
-<area shape="rect" id="Node000001" title="Populates the dialog with child checkboxes." alt="" coords="233,5,386,48"/>
-<area shape="rect" id="Node000002" href="$class_parent_dialog.html#a2479d341c86307fbb81dba6af772e976" title="Constructs a ParentDialog object." alt="" coords="5,13,185,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,29,185,29,185,24,217,24"/>
+<area shape="rect" id="Node000001" title="Populates the dialog with child checkboxes." alt="" coords="430,35,583,77"/>
+<area shape="rect" id="Node000002" href="$class_parent_dialog.html#a35f4bfbef301aee353217e5a0d1224fb" title="Searches for children based on the input in the name and surname fields." alt="" coords="233,5,382,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="415,45,382,40,383,35,415,40"/>
+<area shape="rect" id="Node000003" href="$class_parent_dialog.html#a2479d341c86307fbb81dba6af772e976" title="Constructs a ParentDialog object." alt="" coords="5,43,185,69"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="414,62,382,63,233,63,185,62,185,56,233,57,382,57,414,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="218,42,185,46,185,41,217,36"/>
 </map>

@@ -5,5 +5,6 @@ var searchData=
   ['databaseguiclass_2',['DataBaseGUIClass',['../class_ui_1_1_data_base_g_u_i_class.html',1,'Ui']]],
   ['date_3',['Date',['../class_date.html',1,'']]],
   ['datetime_4',['DateTime',['../class_date_time.html',1,'']]],
-  ['datetimeerror_5',['DateTimeError',['../class_date_time_error.html',1,'']]]
+  ['datetimeerror_5',['DateTimeError',['../class_date_time_error.html',1,'']]],
+  ['dialog_6',['Dialog',['../class_ui_1_1_dialog.html',1,'Ui']]]
 ];

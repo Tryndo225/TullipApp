@@ -83,13 +83,7 @@
     <ClCompile Include="ParentEntry.cpp">
       <Filter>Source Files\UI</Filter>
     </ClCompile>
-    <ClCompile Include="ChildLabel.cpp">
-      <Filter>Source Files\UI</Filter>
-    </ClCompile>
     <ClCompile Include="ParentDialog.cpp">
-      <Filter>Source Files\UI</Filter>
-    </ClCompile>
-    <ClCompile Include="ChildCheckBox.cpp">
       <Filter>Source Files\UI</Filter>
     </ClCompile>
     <ClCompile Include="DataBase_Parser_Functions.cpp">
@@ -104,6 +98,18 @@
     <ClCompile Include="EmployeeDialog.cpp">
       <Filter>Source Files\UI</Filter>
     </ClCompile>
+    <ClCompile Include="LessonDialog.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="LessonView.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonLabel.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonCheckBox.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="ChildEntry.h">
@@ -113,12 +119,6 @@
       <Filter>Header Files\UI</Filter>
     </QtMoc>
     <QtMoc Include="ChildDialog.h">
-      <Filter>Header Files\UI</Filter>
-    </QtMoc>
-    <QtMoc Include="ChildLabel.h">
-      <Filter>Header Files\UI</Filter>
-    </QtMoc>
-    <QtMoc Include="ChildCheckBox.h">
       <Filter>Header Files\UI</Filter>
     </QtMoc>
     <QtMoc Include="EmployeeDialog.h">
@@ -139,6 +139,18 @@
     <QtMoc Include="clickablelabel.h">
       <Filter>Resource Files</Filter>
     </QtMoc>
+    <QtMoc Include="LessonDialog.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="LessonView.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="PersonLabel.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="PersonCheckBox.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="DataBaseGUI.ui">
@@ -153,13 +165,10 @@
     <QtUic Include="ParentEntry.ui">
       <Filter>Resource Files</Filter>
     </QtUic>
-    <QtUic Include="ChildLabel.ui">
-      <Filter>Resource Files</Filter>
-    </QtUic>
     <QtUic Include="ParentDialog.ui">
       <Filter>Resource Files</Filter>
     </QtUic>
-    <QtUic Include="ChildCheckBox.ui">
+    <QtUic Include="PersonCheckBox.ui">
       <Filter>Resource Files</Filter>
     </QtUic>
     <QtUic Include="EmployeeEntry.ui">
@@ -169,6 +178,15 @@
       <Filter>Resource Files</Filter>
     </QtUic>
     <QtUic Include="LessonEntry.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
+    <QtUic Include="LessonView.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
+    <QtUic Include="LessonDialog.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
+    <QtUic Include="PersonLabel.ui">
       <Filter>Resource Files</Filter>
     </QtUic>
   </ItemGroup>

@@ -1,0 +1,9 @@
+<map id="LessonDialog::populate_employees" name="LessonDialog::populate_employees">
+<area shape="rect" id="Node000001" title="Populates the dialog with employees." alt="" coords="5,39,163,81"/>
+<area shape="rect" id="Node000002" href="$class_lesson_dialog.html#a3b170e2ee723cc875e1601fec67be0fc" title="Clears the employees checkboxes from the dialog." alt="" coords="220,5,356,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,44,204,38,205,43,164,50"/>
+<area shape="rect" id="Node000003" href="$class_lesson_dialog.html#a03b443caff10683095b4d9138e004d1e" title="Creates a checkbox for an employee." alt="" coords="211,72,365,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,70,196,76,195,81,163,76"/>
+<area shape="rect" id="Node000004" href="$_helper___functions_8h.html#abbf2bcc86eb4c36312bcad1565f4663e" title="Checks if a vector contains a specific value." alt="" coords="413,80,483,107"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="365,91,397,91,397,96,365,96"/>
+</map>

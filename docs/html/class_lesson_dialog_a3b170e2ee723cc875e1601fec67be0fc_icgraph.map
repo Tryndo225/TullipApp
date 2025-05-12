@@ -1,0 +1,14 @@
+<map id="LessonDialog::clear_employees" name="LessonDialog::clear_employees">
+<area shape="rect" id="Node000001" title="Clears the employees checkboxes from the dialog." alt="" coords="703,101,840,144"/>
+<area shape="rect" id="Node000002" href="$class_lesson_dialog.html#a2883fd6f7079ecb26550deb519302db0" title="Populates the dialog with employees." alt="" coords="479,35,636,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="688,99,628,81,629,75,689,94"/>
+<area shape="rect" id="Node000005" href="$class_lesson_dialog.html#ae4ff794125c43c773c2f6eea7167242a" title="Populates the dialog with employees." alt="" coords="479,101,636,144"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="688,125,637,125,637,120,688,120"/>
+<area shape="rect" id="Node000006" href="$class_lesson_dialog.html#a4fac3b4d4a93af8f507dfba89b8cd6fc" title="Destructor for LessonDialog." alt="" coords="460,168,655,195"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="689,149,656,159,614,170,612,165,655,153,688,144"/>
+<area shape="rect" id="Node000003" href="$class_lesson_dialog.html#a6cec6904588a83618b0d776547ea2697" title="Searches for employees based on the input in the name and surname fields." alt="" coords="241,5,412,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="464,47,412,40,413,35,464,42"/>
+<area shape="rect" id="Node000004" href="$class_lesson_dialog.html#a4ddf55a3925f45bd1cd3ecef02c261d5" title="Constructs a LessonDialog object." alt="" coords="5,43,193,69"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="464,62,412,63,241,63,193,62,193,56,241,57,412,57,464,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="226,42,194,47,193,41,225,37"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="LessonDialog::accept" name="LessonDialog::accept">
+<area shape="rect" id="Node000001" title="Accepts the dialog and updates the lesson information." alt="" coords="5,47,153,73"/>
+<area shape="rect" id="Node000002" href="$class_lesson_dialog.html#a75d8601e6e4ee2e1e69eb9e59b1d9211" title="Updates the lesson with selected children." alt="" coords="201,5,345,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,45,185,39,186,44,154,50"/>
+<area shape="rect" id="Node000004" href="$class_lesson_dialog.html#a0a5f83405dfdf8a35b25425535ac7887" title="Updates the lesson with selected employees." alt="" coords="201,72,345,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="154,70,186,76,185,81,153,75"/>
+<area shape="rect" id="Node000003" href="$_helper___functions_8h.html#abbf2bcc86eb4c36312bcad1565f4663e" title="Checks if a vector contains a specific value." alt="" coords="393,47,463,73"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="346,40,378,47,377,52,345,45"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="345,75,377,68,378,73,346,80"/>
+</map>

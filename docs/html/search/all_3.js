@@ -9,7 +9,7 @@ var searchData=
   ['database_6',['Database',['../class_database.html',1,'Database'],['../class_database.html#aa57fbada3001c2db58a0ca6c7071bd18',1,'Database::Database()=default'],['../class_database.html#a55df939a24e72e012c0162527e7325a8',1,'Database::Database(const Database &amp;db)=default'],['../class_database.html#a697b6ef7788dacb2797d15d960fc83ec',1,'Database::Database(Database &amp;&amp;db) noexcept=default']]],
   ['database_2ecpp_7',['DataBase.cpp',['../_data_base_8cpp.html',1,'']]],
   ['database_2eh_8',['DataBase.h',['../_data_base_8h.html',1,'']]],
-  ['database_5f_9',['database_',['../class_child_dialog.html#ac5a4069273ed06002deca6bafbc7d926',1,'ChildDialog::database_'],['../class_data_base_g_u_i.html#a08ace7dcb8325691e05b2c2ca13188ad',1,'DataBaseGUI::database_'],['../class_parent_dialog.html#a3acffc23397a30a96ddd58aa72f531e5',1,'ParentDialog::database_']]],
+  ['database_5f_9',['database_',['../class_child_dialog.html#ac5a4069273ed06002deca6bafbc7d926',1,'ChildDialog::database_'],['../class_data_base_g_u_i.html#a08ace7dcb8325691e05b2c2ca13188ad',1,'DataBaseGUI::database_'],['../class_lesson_dialog.html#abfaf7f53a3d6f967316617d34e9e5a5b',1,'LessonDialog::database_'],['../class_lesson_view.html#a9ad5df755ae295fbf5fe79e69d1deb18',1,'LessonView::database_'],['../class_parent_dialog.html#a3acffc23397a30a96ddd58aa72f531e5',1,'ParentDialog::database_']]],
   ['database_5fparent_5f_10',['database_parent_',['../class_parent_dialog.html#a7dda1d744c2f06c66ae23b80479aa495',1,'ParentDialog::database_parent_'],['../class_parent_entry.html#ad6eef103ad16bd4e961f8a5929bf3800',1,'ParentEntry::database_parent_']]],
   ['database_5fparser_5ffunctions_2ecpp_11',['DataBase_Parser_Functions.cpp',['../_data_base___parser___functions_8cpp.html',1,'']]],
   ['database_5fparser_5ffunctions_2eh_12',['DataBase_Parser_Functions.h',['../_data_base___parser___functions_8h.html',1,'']]],
@@ -28,8 +28,11 @@ var searchData=
   ['datetimeerror_25',['DateTimeError',['../class_date_time_error.html',1,'DateTimeError'],['../class_date_time_error.html#abc1347f344dad6822caad8e065f4f606',1,'DateTimeError::DateTimeError(const char *message)'],['../class_date_time_error.html#a43c8b4eb558362264e2967eef31de52d',1,'DateTimeError::DateTimeError(const DateTimeError &amp;error)=default'],['../class_date_time_error.html#aa3bf66fa072c7b506351c658b389b879',1,'DateTimeError::DateTimeError(DateTimeError &amp;&amp;error)=default']]],
   ['day_26',['day',['../class_ui___lesson_entry_class.html#ae62824e4625bf40081b857cc7c2d4a86',1,'Ui_LessonEntryClass']]],
   ['day_5f_27',['day_',['../class_schedule.html#a1099e2b15e03b50e18419e8ae97b0dde',1,'Schedule']]],
-  ['day_5frange_28',['DAY_RANGE',['../_date_time___exceptions_8h.html#a15251040687c3be3dcaf62b965539459',1,'DateTime_Exceptions.h']]],
-  ['december_29',['December',['../_date_time_8h.html#a18ea97ce6c7a0ad2f40c4bd1ac7b26d2a82331503174acbae012b2004f6431fa5',1,'DateTime.h']]],
-  ['dialogs_30',['Data Entry Dialogs',['../index.html#dialogs_sec',1,'']]],
-  ['documentation_31',['Tullip App Documentation',['../index.html',1,'']]]
+  ['day_5flabel_28',['day_label',['../class_ui___lesson_view_class.html#a6576d8c1507741a118a8e45ad1f1a992',1,'Ui_LessonViewClass']]],
+  ['day_5frange_29',['DAY_RANGE',['../_date_time___exceptions_8h.html#a15251040687c3be3dcaf62b965539459',1,'DateTime_Exceptions.h']]],
+  ['december_30',['December',['../_date_time_8h.html#a18ea97ce6c7a0ad2f40c4bd1ac7b26d2a82331503174acbae012b2004f6431fa5',1,'DateTime.h']]],
+  ['decline_5fbutton_31',['decline_button',['../class_ui___lesson_dialog_class.html#a785efcc6397a5cafb46742b057cf6fc8',1,'Ui_LessonDialogClass']]],
+  ['dialog_32',['Dialog',['../class_ui_1_1_dialog.html',1,'Ui']]],
+  ['dialogs_33',['Data Entry Dialogs',['../index.html#dialogs_sec',1,'']]],
+  ['documentation_34',['Tullip App Documentation',['../index.html',1,'']]]
 ];

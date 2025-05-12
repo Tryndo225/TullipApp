@@ -16,7 +16,7 @@ var class_lesson =
     [ "get_day", "class_lesson.html#aeb91df86c4ab4dd9943e8c0df342c94c", null ],
     [ "get_employees", "class_lesson.html#ab07e3425744b17b0e4ee2e0d81c727b4", null ],
     [ "get_schedule", "class_lesson.html#a25d5ac20ba2894748d604e75a00d756a", null ],
-    [ "get_time", "class_lesson.html#acdca7dd0eb5fed531561dd08fafd213b", null ],
+    [ "get_time", "class_lesson.html#a9d960f8dc1d2d66b1c6ab0fa3dd83a54", null ],
     [ "operator=", "class_lesson.html#ac36dbe3d93b42d65fff776b55648ab52", null ],
     [ "operator=", "class_lesson.html#a3c3524fc3e6644d045d3331705dded56", null ],
     [ "operator==", "class_lesson.html#abd458f81176f31c6848e067c213a2b38", null ],

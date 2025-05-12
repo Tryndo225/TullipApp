@@ -25,8 +25,8 @@ void ParentEntry::setup_parent()
 
 	for (auto& child : database_parent_->get_children())
 	{
-		auto* child_label = new ChildLabel(ui.children_contents, child);
-		connect(child_label, &ChildLabel::childClicked, this, [this](Child* child_ptr) { emit childSearchRequested(child_ptr); });
+		auto* child_label = new PersonLabel(ui.children_contents, child);
+		connect(child_label, &PersonLabel::childClicked, this, [this](Child* child_ptr) { emit childSearchRequested(child_ptr); });
 		ui.children_contents->layout()->addWidget(child_label);
 	}
 }

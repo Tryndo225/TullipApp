@@ -18,6 +18,8 @@
 #include "ChildDialog.h"
 #include "ParentDialog.h"
 #include "EmployeeDialog.h"
+#include "LessonDialog.h"
+#include "LessonView.h"
 
  /**
   * @class DataBaseGUI
@@ -31,7 +33,6 @@ class DataBaseGUI : public QMainWindow
 	Q_OBJECT
 
 public:
-
 	/**
 	 * @brief Default constructor.
 	 * @details This constructor initializes the GUI without a database.
@@ -44,142 +45,6 @@ public:
 	 * @param parent The parent widget. Defaults to `nullptr`.
 	 */
 	DataBaseGUI(Database&& database, QWidget* parent = nullptr);
-
-	/**
-	 * @brief Adds a new child to the database.
-	 * @details This function opens a dialog for adding a new child and updates the GUI upon completion.
-	 * @param child A pointer to the `Child` object to add.
-	 */
-	void child_add();
-
-	/**
-	 * @brief Adds a new parent to the database.
-	 * @details This function opens a dialog for adding a new parent and updates the GUI upon completion.
-	 * @param child A pointer to the `Parent` object to add.
-	 */
-	void parent_add();
-
-	/**
-	 * @brief Adds a new employee to the database.
-	 * @details This function opens a dialog for adding a new employee and updates the GUI upon completion.
-	 * @param child A pointer to the `Employee` object to add.
-	 */
-	void employee_add();
-
-	/**
-	 * @brief Edits an existing child in the database.
-	 * @details This function opens a dialog for editing an existing child and updates the GUI upon completion.
-	 * @param child A pointer to the `Child` object to edit.
-	 */
-	void child_edit(Child* child);
-
-	/**
-	 * @brief Edits an existing parent in the database.
-	 * @details This function opens a dialog for editing an existing parent and updates the GUI upon completion.
-	 * @param child A pointer to the `Parent` object to edit.
-	 */
-	void parent_edit(Parent* child);
-
-	/**
-	 * @brief Edits an existing employee in the database.
-	 * @details This function opens a dialog for editing an existing employee and updates the GUI upon completion.
-	 * @param child A pointer to the `Employee` object to edit.
-	 */
-	void employee_edit(Employee* child);
-
-	/**
-	 * @brief Removes a child from the database.
-	 * @details This function removes a child from the database and updates the GUI accordingly.
-	 * @param child A pointer to the `Child` object to remove.
-	 */
-	void child_remove(Child* child);
-
-	/**
-	 * @brief Removes a parent from the database.
-	 * @details This function removes a parent from the database and updates the GUI accordingly.
-	 * @param child A pointer to the `Parent` object to remove.
-	 */
-	void parent_remove(Parent* child);
-
-	/**
-	 * @brief Removes an employee from the database.
-	 * @details This function removes an employee from the database and updates the GUI accordingly.
-	 * @param child A pointer to the `Employee` object to remove.
-	 */
-	void employee_remove(Employee* child);
-
-	/**
-	 * @brief Removes a lesson from the database.
-	 * @details This function removes a lesson from the database and updates the GUI accordingly.
-	 * @param lesson A pointer to the `Lesson` object to remove.
-	 */
-	void lesson_remove(Lesson* lesson);
-
-	/**
-	 * @brief Changes the sorting method for children.
-	 * @param sort_index The index of the selected sorting method.
-	 */
-	void child_sort_change(int sort_index);
-
-	/**
-	 * @brief Changes the sorting method for parents.
-	 * @param sort_index The index of the selected sorting method.
-	 */
-	void parent_sort_change(int sort_index);
-
-	/**
-	 * @brief Changes the sorting method for employees.
-	 * @param sort_index The index of the selected sorting method.
-	 */
-	void employee_sort_change(int sort_index);
-
-	/**
-	 * @brief Changes the sorting method for lessons.
-	 * @param sort_index The index of the selected sorting method.
-	 */
-	void lesson_sort_change(int sort_index);
-
-	/**
-	 * @brief Searches for children based on the provided name and surname.
-	 * @details This function filters the list of children based on the provided name and surname.
-	 */
-	void child_search();
-
-	/**
-	 * @brief Searches for parents based on the provided name and surname.
-	 * @details This function filters the list of parents based on the provided name and surname.
-	 */
-	void parent_search();
-
-	/**
-	 * @brief Searches for employees based on the provided name and surname.
-	 * @details This function filters the list of employees based on the provided name and surname.
-	 */
-	void employee_search();
-
-	/**
-	 * @brief Searches for lessons based on the provided child name and surname.
-	 * @details This function filters the list of lessons based on the provided child name and surname.
-	 */
-	void lesson_search();
-
-	/**
-	* @brief Searches for children based on the provided child pointer.
-	* @param child A pointer to the `Child` object to search for.
-	*/
-	void child_search_by_pointer(Child* child);
-
-	/**
-	 * @brief Searches for parents based on the provided parent pointer.
-	 * @param child A pointer to the `Parent` object to search for.
-	 */
-	void parent_search_by_pointer(Parent* child);
-
-	/**
-	 * @brief Searches for employees based on the provided employee pointer.
-	 * @param child A pointer to the `Employee` object to search for.
-	 */
-	void employee_search_by_pointer(Employee* child);
 
 	/**
 	 * @brief Destructor for `DataBaseGUI`.
@@ -330,6 +195,156 @@ private:
 	 * @details Removes all entries from the lessons tab in the GUI.
 	 */
 	void lesson_tab_clear();
+
+	/**
+	 * @brief Adds a new child to the database.
+	 * @details This function opens a dialog for adding a new child and updates the GUI upon completion.
+	 * @param child A pointer to the `Child` object to add.
+	 */
+	void child_add();
+
+	/**
+	 * @brief Adds a new parent to the database.
+	 * @details This function opens a dialog for adding a new parent and updates the GUI upon completion.
+	 * @param child A pointer to the `Parent` object to add.
+	 */
+	void parent_add();
+
+	/**
+	 * @brief Adds a new employee to the database.
+	 * @details This function opens a dialog for adding a new employee and updates the GUI upon completion.
+	 * @param child A pointer to the `Employee` object to add.
+	 */
+	void employee_add();
+
+	/**
+	 * @brief Adds a new lesson to the database.
+	 * @details This function opens a dialog for adding a new lesson and updates the GUI upon completion.
+	 * @param child A pointer to the `Lesson` object to add.
+	 */
+	void lesson_add();
+
+	/**
+	 * @brief Edits an existing child in the database.
+	 * @details This function opens a dialog for editing an existing child and updates the GUI upon completion.
+	 * @param child A pointer to the `Child` object to edit.
+	 */
+	void child_edit(Child* child);
+
+	/**
+	 * @brief Edits an existing parent in the database.
+	 * @details This function opens a dialog for editing an existing parent and updates the GUI upon completion.
+	 * @param child A pointer to the `Parent` object to edit.
+	 */
+	void parent_edit(Parent* child);
+
+	/**
+	 * @brief Edits an existing employee in the database.
+	 * @details This function opens a dialog for editing an existing employee and updates the GUI upon completion.
+	 * @param child A pointer to the `Employee` object to edit.
+	 */
+	void employee_edit(Employee* child);
+
+	/**
+	 * @brief Removes a child from the database.
+	 * @details This function removes a child from the database and updates the GUI accordingly.
+	 * @param child A pointer to the `Child` object to remove.
+	 */
+	void child_remove(Child* child);
+
+	/**
+	 * @brief Removes a parent from the database.
+	 * @details This function removes a parent from the database and updates the GUI accordingly.
+	 * @param child A pointer to the `Parent` object to remove.
+	 */
+	void parent_remove(Parent* child);
+
+	/**
+	 * @brief Removes an employee from the database.
+	 * @details This function removes an employee from the database and updates the GUI accordingly.
+	 * @param child A pointer to the `Employee` object to remove.
+	 */
+	void employee_remove(Employee* child);
+
+	/**
+	 * @brief Removes a lesson from the database.
+	 * @details This function removes a lesson from the database and updates the GUI accordingly.
+	 * @param lesson A pointer to the `Lesson` object to remove.
+	 */
+	void lesson_remove(Lesson* lesson);
+
+	/**
+	 * @brief Views a lesson in the GUI.
+	 * @details This function opens a dialog to view the details of a lesson.
+	 * @param lesson A pointer to the `Lesson` object to view.
+	 */
+	void lesson_view(Lesson* lesson);
+
+	/**
+	 * @brief Changes the sorting method for children.
+	 * @param sort_index The index of the selected sorting method.
+	 */
+	void child_sort_change(int sort_index);
+
+	/**
+	 * @brief Changes the sorting method for parents.
+	 * @param sort_index The index of the selected sorting method.
+	 */
+	void parent_sort_change(int sort_index);
+
+	/**
+	 * @brief Changes the sorting method for employees.
+	 * @param sort_index The index of the selected sorting method.
+	 */
+	void employee_sort_change(int sort_index);
+
+	/**
+	 * @brief Changes the sorting method for lessons.
+	 * @param sort_index The index of the selected sorting method.
+	 */
+	void lesson_sort_change(int sort_index);
+
+	/**
+	 * @brief Searches for children based on the provided name and surname.
+	 * @details This function filters the list of children based on the provided name and surname.
+	 */
+	void child_search();
+
+	/**
+	 * @brief Searches for parents based on the provided name and surname.
+	 * @details This function filters the list of parents based on the provided name and surname.
+	 */
+	void parent_search();
+
+	/**
+	 * @brief Searches for employees based on the provided name and surname.
+	 * @details This function filters the list of employees based on the provided name and surname.
+	 */
+	void employee_search();
+
+	/**
+	 * @brief Searches for lessons based on the provided child name and surname.
+	 * @details This function filters the list of lessons based on the provided child name and surname.
+	 */
+	void lesson_search();
+
+	/**
+	* @brief Searches for children based on the provided child pointer.
+	* @param child A pointer to the `Child` object to search for.
+	*/
+	void child_search_by_pointer(Child* child);
+
+	/**
+	 * @brief Searches for parents based on the provided parent pointer.
+	 * @param child A pointer to the `Parent` object to search for.
+	 */
+	void parent_search_by_pointer(Parent* child);
+
+	/**
+	 * @brief Searches for employees based on the provided employee pointer.
+	 * @param child A pointer to the `Employee` object to search for.
+	 */
+	void employee_search_by_pointer(Employee* child);
 };
 
 #endif // DATABASEGUI_H

@@ -1,0 +1,15 @@
+<map id="PersonLabel" name="PersonLabel">
+<area shape="rect" id="Node000001" title="Represents a label for displaying person name." alt="" coords="96,851,224,963"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,568,67,637"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="45,652,58,717,81,786,99,819,119,850,115,853,94,821,76,788,53,718,40,653"/>
+<area shape="rect" id="Node000003" href="$class_ui_1_1_person_label_class.html" title=" " alt="" coords="91,568,229,637"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,637,163,833,158,833,158,637"/>
+<area shape="rect" id="Node000004" href="$class_ui___person_label_class.html" title=" " alt="" coords="92,279,228,369"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="163,384,163,568,158,568,158,384"/>
+<area shape="rect" id="Node000005" href="$class_clickable_label.html" title="A QLabel subclass that emits a clicked signal when the label is clicked." alt="" coords="84,124,237,215"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="163,215,163,262,158,262,158,215"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="134,5,186,75"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="163,90,163,124,158,124,158,90"/>
+<area shape="rect" id="Node000007" href="$class_person.html" title="Represents a generic person." alt="" coords="253,419,360,787"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="256,763,244,788,214,838,209,835,239,785,251,760"/>
+</map>

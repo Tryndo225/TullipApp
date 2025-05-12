@@ -39,34 +39,34 @@
 <g id="a_Node000002"><a xlink:href="class_ui___parent_dialog_class.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="none" points="105.12,-316 0.38,-316 0.38,-88 105.12,-88 105.12,-316"/>
 <text text-anchor="start" x="4.38" y="-302.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ui_ParentDialogClass</text>
-<text text-anchor="start" x="10.31" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="26.25" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">gridLayout</text>
-<text text-anchor="start" x="10.31" y="-270.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="26.25" y="-270.5" font-family="Helvetica,sans-Serif" font-size="10.00">email_edit</text>
-<text text-anchor="start" x="10.31" y="-254.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="26.25" y="-254.5" font-family="Helvetica,sans-Serif" font-size="10.00">line</text>
-<text text-anchor="start" x="10.31" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="26.25" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">line_2</text>
-<text text-anchor="start" x="10.31" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="26.25" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">gender_label</text>
-<text text-anchor="start" x="10.31" y="-206.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="26.25" y="-206.5" font-family="Helvetica,sans-Serif" font-size="10.00">okButton</text>
-<text text-anchor="start" x="10.31" y="-190.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="26.25" y="-190.5" font-family="Helvetica,sans-Serif" font-size="10.00">children_label</text>
-<text text-anchor="start" x="10.31" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="26.25" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">name_edit</text>
-<text text-anchor="start" x="10.31" y="-158.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="26.25" y="-158.5" font-family="Helvetica,sans-Serif" font-size="10.00">cancelButton</text>
-<text text-anchor="start" x="10.31" y="-142.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="26.25" y="-142.5" font-family="Helvetica,sans-Serif" font-size="10.00">surname_label</text>
-<text text-anchor="start" x="26.25" y="-126.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 10 more...</text>
-<text text-anchor="start" x="10.31" y="-110.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="26.25" y="-110.5" font-family="Helvetica,sans-Serif" font-size="10.00">setupUi()</text>
-<text text-anchor="start" x="10.31" y="-94.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="26.25" y="-94.5" font-family="Helvetica,sans-Serif" font-size="10.00">retranslateUi()</text>
+<text text-anchor="start" x="6.94" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="19.5" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">gridLayout</text>
+<text text-anchor="start" x="6.94" y="-270.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="19.5" y="-270.5" font-family="Helvetica,sans-Serif" font-size="10.00">surname_label</text>
+<text text-anchor="start" x="6.94" y="-254.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="19.5" y="-254.5" font-family="Helvetica,sans-Serif" font-size="10.00">gender_label</text>
+<text text-anchor="start" x="6.94" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="19.5" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">email_label</text>
+<text text-anchor="start" x="6.94" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="19.5" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">child_surname</text>
+<text text-anchor="start" x="6.94" y="-206.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="19.5" y="-206.5" font-family="Helvetica,sans-Serif" font-size="10.00">name_label</text>
+<text text-anchor="start" x="6.94" y="-190.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="19.5" y="-190.5" font-family="Helvetica,sans-Serif" font-size="10.00">child_name</text>
+<text text-anchor="start" x="6.94" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="19.5" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">children</text>
+<text text-anchor="start" x="6.94" y="-158.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="19.5" y="-158.5" font-family="Helvetica,sans-Serif" font-size="10.00">children_contents</text>
+<text text-anchor="start" x="6.94" y="-142.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="19.5" y="-142.5" font-family="Helvetica,sans-Serif" font-size="10.00">verticalLayout</text>
+<text text-anchor="start" x="19.5" y="-126.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 12 more...</text>
+<text text-anchor="start" x="6.94" y="-110.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="19.5" y="-110.5" font-family="Helvetica,sans-Serif" font-size="10.00">setupUi()</text>
+<text text-anchor="start" x="6.94" y="-94.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="19.5" y="-94.5" font-family="Helvetica,sans-Serif" font-size="10.00">retranslateUi()</text>
 <polygon fill="#666666" stroke="#666666" points="0.38,-298 0.38,-298 105.12,-298 105.12,-298 0.38,-298"/>
-<polygon fill="#666666" stroke="#666666" points="0.38,-122 0.38,-122 24.25,-122 24.25,-122 0.38,-122"/>
-<polygon fill="#666666" stroke="#666666" points="24.25,-122 24.25,-122 105.12,-122 105.12,-122 24.25,-122"/>
+<polygon fill="#666666" stroke="#666666" points="0.38,-122 0.38,-122 17.5,-122 17.5,-122 0.38,-122"/>
+<polygon fill="#666666" stroke="#666666" points="17.5,-122 17.5,-122 105.12,-122 105.12,-122 17.5,-122"/>
 <polygon fill="none" stroke="#666666" points="0.38,-88 0.38,-316 105.12,-316 105.12,-88 0.38,-88"/>
 </a>
 </g>

@@ -1,0 +1,12 @@
+<map id="LessonDialog::create_employee_check_box" name="LessonDialog::create_employee_check_box">
+<area shape="rect" id="Node000001" title="Creates a checkbox for an employee." alt="" coords="665,68,820,111"/>
+<area shape="rect" id="Node000002" href="$class_lesson_dialog.html#a2883fd6f7079ecb26550deb519302db0" title="Populates the dialog with employees." alt="" coords="460,35,617,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="650,77,617,72,618,66,650,72"/>
+<area shape="rect" id="Node000005" href="$class_lesson_dialog.html#ae4ff794125c43c773c2f6eea7167242a" title="Populates the dialog with employees." alt="" coords="460,101,617,144"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="650,107,618,112,617,107,650,102"/>
+<area shape="rect" id="Node000003" href="$class_lesson_dialog.html#a6cec6904588a83618b0d776547ea2697" title="Searches for employees based on the input in the name and surname fields." alt="" coords="241,5,412,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="444,46,412,41,413,36,445,40"/>
+<area shape="rect" id="Node000004" href="$class_lesson_dialog.html#a4ddf55a3925f45bd1cd3ecef02c261d5" title="Constructs a LessonDialog object." alt="" coords="5,43,193,69"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="444,62,412,63,241,63,193,62,193,56,241,57,412,57,444,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="226,42,194,47,193,41,225,37"/>
+</map>

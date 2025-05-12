@@ -1,0 +1,8 @@
+<map id="LessonView::populate_children" name="LessonView::populate_children">
+<area shape="rect" id="Node000001" title="Populates the children sections of the lesson view." alt="" coords="439,23,588,65"/>
+<area shape="rect" id="Node000002" href="$class_lesson_view.html#a01642f9f2ac50e57169729fd7bfdd4e2" title="Function called when the edit button is clicked." alt="" coords="225,5,391,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="423,36,391,32,392,26,424,30"/>
+<area shape="rect" id="Node000003" href="$class_lesson_view.html#a5652733016a72ccf85b1df6e88a3513e" title="Constructs a LessonView widget." alt="" coords="5,31,177,57"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="424,47,177,47,177,41,424,41"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="210,33,177,37,177,31,209,28"/>
+</map>

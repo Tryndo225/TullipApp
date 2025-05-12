@@ -10,7 +10,7 @@ var searchData=
   ['import_5fparents_5ffrom_5fcsv_5ffile_7',['import_Parents_from_csv_file',['../class_database.html#a0036708a325b181645735f8fc0c2beaa',1,'Database']]],
   ['interface_20overview_8',['User Interface Overview',['../index.html#ui_overview_sec',1,'']]],
   ['introduction_9',['Introduction',['../index.html#intro_sec',1,'']]],
-  ['is_5fchecked_10',['is_checked',['../class_child_check_box.html#ac5673a88c9e0562f9af21a1052ba0445',1,'ChildCheckBox']]],
+  ['is_5fchecked_10',['is_checked',['../class_person_check_box.html#a9e3af5ba2dacae537bc2388c0ef9a990',1,'PersonCheckBox']]],
   ['is_5ffather_11',['is_father',['../class_parent.html#a54f3e43049e3caa160cef6a737cd2947',1,'Parent']]],
   ['is_5fmother_12',['is_mother',['../class_parent.html#a3fa387494ad7c650bb24604970bf5957',1,'Parent']]],
   ['is_5fmother_5f_13',['is_mother_',['../class_parent.html#a882bc1572a9dd7b9125cecafba47b3cc',1,'Parent']]]

@@ -1,0 +1,14 @@
+<map id="PersonLabel::employeeClicked" name="PersonLabel::employeeClicked">
+<area shape="rect" id="Node000001" title="Signal emitted when the employee label is clicked." alt="" coords="643,47,845,73"/>
+<area shape="rect" id="Node000002" href="$class_person_label.html#a84dedd1b0abbbfdf9771882b02bbd9df" title="Handles the click event on the label." alt="" coords="446,5,595,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="635,46,595,40,596,35,636,41"/>
+<area shape="rect" id="Node000004" href="$class_lesson_view.html#ac71282939d24b3e03dcf13dc6902cfe4" title="Populates the employees section of the lesson view." alt="" coords="446,72,595,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="636,79,596,85,595,80,635,74"/>
+<area shape="rect" id="Node000003" href="$class_person_label.html#a94331464b364eff3b1b12d192e293d93" title="Constructs a PersonLabel for a given person and sets up the UI." alt="" coords="225,13,398,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="431,29,399,29,399,24,431,24"/>
+<area shape="rect" id="Node000005" href="$class_lesson_view.html#a01642f9f2ac50e57169729fd7bfdd4e2" title="Function called when the edit button is clicked." alt="" coords="228,72,394,99"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="430,93,395,91,395,86,431,87"/>
+<area shape="rect" id="Node000006" href="$class_lesson_view.html#a5652733016a72ccf85b1df6e88a3513e" title="Constructs a LessonView widget." alt="" coords="5,97,177,124"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="431,110,398,113,282,118,177,117,177,111,282,112,398,108,431,105"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="213,99,178,103,177,98,213,94"/>
+</map>

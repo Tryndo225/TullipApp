@@ -100,15 +100,15 @@ var sectionId = 'dynsection-0';
 <text text-anchor="start" x="4" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="14" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">add_lesson()</text>
 <text text-anchor="start" x="4" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="14" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00">remove_lesson()</text>
+<text text-anchor="start" x="14" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00">update_lesson_start()</text>
 <text text-anchor="start" x="4" y="-334.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="14" y="-334.5" font-family="Helvetica,sans-Serif" font-size="10.00">search_lessons_by_child</text>
-<text text-anchor="start" x="14" y="-322.5" font-family="Helvetica,sans-Serif" font-size="10.00">_name_surname()</text>
-<text text-anchor="start" x="4" y="-306.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="14" y="-306.5" font-family="Helvetica,sans-Serif" font-size="10.00">sort_lessons_by_time()</text>
-<text text-anchor="start" x="4" y="-290.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="14" y="-290.5" font-family="Helvetica,sans-Serif" font-size="10.00">sort_lessons_by_day()</text>
-<text text-anchor="start" x="14" y="-274.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 47 more...</text>
+<text text-anchor="start" x="14" y="-334.5" font-family="Helvetica,sans-Serif" font-size="10.00">update_lesson_end()</text>
+<text text-anchor="start" x="4" y="-318.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="14" y="-318.5" font-family="Helvetica,sans-Serif" font-size="10.00">remove_lesson()</text>
+<text text-anchor="start" x="4" y="-302.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="14" y="-302.5" font-family="Helvetica,sans-Serif" font-size="10.00">search_lessons_by_child</text>
+<text text-anchor="start" x="14" y="-290.5" font-family="Helvetica,sans-Serif" font-size="10.00">_name_surname()</text>
+<text text-anchor="start" x="14" y="-274.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 49 more...</text>
 <text text-anchor="start" x="5.5" y="-258.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;</text>
 <text text-anchor="start" x="14" y="-258.5" font-family="Helvetica,sans-Serif" font-size="10.00">import_Lessons_from</text>
 <text text-anchor="start" x="14" y="-246.5" font-family="Helvetica,sans-Serif" font-size="10.00">_csv_file()</text>

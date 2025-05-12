@@ -7,7 +7,7 @@ var searchData=
   ['import_5ffrom_5fstream_4',['import_from_stream',['../class_database.html#af3b2c97f6ffbcff3ec1c0f78a91d6107',1,'Database']]],
   ['import_5flessons_5ffrom_5fcsv_5ffile_5',['import_Lessons_from_csv_file',['../class_database.html#a5234a41c55542e88486c147ca399f386',1,'Database']]],
   ['import_5fparents_5ffrom_5fcsv_5ffile_6',['import_Parents_from_csv_file',['../class_database.html#a0036708a325b181645735f8fc0c2beaa',1,'Database']]],
-  ['is_5fchecked_7',['is_checked',['../class_child_check_box.html#ac5673a88c9e0562f9af21a1052ba0445',1,'ChildCheckBox']]],
+  ['is_5fchecked_7',['is_checked',['../class_person_check_box.html#a9e3af5ba2dacae537bc2388c0ef9a990',1,'PersonCheckBox']]],
   ['is_5ffather_8',['is_father',['../class_parent.html#a54f3e43049e3caa160cef6a737cd2947',1,'Parent']]],
   ['is_5fmother_9',['is_mother',['../class_parent.html#a3fa387494ad7c650bb24604970bf5957',1,'Parent']]]
 ];

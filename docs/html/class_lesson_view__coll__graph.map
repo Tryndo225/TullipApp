@@ -1,0 +1,25 @@
+<map id="LessonView" name="LessonView">
+<area shape="rect" id="Node000001" title="Represents a GUI widget for viewing lesson information." alt="" coords="157,1857,308,2097"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,1303,67,1372"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="34,1387,31,1467,34,1570,49,1683,62,1739,81,1792,97,1823,116,1853,159,1905,155,1909,111,1856,92,1826,76,1794,57,1740,43,1684,28,1570,26,1467,29,1386"/>
+<area shape="rect" id="Node000003" href="$class_ui_1_1_lesson_view_class.html" title=" " alt="" coords="90,1303,227,1372"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,1371,183,1567,213,1833,214,1840,208,1841,208,1834,178,1568,159,1372"/>
+<area shape="rect" id="Node000004" href="$class_ui___lesson_view_class.html" title=" " alt="" coords="65,513,229,817"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="152,832,161,1303,156,1303,147,832"/>
+<area shape="rect" id="Node000005" href="$class_clickable_label.html" title="A QLabel subclass that emits a clicked signal when the label is clicked." alt="" coords="64,241,217,332"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="144,332,147,496,141,496,138,332"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="114,5,166,75"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="143,90,143,241,138,241,138,90"/>
+<area shape="rect" id="Node000007" href="$class_lesson.html" title="Represents a lesson." alt="" coords="251,1175,360,1500"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="290,1500,250,1841,245,1840,284,1500"/>
+<area shape="rect" id="Node000008" href="$class_schedule.html" title=" " alt="" coords="255,524,356,807"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="308,807,308,1158,303,1158,303,807"/>
+<area shape="rect" id="Node000009" href="$class_time.html" title="Represents a time (hours, minutes, seconds, and time zone)." alt="" coords="241,124,370,449"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="308,464,308,525,303,525,303,464"/>
+<area shape="rect" id="Node000010" href="$class_address.html" title="Represents a physical address." alt="" coords="395,513,498,817"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="398,803,375,882,346,1022,326,1158,321,1158,341,1021,370,881,393,801"/>
+<area shape="rect" id="Node000011" href="$class_contacts.html" title="Base class for contact&#45;related utilities." alt="" coords="394,252,530,321"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="462,336,455,514,450,513,457,335"/>
+<area shape="rect" id="Node000012" href="$class_database.html" title="Manages data related to lessons, parents, children, and employees." alt="" coords="384,881,554,1793"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="387,1766,375,1795,350,1840,320,1882,316,1879,345,1837,370,1792,382,1764"/>
+</map>

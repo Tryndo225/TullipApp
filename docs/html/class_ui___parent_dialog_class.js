@@ -3,6 +3,8 @@ var class_ui___parent_dialog_class =
     [ "retranslateUi", "class_ui___parent_dialog_class.html#a3cc9ee2346239ead505ed9346e19f24a", null ],
     [ "setupUi", "class_ui___parent_dialog_class.html#ad158c97d6514862870d53d69fcbb9a1a", null ],
     [ "cancelButton", "class_ui___parent_dialog_class.html#ac7e4616d6aeb868fe68559aa943964a7", null ],
+    [ "child_name", "class_ui___parent_dialog_class.html#a8310cecf82d7ca334acdf3ee92a18c75", null ],
+    [ "child_surname", "class_ui___parent_dialog_class.html#a049d43b7e09ca154ce2182eaea934b49", null ],
     [ "children", "class_ui___parent_dialog_class.html#a739e8ae6626e3bcb73987a3225ff300e", null ],
     [ "children_contents", "class_ui___parent_dialog_class.html#a6f2ba5b1272a80658039c1a203d98c99", null ],
     [ "children_label", "class_ui___parent_dialog_class.html#a7ffcf8cd4cefc690c3d7f4765d328d99", null ],

@@ -1,0 +1,27 @@
+var class_ui___lesson_dialog_class =
+[
+    [ "retranslateUi", "class_ui___lesson_dialog_class.html#a6375a3ac3d796289dca0550c0d4f03ed", null ],
+    [ "setupUi", "class_ui___lesson_dialog_class.html#a94e21bf9d50857e4a67bd906590d85e1", null ],
+    [ "accept_button", "class_ui___lesson_dialog_class.html#a83aa3265243b1fa8e287959be758e3ab", null ],
+    [ "address_edit", "class_ui___lesson_dialog_class.html#a8aa3b7a08080d7b052a69c3b3cfcabb9", null ],
+    [ "children_frame", "class_ui___lesson_dialog_class.html#a5a828870e0b222d7ecf73aea74ff9693", null ],
+    [ "children_label", "class_ui___lesson_dialog_class.html#a9d611d9f3833da1ecbb4a4e2e5198055", null ],
+    [ "children_name", "class_ui___lesson_dialog_class.html#a57b3598554676c76112404a78cd894a6", null ],
+    [ "children_scroll", "class_ui___lesson_dialog_class.html#aaa9738a2492832b33b5e80650b173a62", null ],
+    [ "children_scroll_contents", "class_ui___lesson_dialog_class.html#a4c6b641fd8b9d50417916d7e4a5e9058", null ],
+    [ "children_surname", "class_ui___lesson_dialog_class.html#ac6666cd3f563b8ab95d44c1657dca3ec", null ],
+    [ "decline_button", "class_ui___lesson_dialog_class.html#a785efcc6397a5cafb46742b057cf6fc8", null ],
+    [ "employee_frame", "class_ui___lesson_dialog_class.html#ae75543a9b96e83f196a7cbe83970f544", null ],
+    [ "employee_label", "class_ui___lesson_dialog_class.html#a207896a4f989731d342d90f5a0ffb028", null ],
+    [ "employee_name", "class_ui___lesson_dialog_class.html#ac483fdc84a88409514491f795c3b1fbd", null ],
+    [ "employee_scroll", "class_ui___lesson_dialog_class.html#ac3cea8c8b364ff3186237c05dd897b95", null ],
+    [ "employee_scroll_contents", "class_ui___lesson_dialog_class.html#a5b201e6b28f2e37552055e42d74ce2bc", null ],
+    [ "employee_surname", "class_ui___lesson_dialog_class.html#ae4892d7cb475c33b054bbd07249152bb", null ],
+    [ "gridLayout", "class_ui___lesson_dialog_class.html#a06574dba17056e3968d16915eb9b6351", null ],
+    [ "gridLayout_2", "class_ui___lesson_dialog_class.html#aa72009049e3c8123a6ff33d29a70c82a", null ],
+    [ "gridLayout_3", "class_ui___lesson_dialog_class.html#a9b4cadc8769f3df9bfd27cbcb77bfcc6", null ],
+    [ "time_edit", "class_ui___lesson_dialog_class.html#a53710c214f4d9e4b108f91e1fe9f2278", null ],
+    [ "verticalLayout", "class_ui___lesson_dialog_class.html#a8494f750283478ec699452f0f1f624da", null ],
+    [ "verticalLayout_2", "class_ui___lesson_dialog_class.html#ade15ec054698d1b180782d661275548f", null ],
+    [ "weekday_combo", "class_ui___lesson_dialog_class.html#a8aa1bb1d9e86bc6b8f9800de86ed04e5", null ]
+];

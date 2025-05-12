@@ -1,116 +1,126 @@
 <map id="Person::get_name" name="Person::get_name">
-<area shape="rect" id="Node000001" title="Gets the first name of the person." alt="" coords="2080,792,2208,819"/>
-<area shape="rect" id="Node000002" href="$class_database.html#a19e6fd7e9b36ab995675732c6ef67c8c" title="Adds a child to the database." alt="" coords="1854,251,1995,277"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2139,777,2133,699,2116,590,2102,530,2083,469,2060,410,2030,355,2012,331,1991,311,1949,280,1952,276,1994,307,2016,328,2035,352,2064,408,2088,468,2107,529,2121,589,2138,698,2144,776"/>
-<area shape="rect" id="Node000007" href="$class_database.html#a7694df2f0f4e7d75e75ef409dcc40898" title="Adds an employee to the database." alt="" coords="1840,365,2009,392"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="2139,777,2132,711,2114,622,2100,574,2082,526,2059,481,2030,439,2000,413,1966,395,1968,390,2003,408,2034,436,2063,478,2087,524,2105,572,2119,620,2137,710,2144,776"/>
-<area shape="rect" id="Node000010" href="$class_database.html#ab9f567b93fb0e0be48d59cb6b6d3b7b7" title="Adds a parent to the database." alt="" coords="1850,168,1999,195"/>
-<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="2138,777,2126,662,2105,502,2090,421,2073,346,2053,284,2030,240,2003,215,1970,198,1972,193,2006,211,2034,237,2058,282,2078,345,2095,420,2110,502,2131,661,2143,776"/>
-<area shape="rect" id="Node000013" href="$class_data_base_g_u_i.html#aadb0e7d323a970603312695c0dd9b264" title="Searches for children based on the provided child pointer." alt="" coords="1856,449,1994,492"/>
-<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="2133,778,2119,732,2097,674,2068,611,2030,554,1997,521,1962,495,1965,490,2001,517,2034,550,2072,609,2102,671,2124,730,2138,776"/>
-<area shape="rect" id="Node000017" href="$class_data_base_g_u_i.html#a8e1fe573ef6a09e112989968ec1a2b43" title="Searches for parents based on the provided parent pointer." alt="" coords="1121,612,1268,655"/>
-<area shape="poly" id="edge58_Node000001_Node000017" title=" " alt="" coords="2135,778,2123,735,2103,685,2073,636,2054,615,2031,598,2004,586,1970,576,1884,566,1782,564,1670,570,1446,595,1269,623,1268,617,1445,590,1670,565,1782,559,1885,560,1971,571,2006,581,2034,594,2057,611,2077,633,2108,683,2128,734,2140,777"/>
-<area shape="rect" id="Node000036" href="$class_data_base_g_u_i.html#a3a2267784d541d4c74b143458aa7eedb" title="Searches for employees based on the provided employee pointer." alt="" coords="1841,608,2008,651"/>
-<area shape="poly" id="edge55_Node000001_Node000036" title=" " alt="" coords="2127,780,2088,722,2061,691,2031,665,2007,652,2010,647,2034,660,2065,687,2092,718,2131,777"/>
-<area shape="rect" id="Node000037" href="$class_database.html#a93adb69fe9d3d5d0566feaeede6027f9" title="Filters children by a parent&#39;s name." alt="" coords="1852,675,1997,717"/>
-<area shape="poly" id="edge56_Node000001_Node000037" title=" " alt="" coords="2113,785,2075,757,2031,732,1996,717,1998,713,2034,727,2078,753,2116,780"/>
-<area shape="rect" id="Node000038" href="$class_child.html#a7e44a9fa1706cf6514aae81ad646eb02" title="Outputs the Child object to a stream." alt="" coords="1864,741,1986,768"/>
-<area shape="poly" id="edge57_Node000001_Node000038" title=" " alt="" coords="2068,791,1985,771,1986,766,2069,785"/>
-<area shape="rect" id="Node000039" href="$class_database.html#a666ab0d4f96402ecae70425b2c6863fb" title="Removes a child from the database." alt="" coords="1844,792,2006,819"/>
-<area shape="poly" id="edge59_Node000001_Node000039" title=" " alt="" coords="2065,808,2006,808,2006,803,2065,803"/>
-<area shape="rect" id="Node000040" href="$class_database.html#a634fba21c974bb1fe271204801df71c1" title="Removes an employee from the database." alt="" coords="1829,843,2020,869"/>
-<area shape="poly" id="edge60_Node000001_Node000040" title=" " alt="" coords="2069,825,1986,845,1985,839,2068,820"/>
-<area shape="rect" id="Node000041" href="$class_database.html#ac93799e482b7dbee6db4bb094f7255ce" title="Removes a parent from the database." alt="" coords="1839,893,2010,920"/>
-<area shape="poly" id="edge61_Node000001_Node000041" title=" " alt="" coords="2117,831,2079,858,2033,884,2001,895,1999,890,2031,879,2076,854,2114,826"/>
-<area shape="rect" id="Node000042" href="$class_database.html#ad1c53a90babe25c1148cca426c7579e6" title="Adds a child&#39;s information to the maps." alt="" coords="1832,944,2018,971"/>
-<area shape="poly" id="edge62_Node000001_Node000042" title=" " alt="" coords="2129,834,2090,885,2064,912,2034,934,2009,946,2007,941,2031,930,2060,908,2086,882,2125,830"/>
-<area shape="rect" id="Node000043" href="$class_database.html#a283eb646c12fff3f96e217bf5c3a7dc3" title="Removes a child&#39;s information from the maps." alt="" coords="1846,995,2004,1037"/>
-<area shape="poly" id="edge63_Node000001_Node000043" title=" " alt="" coords="2135,834,2120,869,2098,909,2069,950,2034,985,2005,1001,2003,996,2031,981,2065,946,2093,906,2115,866,2130,832"/>
-<area shape="rect" id="Node000044" href="$class_database.html#a0e3d65ad9e1957377f3cffa5f5275554" title="Adds an employee&#39;s information to the maps." alt="" coords="1817,1061,2032,1088"/>
-<area shape="poly" id="edge64_Node000001_Node000044" title=" " alt="" coords="2141,835,2130,882,2110,941,2079,1001,2058,1028,2034,1051,2015,1063,2012,1059,2031,1047,2054,1024,2074,998,2105,939,2125,881,2136,833"/>
-<area shape="rect" id="Node000045" href="$class_database.html#a7bbdd3a035f7164c5ddf45fcc28693e7" title="Removes an employee&#39;s information from the maps." alt="" coords="1831,1112,2018,1155"/>
-<area shape="poly" id="edge65_Node000001_Node000045" title=" " alt="" coords="2143,834,2134,890,2116,962,2101,1000,2083,1037,2061,1071,2034,1102,2019,1114,2015,1109,2031,1098,2057,1068,2079,1034,2097,998,2110,960,2129,889,2138,833"/>
-<area shape="rect" id="Node000046" href="$class_database.html#a3bdc14caecc90d02e843116c3c28f91c" title="Adds a parent&#39;s information to the maps." alt="" coords="1827,1179,2022,1205"/>
-<area shape="poly" id="edge66_Node000001_Node000046" title=" " alt="" coords="2146,834,2141,903,2126,993,2112,1041,2093,1087,2067,1131,2034,1169,2018,1180,2015,1176,2031,1165,2063,1128,2088,1085,2107,1039,2121,992,2136,902,2140,834"/>
-<area shape="rect" id="Node000047" href="$class_database.html#a2f49b299c2bd30461bbd0fb27fce3a57" title="Removes a parent&#39;s information from the maps." alt="" coords="1841,1229,2008,1272"/>
-<area shape="poly" id="edge67_Node000001_Node000047" title=" " alt="" coords="2146,834,2144,910,2131,1013,2117,1068,2097,1123,2070,1174,2034,1219,2010,1236,2007,1232,2030,1215,2065,1171,2092,1120,2112,1067,2125,1012,2139,910,2141,834"/>
-<area shape="rect" id="Node000003" href="$class_c_s_v___parser.html#ac72a5ce5b687b3d05f2d7e73d3ba42e4" title="Parses a child from a CSV line." alt="" coords="1586,100,1754,127"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1873,246,1844,229,1815,209,1800,190,1792,173,1783,156,1767,141,1746,130,1749,125,1771,137,1788,153,1796,170,1804,187,1819,205,1846,225,1876,241"/>
+<area shape="rect" id="Node000001" title="Gets the first name of the person." alt="" coords="2080,740,2208,767"/>
+<area shape="rect" id="Node000002" href="$class_database.html#a19e6fd7e9b36ab995675732c6ef67c8c" title="Adds a child to the database." alt="" coords="1854,173,1995,200"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2140,725,2136,641,2121,523,2108,458,2088,392,2063,328,2030,268,2013,247,1993,230,1953,203,1955,198,1997,225,2017,244,2035,265,2068,325,2093,390,2113,457,2127,522,2142,641,2145,725"/>
+<area shape="rect" id="Node000007" href="$class_database.html#a7694df2f0f4e7d75e75ef409dcc40898" title="Adds an employee to the database." alt="" coords="1840,279,2009,305"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="2136,725,2126,661,2106,576,2075,482,2054,436,2030,392,2011,366,1988,343,1945,308,1948,304,1992,339,2015,363,2035,389,2059,433,2080,480,2111,575,2131,660,2142,724"/>
+<area shape="rect" id="Node000010" href="$class_database.html#ab9f567b93fb0e0be48d59cb6b6d3b7b7" title="Adds a parent to the database." alt="" coords="1850,81,1999,108"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="2138,725,2126,606,2104,439,2090,354,2072,275,2053,209,2030,163,2016,146,1999,132,1961,111,1964,106,2002,128,2020,142,2035,160,2058,207,2078,274,2095,353,2110,439,2131,605,2143,725"/>
+<area shape="rect" id="Node000013" href="$class_data_base_g_u_i.html#aadb0e7d323a970603312695c0dd9b264" title="Searches for children based on the provided child pointer." alt="" coords="1856,505,1994,548"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="2131,726,2116,691,2094,649,2066,606,2031,569,1993,547,1996,542,2034,565,2070,603,2099,646,2121,688,2135,724"/>
+<area shape="rect" id="Node000029" href="$class_data_base_g_u_i.html#a8e1fe573ef6a09e112989968ec1a2b43" title="Searches for parents based on the provided parent pointer." alt="" coords="1121,760,1268,803"/>
+<area shape="poly" id="edge65_Node000001_Node000029" title=" " alt="" coords="2128,727,2113,698,2092,666,2064,636,2031,613,1974,589,1924,581,1900,582,1875,588,1818,613,1802,628,1794,646,1787,666,1771,685,1709,722,1655,740,1524,759,1389,776,1269,783,1269,777,1389,771,1523,753,1653,734,1707,717,1767,681,1782,663,1789,644,1797,625,1816,608,1873,583,1899,577,1924,575,1975,584,2034,608,2068,632,2096,663,2118,695,2133,725"/>
+<area shape="rect" id="Node000044" href="$class_data_base_g_u_i.html#a3a2267784d541d4c74b143458aa7eedb" title="Searches for employees based on the provided employee pointer." alt="" coords="1841,403,2008,445"/>
+<area shape="poly" id="edge61_Node000001_Node000044" title=" " alt="" coords="2134,725,2121,678,2100,618,2070,554,2030,495,2002,469,1970,448,1973,444,2005,465,2034,492,2074,551,2105,616,2126,676,2139,724"/>
+<area shape="rect" id="Node000045" href="$class_database.html#a93adb69fe9d3d5d0566feaeede6027f9" title="Filters children by a parent&#39;s name." alt="" coords="1852,623,1997,665"/>
+<area shape="poly" id="edge63_Node000001_Node000045" title=" " alt="" coords="2113,733,2075,705,2031,680,1996,665,1998,661,2034,675,2078,701,2116,728"/>
+<area shape="rect" id="Node000046" href="$class_child.html#a7e44a9fa1706cf6514aae81ad646eb02" title="Outputs the Child object to a stream." alt="" coords="1864,689,1986,716"/>
+<area shape="poly" id="edge64_Node000001_Node000046" title=" " alt="" coords="2068,739,1985,719,1986,714,2069,733"/>
+<area shape="rect" id="Node000047" href="$class_database.html#a666ab0d4f96402ecae70425b2c6863fb" title="Removes a child from the database." alt="" coords="1844,740,2006,767"/>
+<area shape="poly" id="edge66_Node000001_Node000047" title=" " alt="" coords="2065,756,2006,756,2006,751,2065,751"/>
+<area shape="rect" id="Node000048" href="$class_database.html#a634fba21c974bb1fe271204801df71c1" title="Removes an employee from the database." alt="" coords="1829,791,2020,817"/>
+<area shape="poly" id="edge67_Node000001_Node000048" title=" " alt="" coords="2069,773,1986,793,1985,787,2068,768"/>
+<area shape="rect" id="Node000049" href="$class_database.html#ac93799e482b7dbee6db4bb094f7255ce" title="Removes a parent from the database." alt="" coords="1839,841,2010,868"/>
+<area shape="poly" id="edge68_Node000001_Node000049" title=" " alt="" coords="2117,779,2079,806,2033,832,2001,843,1999,838,2031,827,2076,802,2114,774"/>
+<area shape="rect" id="Node000050" href="$class_database.html#ad1c53a90babe25c1148cca426c7579e6" title="Adds a child&#39;s information to the maps." alt="" coords="1832,892,2018,919"/>
+<area shape="poly" id="edge69_Node000001_Node000050" title=" " alt="" coords="2129,782,2090,833,2064,860,2034,882,2009,894,2007,889,2031,878,2060,856,2086,830,2125,778"/>
+<area shape="rect" id="Node000051" href="$class_database.html#a283eb646c12fff3f96e217bf5c3a7dc3" title="Removes a child&#39;s information from the maps." alt="" coords="1846,943,2004,985"/>
+<area shape="poly" id="edge70_Node000001_Node000051" title=" " alt="" coords="2135,782,2120,817,2098,857,2069,898,2034,933,2005,949,2003,944,2031,929,2065,894,2093,854,2115,814,2130,780"/>
+<area shape="rect" id="Node000052" href="$class_database.html#a0e3d65ad9e1957377f3cffa5f5275554" title="Adds an employee&#39;s information to the maps." alt="" coords="1817,1009,2032,1036"/>
+<area shape="poly" id="edge71_Node000001_Node000052" title=" " alt="" coords="2141,783,2130,830,2110,889,2079,949,2058,976,2034,999,2015,1011,2012,1007,2031,995,2054,972,2074,946,2105,887,2125,829,2136,781"/>
+<area shape="rect" id="Node000053" href="$class_database.html#a7bbdd3a035f7164c5ddf45fcc28693e7" title="Removes an employee&#39;s information from the maps." alt="" coords="1831,1060,2018,1103"/>
+<area shape="poly" id="edge72_Node000001_Node000053" title=" " alt="" coords="2143,782,2134,838,2116,910,2101,948,2083,985,2061,1019,2034,1050,2019,1062,2015,1057,2031,1046,2057,1016,2079,982,2097,946,2110,908,2129,837,2138,781"/>
+<area shape="rect" id="Node000054" href="$class_database.html#a3bdc14caecc90d02e843116c3c28f91c" title="Adds a parent&#39;s information to the maps." alt="" coords="1827,1127,2022,1153"/>
+<area shape="poly" id="edge73_Node000001_Node000054" title=" " alt="" coords="2146,782,2141,851,2126,941,2112,989,2093,1035,2067,1079,2034,1117,2018,1128,2015,1124,2031,1113,2063,1076,2088,1033,2107,987,2121,940,2136,850,2140,782"/>
+<area shape="rect" id="Node000055" href="$class_database.html#a2f49b299c2bd30461bbd0fb27fce3a57" title="Removes a parent&#39;s information from the maps." alt="" coords="1841,1177,2008,1220"/>
+<area shape="poly" id="edge74_Node000001_Node000055" title=" " alt="" coords="2146,782,2144,858,2131,961,2117,1016,2097,1071,2070,1122,2034,1167,2010,1184,2007,1180,2030,1163,2065,1119,2092,1068,2112,1015,2125,960,2139,858,2141,782"/>
+<area shape="rect" id="Node000003" href="$class_c_s_v___parser.html#ac72a5ce5b687b3d05f2d7e73d3ba42e4" title="Parses a child from a CSV line." alt="" coords="1586,117,1754,144"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1845,172,1734,147,1735,142,1846,167"/>
 <area shape="rect" id="Node000004" href="$class_database.html#a5010b6ed864bd832f96c86e33097e95f" title="Imports children from a CSV file." alt="" coords="1339,72,1515,115"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1570,108,1516,103,1516,98,1571,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1570,118,1515,110,1516,104,1571,113"/>
 <area shape="rect" id="Node000005" href="$class_database.html#af3b2c97f6ffbcff3ec1c0f78a91d6107" title="Imports data from a stream." alt="" coords="1118,72,1272,115"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1323,96,1272,96,1272,91,1323,91"/>
-<area shape="rect" id="Node000006" href="$class_database.html#a0a08797a6ca7a3456150370e3f816d4c" title="Imports data from a CSV file." alt="" coords="894,72,1048,115"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1102,96,1049,96,1049,91,1102,91"/>
-<area shape="rect" id="Node000008" href="$class_c_s_v___parser.html#aec118453b336d4c0cae88b0be94afa70" title="Parses an employee from a CSV line." alt="" coords="1572,151,1769,177"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="1888,358,1851,328,1815,291,1800,266,1793,244,1785,223,1767,202,1749,190,1729,180,1731,175,1752,185,1771,198,1789,220,1798,242,1805,264,1819,288,1855,324,1892,354"/>
+<area shape="rect" id="Node000008" href="$class_c_s_v___parser.html#aec118453b336d4c0cae88b0be94afa70" title="Parses an employee from a CSV line." alt="" coords="1572,205,1769,232"/>
+<area shape="poly" id="edge6_Node000007_Node000008" title=" " alt="" coords="1860,276,1719,235,1720,230,1862,271"/>
 <area shape="rect" id="Node000009" href="$class_database.html#a8ba6656ed991b406bb7b3ecb716726af" title="Imports employees from a CSV file." alt="" coords="1330,139,1524,181"/>
-<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1556,165,1524,164,1524,159,1556,159"/>
-<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="1335,137,1271,118,1273,113,1337,131"/>
-<area shape="rect" id="Node000011" href="$class_c_s_v___parser.html#a43700e2ac18a5503278f29a57ed734a3" title="Parses a parent from a CSV line." alt="" coords="1582,49,1759,76"/>
-<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="1891,161,1835,125,1768,90,1735,79,1737,74,1770,86,1838,121,1894,157"/>
+<area shape="poly" id="edge7_Node000008_Node000009" title=" " alt="" coords="1597,204,1518,185,1519,179,1598,199"/>
+<area shape="poly" id="edge8_Node000009_Node000005" title=" " alt="" coords="1335,137,1271,118,1273,113,1337,131"/>
+<area shape="rect" id="Node000011" href="$class_c_s_v___parser.html#a43700e2ac18a5503278f29a57ed734a3" title="Parses a parent from a CSV line." alt="" coords="1582,40,1759,67"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="1834,83,1756,70,1757,65,1835,77"/>
 <area shape="rect" id="Node000012" href="$class_database.html#a0036708a325b181645735f8fc0c2beaa" title="Imports parents from a CSV file." alt="" coords="1340,5,1514,48"/>
-<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="1566,50,1514,42,1514,37,1566,45"/>
-<area shape="poly" id="edge13_Node000012_Node000005" title=" " alt="" coords="1337,55,1273,74,1271,69,1335,50"/>
-<area shape="rect" id="Node000014" href="$class_data_base_g_u_i.html#a33f2f95926f7b4b05227dcf395e235d3" title="Populates the parent tab with a multimap of parents." alt="" coords="891,249,1052,292"/>
-<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="1869,443,1815,406,1792,380,1782,368,1768,357,1701,321,1642,294,1588,277,1536,265,1425,252,1282,240,1195,233,1107,240,1048,251,1047,246,1107,235,1195,228,1283,235,1425,247,1537,260,1590,271,1644,289,1703,316,1770,352,1786,364,1796,376,1819,402,1872,439"/>
-<area shape="rect" id="Node000015" href="$class_data_base_g_u_i.html#a739b2cf48c0cb6e3cab2da0a7bbd6d6d" title="Populates the parent tab with a list of parents." alt="" coords="1590,367,1750,409"/>
-<area shape="poly" id="edge16_Node000013_Node000015" title=" " alt="" coords="1841,446,1737,412,1739,407,1843,441"/>
-<area shape="rect" id="Node000016" href="$class_data_base_g_u_i.html#a7c3d843eec449d8a4ec5ce6bf0375358" title="Searches for parents based on the provided name and surname." alt="" coords="1353,511,1501,553"/>
-<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="1621,420,1466,512,1463,508,1618,415"/>
-<area shape="rect" id="Node000031" href="$class_data_base_g_u_i.html#a625b5e2018395a458ff517bbf364e1bf" title="Selects the appropriate sorting to use based on parent sort index." alt="" coords="1351,367,1503,409"/>
-<area shape="poly" id="edge43_Node000015_Node000031" title=" " alt="" coords="1574,391,1503,391,1503,385,1574,385"/>
-<area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="1363,562,1247,614,1245,609,1361,558"/>
-<area shape="rect" id="Node000021" href="$class_data_base_g_u_i.html#a6c35e47ed05a80db144f240dee805a9d" title="Sets up the GUI." alt="" coords="255,465,398,492"/>
-<area shape="poly" id="edge42_Node000016_Node000021" title=" " alt="" coords="1338,520,1027,473,831,449,633,432,544,425,505,425,456,432,402,448,356,467,354,462,400,443,454,427,504,420,544,419,634,427,832,444,1028,468,1338,514"/>
-<area shape="rect" id="Node000018" href="$class_data_base_g_u_i.html#a334c0011a9d3a71539b326a888feccd3" title="Populates the children tab with a multimap of children." alt="" coords="247,751,407,793"/>
-<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="1156,667,1097,709,1020,759,931,806,884,825,836,841,731,867,646,877,604,876,560,870,454,847,400,824,355,796,358,792,402,819,456,841,561,865,605,871,645,872,730,862,835,836,882,820,929,801,1018,754,1094,705,1153,662"/>
-<area shape="rect" id="Node000019" href="$class_data_base_g_u_i.html#af346d08370d9e4574980707f61b9c8f7" title="Populates the children tab with a list of children." alt="" coords="891,631,1052,673"/>
-<area shape="poly" id="edge20_Node000017_Node000019" title=" " alt="" coords="1105,643,1052,648,1052,643,1105,638"/>
-<area shape="rect" id="Node000020" href="$class_data_base_g_u_i.html#a2d921da686e76ae195da018bb735a1ae" title="Searches for children based on the provided name and surname." alt="" coords="689,784,828,827"/>
-<area shape="poly" id="edge21_Node000019_Node000020" title=" " alt="" coords="932,685,885,723,862,746,837,767,807,786,804,781,834,763,859,742,882,719,928,681"/>
-<area shape="poly" id="edge26_Node000019_Node000021" title=" " alt="" coords="931,623,876,581,804,534,721,489,677,470,633,456,564,445,494,447,430,456,376,467,375,462,429,450,494,441,564,440,634,451,679,465,724,484,807,529,879,577,934,619"/>
-<area shape="rect" id="Node000024" href="$class_data_base_g_u_i.html#aa684465aa73b5b34bbadd24fc7f2f641" title="Selects the appropriate sorting to use based on child sort index." alt="" coords="681,616,836,659"/>
-<area shape="poly" id="edge27_Node000019_Node000024" title=" " alt="" coords="875,648,836,645,836,640,876,643"/>
-<area shape="poly" id="edge22_Node000020_Node000013" title=" " alt="" coords="842,782,1282,664,1603,568,1854,490,1856,495,1604,574,1283,669,843,787"/>
-<area shape="poly" id="edge23_Node000020_Node000021" title=" " alt="" coords="675,832,622,840,564,841,506,832,479,822,453,807,432,785,412,750,375,657,346,561,329,493,334,492,351,559,380,655,416,747,436,782,457,803,481,817,508,827,564,836,621,834,674,826"/>
-<area shape="rect" id="Node000022" href="$class_data_base_g_u_i.html#a2c83afe3a30fb5166d275d9a74d33196" title="Default constructor." alt="" coords="5,440,199,467"/>
-<area shape="poly" id="edge24_Node000021_Node000022" title=" " alt="" coords="239,471,199,467,199,462,240,466"/>
-<area shape="rect" id="Node000023" href="$class_data_base_g_u_i.html#aba10d1d8e9fb151632ff34de418cee82" title="Constructs a DataBaseGUI object." alt="" coords="5,491,199,517"/>
-<area shape="poly" id="edge25_Node000021_Node000023" title=" " alt="" coords="240,491,199,496,199,490,239,486"/>
-<area shape="rect" id="Node000025" href="$class_data_base_g_u_i.html#a00f9044d3b8dd9c5dada244dac1b0df6" title="Adds a new child to the database." alt="" coords="461,583,627,609"/>
-<area shape="poly" id="edge28_Node000024_Node000025" title=" " alt="" coords="665,622,616,613,617,607,666,617"/>
-<area shape="rect" id="Node000026" href="$class_data_base_g_u_i.html#acb6c6b292e58d0ead30682f7f5705244" title="Edits an existing child in the database." alt="" coords="461,700,627,727"/>
-<area shape="poly" id="edge30_Node000024_Node000026" title=" " alt="" coords="694,668,634,691,598,702,597,697,632,685,692,663"/>
-<area shape="rect" id="Node000027" href="$class_data_base_g_u_i.html#ae3a08843db874e51a7cea32fa8937ca5" title="Removes a child from the database." alt="" coords="475,751,613,793"/>
-<area shape="poly" id="edge33_Node000024_Node000027" title=" " alt="" coords="726,671,684,707,635,741,612,753,609,748,632,736,681,703,723,667"/>
-<area shape="rect" id="Node000028" href="$class_data_base_g_u_i.html#a2e6d3629f679c153cdd21b683ce794a1" title="Changes the sorting method for children." alt="" coords="475,633,613,676"/>
-<area shape="poly" id="edge36_Node000024_Node000028" title=" " alt="" coords="666,647,614,652,614,646,665,642"/>
-<area shape="rect" id="Node000029" href="$class_data_base_g_u_i.html#a20d1ece0affaa1f5b6876ee072dd2ab1" title="Imports a database from a file." alt="" coords="470,516,618,559"/>
-<area shape="poly" id="edge38_Node000024_Node000029" title=" " alt="" coords="705,611,632,573,605,562,607,557,634,568,708,606"/>
-<area shape="rect" id="Node000030" href="$class_data_base_g_u_i.html#a438b5070d6a58ffa5e884d18740852c6" title="Handles tab change events." alt="" coords="455,465,633,492"/>
-<area shape="poly" id="edge40_Node000024_Node000030" title=" " alt="" coords="732,605,689,554,662,528,632,506,608,495,610,490,635,502,665,524,693,550,736,602"/>
-<area shape="poly" id="edge29_Node000025_Node000021" title=" " alt="" coords="469,579,454,573,390,533,342,495,345,490,393,529,456,568,471,575"/>
-<area shape="poly" id="edge31_Node000026_Node000018" title=" " alt="" coords="478,734,408,753,407,748,477,729"/>
-<area shape="poly" id="edge32_Node000026_Node000019" title=" " alt="" coords="642,697,890,661,891,666,643,702"/>
-<area shape="poly" id="edge34_Node000027_Node000018" title=" " alt="" coords="460,775,408,775,408,769,460,769"/>
-<area shape="poly" id="edge35_Node000027_Node000019" title=" " alt="" coords="628,750,835,696,910,671,912,676,836,701,629,756"/>
-<area shape="poly" id="edge37_Node000028_Node000021" title=" " alt="" coords="460,628,453,623,415,592,381,555,335,494,339,491,385,552,418,588,457,619,463,623"/>
-<area shape="poly" id="edge39_Node000029_Node000021" title=" " alt="" coords="455,516,378,495,380,490,456,511"/>
-<area shape="poly" id="edge41_Node000030_Node000021" title=" " alt="" coords="440,481,399,481,399,476,440,476"/>
-<area shape="poly" id="edge54_Node000031_Node000030" title=" " alt="" coords="1336,407,1283,415,923,453,634,476,633,470,922,447,1282,409,1336,401"/>
-<area shape="rect" id="Node000032" href="$class_data_base_g_u_i.html#a336fa47d9a9e56d585d82f53d33e8593" title="Adds a new parent to the database." alt="" coords="884,341,1059,368"/>
-<area shape="poly" id="edge44_Node000031_Node000032" title=" " alt="" coords="1336,384,1059,364,1060,358,1336,379"/>
-<area shape="rect" id="Node000033" href="$class_data_base_g_u_i.html#a5b049fb9e0e5d78c4c2e81e569b471f9" title="Edits an existing parent in the database." alt="" coords="1107,316,1282,343"/>
-<area shape="poly" id="edge46_Node000031_Node000033" title=" " alt="" coords="1336,368,1250,346,1251,341,1337,363"/>
-<area shape="rect" id="Node000034" href="$class_data_base_g_u_i.html#ad8a42f24cdb603ba85c1cdd4ea2e73a4" title="Removes a parent from the database." alt="" coords="1121,249,1268,292"/>
-<area shape="poly" id="edge49_Node000031_Node000034" title=" " alt="" coords="1378,360,1281,306,1255,295,1258,290,1284,302,1380,356"/>
-<area shape="rect" id="Node000035" href="$class_data_base_g_u_i.html#a783bdf1d65998f887dd6445741450480" title="Changes the sorting method for parents." alt="" coords="685,300,832,343"/>
-<area shape="poly" id="edge52_Node000031_Node000035" title=" " alt="" coords="1336,401,1242,407,1127,409,1005,402,943,394,883,383,846,368,800,346,802,341,848,363,884,377,944,389,1005,397,1128,404,1241,402,1336,396"/>
-<area shape="poly" id="edge45_Node000032_Node000021" title=" " alt="" coords="936,335,889,310,835,291,727,267,681,262,639,261,597,265,554,277,508,295,456,322,414,355,380,395,354,435,337,466,332,463,349,432,375,392,411,351,454,318,506,290,553,272,596,260,639,255,682,256,728,262,836,285,891,305,938,330"/>
-<area shape="poly" id="edge47_Node000033_Node000014" title=" " alt="" coords="1126,314,1051,294,1052,289,1127,309"/>
-<area shape="poly" id="edge48_Node000033_Node000015" title=" " alt="" coords="1298,331,1407,338,1524,352,1590,365,1589,370,1523,357,1407,344,1298,336"/>
-<area shape="poly" id="edge50_Node000034_Node000014" title=" " alt="" coords="1105,273,1052,273,1052,268,1105,268"/>
-<area shape="poly" id="edge51_Node000034_Node000015" title=" " alt="" coords="1284,277,1399,295,1524,324,1578,343,1626,364,1624,369,1576,348,1523,329,1398,300,1283,283"/>
-<area shape="poly" id="edge53_Node000035_Node000021" title=" " alt="" coords="670,321,619,323,565,329,509,342,456,361,419,384,386,413,340,467,336,463,382,410,415,380,454,356,507,336,564,324,619,318,670,315"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1566,45,1514,39,1514,34,1566,39"/>
+<area shape="poly" id="edge12_Node000012_Node000005" title=" " alt="" coords="1337,55,1273,74,1271,69,1335,50"/>
+<area shape="rect" id="Node000014" href="$class_data_base_g_u_i.html#aadcf1044a300a89dadd104cfadb9a1b1" title="Views a lesson in the GUI." alt="" coords="1579,339,1762,365"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="1867,499,1840,481,1815,459,1800,439,1792,420,1783,403,1767,386,1734,368,1736,364,1771,382,1788,400,1797,418,1805,436,1819,456,1843,477,1870,495"/>
+<area shape="rect" id="Node000026" href="$class_data_base_g_u_i.html#a33f2f95926f7b4b05227dcf395e235d3" title="Populates the parent tab with a multimap of parents." alt="" coords="891,592,1052,635"/>
+<area shape="poly" id="edge26_Node000013_Node000026" title=" " alt="" coords="1864,557,1770,599,1587,644,1512,658,1441,666,1370,669,1294,667,1107,649,1047,638,1048,633,1107,644,1294,662,1370,664,1441,661,1511,653,1586,639,1768,593,1862,552"/>
+<area shape="rect" id="Node000027" href="$class_data_base_g_u_i.html#a739b2cf48c0cb6e3cab2da0a7bbd6d6d" title="Populates the parent tab with a list of parents." alt="" coords="1590,541,1750,584"/>
+<area shape="poly" id="edge27_Node000013_Node000027" title=" " alt="" coords="1840,541,1751,554,1751,549,1840,536"/>
+<area shape="poly" id="edge15_Node000014_Node000014" title=" " alt="" coords="1713,326,1698,320,1670,317,1645,319,1631,324,1627,329,1634,337,1630,340,1622,330,1627,320,1644,314,1670,312,1700,315,1715,321"/>
+<area shape="rect" id="Node000015" href="$class_data_base_g_u_i.html#a74e047889e913eae69ec40ec17f53c9d" title="Populates the lessons tab with a multimap of lessons." alt="" coords="1347,205,1507,248"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="1636,331,1584,297,1522,262,1496,251,1498,246,1525,258,1587,292,1639,327"/>
+<area shape="rect" id="Node000016" href="$class_data_base_g_u_i.html#aa6b02e4e81b0113fb1c75d7d5ef0be59" title="Populates the lessons tab with a list of lessons." alt="" coords="1347,272,1507,315"/>
+<area shape="poly" id="edge17_Node000014_Node000016" title=" " alt="" coords="1597,337,1507,315,1508,310,1598,332"/>
+<area shape="rect" id="Node000017" href="$class_data_base_g_u_i.html#a55b3c6d3607f17f55d4c321e97fdce7f" title="Searches for lessons based on the provided child name and surname." alt="" coords="684,213,833,256"/>
+<area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="1331,272,1282,263,1159,249,1036,241,834,237,834,231,1037,236,1160,244,1283,257,1332,266"/>
+<area shape="rect" id="Node000021" href="$class_data_base_g_u_i.html#a1ad152b7becf3e0051cdd5dbae6d4abc" title="Selects the appropriate sorting to use based on lesson sort index." alt="" coords="1119,272,1270,315"/>
+<area shape="poly" id="edge22_Node000016_Node000021" title=" " alt="" coords="1331,296,1271,296,1271,291,1331,291"/>
+<area shape="rect" id="Node000018" href="$class_data_base_g_u_i.html#a6c35e47ed05a80db144f240dee805a9d" title="Sets up the GUI." alt="" coords="255,499,398,525"/>
+<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="668,229,617,229,561,236,506,251,456,277,429,301,405,329,385,361,368,393,345,455,333,499,328,498,340,453,363,391,380,358,400,326,425,297,454,272,504,246,560,231,616,224,668,223"/>
+<area shape="rect" id="Node000019" href="$class_data_base_g_u_i.html#a2c83afe3a30fb5166d275d9a74d33196" title="Default constructor." alt="" coords="5,473,199,500"/>
+<area shape="poly" id="edge20_Node000018_Node000019" title=" " alt="" coords="239,505,199,500,199,495,240,500"/>
+<area shape="rect" id="Node000020" href="$class_data_base_g_u_i.html#aba10d1d8e9fb151632ff34de418cee82" title="Constructs a DataBaseGUI object." alt="" coords="5,524,199,551"/>
+<area shape="poly" id="edge21_Node000018_Node000020" title=" " alt="" coords="240,524,199,529,199,524,239,519"/>
+<area shape="poly" id="edge23_Node000021_Node000014" title=" " alt="" coords="1286,315,1331,324,1460,339,1578,347,1578,352,1460,345,1330,329,1285,320"/>
+<area shape="rect" id="Node000025" href="$class_data_base_g_u_i.html#a438b5070d6a58ffa5e884d18740852c6" title="Handles tab change events." alt="" coords="455,499,633,525"/>
+<area shape="poly" id="edge24_Node000021_Node000025" title=" " alt="" coords="1104,300,998,312,940,322,884,336,825,356,781,376,683,430,568,500,565,496,680,426,778,371,823,351,883,331,939,317,997,307,1104,295"/>
+<area shape="poly" id="edge25_Node000025_Node000018" title=" " alt="" coords="440,515,399,515,399,509,440,509"/>
+<area shape="rect" id="Node000028" href="$class_data_base_g_u_i.html#a7c3d843eec449d8a4ec5ce6bf0375358" title="Searches for parents based on the provided name and surname." alt="" coords="1353,701,1501,744"/>
+<area shape="poly" id="edge28_Node000027_Node000028" title=" " alt="" coords="1625,595,1463,703,1460,699,1622,591"/>
+<area shape="rect" id="Node000039" href="$class_data_base_g_u_i.html#a625b5e2018395a458ff517bbf364e1bf" title="Selects the appropriate sorting to use based on parent sort index." alt="" coords="1351,483,1503,525"/>
+<area shape="poly" id="edge49_Node000027_Node000039" title=" " alt="" coords="1574,542,1503,525,1504,520,1576,537"/>
+<area shape="poly" id="edge48_Node000028_Node000018" title=" " alt="" coords="1338,716,1130,689,883,649,384,529,385,523,884,644,1131,684,1339,710"/>
+<area shape="poly" id="edge29_Node000028_Node000029" title=" " alt="" coords="1339,748,1270,765,1268,760,1338,742"/>
+<area shape="rect" id="Node000030" href="$class_data_base_g_u_i.html#a334c0011a9d3a71539b326a888feccd3" title="Populates the children tab with a multimap of children." alt="" coords="247,827,407,869"/>
+<area shape="poly" id="edge30_Node000029_Node000030" title=" " alt="" coords="1107,807,980,836,818,863,729,874,637,880,545,881,455,876,407,869,408,864,455,871,545,876,637,875,728,868,817,858,979,831,1106,802"/>
+<area shape="rect" id="Node000031" href="$class_data_base_g_u_i.html#af346d08370d9e4574980707f61b9c8f7" title="Populates the children tab with a list of children." alt="" coords="891,735,1052,777"/>
+<area shape="poly" id="edge31_Node000029_Node000031" title=" " alt="" coords="1105,774,1052,768,1052,762,1106,769"/>
+<area shape="poly" id="edge35_Node000031_Node000018" title=" " alt="" coords="875,754,626,736,516,723,477,716,454,708,428,689,406,666,369,615,344,564,330,527,335,525,349,562,374,612,410,663,432,685,456,703,478,710,516,718,627,731,876,748"/>
+<area shape="rect" id="Node000032" href="$class_data_base_g_u_i.html#a2d921da686e76ae195da018bb735a1ae" title="Searches for children based on the provided name and surname." alt="" coords="689,440,828,483"/>
+<area shape="poly" id="edge32_Node000031_Node000032" title=" " alt="" coords="940,724,882,648,771,484,776,481,886,645,945,721"/>
+<area shape="rect" id="Node000033" href="$class_data_base_g_u_i.html#aa684465aa73b5b34bbadd24fc7f2f641" title="Selects the appropriate sorting to use based on child sort index." alt="" coords="681,651,836,693"/>
+<area shape="poly" id="edge36_Node000031_Node000033" title=" " alt="" coords="900,731,814,696,816,691,902,726"/>
+<area shape="poly" id="edge33_Node000032_Node000013" title=" " alt="" coords="836,428,849,413,857,399,867,386,882,375,930,360,969,360,1009,367,1059,375,1290,402,1515,439,1712,477,1856,508,1854,513,1711,482,1514,444,1289,407,1059,380,1008,373,969,365,930,365,885,380,871,390,862,402,853,416,840,432"/>
+<area shape="poly" id="edge34_Node000032_Node000018" title=" " alt="" coords="674,468,570,476,455,489,391,501,390,495,455,484,569,471,674,463"/>
+<area shape="poly" id="edge47_Node000033_Node000025" title=" " alt="" coords="715,643,562,528,565,524,718,639"/>
+<area shape="rect" id="Node000034" href="$class_data_base_g_u_i.html#a00f9044d3b8dd9c5dada244dac1b0df6" title="Adds a new child to the database." alt="" coords="461,600,627,627"/>
+<area shape="poly" id="edge37_Node000033_Node000034" title=" " alt="" coords="665,649,595,630,596,625,667,644"/>
+<area shape="rect" id="Node000035" href="$class_data_base_g_u_i.html#acb6c6b292e58d0ead30682f7f5705244" title="Edits an existing child in the database." alt="" coords="461,835,627,861"/>
+<area shape="poly" id="edge39_Node000033_Node000035" title=" " alt="" coords="740,708,696,768,668,799,635,825,612,836,610,832,632,820,664,795,692,765,735,705"/>
+<area shape="rect" id="Node000036" href="$class_data_base_g_u_i.html#ae3a08843db874e51a7cea32fa8937ca5" title="Removes a child from the database." alt="" coords="475,768,613,811"/>
+<area shape="poly" id="edge42_Node000033_Node000036" title=" " alt="" coords="706,703,586,770,584,765,703,699"/>
+<area shape="rect" id="Node000037" href="$class_data_base_g_u_i.html#a2e6d3629f679c153cdd21b683ce794a1" title="Changes the sorting method for children." alt="" coords="475,651,613,693"/>
+<area shape="poly" id="edge45_Node000033_Node000037" title=" " alt="" coords="666,675,614,675,614,669,666,669"/>
+<area shape="poly" id="edge38_Node000034_Node000018" title=" " alt="" coords="486,597,454,584,397,555,350,528,352,524,400,550,456,579,488,592"/>
+<area shape="poly" id="edge40_Node000035_Node000030" title=" " alt="" coords="445,851,408,851,408,845,445,845"/>
+<area shape="poly" id="edge41_Node000035_Node000031" title=" " alt="" coords="624,828,890,771,891,776,625,833"/>
+<area shape="poly" id="edge43_Node000036_Node000030" title=" " alt="" coords="461,814,408,829,407,824,460,809"/>
+<area shape="poly" id="edge44_Node000036_Node000031" title=" " alt="" coords="629,780,890,760,891,765,629,785"/>
+<area shape="poly" id="edge46_Node000037_Node000018" title=" " alt="" coords="461,646,454,641,417,613,384,581,337,527,341,524,387,578,420,609,456,636,464,641"/>
+<area shape="poly" id="edge60_Node000039_Node000025" title=" " alt="" coords="1336,507,634,514,634,509,1336,502"/>
+<area shape="rect" id="Node000040" href="$class_data_base_g_u_i.html#a336fa47d9a9e56d585d82f53d33e8593" title="Adds a new parent to the database." alt="" coords="884,389,1059,416"/>
+<area shape="poly" id="edge50_Node000039_Node000040" title=" " alt="" coords="1344,480,1282,463,1166,438,1059,419,1060,413,1167,432,1283,457,1346,475"/>
+<area shape="rect" id="Node000041" href="$class_data_base_g_u_i.html#a5b049fb9e0e5d78c4c2e81e569b471f9" title="Edits an existing parent in the database." alt="" coords="1107,541,1282,568"/>
+<area shape="poly" id="edge52_Node000039_Node000041" title=" " alt="" coords="1337,526,1260,543,1259,538,1336,521"/>
+<area shape="rect" id="Node000042" href="$class_data_base_g_u_i.html#ad8a42f24cdb603ba85c1cdd4ea2e73a4" title="Removes a parent from the database." alt="" coords="1121,592,1268,635"/>
+<area shape="poly" id="edge55_Node000039_Node000042" title=" " alt="" coords="1375,536,1283,582,1256,594,1254,589,1281,578,1373,531"/>
+<area shape="rect" id="Node000043" href="$class_data_base_g_u_i.html#a783bdf1d65998f887dd6445741450480" title="Changes the sorting method for parents." alt="" coords="898,440,1045,483"/>
+<area shape="poly" id="edge58_Node000039_Node000043" title=" " alt="" coords="1336,494,1282,488,1045,469,1046,463,1283,483,1337,489"/>
+<area shape="poly" id="edge51_Node000040_Node000018" title=" " alt="" coords="868,391,777,385,673,385,562,396,508,408,456,424,422,440,391,460,344,500,340,496,388,456,419,435,454,419,507,403,562,391,672,380,778,379,868,386"/>
+<area shape="poly" id="edge53_Node000041_Node000026" title=" " alt="" coords="1127,575,1052,595,1051,590,1126,570"/>
+<area shape="poly" id="edge54_Node000041_Node000027" title=" " alt="" coords="1298,554,1590,559,1590,564,1298,559"/>
+<area shape="poly" id="edge56_Node000042_Node000026" title=" " alt="" coords="1105,616,1052,616,1052,611,1105,611"/>
+<area shape="poly" id="edge57_Node000042_Node000027" title=" " alt="" coords="1283,601,1590,568,1590,574,1284,607"/>
+<area shape="poly" id="edge59_Node000043_Node000018" title=" " alt="" coords="882,439,835,431,728,420,644,422,560,435,456,461,402,480,356,501,354,496,400,475,454,456,559,430,643,416,728,415,836,425,883,434"/>
+<area shape="poly" id="edge62_Node000044_Node000014" title=" " alt="" coords="1831,400,1720,368,1721,363,1832,395"/>
 </map>

@@ -132,6 +132,18 @@ public:
 	Lesson* add_lesson(const Lesson& lesson);
 
 	/**
+	 * @brief Removes a lesson's information from the maps.
+	 * @param lesson A pointer to the lesson to update.
+	 */
+	void update_lesson_start(Lesson* lesson);
+
+	/**
+	 * @brief Adds a lesson's information to the maps.
+	 * @param lesson A pointer to the lesson to update.
+	 */
+	void update_lesson_end(Lesson* lesson);
+
+	/**
 	 * @brief Removes a lesson from the database.
 	 * @param lesson A pointer to the lesson to remove.
 	 */

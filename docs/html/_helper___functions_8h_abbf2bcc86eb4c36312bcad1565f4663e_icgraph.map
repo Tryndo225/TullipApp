@@ -1,20 +1,53 @@
 <map id="contains" name="contains">
-<area shape="rect" id="Node000001" title="Checks if a vector contains a specific value." alt="" coords="706,85,777,112"/>
-<area shape="rect" id="Node000002" href="$class_parent_dialog.html#abd4180f8200c28719a4949997fbcbc1e" title="Accepts the dialog and updates the parent information." alt="" coords="486,5,629,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="710,78,657,46,625,35,627,30,659,42,713,74"/>
-<area shape="rect" id="Node000003" href="$_helper___functions_8h.html#a3aa0571ac8d9be6660f87c19cfe107fa" title="Checks if a vector contains any value from another vector." alt="" coords="470,56,645,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="691,93,645,86,646,81,691,88"/>
-<area shape="rect" id="Node000007" href="$class_clickable_label.html#a040d1af68245bbc4989fefe04b9ffdd0" title="Handles mouse release events." alt="" coords="457,107,658,149"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="691,109,659,114,658,109,691,104"/>
-<area shape="rect" id="Node000008" href="$class_parent_dialog.html#a75bd70150c2208775a5a7996c2a13b03" title="Populates the dialog with child checkboxes." alt="" coords="481,173,634,216"/>
-<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="716,124,690,145,660,164,634,175,632,170,657,159,687,140,713,120"/>
-<area shape="rect" id="Node000004" href="$class_database.html#ad8e7c7035665c903a8a34b5dbff4e2a6" title="Filters lessons by a child&#39;s name." alt="" coords="242,15,397,57"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="455,58,397,49,398,44,456,52"/>
-<area shape="rect" id="Node000006" href="$class_database.html#abcc5c80902d844addb9fe92b8524976a" title="Filters lessons by a child&#39;s surname." alt="" coords="242,81,397,124"/>
-<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="456,86,398,94,397,89,455,81"/>
-<area shape="rect" id="Node000005" href="$class_database.html#a2474f58dd1a17687fe4bc21afb26b830" title="Imports data from a CSV file." alt="" coords="5,48,182,91"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="227,52,183,59,182,54,226,47"/>
-<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="226,92,182,85,183,80,227,86"/>
-<area shape="rect" id="Node000009" href="$class_parent_dialog.html#a2479d341c86307fbb81dba6af772e976" title="Constructs a ParentDialog object." alt="" coords="230,181,409,208"/>
-<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="465,197,410,197,410,192,465,192"/>
+<area shape="rect" id="Node000001" title="Checks if a vector contains a specific value." alt="" coords="923,344,993,371"/>
+<area shape="rect" id="Node000002" href="$class_parent_dialog.html#abd4180f8200c28719a4949997fbcbc1e" title="Accepts the dialog and updates the parent information." alt="" coords="702,65,846,92"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="953,328,948,280,936,220,912,158,894,130,873,106,845,90,848,85,876,102,899,127,916,156,941,218,954,279,958,328"/>
+<area shape="rect" id="Node000003" href="$_helper___functions_8h.html#a3aa0571ac8d9be6660f87c19cfe107fa" title="Checks if a vector contains any value from another vector." alt="" coords="687,116,861,143"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="946,330,919,263,898,226,873,193,840,165,806,146,809,141,843,161,877,189,903,223,924,261,951,328"/>
+<area shape="rect" id="Node000007" href="$class_lesson_dialog.html#a2898fcef2819d773d4f20e82d88a8ffd" title="Creates a checkbox for a child." alt="" coords="702,203,846,245"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="939,333,911,295,873,260,845,245,848,240,876,255,915,291,943,329"/>
+<area shape="rect" id="Node000012" href="$class_lesson_dialog.html#a03b443caff10683095b4d9138e004d1e" title="Creates a checkbox for an employee." alt="" coords="697,269,851,312"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="909,340,874,326,841,315,843,310,876,322,911,335"/>
+<area shape="rect" id="Node000016" href="$class_lesson_dialog.html#a75d8601e6e4ee2e1e69eb9e59b1d9211" title="Updates the lesson with selected children." alt="" coords="702,336,846,379"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="908,360,847,360,847,355,908,355"/>
+<area shape="rect" id="Node000018" href="$class_lesson_dialog.html#a0a5f83405dfdf8a35b25425535ac7887" title="Updates the lesson with selected employees." alt="" coords="702,403,846,445"/>
+<area shape="poly" id="edge21_Node000001_Node000018" title=" " alt="" coords="911,379,876,393,843,405,841,400,874,388,909,374"/>
+<area shape="rect" id="Node000019" href="$class_clickable_label.html#a040d1af68245bbc4989fefe04b9ffdd0" title="Handles mouse release events." alt="" coords="673,469,875,512"/>
+<area shape="poly" id="edge23_Node000001_Node000019" title=" " alt="" coords="943,385,915,423,876,459,856,471,853,467,873,455,911,420,939,382"/>
+<area shape="rect" id="Node000020" href="$class_parent_dialog.html#a75bd70150c2208775a5a7996c2a13b03" title="Populates the dialog with child checkboxes." alt="" coords="697,536,851,579"/>
+<area shape="poly" id="edge24_Node000001_Node000020" title=" " alt="" coords="952,386,942,418,927,456,905,493,876,526,852,541,850,537,873,522,901,490,922,454,937,417,947,385"/>
+<area shape="rect" id="Node000023" href="$class_parent_dialog.html#a34519fed2a2112efcc451d36b85cebea" title="Populates the dialog with child checkboxes." alt="" coords="697,603,851,645"/>
+<area shape="poly" id="edge28_Node000001_Node000023" title=" " alt="" coords="957,386,950,431,937,486,913,543,897,569,876,593,853,609,850,605,873,589,892,566,908,540,932,485,945,430,952,386"/>
+<area shape="rect" id="Node000004" href="$class_database.html#ad8e7c7035665c903a8a34b5dbff4e2a6" title="Filters lessons by a child&#39;s name." alt="" coords="469,5,624,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="685,113,672,106,657,96,647,84,638,73,624,62,604,51,606,46,627,58,641,70,651,81,660,92,675,102,687,108"/>
+<area shape="rect" id="Node000006" href="$class_database.html#abcc5c80902d844addb9fe92b8524976a" title="Filters lessons by a child&#39;s surname." alt="" coords="469,72,624,115"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="671,116,624,108,625,103,672,110"/>
+<area shape="rect" id="Node000005" href="$class_database.html#a2474f58dd1a17687fe4bc21afb26b830" title="Imports data from a CSV file." alt="" coords="242,31,418,73"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="454,40,419,44,419,39,453,35"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="453,78,418,71,419,66,454,73"/>
+<area shape="rect" id="Node000008" href="$class_lesson_dialog.html#a375a77c87696df60e0cbab9da70b7a67" title="Populates the dialog with children and employees." alt="" coords="468,139,625,181"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="686,202,624,184,626,179,688,197"/>
+<area shape="rect" id="Node000011" href="$class_lesson_dialog.html#a40a5c419190d1c9f667a71bd9706c3cf" title="Populates the dialog with children and employees." alt="" coords="468,205,625,248"/>
+<area shape="poly" id="edge12_Node000007_Node000011" title=" " alt="" coords="687,228,626,228,626,223,687,222"/>
+<area shape="rect" id="Node000009" href="$class_lesson_dialog.html#ac10e391b7a2221ff937a30ccf61124b2" title="Searches for children based on the input in the name and surname fields." alt="" coords="254,121,407,164"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="452,155,407,151,408,146,453,150"/>
+<area shape="rect" id="Node000010" href="$class_lesson_dialog.html#a4ddf55a3925f45bd1cd3ecef02c261d5" title="Constructs a LessonDialog object." alt="" coords="5,213,193,240"/>
+<area shape="poly" id="edge11_Node000008_Node000010" title=" " alt="" coords="453,176,194,215,193,210,453,171"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="256,172,139,215,137,210,255,167"/>
+<area shape="rect" id="Node000013" href="$class_lesson_dialog.html#a2883fd6f7079ecb26550deb519302db0" title="Populates the dialog with employees." alt="" coords="468,272,625,315"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="681,294,626,295,626,290,681,289"/>
+<area shape="rect" id="Node000015" href="$class_lesson_dialog.html#ae4ff794125c43c773c2f6eea7167242a" title="Populates the dialog with employees." alt="" coords="468,339,625,381"/>
+<area shape="poly" id="edge18_Node000012_Node000015" title=" " alt="" coords="688,320,620,341,618,336,686,315"/>
+<area shape="poly" id="edge17_Node000013_Node000010" title=" " alt="" coords="453,282,193,243,194,238,453,277"/>
+<area shape="rect" id="Node000014" href="$class_lesson_dialog.html#a6cec6904588a83618b0d776547ea2697" title="Searches for employees based on the input in the name and surname fields." alt="" coords="245,289,416,332"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="453,304,417,306,416,301,452,298"/>
+<area shape="poly" id="edge16_Node000014_Node000010" title=" " alt="" coords="255,286,137,243,139,238,256,281"/>
+<area shape="rect" id="Node000017" href="$class_lesson_dialog.html#a87f3acf17ae6e5696ce4d2b361fd5ea9" title="Accepts the dialog and updates the lesson information." alt="" coords="473,407,620,433"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="688,384,599,409,597,403,686,379"/>
+<area shape="poly" id="edge22_Node000018_Node000017" title=" " alt="" coords="687,425,621,424,621,419,687,420"/>
+<area shape="rect" id="Node000021" href="$class_parent_dialog.html#a35f4bfbef301aee353217e5a0d1224fb" title="Searches for children based on the input in the name and surname fields." alt="" coords="472,507,621,549"/>
+<area shape="poly" id="edge25_Node000020_Node000021" title=" " alt="" coords="682,548,621,540,622,535,682,543"/>
+<area shape="rect" id="Node000022" href="$class_parent_dialog.html#a2479d341c86307fbb81dba6af772e976" title="Constructs a ParentDialog object." alt="" coords="241,544,420,571"/>
+<area shape="poly" id="edge27_Node000020_Node000022" title=" " alt="" coords="682,563,625,564,468,564,420,563,420,558,468,559,625,559,682,558"/>
+<area shape="poly" id="edge26_Node000021_Node000022" title=" " alt="" coords="457,543,421,548,420,543,456,538"/>
 </map>

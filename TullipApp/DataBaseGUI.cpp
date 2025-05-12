@@ -49,6 +49,11 @@ void DataBaseGUI::setup()
 	connect(ui.employee_sort_selector, QOverload<int>::of(&QComboBox::currentIndexChanged), this, &DataBaseGUI::employee_sort_change);
 	connect(ui.employee_search_name_bar, &QLineEdit::returnPressed, this, &DataBaseGUI::employee_search);
 	connect(ui.employee_search_surname_bar, &QLineEdit::returnPressed, this, &DataBaseGUI::employee_search);
+
+	connect(ui.lessons_add_button, &QPushButton::clicked, this, &DataBaseGUI::lesson_add);
+	connect(ui.lessons_sort_selector, QOverload<int>::of(&QComboBox::currentIndexChanged), this, &DataBaseGUI::lesson_sort_change);
+	connect(ui.lessons_search_by_child_name_bar, &QLineEdit::returnPressed, this, &DataBaseGUI::lesson_search);
+	connect(ui.lessons_search_by_child_surname_bar, &QLineEdit::returnPressed, this, &DataBaseGUI::lesson_search);
 }
 
 // Database operations
@@ -163,6 +168,18 @@ void DataBaseGUI::parent_add()
 	delete parent;
 }
 
+void DataBaseGUI::lesson_add()
+{
+	Lesson* lesson = new Lesson();
+	LessonDialog dialog(lesson, database_, this);
+	if (dialog.exec() == QDialog::Accepted)
+	{
+		database_.add_lesson(*lesson);
+		sort_to_populate_lesson_tab();
+	}
+	delete lesson;
+}
+
 void DataBaseGUI::employee_add()
 {
 	Employee* employee = new Employee();
@@ -244,6 +261,18 @@ void DataBaseGUI::lesson_remove(Lesson* lesson)
 {
 	database_.remove_lesson(lesson);
 	sort_to_populate_lesson_tab();
+}
+
+void DataBaseGUI::lesson_view(Lesson* lesson)
+{
+	LessonView* lesson_view = new LessonView(lesson, database_);
+	connect(lesson_view, &LessonView::childClicked, this, &DataBaseGUI::child_search_by_pointer);
+	connect(lesson_view, &LessonView::employeeClicked, this, &DataBaseGUI::employee_search_by_pointer);
+	connect(lesson_view, &LessonView::lessonEdited, this, [this] { sort_to_populate_lesson_tab(); });
+	lesson_view->setWindowTitle("Lesson View");
+	lesson_view->setWindowFlags(Qt::Window);
+	lesson_view->setAttribute(Qt::WA_DeleteOnClose);
+	lesson_view->show();
 }
 
 // Search operations
@@ -463,7 +492,7 @@ void DataBaseGUI::populate_lesson_tab(const std::multimap<T, Lesson*>& lessons)
 	for (const auto& [key, lesson] : lessons)
 	{
 		auto* entry = new LessonEntry(this, lesson);
-		// connect(entry, &LessonEntry::viewRequested, this, &DataBaseGUI::lesson_view);
+		connect(entry, &LessonEntry::viewRequested, this, &DataBaseGUI::lesson_view);
 		connect(entry, &LessonEntry::removeRequested, this, &DataBaseGUI::lesson_remove);
 		ui.lessons_scroll_contents->layout()->addWidget(entry);
 	}
@@ -472,10 +501,8 @@ void DataBaseGUI::populate_lesson_tab(const std::multimap<T, Lesson*>& lessons)
 
 void DataBaseGUI::populate_children_tab(const std::vector<Child*>& children)
 {
-	// Clear the existing entries in the tab
 	children_tab_clear();
 
-	// Populate the tab with new entries
 	for (const auto& child : children)
 	{
 		auto* entry = new ChildEntry(this, child);
@@ -521,6 +548,7 @@ void DataBaseGUI::populate_lesson_tab(const std::vector<Lesson*>& lessons)
 	for (const auto& lesson : lessons)
 	{
 		auto* entry = new LessonEntry(this, lesson);
+		connect(entry, &LessonEntry::viewRequested, this, &DataBaseGUI::lesson_view);
 		connect(entry, &LessonEntry::removeRequested, this, &DataBaseGUI::lesson_remove);
 		ui.lessons_scroll_contents->layout()->addWidget(entry);
 	}
@@ -615,9 +643,4 @@ DataBaseGUI::~DataBaseGUI()
 	parent_tab_clear();
 	employee_tab_clear();
 	lesson_tab_clear();
-
-	for (auto& connection : connections_)
-	{
-		disconnect(connection);
-	}
 }

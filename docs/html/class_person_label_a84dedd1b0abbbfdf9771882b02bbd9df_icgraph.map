@@ -1,0 +1,5 @@
+<map id="PersonLabel::on_label_clicked" name="PersonLabel::on_label_clicked">
+<area shape="rect" id="Node000001" title="Handles the click event on the label." alt="" coords="227,5,376,48"/>
+<area shape="rect" id="Node000002" href="$class_person_label.html#a94331464b364eff3b1b12d192e293d93" title="Constructs a PersonLabel for a given person and sets up the UI." alt="" coords="5,13,179,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,29,179,29,179,24,211,24"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Database::update_lesson_end" name="Database::update_lesson_end">
+<area shape="rect" id="Node000001" title="Adds a lesson&#39;s information to the maps." alt="" coords="5,5,203,32"/>
+<area shape="rect" id="Node000002" href="$class_lesson.html#a25d5ac20ba2894748d604e75a00d756a" title="Gets the schedule of the lesson." alt="" coords="251,5,399,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,16,235,16,235,21,203,21"/>
+</map>

@@ -139,9 +139,9 @@ var sectionId = 'dynsection-0';
 <!-- Node34 -->
 <g id="Node000034" class="node">
 <title>Node34</title>
-<g id="a_Node000034"><a xlink:href="_child_check_box_8h.html" target="_top" xlink:title="Defines the ChildCheckBox class for managing a checkbox widget for a child.">
-<polygon fill="white" stroke="#666666" points="264.18,-300 171.68,-300 171.68,-280 264.18,-280 264.18,-300"/>
-<text text-anchor="middle" x="217.93" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">ChildCheckBox.h</text>
+<g id="a_Node000034"><a xlink:href="_person_check_box_8h.html" target="_top" xlink:title="Defines the PersonCheckBox class for managing a checkbox widget for a person.">
+<polygon fill="white" stroke="#666666" points="268.3,-300 167.55,-300 167.55,-280 268.3,-280 268.3,-300"/>
+<text text-anchor="middle" x="217.93" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">PersonCheckBox.h</text>
 </a>
 </g>
 </g>
@@ -734,8 +734,8 @@ var sectionId = 'dynsection-0';
 <g id="Node000031" class="node">
 <title>Node31</title>
 <g id="a_Node000031"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="968.43,-244 919.43,-244 919.43,-224 968.43,-224 968.43,-244"/>
-<text text-anchor="middle" x="943.93" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00">fstream</text>
+<polygon fill="#e0e0e0" stroke="#999999" points="972.43,-244 923.43,-244 923.43,-224 972.43,-224 972.43,-244"/>
+<text text-anchor="middle" x="947.93" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00">fstream</text>
 </a>
 </g>
 </g>
@@ -743,8 +743,8 @@ var sectionId = 'dynsection-0';
 <g id="edge42_Node000030_Node000031" class="edge">
 <title>Node30&#45;&gt;Node31</title>
 <g id="a_edge42_Node000030_Node000031"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M530.46,-287.16C599.53,-282.97 762.76,-271.11 908.27,-244.25"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="908.49,-247.77 917.67,-242.49 907.2,-240.89 908.49,-247.77"/>
+<path fill="none" stroke="#63b8ff" d="M530.51,-287.2C600.09,-283.09 765.14,-271.32 912.16,-244.27"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="912.49,-247.77 921.67,-242.49 911.2,-240.89 912.49,-247.77"/>
 </a>
 </g>
 </g>
@@ -752,8 +752,8 @@ var sectionId = 'dynsection-0';
 <g id="Node000032" class="node">
 <title>Node32</title>
 <g id="a_Node000032"><a xlink:title=" ">
-<polygon fill="#e0e0e0" stroke="#999999" points="1037.55,-244 986.3,-244 986.3,-224 1037.55,-224 1037.55,-244"/>
-<text text-anchor="middle" x="1011.93" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00">memory</text>
+<polygon fill="#e0e0e0" stroke="#999999" points="1041.55,-244 990.3,-244 990.3,-224 1041.55,-224 1041.55,-244"/>
+<text text-anchor="middle" x="1015.93" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00">memory</text>
 </a>
 </g>
 </g>
@@ -761,8 +761,8 @@ var sectionId = 'dynsection-0';
 <g id="edge43_Node000030_Node000032" class="edge">
 <title>Node30&#45;&gt;Node32</title>
 <g id="a_edge43_Node000030_Node000032"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M530.42,-287.77C607.39,-284.55 802.89,-274.06 974.75,-244.31"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="975.3,-247.77 984.55,-242.59 974.09,-240.88 975.3,-247.77"/>
+<path fill="none" stroke="#63b8ff" d="M530.41,-287.81C607.85,-284.65 805.42,-274.26 978.91,-244.28"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="979.3,-247.77 988.55,-242.59 978.09,-240.87 979.3,-247.77"/>
 </a>
 </g>
 </g>
@@ -877,9 +877,9 @@ var sectionId = 'dynsection-0';
 <!-- Node36 -->
 <g id="Node000036" class="node">
 <title>Node36</title>
-<g id="a_Node000036"><a xlink:href="ui___child_check_box_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="901.55,-244 796.3,-244 796.3,-224 901.55,-224 901.55,-244"/>
-<text text-anchor="middle" x="848.93" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00">ui_ChildCheckBox.h</text>
+<g id="a_Node000036"><a xlink:href="ui___person_check_box_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="905.68,-244 792.18,-244 792.18,-224 905.68,-224 905.68,-244"/>
+<text text-anchor="middle" x="848.93" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00">ui_PersonCheckBox.h</text>
 </a>
 </g>
 </g>
@@ -887,8 +887,8 @@ var sectionId = 'dynsection-0';
 <g id="edge56_Node000034_Node000036" class="edge">
 <title>Node34&#45;&gt;Node36</title>
 <g id="a_edge56_Node000034_Node000036"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M264.58,-285.01C375.87,-275.48 657.07,-251.42 784.45,-240.52"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="784.75,-244 794.42,-239.66 784.15,-237.03 784.75,-244"/>
+<path fill="none" stroke="#63b8ff" d="M268.76,-284.65C381.65,-274.99 653.27,-251.74 780.73,-240.84"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="780.7,-244.35 790.36,-240.01 780.1,-237.38 780.7,-244.35"/>
 </a>
 </g>
 </g>
@@ -914,8 +914,8 @@ var sectionId = 'dynsection-0';
 <g id="edge60_Node000036_Node000014" class="edge">
 <title>Node36&#45;&gt;Node14</title>
 <g id="a_edge60_Node000036_Node000014"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M902.03,-224.2C957.83,-214.96 1045.78,-200.39 1106.69,-190.3"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1106.94,-193.81 1116.24,-188.72 1105.8,-186.9 1106.94,-193.81"/>
+<path fill="none" stroke="#63b8ff" d="M906.08,-223.53C962.01,-214.27 1047.22,-200.15 1106.68,-190.31"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1107.05,-193.79 1116.34,-188.7 1105.9,-186.89 1107.05,-193.79"/>
 </a>
 </g>
 </g>
@@ -923,8 +923,8 @@ var sectionId = 'dynsection-0';
 <g id="edge61_Node000036_Node000015" class="edge">
 <title>Node36&#45;&gt;Node15</title>
 <g id="a_edge61_Node000036_Node000015"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M902.01,-225.16C905.02,-224.76 908.01,-224.37 910.93,-224 1056.3,-205.67 1096.02,-206.89 1244.36,-188.28"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1244.72,-191.76 1254.2,-187.03 1243.84,-184.82 1244.72,-191.76"/>
+<path fill="none" stroke="#63b8ff" d="M906.15,-225.1C909.12,-224.72 912.06,-224.35 914.93,-224 1058.65,-206.41 1097.81,-206.8 1244.48,-188.27"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1244.72,-191.77 1254.2,-187.03 1243.84,-184.82 1244.72,-191.77"/>
 </a>
 </g>
 </g>

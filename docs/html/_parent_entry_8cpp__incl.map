@@ -12,7 +12,7 @@
 <area shape="poly" id="edge40_Node000002_Node000014" title=" " alt="" coords="469,109,186,297,183,293,466,105"/>
 <area shape="rect" id="Node000017" href="$_person_8h.html" title="Defines the Person class and its derived classes: Child, Parent, and Employee." alt="" coords="1914,229,1988,256"/>
 <area shape="poly" id="edge17_Node000002_Node000017" title=" " alt="" coords="538,102,550,104,956,155,1352,193,1684,220,1899,235,1899,241,1684,226,1351,199,955,160,549,109,537,107"/>
-<area shape="rect" id="Node000031" href="$_child_label_8h.html" title="Defines the ChildLabel class for displaying child name." alt="" coords="440,155,534,181"/>
+<area shape="rect" id="Node000031" href="$_person_label_8h.html" title=" " alt="" coords="435,155,539,181"/>
 <area shape="poly" id="edge41_Node000002_Node000031" title=" " alt="" coords="490,107,490,139,484,139,484,107"/>
 <area shape="rect" id="Node000005" title=" " alt="" coords="580,304,698,331"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="775,259,683,300,681,295,773,254"/>
@@ -73,13 +73,13 @@
 <area shape="rect" id="Node000029" title=" " alt="" coords="2200,453,2278,480"/>
 <area shape="poly" id="edge34_Node000028_Node000029" title=" " alt="" coords="2237,406,2239,437,2234,438,2232,406"/>
 <area shape="poly" id="edge38_Node000030_Node000019" title=" " alt="" coords="2445,408,2385,447,2383,442,2442,404"/>
-<area shape="poly" id="edge42_Node000031_Node000003" title=" " alt="" coords="440,176,366,188,273,212,224,228,176,250,130,275,89,306,66,334,52,365,47,363,62,331,85,302,127,271,174,245,222,224,272,206,365,183,440,171"/>
-<area shape="poly" id="edge49_Node000031_Node000017" title=" " alt="" coords="534,169,1899,236,1899,241,534,174"/>
-<area shape="rect" id="Node000032" href="$ui___child_label_8h.html" title=" " alt="" coords="432,229,542,256"/>
+<area shape="poly" id="edge42_Node000031_Node000003" title=" " alt="" coords="434,177,360,190,269,213,221,230,174,251,129,276,89,306,66,334,52,365,47,363,62,331,85,302,126,271,171,246,219,225,267,208,359,184,434,172"/>
+<area shape="poly" id="edge49_Node000031_Node000017" title=" " alt="" coords="540,169,1898,236,1898,241,539,175"/>
+<area shape="rect" id="Node000032" href="$ui___person_label_8h.html" title=" " alt="" coords="426,229,548,256"/>
 <area shape="poly" id="edge43_Node000031_Node000032" title=" " alt="" coords="490,182,490,214,484,214,484,182"/>
 <area shape="poly" id="edge44_Node000032_Node000005" title=" " alt="" coords="514,254,600,294,597,299,512,259"/>
 <area shape="poly" id="edge45_Node000032_Node000006" title=" " alt="" coords="543,254,733,297,732,303,542,259"/>
 <area shape="poly" id="edge46_Node000032_Node000008" title=" " alt="" coords="458,259,359,300,357,295,456,254"/>
 <area shape="poly" id="edge47_Node000032_Node000013" title=" " alt="" coords="490,257,490,288,484,288,484,257"/>
-<area shape="poly" id="edge48_Node000032_Node000014" title=" " alt="" coords="432,259,224,303,223,298,430,253"/>
+<area shape="poly" id="edge48_Node000032_Node000014" title=" " alt="" coords="429,259,225,303,223,298,428,254"/>
 </map>

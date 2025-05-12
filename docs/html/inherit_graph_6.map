@@ -1,9 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,56,74,83"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,81,74,108"/>
 <area shape="rect" id="Node000001" href="$class_child_dialog.html" title="Dialog for managing child&#45;related information." alt="" coords="136,5,224,32"/>
-<area shape="poly" id="edge10_Node000000_Node000001" title=" " alt="" coords="88,49,140,30,142,35,89,54"/>
+<area shape="poly" id="edge10_Node000000_Node000001" title=" " alt="" coords="72,70,120,42,144,30,146,35,123,46,75,75"/>
 <area shape="rect" id="Node000002" href="$class_employee_dialog.html" title="Dialog for managing employee information." alt="" coords="122,56,238,83"/>
-<area shape="poly" id="edge11_Node000000_Node000002" title=" " alt="" coords="89,67,121,67,121,72,89,72"/>
-<area shape="rect" id="Node000003" href="$class_parent_dialog.html" title="Dialog for managing parent&#45;related information." alt="" coords="132,107,228,133"/>
-<area shape="poly" id="edge12_Node000000_Node000003" title=" " alt="" coords="89,84,142,104,140,109,88,89"/>
+<area shape="poly" id="edge11_Node000000_Node000002" title=" " alt="" coords="89,83,121,77,122,82,90,88"/>
+<area shape="rect" id="Node000003" href="$class_lesson_dialog.html" title="Dialog for managing lesson&#45;related information." alt="" coords="130,107,230,133"/>
+<area shape="poly" id="edge12_Node000000_Node000003" title=" " alt="" coords="89,101,130,108,129,114,88,106"/>
+<area shape="rect" id="Node000004" href="$class_parent_dialog.html" title="Dialog for managing parent&#45;related information." alt="" coords="132,157,228,184"/>
+<area shape="poly" id="edge13_Node000000_Node000004" title=" " alt="" coords="75,114,123,143,146,154,144,159,120,148,72,119"/>
 </map>

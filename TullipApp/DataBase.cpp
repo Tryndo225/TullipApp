@@ -132,6 +132,16 @@ Lesson* Database::add_lesson(const Lesson& lesson)
 	return lessons_.back().get();
 }
 
+void Database::update_lesson_start(Lesson* lesson)
+{
+	remove_from_map(lesson_by_schedule, lesson->get_schedule(), lesson);
+}
+
+void Database::update_lesson_end(Lesson* lesson)
+{
+	lesson_by_schedule.insert({ lesson->get_schedule(), lesson });
+}
+
 void Database::remove_lesson(const Lesson* lesson)
 {
 	remove_all(lessons_, *lesson);
@@ -405,13 +415,15 @@ Child* Database::get_child_by_name_surname(const std::string& name_surname) cons
 	auto name = name_surname.substr(0, name_surname.find(' '));
 	auto surname = name_surname.substr(name_surname.find(' ') + 1);
 
-	auto filetered = filter_child_by_name(name, filter_child_by_surname(surname));
+	auto filtered_surname = filter_child_by_surname(surname);
 
-	if (filetered.size() == 1)
+	auto filtered = filter_child_by_name(name, filter_child_by_surname(surname));
+
+	if (filtered.size() == 1)
 	{
-		return filetered[0];
+		return filtered[0];
 	}
-	else if (filetered.size() > 1)
+	else if (filtered.size() > 1)
 	{
 		throw std::runtime_error("Multiple children found with the same name and surname.");
 	}
@@ -521,7 +533,7 @@ std::vector<Child*> Database::filter_child_by_surname(const std::string& surname
 	}
 	else
 	{
-		return filter_multimap_by_keys(child_by_name, [surname](const std::string& key)
+		return filter_multimap_by_keys(child_by_surname, [surname](const std::string& key)
 			{
 				return key == surname;
 			});

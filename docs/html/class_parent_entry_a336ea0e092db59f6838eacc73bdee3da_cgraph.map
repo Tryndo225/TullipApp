@@ -2,12 +2,12 @@
 <area shape="rect" id="Node000001" title="Constructs a ParentEntry widget." alt="" coords="5,93,173,120"/>
 <area shape="rect" id="Node000002" href="$class_parent_entry.html#afbc19a7aa219add3dd8efa219c1b713d" title="Sets up the parent entry widget." alt="" coords="221,85,351,128"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,104,205,104,205,109,173,109"/>
-<area shape="rect" id="Node000003" href="$class_child_label.html#a5ca1704a24e5c456ac1f5b72bf25d05d" title="Signal emitted when the child label is clicked." alt="" coords="402,5,563,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="320,83,398,42,415,35,417,40,400,46,323,87"/>
-<area shape="rect" id="Node000004" href="$class_parent_entry.html#a45e22d202e52c9dbc7e7e72575dc0e91" title="Signal emitted when a child search is requested." alt="" coords="399,56,565,99"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="351,94,383,89,384,95,352,100"/>
-<area shape="rect" id="Node000005" href="$class_clickable_label.html#aba68cb811a595c6d90f5c994f2b31f4b" title="Signal emitted when the label is clicked." alt="" coords="404,123,560,149"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="352,114,389,119,388,125,351,119"/>
-<area shape="rect" id="Node000006" href="$class_parent_entry.html#a2c318ff837a37003040fdbd43838a573" title="Handles the email label click event." alt="" coords="418,173,547,216"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="332,126,400,159,413,164,411,169,398,164,329,131"/>
+<area shape="rect" id="Node000003" href="$class_person_label.html#aa2a831964f915778bba70329d5e8c7c9" title="Signal emitted when the person label is clicked." alt="" coords="399,5,571,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="320,83,398,42,416,35,418,40,400,46,323,87"/>
+<area shape="rect" id="Node000004" href="$class_parent_entry.html#a45e22d202e52c9dbc7e7e72575dc0e91" title="Signal emitted when a child search is requested." alt="" coords="402,56,568,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="351,94,386,89,387,94,352,100"/>
+<area shape="rect" id="Node000005" href="$class_clickable_label.html#aba68cb811a595c6d90f5c994f2b31f4b" title="Signal emitted when the label is clicked." alt="" coords="408,123,563,149"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="352,114,393,120,392,125,351,119"/>
+<area shape="rect" id="Node000006" href="$class_parent_entry.html#a2c318ff837a37003040fdbd43838a573" title="Handles the email label click event." alt="" coords="420,173,550,216"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="331,126,400,159,413,164,411,169,398,164,329,131"/>
 </map>

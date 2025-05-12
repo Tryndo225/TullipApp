@@ -1,0 +1,9 @@
+<map id="LessonView::clear_children" name="LessonView::clear_children">
+<area shape="rect" id="Node000001" title="Clears the children section of the lesson view." alt="" coords="452,31,632,57"/>
+<area shape="rect" id="Node000002" href="$class_lesson_view.html#a01642f9f2ac50e57169729fd7bfdd4e2" title="Function called when the edit button is clicked." alt="" coords="231,5,398,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="436,35,398,31,398,25,437,30"/>
+<area shape="rect" id="Node000004" href="$class_lesson_view.html#a8e184a5e6a7275c6f3df4e6bf3229a6b" title="Destructor for the LessonView widget." alt="" coords="225,56,404,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="437,58,405,62,404,57,436,53"/>
+<area shape="rect" id="Node000003" href="$class_lesson_view.html#a5652733016a72ccf85b1df6e88a3513e" title="Constructs a LessonView widget." alt="" coords="5,5,177,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="216,21,177,21,177,16,216,16"/>
+</map>

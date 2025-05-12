@@ -11,7 +11,7 @@
 #include "ui_ParentEntry.h"
 #include "Person.h"
 #include "ClickableLabel.h"
-#include "ChildLabel.h"
+#include "PersonLabel.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class ParentEntryClass; };

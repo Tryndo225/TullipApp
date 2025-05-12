@@ -88,7 +88,7 @@ public:
      * @brief Gets the time of the lesson.
      * @return A constant reference to the Time object.
      */
-    inline const Time& get_time() const { return schedule_.get_time(); }
+    inline const Time get_time() const { return schedule_.get_time(); }
 
     /**
      * @brief Sets the time of the lesson.

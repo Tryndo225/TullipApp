@@ -1,0 +1,7 @@
+<map id="LessonView::populate_children" name="LessonView::populate_children">
+<area shape="rect" id="Node000001" title="Populates the children sections of the lesson view." alt="" coords="5,23,155,65"/>
+<area shape="rect" id="Node000002" href="$class_lesson_view.html#aa227f774e8716f77d11ee4485f14b94b" title="Signal emitted when a child is clicked." alt="" coords="203,5,374,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,32,187,28,188,34,156,38"/>
+<area shape="rect" id="Node000003" href="$class_person_label.html#aa2a831964f915778bba70329d5e8c7c9" title="Signal emitted when the person label is clicked." alt="" coords="203,56,375,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="156,50,187,54,187,60,155,56"/>
+</map>

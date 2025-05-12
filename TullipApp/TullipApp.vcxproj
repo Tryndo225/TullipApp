@@ -159,8 +159,8 @@
   <ItemGroup>
     <QtMoc Include="ChildEntry.h" />
     <QtMoc Include="ChildDialog.h" />
-    <QtMoc Include="ChildLabel.h" />
-    <QtMoc Include="ChildCheckBox.h" />
+    <QtMoc Include="PersonLabel.h" />
+    <QtMoc Include="PersonCheckBox.h" />
     <ClInclude Include="DataBase.h" />
     <QtMoc Include="DataBaseGUI.h" />
     <ClInclude Include="DataBase_Parser_Functions.h" />
@@ -173,14 +173,16 @@
     <QtMoc Include="ParentEntry.h" />
     <QtMoc Include="ParentDialog.h" />
     <QtMoc Include="LessonEntry.h" />
+    <QtMoc Include="LessonView.h" />
+    <QtMoc Include="LessonDialog.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Data_Helper_Types.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ChildCheckBox.cpp" />
+    <ClCompile Include="PersonCheckBox.cpp" />
     <ClCompile Include="ChildDialog.cpp" />
     <ClCompile Include="ChildEntry.cpp" />
-    <ClCompile Include="ChildLabel.cpp" />
+    <ClCompile Include="PersonLabel.cpp" />
     <ClCompile Include="DataBase.cpp" />
     <ClCompile Include="DataBaseGUI.cpp" />
     <ClCompile Include="DataBase_Parser_Functions.cpp" />
@@ -188,7 +190,9 @@
     <ClCompile Include="EmployeeDialog.cpp" />
     <ClCompile Include="EmployeeEntry.cpp" />
     <ClCompile Include="Lesson.cpp" />
+    <ClCompile Include="LessonDialog.cpp" />
     <ClCompile Include="LessonEntry.cpp" />
+    <ClCompile Include="LessonView.cpp" />
     <ClCompile Include="ParentDialog.cpp" />
     <ClCompile Include="ParentEntry.cpp" />
     <ClCompile Include="Person.cpp" />
@@ -208,14 +212,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="ChildCheckBox.ui" />
+    <QtUic Include="PersonCheckBox.ui" />
     <QtUic Include="ChildEntry.ui" />
-    <QtUic Include="ChildLabel.ui" />
+    <QtUic Include="PersonLabel.ui" />
     <QtUic Include="DataBaseGUI.ui" />
     <QtUic Include="ChildDialog.ui" />
     <QtUic Include="EmployeeDialog.ui" />
     <QtUic Include="EmployeeEntry.ui" />
+    <QtUic Include="LessonDialog.ui" />
     <QtUic Include="LessonEntry.ui" />
+    <QtUic Include="LessonView.ui" />
     <QtUic Include="ParentDialog.ui" />
     <QtUic Include="ParentEntry.ui" />
   </ItemGroup>

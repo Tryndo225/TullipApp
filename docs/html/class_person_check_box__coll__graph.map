@@ -1,0 +1,11 @@
+<map id="PersonCheckBox" name="PersonCheckBox">
+<area shape="rect" id="Node000001" title="Represents a checkbox widget for a person." alt="" coords="104,599,246,796"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,316,67,385"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="46,400,59,464,81,534,113,598,108,600,76,536,54,466,41,401"/>
+<area shape="rect" id="Node000003" href="$class_ui_1_1_person_check_box_class.html" title=" " alt="" coords="91,316,259,385"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,385,178,582,172,582,172,385"/>
+<area shape="rect" id="Node000004" href="$class_ui___person_check_box_class.html" title=" " alt="" coords="92,5,258,117"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="178,132,178,316,172,316,172,132"/>
+<area shape="rect" id="Node000005" href="$class_person.html" title="Represents a generic person." alt="" coords="283,167,390,535"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="285,509,273,536,248,585,243,583,268,534,280,507"/>
+</map>

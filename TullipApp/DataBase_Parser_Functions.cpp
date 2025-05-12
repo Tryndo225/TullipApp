@@ -28,9 +28,11 @@ void CSV_Parser::parse_lesson_children(std::string& children_str, Lesson& lesson
 	std::string child_entry;
 	while (std::getline(children_stream, child_entry, ','))
 	{
-		auto child_name_surname = child_entry.substr(child_entry.find('[') + 1, child_entry.find(','));
-		auto child_date_payed_str = child_entry.substr(child_entry.find(',') + 1, child_entry.find(']'));
+		auto child_name_surname = child_entry.substr(child_entry.find('[') + 1, child_entry.find('-') - (child_entry.find('[') + 1));
+		auto child_date_payed_str = child_entry.substr(child_entry.find('-') + 1, child_entry.find(']') - (child_entry.find('-') + 1));
 		auto child = database.get_child_by_name_surname(child_name_surname);
+
+		std::cout << child << std::endl;
 
 		if (child)
 		{
@@ -47,10 +49,11 @@ void CSV_Parser::parse_lesson_children(std::string& children_str, Lesson& lesson
 
 void CSV_Parser::parse_lesson_attendance(std::string& attendance_str, Lesson& lesson, Database& database)
 {
-	if (attendance_str.empty() || attendance_str == "}")
+	if (attendance_str.empty())
 	{
 		return;
 	}
+
 	std::istringstream attendance_stream(attendance_str);
 	std::string single_attendance_str, attendance_date_str, attendance_children_str;
 	while (std::getline(attendance_stream, single_attendance_str, ','))
@@ -58,7 +61,7 @@ void CSV_Parser::parse_lesson_attendance(std::string& attendance_str, Lesson& le
 		attendance_date_str = single_attendance_str.substr(0, single_attendance_str.find(':'));
 		Date attendance_date = Date(attendance_date_str);
 
-		attendance_children_str = single_attendance_str.substr(single_attendance_str.find('[') + 1, single_attendance_str.find(']'));
+		attendance_children_str = single_attendance_str.substr(single_attendance_str.find('[') + 1, single_attendance_str.find(']') - (single_attendance_str.find('[') + 1));
 
 		std::vector<Child*> attendance_children;
 		std::istringstream attendance_children_stream(attendance_children_str);
@@ -91,7 +94,7 @@ void CSV_Parser::parse_lesson(std::string& line, Database& database)
 	children_str = children_str.substr(children_str.find('{') + 1);
 
 	std::getline(iss, attendance_str);
-	attendance_str = attendance_str.substr(attendance_str.find('{') + 1, attendance_str.find('}'));
+	attendance_str = attendance_str.substr(attendance_str.find('{') + 1, attendance_str.find('}') - (attendance_str.find('{') + 1));
 
 	Schedule schedule = Schedule(schedule_str);
 	Address address = Address(address_str);
@@ -100,6 +103,8 @@ void CSV_Parser::parse_lesson(std::string& line, Database& database)
 	parse_lesson_employees(employees_str, lesson, database);
 	parse_lesson_children(children_str, lesson, database);
 	parse_lesson_attendance(attendance_str, lesson, database);
+
+	database.add_lesson(lesson);
 }
 
 void CSV_Parser::parse_child(const std::string& line, Database& database)

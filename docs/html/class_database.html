@@ -136,6 +136,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a12af120f4bd82e7c70ffd191f13f0011" id="r_a12af120f4bd82e7c70ffd191f13f0011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_lesson.html">Lesson</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12af120f4bd82e7c70ffd191f13f0011">add_lesson</a> (const <a class="el" href="class_lesson.html">Lesson</a> &amp;lesson)</td></tr>
 <tr class="memdesc:a12af120f4bd82e7c70ffd191f13f0011"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a lesson to the database.  <br /></td></tr>
 <tr class="separator:a12af120f4bd82e7c70ffd191f13f0011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a177c6c35a2dab6017842abec500f8c" id="r_a4a177c6c35a2dab6017842abec500f8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a177c6c35a2dab6017842abec500f8c">update_lesson_start</a> (<a class="el" href="class_lesson.html">Lesson</a> *lesson)</td></tr>
+<tr class="memdesc:a4a177c6c35a2dab6017842abec500f8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a lesson's information from the maps.  <br /></td></tr>
+<tr class="separator:a4a177c6c35a2dab6017842abec500f8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19fbca1d66460d712681aa7ffd761c80" id="r_a19fbca1d66460d712681aa7ffd761c80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19fbca1d66460d712681aa7ffd761c80">update_lesson_end</a> (<a class="el" href="class_lesson.html">Lesson</a> *lesson)</td></tr>
+<tr class="memdesc:a19fbca1d66460d712681aa7ffd761c80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a lesson's information to the maps.  <br /></td></tr>
+<tr class="separator:a19fbca1d66460d712681aa7ffd761c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68806d26995eecb355c6835e29f45e38" id="r_a68806d26995eecb355c6835e29f45e38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68806d26995eecb355c6835e29f45e38">remove_lesson</a> (const <a class="el" href="class_lesson.html">Lesson</a> *lesson)</td></tr>
 <tr class="memdesc:a68806d26995eecb355c6835e29f45e38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a lesson from the database.  <br /></td></tr>
 <tr class="separator:a68806d26995eecb355c6835e29f45e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -609,7 +615,7 @@ Private Attributes</h2></td></tr>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-9-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_a12af120f4bd82e7c70ffd191f13f0011_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_database_a12af120f4bd82e7c70ffd191f13f0011_icgraph.svg" width="100%" height="362"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2053,7 +2059,7 @@ template&lt;typename Key, typename Value&gt; </div>
 <div id="dynsection-62-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-62-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a764574ac9e94b5ab7eb8d106b9113bec_icgraph.svg" width="444" height="339"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a764574ac9e94b5ab7eb8d106b9113bec_icgraph.svg" width="444" height="406"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -2682,6 +2688,70 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="a19fbca1d66460d712681aa7ffd761c80" name="a19fbca1d66460d712681aa7ffd761c80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19fbca1d66460d712681aa7ffd761c80">&#9670;&#160;</a></span>update_lesson_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Database::update_lesson_end </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_lesson.html">Lesson</a> *</td>          <td class="paramname"><span class="paramname"><em>lesson</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a lesson's information to the maps. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lesson</td><td>A pointer to the lesson to update. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-75" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-75-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-75-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-75-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a19fbca1d66460d712681aa7ffd761c80_cgraph.svg" width="404" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a4a177c6c35a2dab6017842abec500f8c" name="a4a177c6c35a2dab6017842abec500f8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a177c6c35a2dab6017842abec500f8c">&#9670;&#160;</a></span>update_lesson_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Database::update_lesson_start </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_lesson.html">Lesson</a> *</td>          <td class="paramname"><span class="paramname"><em>lesson</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes a lesson's information from the maps. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lesson</td><td>A pointer to the lesson to update. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-76" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-76-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-76-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-76-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a4a177c6c35a2dab6017842abec500f8c_cgraph.svg" width="422" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a3bdc14caecc90d02e843116c3c28f91c" name="a3bdc14caecc90d02e843116c3c28f91c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3bdc14caecc90d02e843116c3c28f91c">&#9670;&#160;</a></span>update_parent_end()</h2>
 
@@ -2704,11 +2774,11 @@ template&lt;typename T&gt; </div>
   </table>
   </dd>
 </dl>
-<div id="dynsection-75" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-75-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-75-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-77" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-77-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-77-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-75-content" class="dyncontent" style="display:none;">
+<div id="dynsection-77-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a3bdc14caecc90d02e843116c3c28f91c_cgraph.svg" width="400" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
@@ -2736,11 +2806,11 @@ template&lt;typename T&gt; </div>
   </table>
   </dd>
 </dl>
-<div id="dynsection-76" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-76-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-76-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-78" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-78-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-78-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-76-content" class="dyncontent" style="display:none;">
+<div id="dynsection-78-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="class_database_a2f49b299c2bd30461bbd0fb27fce3a57_cgraph.svg" width="420" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 

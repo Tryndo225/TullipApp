@@ -1,0 +1,24 @@
+<map id="LessonDialog::LessonDialog" name="LessonDialog::LessonDialog">
+<area shape="rect" id="Node000001" title="Constructs a LessonDialog object." alt="" coords="5,143,193,169"/>
+<area shape="rect" id="Node000002" href="$class_lesson_dialog.html#ac10e391b7a2221ff937a30ccf61124b2" title="Searches for children based on the input in the name and surname fields." alt="" coords="250,47,403,89"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,140,254,93,256,98,137,145"/>
+<area shape="rect" id="Node000003" href="$class_lesson_dialog.html#a375a77c87696df60e0cbab9da70b7a67" title="Populates the dialog with children and employees." alt="" coords="460,60,617,103"/>
+<area shape="poly" id="edge11_Node000001_Node000003" title=" " alt="" coords="182,139,444,95,445,100,182,145"/>
+<area shape="rect" id="Node000007" href="$class_lesson_dialog.html#a6cec6904588a83618b0d776547ea2697" title="Searches for employees based on the input in the name and surname fields." alt="" coords="241,164,412,207"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="193,165,225,170,225,175,193,171"/>
+<area shape="rect" id="Node000008" href="$class_lesson_dialog.html#a2883fd6f7079ecb26550deb519302db0" title="Populates the dialog with employees." alt="" coords="460,197,617,240"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="124,167,177,194,241,216,293,224,346,228,445,226,445,231,346,233,292,229,240,221,175,199,122,172"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="404,70,445,73,444,78,403,75"/>
+<area shape="rect" id="Node000004" href="$class_lesson_dialog.html#ab3e1766d811c3efd7fe55cc197f5f31a" title="Clears the children checkboxes from the dialog." alt="" coords="674,5,811,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="617,58,659,46,660,51,618,63"/>
+<area shape="rect" id="Node000005" href="$class_lesson_dialog.html#a2898fcef2819d773d4f20e82d88a8ffd" title="Creates a checkbox for a child." alt="" coords="670,72,815,115"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="618,83,655,86,655,91,618,89"/>
+<area shape="rect" id="Node000006" href="$_helper___functions_8h.html#abbf2bcc86eb4c36312bcad1565f4663e" title="Checks if a vector contains a specific value." alt="" coords="868,147,938,173"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="796,113,856,138,854,143,794,118"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="413,196,445,201,444,207,412,201"/>
+<area shape="rect" id="Node000009" href="$class_lesson_dialog.html#a3b170e2ee723cc875e1601fec67be0fc" title="Clears the employees checkboxes from the dialog." alt="" coords="674,139,811,181"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="614,194,659,181,660,186,616,199"/>
+<area shape="rect" id="Node000010" href="$class_lesson_dialog.html#a03b443caff10683095b4d9138e004d1e" title="Creates a checkbox for an employee." alt="" coords="665,205,820,248"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="618,219,650,220,650,226,618,224"/>
+<area shape="poly" id="edge10_Node000010_Node000006" title=" " alt="" coords="794,202,854,177,856,182,796,207"/>
+</map>

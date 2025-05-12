@@ -1,109 +1,129 @@
 <map id="TullipApp/Helper_Functions.h" name="TullipApp/Helper_Functions.h">
-<area shape="rect" id="Node000001" title="Provides utility functions and templates for common operations." alt="" coords="826,5,1019,32"/>
-<area shape="rect" id="Node000002" href="$_data_base_8cpp.html" title=" " alt="" coords="486,493,648,520"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="890,43,813,94,718,173,669,222,625,275,586,333,557,395,552,422,553,448,564,492,559,494,548,449,547,421,552,394,582,331,620,272,665,218,714,169,810,90,887,38"/>
-<area shape="rect" id="Node000003" href="$_date_time_8h.html" title="Defines classes and utilities for working with dates, times, and combined date&#45;time values." alt="" coords="424,80,571,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="833,38,572,82,571,77,833,33"/>
-<area shape="rect" id="Node000015" href="$_parent_dialog_8cpp.html" title=" " alt="" coords="3258,493,3438,520"/>
-<area shape="poly" id="edge63_Node000001_Node000015" title=" " alt="" coords="1034,18,1634,24,2042,32,2467,44,2869,63,3207,88,3340,104,3441,121,3505,142,3523,153,3529,166,3529,327,3525,358,3513,386,3495,411,3472,434,3423,471,3378,495,3375,490,3420,466,3469,430,3490,408,3508,383,3520,356,3524,326,3524,167,3519,157,3503,147,3439,127,3339,109,3207,93,2869,68,2467,49,2042,37,1634,29,1034,23"/>
-<area shape="rect" id="Node000018" href="$_lesson_8h.html" title="Defines the Lesson class, which represents a lesson with its associated details." alt="" coords="410,229,542,256"/>
-<area shape="poly" id="edge62_Node000001_Node000018" title=" " alt="" coords="811,27,704,33,589,44,485,60,444,70,413,82,379,102,352,125,343,137,339,150,340,164,348,180,361,196,378,209,416,226,414,231,375,213,357,200,343,183,335,166,334,150,339,135,348,121,376,98,411,78,442,65,484,55,588,38,704,28,811,21"/>
-<area shape="rect" id="Node000023" href="$_person_8h.html" title="Defines the Person class and its derived classes: Child, Parent, and Employee." alt="" coords="1192,155,1323,181"/>
-<area shape="poly" id="edge64_Node000001_Node000023" title=" " alt="" coords="966,36,1230,152,1228,157,964,41"/>
-<area shape="rect" id="Node000043" href="$_helper___functions_8cpp.html" title=" " alt="" coords="3564,80,3770,107"/>
-<area shape="poly" id="edge61_Node000001_Node000043" title=" " alt="" coords="1034,17,1443,18,2062,25,2794,43,3174,58,3545,77,3564,79,3563,84,3545,83,3173,63,2794,48,2061,30,1443,23,1034,22"/>
-<area shape="rect" id="Node000004" href="$_data_base_8h.html" title="Defines the Database class for managing lessons, parents, children, and employees." alt="" coords="668,312,817,339"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="524,116,731,310,728,314,520,120"/>
-<area shape="rect" id="Node000009" href="$_main_8cpp.html" title=" " alt="" coords="538,584,670,611"/>
-<area shape="poly" id="edge29_Node000003_Node000009" title=" " alt="" coords="408,106,286,122,154,149,96,168,50,189,19,214,11,227,8,242,8,417,12,436,24,454,43,471,68,486,134,514,214,537,301,555,389,570,538,588,537,593,388,575,300,561,212,542,132,519,65,491,40,475,20,458,7,438,3,418,3,241,6,225,15,210,47,185,94,163,153,144,285,117,408,100"/>
-<area shape="rect" id="Node000017" href="$_date_time_8cpp.html" title=" " alt="" coords="358,155,519,181"/>
-<area shape="poly" id="edge20_Node000003_Node000017" title=" " alt="" coords="480,121,451,156,447,153,475,117"/>
-<area shape="poly" id="edge21_Node000003_Node000018" title=" " alt="" coords="520,118,535,148,538,165,534,182,517,210,495,231,492,227,513,207,530,180,532,165,530,149,515,120"/>
-<area shape="poly" id="edge30_Node000003_Node000023" title=" " alt="" coords="587,100,1192,158,1191,163,586,106"/>
-<area shape="poly" id="edge11_Node000004_Node000002" title=" " alt="" coords="746,355,741,397,734,419,722,439,702,459,678,474,628,495,626,490,676,470,699,455,718,436,729,417,736,396,741,354"/>
-<area shape="rect" id="Node000005" href="$_child_dialog_8h.html" title="Defines the ChildDialog class for managing child&#45;related information." alt="" coords="1105,403,1263,429"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="810,340,829,344,1114,399,1113,405,827,349,809,345"/>
-<area shape="rect" id="Node000007" href="$_data_base_g_u_i_8h.html" title="Defines the DataBaseGUI class for managing the graphical user interface of the database." alt="" coords="1294,493,1466,520"/>
-<area shape="poly" id="edge12_Node000004_Node000007" title=" " alt="" coords="807,340,828,344,897,352,956,353,1058,347,1107,347,1157,352,1213,366,1276,392,1309,414,1337,442,1375,491,1370,495,1333,445,1306,418,1273,397,1211,371,1157,357,1106,352,1058,353,956,359,896,357,828,349,806,345"/>
-<area shape="rect" id="Node000012" href="$_data_base___parser___functions_8h.html" title=" " alt="" coords="567,395,708,437"/>
-<area shape="poly" id="edge13_Node000004_Node000012" title=" " alt="" coords="718,351,663,396,660,392,714,347"/>
-<area shape="rect" id="Node000014" href="$_parent_dialog_8h.html" title="Defines the ParentDialog class for managing parent&#45;related information." alt="" coords="2873,403,3039,429"/>
-<area shape="poly" id="edge16_Node000004_Node000014" title=" " alt="" coords="804,340,828,344,960,354,1182,365,1790,384,2873,410,2873,416,1789,390,1182,370,959,360,828,349,803,345"/>
-<area shape="rect" id="Node000006" href="$_child_dialog_8cpp.html" title=" " alt="" coords="1098,493,1270,520"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1187,445,1187,493,1181,493,1181,445"/>
-<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="1227,434,1353,490,1351,495,1225,439"/>
-<area shape="rect" id="Node000011" href="$moc___child_dialog_8cpp.html" title=" " alt="" coords="881,485,1074,528"/>
-<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="1141,438,1027,487,1025,482,1139,433"/>
-<area shape="rect" id="Node000008" href="$_data_base_g_u_i_8cpp.html" title=" " alt="" coords="1176,584,1362,611"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="1354,532,1287,586,1284,581,1351,528"/>
-<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="1308,526,1282,531,1109,554,938,572,671,594,670,589,938,566,1109,548,1281,525,1307,521"/>
-<area shape="rect" id="Node000010" href="$moc___data_base_g_u_i_8cpp.html" title=" " alt="" coords="1386,576,1595,619"/>
-<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="1409,528,1467,574,1463,578,1406,532"/>
-<area shape="poly" id="edge14_Node000012_Node000002" title=" " alt="" coords="614,451,579,495,575,491,610,448"/>
-<area shape="rect" id="Node000013" href="$_data_base___parser___functions_8cpp.html" title=" " alt="" coords="672,485,827,528"/>
-<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="677,445,725,483,721,487,674,449"/>
-<area shape="poly" id="edge17_Node000014_Node000007" title=" " alt="" coords="2858,425,1467,503,1466,498,2858,420"/>
-<area shape="poly" id="edge18_Node000014_Node000015" title=" " alt="" coords="3027,431,3293,490,3291,495,3026,436"/>
-<area shape="rect" id="Node000016" href="$moc___parent_dialog_8cpp.html" title=" " alt="" coords="2855,485,3057,528"/>
-<area shape="poly" id="edge19_Node000014_Node000016" title=" " alt="" coords="2959,445,2959,485,2953,485,2953,445"/>
-<area shape="poly" id="edge22_Node000018_Node000004" title=" " alt="" coords="533,258,702,309,700,314,531,263"/>
-<area shape="poly" id="edge23_Node000018_Node000012" title=" " alt="" coords="500,265,620,392,616,396,496,269"/>
-<area shape="rect" id="Node000019" href="$_lesson_8cpp.html" title=" " alt="" coords="346,312,492,339"/>
-<area shape="poly" id="edge24_Node000018_Node000019" title=" " alt="" coords="461,270,430,313,425,310,456,267"/>
-<area shape="rect" id="Node000020" href="$_lesson_entry_8h.html" title="Defines the LessonEntry class for managing the graphical representation of a lesson in the GUI." alt="" coords="159,312,321,339"/>
-<area shape="poly" id="edge25_Node000018_Node000020" title=" " alt="" coords="426,264,278,314,276,309,424,259"/>
-<area shape="poly" id="edge26_Node000020_Node000007" title=" " alt="" coords="299,341,454,392,504,416,526,426,555,435,664,456,756,468,838,471,916,471,1077,468,1171,471,1282,483,1325,490,1324,495,1281,488,1171,477,1077,473,916,476,838,477,756,473,663,462,554,440,524,431,502,421,452,397,297,346"/>
-<area shape="rect" id="Node000021" href="$_lesson_entry_8cpp.html" title=" " alt="" coords="42,403,219,429"/>
-<area shape="poly" id="edge27_Node000020_Node000021" title=" " alt="" coords="214,351,148,404,145,400,211,347"/>
-<area shape="rect" id="Node000022" href="$moc___lesson_entry_8cpp.html" title=" " alt="" coords="244,395,442,437"/>
-<area shape="poly" id="edge28_Node000020_Node000022" title=" " alt="" coords="268,347,321,392,317,396,264,351"/>
-<area shape="poly" id="edge47_Node000023_Node000004" title=" " alt="" coords="1177,179,1054,197,986,212,920,232,874,251,830,273,763,314,760,309,827,268,872,246,918,227,984,207,1053,192,1176,174"/>
-<area shape="poly" id="edge35_Node000023_Node000005" title=" " alt="" coords="1281,193,1300,228,1310,262,1315,290,1313,317,1300,348,1285,367,1266,383,1225,405,1223,400,1263,379,1281,364,1295,345,1308,316,1310,290,1305,263,1295,230,1276,195"/>
-<area shape="poly" id="edge48_Node000023_Node000012" title=" " alt="" coords="1176,178,1042,193,885,217,811,234,745,255,692,279,673,292,658,306,646,327,640,350,638,394,632,394,634,349,641,324,654,302,669,288,690,274,743,250,809,229,884,212,1041,187,1176,173"/>
-<area shape="poly" id="edge58_Node000023_Node000014" title=" " alt="" coords="1338,168,2135,186,2566,204,2722,214,2815,227,2867,237,2909,246,2945,265,2962,281,2978,303,2987,329,2984,357,2976,383,2966,403,2961,401,2971,381,2979,356,2981,330,2974,305,2958,284,2942,269,2907,251,2866,242,2814,232,2722,220,2565,209,2135,192,1338,173"/>
-<area shape="poly" id="edge57_Node000023_Node000018" title=" " alt="" coords="1176,179,543,238,542,233,1176,174"/>
-<area shape="rect" id="Node000024" href="$_child_check_box_8h.html" title="Defines the ChildCheckBox class for managing a checkbox widget for a child." alt="" coords="2621,229,2803,256"/>
-<area shape="poly" id="edge31_Node000023_Node000024" title=" " alt="" coords="1339,171,2621,234,2621,239,1339,176"/>
-<area shape="rect" id="Node000027" href="$_child_entry_8h.html" title="Defines the ChildEntry class for managing the graphical representation of a child in the GUI." alt="" coords="3097,229,3247,256"/>
-<area shape="poly" id="edge36_Node000023_Node000027" title=" " alt="" coords="1339,168,2040,183,2536,200,3044,227,3096,231,3096,236,3044,232,2536,206,2040,188,1339,173"/>
-<area shape="rect" id="Node000030" href="$_child_label_8h.html" title="Defines the ChildLabel class for displaying child name." alt="" coords="1488,229,1640,256"/>
-<area shape="poly" id="edge40_Node000023_Node000030" title=" " alt="" coords="1326,183,1511,226,1510,231,1325,188"/>
-<area shape="rect" id="Node000032" href="$_parent_entry_8h.html" title="Defines the ParentEntry class for managing the graphical representation of a parent in the GUI." alt="" coords="1812,312,1970,339"/>
-<area shape="poly" id="edge59_Node000023_Node000032" title=" " alt="" coords="1339,174,1486,192,1570,207,1653,227,1714,246,1773,268,1866,309,1864,314,1771,273,1712,251,1651,232,1569,213,1485,198,1338,179"/>
-<area shape="rect" id="Node000036" href="$_employee_dialog_8h.html" title="Defines the EmployeeDialog class for editing employee information." alt="" coords="1099,229,1285,256"/>
-<area shape="poly" id="edge49_Node000023_Node000036" title=" " alt="" coords="1238,195,1205,231,1201,227,1234,191"/>
-<area shape="rect" id="Node000039" href="$_employee_entry_8h.html" title="Defines the EmployeeEntry class for managing the graphical representation of a employee in the GUI." alt="" coords="2115,229,2293,256"/>
-<area shape="poly" id="edge53_Node000023_Node000039" title=" " alt="" coords="1339,173,2115,232,2114,237,1339,178"/>
-<area shape="rect" id="Node000042" href="$_person_8cpp.html" title=" " alt="" coords="930,229,1075,256"/>
-<area shape="poly" id="edge60_Node000023_Node000042" title=" " alt="" coords="1199,188,1048,231,1047,226,1198,183"/>
-<area shape="poly" id="edge33_Node000024_Node000014" title=" " alt="" coords="2819,256,2899,274,2931,287,2951,302,2964,327,2968,355,2962,402,2957,402,2963,355,2959,329,2947,306,2928,292,2897,280,2817,261"/>
-<area shape="rect" id="Node000025" href="$_child_check_box_8cpp.html" title=" " alt="" coords="2500,312,2695,339"/>
-<area shape="poly" id="edge32_Node000024_Node000025" title=" " alt="" coords="2683,267,2617,314,2614,309,2680,263"/>
-<area shape="rect" id="Node000026" href="$moc___child_check_box_8cpp.html" title=" " alt="" coords="2719,304,2937,347"/>
-<area shape="poly" id="edge34_Node000024_Node000026" title=" " alt="" coords="2744,263,2800,301,2797,306,2741,267"/>
-<area shape="poly" id="edge38_Node000027_Node000007" title=" " alt="" coords="3142,268,3121,285,3104,306,3093,324,3088,342,3084,377,3078,409,3068,425,3052,440,3027,448,2978,456,2823,470,2609,481,2359,490,1846,502,1467,507,1467,502,1846,496,2359,484,2609,475,2823,464,2977,451,3025,443,3049,435,3064,421,3073,407,3079,376,3083,341,3088,322,3099,302,3118,281,3138,264"/>
-<area shape="rect" id="Node000028" href="$_child_entry_8cpp.html" title=" " alt="" coords="3324,312,3489,339"/>
-<area shape="poly" id="edge37_Node000027_Node000028" title=" " alt="" coords="3224,259,3371,309,3369,314,3222,264"/>
-<area shape="rect" id="Node000029" href="$moc___child_entry_8cpp.html" title=" " alt="" coords="3114,304,3300,347"/>
-<area shape="poly" id="edge39_Node000027_Node000029" title=" " alt="" coords="3186,269,3200,303,3195,305,3181,272"/>
-<area shape="rect" id="Node000031" href="$_child_label_8cpp.html" title=" " alt="" coords="1411,312,1576,339"/>
-<area shape="poly" id="edge41_Node000030_Node000031" title=" " alt="" coords="1545,269,1506,314,1502,310,1541,266"/>
-<area shape="poly" id="edge42_Node000030_Node000032" title=" " alt="" coords="1631,258,1840,309,1838,314,1629,263"/>
-<area shape="rect" id="Node000035" href="$moc___child_label_8cpp.html" title=" " alt="" coords="1600,304,1787,347"/>
-<area shape="poly" id="edge46_Node000030_Node000035" title=" " alt="" coords="1598,262,1662,301,1659,306,1595,267"/>
-<area shape="poly" id="edge43_Node000032_Node000007" title=" " alt="" coords="1913,350,1926,370,1936,394,1938,418,1929,439,1905,452,1863,463,1741,481,1596,495,1467,503,1466,498,1596,489,1740,476,1862,458,1903,447,1925,436,1933,417,1931,395,1922,373,1909,353"/>
-<area shape="rect" id="Node000033" href="$_parent_entry_8cpp.html" title=" " alt="" coords="1742,403,1914,429"/>
-<area shape="poly" id="edge44_Node000032_Node000033" title=" " alt="" coords="1875,353,1839,404,1835,401,1871,350"/>
-<area shape="rect" id="Node000034" href="$moc___parent_entry_8cpp.html" title=" " alt="" coords="1523,395,1717,437"/>
-<area shape="poly" id="edge45_Node000032_Node000034" title=" " alt="" coords="1838,346,1684,397,1682,392,1837,341"/>
-<area shape="poly" id="edge50_Node000036_Node000007" title=" " alt="" coords="1241,260,1272,278,1299,302,1333,352,1357,407,1372,457,1380,492,1375,494,1367,458,1352,409,1329,355,1295,306,1269,283,1238,265"/>
-<area shape="rect" id="Node000037" href="$_employee_dialog_8cpp.html" title=" " alt="" coords="840,312,1040,339"/>
-<area shape="poly" id="edge51_Node000036_Node000037" title=" " alt="" coords="1139,264,980,314,979,309,1138,258"/>
-<area shape="rect" id="Node000038" href="$moc___employee_dialog_8cpp.html" title=" " alt="" coords="1064,304,1285,347"/>
-<area shape="poly" id="edge52_Node000036_Node000038" title=" " alt="" coords="1189,272,1182,304,1176,303,1183,271"/>
-<area shape="poly" id="edge54_Node000039_Node000007" title=" " alt="" coords="2309,253,2370,265,2421,284,2439,296,2449,311,2450,329,2439,348,2410,375,2371,398,2323,419,2267,437,2137,465,1992,485,1843,498,1698,505,1467,509,1467,504,1698,500,1842,492,1992,480,2136,460,2265,432,2321,414,2369,394,2407,371,2435,345,2445,328,2444,313,2435,300,2418,289,2368,270,2308,258"/>
-<area shape="rect" id="Node000040" href="$_employee_entry_8cpp.html" title=" " alt="" coords="1994,312,2187,339"/>
-<area shape="poly" id="edge55_Node000039_Node000040" title=" " alt="" coords="2176,267,2110,314,2107,309,2173,263"/>
-<area shape="rect" id="Node000041" href="$moc___employee_entry_8cpp.html" title=" " alt="" coords="2212,304,2426,347"/>
-<area shape="poly" id="edge56_Node000039_Node000041" title=" " alt="" coords="2236,263,2291,301,2288,306,2233,267"/>
+<area shape="rect" id="Node000001" title="Provides utility functions and templates for common operations." alt="" coords="1208,5,1400,32"/>
+<area shape="rect" id="Node000002" href="$_data_base_8cpp.html" title=" " alt="" coords="1112,493,1274,520"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1194,38,1138,56,1088,82,1067,98,1051,118,1041,141,1037,167,1037,244,1041,297,1048,319,1062,345,1074,360,1086,370,1115,393,1158,447,1188,491,1183,494,1153,450,1111,397,1083,374,1070,364,1058,348,1043,321,1036,298,1032,244,1032,166,1036,139,1047,115,1063,95,1085,77,1136,51,1192,33"/>
+<area shape="rect" id="Node000003" href="$_date_time_8h.html" title="Defines classes and utilities for working with dates, times, and combined date&#45;time values." alt="" coords="466,80,614,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1193,33,615,88,614,82,1192,28"/>
+<area shape="rect" id="Node000021" href="$_parent_dialog_8cpp.html" title=" " alt="" coords="2652,493,2831,520"/>
+<area shape="poly" id="edge77_Node000001_Node000021" title=" " alt="" coords="1416,19,1916,31,2247,41,2589,56,2911,75,3180,99,3285,113,3365,129,3417,146,3431,156,3436,166,3436,327,3431,340,3416,353,3365,377,3290,401,3198,425,2997,466,2824,495,2823,490,2996,461,3197,420,3288,396,3363,372,3413,348,3426,337,3431,326,3431,167,3427,159,3414,151,3364,134,3284,119,3179,105,2910,81,2589,62,2247,47,1916,36,1416,24"/>
+<area shape="rect" id="Node000024" href="$_lesson_8h.html" title="Defines the Lesson class, which represents a lesson with its associated details." alt="" coords="414,229,546,256"/>
+<area shape="poly" id="edge76_Node000001_Node000024" title=" " alt="" coords="1192,22,991,24,760,33,652,40,560,51,492,65,470,73,457,82,446,98,441,117,441,137,445,158,459,198,475,228,470,230,454,200,439,160,436,138,436,116,441,96,453,78,467,68,491,60,559,46,652,35,760,27,991,19,1192,17"/>
+<area shape="rect" id="Node000029" href="$_person_8h.html" title="Defines the Person class and its derived classes: Child, Parent, and Employee." alt="" coords="1432,155,1563,181"/>
+<area shape="poly" id="edge78_Node000001_Node000029" title=" " alt="" coords="1334,40,1483,152,1479,156,1331,44"/>
+<area shape="rect" id="Node000049" href="$_helper___functions_8cpp.html" title=" " alt="" coords="3470,80,3676,107"/>
+<area shape="poly" id="edge75_Node000001_Node000049" title=" " alt="" coords="1416,18,1759,21,2261,30,2850,47,3452,77,3470,79,3470,84,3452,83,2850,53,2261,35,1759,26,1416,23"/>
+<area shape="rect" id="Node000004" href="$_data_base_8h.html" title="Defines the Database class for managing lessons, parents, children, and employees." alt="" coords="848,312,997,339"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="595,110,644,129,693,152,760,193,822,238,910,309,907,314,819,242,757,198,691,157,642,133,593,115"/>
+<area shape="rect" id="Node000009" href="$_main_8cpp.html" title=" " alt="" coords="520,675,653,701"/>
+<area shape="poly" id="edge41_Node000003_Node000009" title=" " alt="" coords="451,102,252,121,158,137,120,146,92,157,58,173,32,189,14,210,8,242,8,508,12,526,23,544,41,560,66,575,129,603,206,626,291,644,376,659,520,678,520,683,375,664,290,649,205,631,127,608,63,580,38,564,19,547,7,528,3,508,3,241,9,207,28,185,56,168,90,152,118,141,157,132,251,116,451,97"/>
+<area shape="rect" id="Node000015" href="$_lesson_dialog_8cpp.html" title=" " alt="" coords="127,493,310,520"/>
+<area shape="poly" id="edge39_Node000003_Node000015" title=" " alt="" coords="451,109,344,128,232,157,183,175,144,195,118,217,112,229,109,242,109,327,112,353,120,378,146,425,177,464,205,491,202,495,174,467,141,428,115,380,107,354,104,327,104,241,107,227,114,214,141,190,181,170,230,152,343,123,451,104"/>
+<area shape="rect" id="Node000017" href="$_lesson_view_8cpp.html" title=" " alt="" coords="249,584,423,611"/>
+<area shape="poly" id="edge40_Node000003_Node000017" title=" " alt="" coords="451,99,386,104,313,114,237,131,165,157,124,173,90,187,77,195,67,207,61,222,59,241,59,417,62,453,72,479,89,502,116,526,147,547,180,562,249,583,248,588,178,567,144,551,113,530,85,505,67,482,57,454,53,417,53,241,56,220,63,204,74,191,88,182,122,168,163,152,236,126,312,109,385,99,450,93"/>
+<area shape="rect" id="Node000023" href="$_date_time_8cpp.html" title=" " alt="" coords="518,155,679,181"/>
+<area shape="poly" id="edge28_Node000003_Node000023" title=" " alt="" coords="562,117,591,153,586,156,558,121"/>
+<area shape="poly" id="edge29_Node000003_Node000024" title=" " alt="" coords="527,121,509,156,486,230,480,228,504,154,522,119"/>
+<area shape="poly" id="edge42_Node000003_Node000029" title=" " alt="" coords="629,99,1432,159,1431,164,629,104"/>
+<area shape="poly" id="edge11_Node000004_Node000002" title=" " alt="" coords="971,342,1019,364,1068,392,1135,445,1183,491,1179,495,1132,449,1065,397,1016,369,968,347"/>
+<area shape="rect" id="Node000005" href="$_child_dialog_8h.html" title="Defines the ChildDialog class for managing child&#45;related information." alt="" coords="1760,403,1917,429"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1013,338,1060,344,1236,360,1373,369,1510,377,1686,392,1760,401,1759,406,1685,397,1509,382,1372,374,1235,366,1060,349,1012,343"/>
+<area shape="rect" id="Node000007" href="$_data_base_g_u_i_8h.html" title="Defines the DataBaseGUI class for managing the graphical user interface of the database." alt="" coords="1276,584,1449,611"/>
+<area shape="poly" id="edge12_Node000004_Node000007" title=" " alt="" coords="993,341,1061,361,1138,391,1217,432,1254,456,1288,483,1312,508,1332,536,1359,582,1354,585,1328,539,1308,512,1285,487,1251,460,1214,436,1136,396,1059,366,992,346"/>
+<area shape="rect" id="Node000012" href="$_data_base___parser___functions_8h.html" title=" " alt="" coords="913,395,1055,437"/>
+<area shape="poly" id="edge13_Node000004_Node000012" title=" " alt="" coords="942,350,972,393,968,396,938,353"/>
+<area shape="rect" id="Node000014" href="$_lesson_dialog_8h.html" title="Defines the LessonDialog class for managing lesson&#45;related information." alt="" coords="719,403,889,429"/>
+<area shape="poly" id="edge16_Node000004_Node000014" title=" " alt="" coords="895,351,823,404,819,400,892,346"/>
+<area shape="rect" id="Node000020" href="$_parent_dialog_8h.html" title="Defines the ParentDialog class for managing parent&#45;related information." alt="" coords="2424,403,2589,429"/>
+<area shape="poly" id="edge24_Node000004_Node000020" title=" " alt="" coords="1013,339,1060,344,1266,359,1440,364,1737,361,1880,359,2033,361,2207,371,2412,392,2455,399,2454,405,2412,397,2207,376,2033,367,1880,364,1737,366,1440,369,1265,364,1060,349,1012,344"/>
+<area shape="rect" id="Node000006" href="$_child_dialog_8cpp.html" title=" " alt="" coords="1798,493,1970,520"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1854,442,1880,492,1875,494,1850,445"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="1823,444,1785,489,1759,512,1731,530,1660,560,1586,580,1514,591,1450,597,1449,592,1513,586,1585,574,1659,555,1728,526,1756,507,1781,485,1819,440"/>
+<area shape="rect" id="Node000011" href="$moc___child_dialog_8cpp.html" title=" " alt="" coords="1994,485,2187,528"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="1890,432,2033,482,2031,487,1888,437"/>
+<area shape="rect" id="Node000008" href="$_data_base_g_u_i_8cpp.html" title=" " alt="" coords="1380,675,1566,701"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="1392,618,1459,672,1456,676,1388,623"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="1261,613,653,682,653,676,1260,608"/>
+<area shape="rect" id="Node000010" href="$moc___data_base_g_u_i_8cpp.html" title=" " alt="" coords="1148,667,1356,709"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="1337,623,1279,668,1276,664,1333,619"/>
+<area shape="poly" id="edge14_Node000012_Node000002" title=" " alt="" coords="1048,441,1164,490,1162,495,1046,446"/>
+<area shape="rect" id="Node000013" href="$_data_base___parser___functions_8cpp.html" title=" " alt="" coords="933,485,1088,528"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="997,451,1007,484,1002,486,992,453"/>
+<area shape="poly" id="edge17_Node000014_Node000007" title=" " alt="" coords="829,438,883,492,923,526,988,546,1080,563,1276,586,1276,591,1080,568,986,551,920,530,880,496,825,442"/>
+<area shape="poly" id="edge18_Node000014_Node000015" title=" " alt="" coords="705,435,303,495,302,490,705,430"/>
+<area shape="rect" id="Node000016" href="$_lesson_view_8h.html" title="Defines the LessonView class for viewing lesson&#45;related information." alt="" coords="418,493,579,520"/>
+<area shape="poly" id="edge19_Node000014_Node000016" title=" " alt="" coords="746,437,543,495,542,490,745,432"/>
+<area shape="rect" id="Node000019" href="$moc___lesson_dialog_8cpp.html" title=" " alt="" coords="653,485,859,528"/>
+<area shape="poly" id="edge23_Node000014_Node000019" title=" " alt="" coords="792,444,769,486,765,484,788,442"/>
+<area shape="poly" id="edge20_Node000016_Node000007" title=" " alt="" coords="571,521,598,525,787,549,976,567,1276,589,1276,594,975,573,786,554,597,531,570,526"/>
+<area shape="poly" id="edge21_Node000016_Node000017" title=" " alt="" coords="463,530,361,586,358,581,461,526"/>
+<area shape="rect" id="Node000018" href="$moc___lesson_view_8cpp.html" title=" " alt="" coords="447,576,644,619"/>
+<area shape="poly" id="edge22_Node000016_Node000018" title=" " alt="" coords="515,533,537,574,532,577,510,535"/>
+<area shape="poly" id="edge25_Node000020_Node000007" title=" " alt="" coords="2467,439,2349,486,2276,511,2201,531,2097,550,1991,566,1781,587,1594,596,1449,599,1449,594,1593,591,1781,581,1990,561,2096,545,2199,525,2274,506,2347,481,2465,434"/>
+<area shape="poly" id="edge26_Node000020_Node000021" title=" " alt="" coords="2555,433,2709,490,2707,495,2553,438"/>
+<area shape="rect" id="Node000022" href="$moc___parent_dialog_8cpp.html" title=" " alt="" coords="2406,485,2607,528"/>
+<area shape="poly" id="edge27_Node000020_Node000022" title=" " alt="" coords="2509,445,2509,485,2504,485,2504,445"/>
+<area shape="poly" id="edge30_Node000024_Node000004" title=" " alt="" coords="562,256,853,309,852,314,561,261"/>
+<area shape="poly" id="edge31_Node000024_Node000012" title=" " alt="" coords="532,259,924,392,922,397,530,264"/>
+<area shape="poly" id="edge33_Node000024_Node000014" title=" " alt="" coords="519,261,781,400,779,404,516,266"/>
+<area shape="poly" id="edge38_Node000024_Node000016" title=" " alt="" coords="399,256,289,275,242,289,211,306,183,337,168,369,165,385,167,402,173,419,184,435,214,449,273,464,418,491,417,496,272,470,212,454,181,439,169,421,162,403,160,385,163,368,179,334,208,302,240,284,287,270,398,250"/>
+<area shape="rect" id="Node000025" href="$_lesson_8cpp.html" title=" " alt="" coords="222,312,368,339"/>
+<area shape="poly" id="edge32_Node000024_Node000025" title=" " alt="" coords="438,265,324,314,322,309,436,260"/>
+<area shape="rect" id="Node000026" href="$_lesson_entry_8h.html" title="Defines the LessonEntry class for managing the graphical representation of a lesson in the GUI." alt="" coords="392,312,554,339"/>
+<area shape="poly" id="edge34_Node000024_Node000026" title=" " alt="" coords="480,272,477,312,472,312,475,271"/>
+<area shape="poly" id="edge35_Node000026_Node000007" title=" " alt="" coords="533,342,573,363,607,393,618,411,623,430,623,464,624,497,630,511,643,526,676,540,736,552,909,571,1107,583,1276,591,1276,596,1107,589,908,576,735,557,674,545,640,530,626,514,619,498,618,464,618,430,614,414,603,396,570,367,531,347"/>
+<area shape="rect" id="Node000027" href="$_lesson_entry_8cpp.html" title=" " alt="" coords="194,403,371,429"/>
+<area shape="poly" id="edge36_Node000026_Node000027" title=" " alt="" coords="433,348,311,405,309,400,431,343"/>
+<area shape="rect" id="Node000028" href="$moc___lesson_entry_8cpp.html" title=" " alt="" coords="396,395,594,437"/>
+<area shape="poly" id="edge37_Node000026_Node000028" title=" " alt="" coords="483,353,492,394,487,395,477,355"/>
+<area shape="poly" id="edge48_Node000029_Node000004" title=" " alt="" coords="1417,179,1283,198,1208,213,1134,232,1080,251,1028,273,946,314,944,309,1026,268,1078,246,1133,227,1206,208,1282,193,1416,174"/>
+<area shape="poly" id="edge43_Node000029_Node000005" title=" " alt="" coords="1579,172,1718,185,1881,209,1959,226,2027,247,2082,272,2103,287,2118,303,2127,325,2118,349,2034,372,1895,405,1893,399,2033,367,2114,345,2122,325,2114,305,2099,291,2079,277,2025,252,1957,232,1880,215,1718,190,1578,177"/>
+<area shape="poly" id="edge49_Node000029_Node000012" title=" " alt="" coords="1416,175,1267,186,1091,209,1007,226,933,248,875,274,854,289,838,305,831,325,838,345,850,357,871,369,924,392,922,397,868,374,847,361,834,348,825,325,834,303,850,285,872,270,931,243,1006,221,1090,204,1267,181,1416,170"/>
+<area shape="poly" id="edge59_Node000029_Node000020" title=" " alt="" coords="1579,166,1827,166,2157,173,2325,180,2482,191,2617,206,2718,227,2762,238,2797,249,2827,268,2854,303,2863,326,2861,337,2854,348,2837,363,2811,375,2744,393,2665,405,2590,413,2590,407,2664,400,2742,388,2809,370,2834,358,2850,345,2856,335,2857,326,2850,305,2824,272,2795,254,2761,243,2717,232,2616,212,2482,196,2325,185,2156,178,1827,171,1579,171"/>
+<area shape="poly" id="edge58_Node000029_Node000024" title=" " alt="" coords="1416,178,547,239,546,234,1416,172"/>
+<area shape="rect" id="Node000030" href="$_child_entry_8h.html" title="Defines the ChildEntry class for managing the graphical representation of a child in the GUI." alt="" coords="1676,229,1826,256"/>
+<area shape="poly" id="edge44_Node000029_Node000030" title=" " alt="" coords="1556,183,1707,226,1705,231,1555,188"/>
+<area shape="rect" id="Node000033" href="$_employee_dialog_8h.html" title="Defines the EmployeeDialog class for editing employee information." alt="" coords="2519,229,2705,256"/>
+<area shape="poly" id="edge50_Node000029_Node000033" title=" " alt="" coords="1579,172,2519,233,2519,238,1578,177"/>
+<area shape="rect" id="Node000036" href="$_employee_entry_8h.html" title="Defines the EmployeeEntry class for managing the graphical representation of a employee in the GUI." alt="" coords="3086,229,3264,256"/>
+<area shape="poly" id="edge54_Node000029_Node000036" title=" " alt="" coords="1579,170,2150,192,2947,227,3085,234,3085,239,2947,232,2150,197,1578,175"/>
+<area shape="rect" id="Node000039" href="$_parent_entry_8h.html" title="Defines the ParentEntry class for managing the graphical representation of a parent in the GUI." alt="" coords="1496,312,1654,339"/>
+<area shape="poly" id="edge60_Node000029_Node000039" title=" " alt="" coords="1513,194,1571,310,1566,313,1508,197"/>
+<area shape="rect" id="Node000042" href="$_person_8cpp.html" title=" " alt="" coords="1145,229,1290,256"/>
+<area shape="poly" id="edge64_Node000029_Node000042" title=" " alt="" coords="1435,188,1267,231,1266,226,1433,183"/>
+<area shape="rect" id="Node000043" href="$_person_check_box_8h.html" title="Defines the PersonCheckBox class for managing a checkbox widget for a person." alt="" coords="2178,312,2371,339"/>
+<area shape="poly" id="edge65_Node000029_Node000043" title=" " alt="" coords="1578,168,1719,173,1888,183,2047,200,2112,212,2161,227,2194,245,2224,267,2266,310,2262,313,2220,271,2191,249,2159,232,2111,217,2047,205,1888,188,1719,178,1578,173"/>
+<area shape="rect" id="Node000046" href="$_person_label_8h.html" title=" " alt="" coords="1314,229,1476,256"/>
+<area shape="poly" id="edge70_Node000029_Node000046" title=" " alt="" coords="1468,193,1414,231,1411,227,1465,188"/>
+<area shape="poly" id="edge46_Node000030_Node000007" title=" " alt="" coords="1736,270,1719,305,1710,342,1709,374,1706,405,1699,421,1687,439,1660,469,1628,495,1557,537,1485,567,1422,586,1421,581,1483,562,1554,533,1625,491,1656,465,1683,436,1694,419,1700,404,1704,374,1704,342,1713,303,1732,268"/>
+<area shape="rect" id="Node000031" href="$_child_entry_8cpp.html" title=" " alt="" coords="1728,312,1893,339"/>
+<area shape="poly" id="edge45_Node000030_Node000031" title=" " alt="" coords="1771,267,1804,310,1799,313,1767,270"/>
+<area shape="rect" id="Node000032" href="$moc___child_entry_8cpp.html" title=" " alt="" coords="1918,304,2104,347"/>
+<area shape="poly" id="edge47_Node000030_Node000032" title=" " alt="" coords="1807,258,1944,301,1943,306,1805,264"/>
+<area shape="poly" id="edge51_Node000033_Node000007" title=" " alt="" coords="2721,255,2801,274,2833,287,2854,302,2886,337,2902,358,2914,382,2917,410,2909,444,2885,483,2844,530,2823,539,2782,548,2648,562,2462,573,2243,582,1790,593,1449,598,1449,593,1790,588,2243,576,2461,567,2647,556,2781,542,2821,534,2841,526,2881,480,2904,442,2912,410,2909,383,2898,360,2882,341,2850,306,2831,291,2800,279,2720,261"/>
+<area shape="rect" id="Node000034" href="$_employee_dialog_8cpp.html" title=" " alt="" coords="2395,312,2594,339"/>
+<area shape="poly" id="edge52_Node000033_Node000034" title=" " alt="" coords="2583,267,2514,314,2511,309,2580,263"/>
+<area shape="rect" id="Node000035" href="$moc___employee_dialog_8cpp.html" title=" " alt="" coords="2619,304,2840,347"/>
+<area shape="poly" id="edge53_Node000033_Node000035" title=" " alt="" coords="2644,263,2701,301,2698,306,2641,267"/>
+<area shape="poly" id="edge55_Node000036_Node000007" title=" " alt="" coords="3280,252,3339,263,3389,282,3407,295,3418,310,3420,328,3410,348,3356,412,3300,456,3243,483,3182,498,3116,506,3045,511,2967,518,2880,531,2751,549,2579,563,2166,583,1752,594,1449,598,1449,593,1752,588,2165,578,2579,558,2750,543,2880,525,2966,513,3045,506,3116,501,3181,493,3241,478,3298,451,3352,409,3406,345,3414,327,3413,312,3403,299,3387,287,3338,269,3279,257"/>
+<area shape="rect" id="Node000037" href="$_employee_entry_8cpp.html" title=" " alt="" coords="2965,312,3158,339"/>
+<area shape="poly" id="edge56_Node000036_Node000037" title=" " alt="" coords="3146,267,3080,314,3077,309,3143,263"/>
+<area shape="rect" id="Node000038" href="$moc___employee_entry_8cpp.html" title=" " alt="" coords="3182,304,3396,347"/>
+<area shape="poly" id="edge57_Node000036_Node000038" title=" " alt="" coords="3207,263,3261,301,3258,306,3204,267"/>
+<area shape="poly" id="edge61_Node000039_Node000007" title=" " alt="" coords="1503,345,1271,397,1266,406,1264,415,1272,436,1284,452,1300,460,1317,468,1333,484,1347,510,1356,537,1364,583,1359,584,1351,539,1342,512,1329,487,1314,472,1297,465,1281,456,1267,439,1259,415,1261,404,1268,393,1502,340"/>
+<area shape="rect" id="Node000040" href="$_parent_entry_8cpp.html" title=" " alt="" coords="1500,403,1673,429"/>
+<area shape="poly" id="edge62_Node000039_Node000040" title=" " alt="" coords="1581,354,1588,402,1582,402,1576,355"/>
+<area shape="rect" id="Node000041" href="$moc___parent_entry_8cpp.html" title=" " alt="" coords="1282,395,1476,437"/>
+<area shape="poly" id="edge63_Node000039_Node000041" title=" " alt="" coords="1534,348,1426,397,1423,392,1532,343"/>
+<area shape="poly" id="edge66_Node000043_Node000014" title=" " alt="" coords="2170,344,2116,349,1931,361,1775,366,1508,366,1379,365,1242,369,1086,378,902,397,858,405,857,399,901,392,1085,373,1242,363,1379,360,1508,360,1774,361,1931,356,2116,344,2170,338"/>
+<area shape="poly" id="edge67_Node000043_Node000020" title=" " alt="" coords="2323,342,2474,400,2473,405,2321,347"/>
+<area shape="rect" id="Node000044" href="$_person_check_box_8cpp.html" title=" " alt="" coords="1941,403,2147,429"/>
+<area shape="poly" id="edge68_Node000043_Node000044" title=" " alt="" coords="2228,347,2078,405,2076,400,2226,342"/>
+<area shape="rect" id="Node000045" href="$moc___person_check_box_8cpp.html" title=" " alt="" coords="2171,395,2400,437"/>
+<area shape="poly" id="edge69_Node000043_Node000045" title=" " alt="" coords="2281,354,2286,394,2280,395,2275,354"/>
+<area shape="poly" id="edge71_Node000046_Node000017" title=" " alt="" coords="1298,259,1166,267,1063,268,1013,270,961,276,904,287,837,307,799,321,769,336,721,370,673,405,643,423,606,440,576,450,549,454,502,457,458,463,434,472,408,487,385,510,366,537,343,585,338,582,361,534,380,506,405,483,432,467,456,458,502,452,549,449,575,444,604,435,641,418,670,401,718,366,767,332,797,316,835,301,902,282,961,271,1013,264,1063,262,1166,262,1298,254"/>
+<area shape="poly" id="edge72_Node000046_Node000039" title=" " alt="" coords="1438,260,1548,309,1546,314,1435,265"/>
+<area shape="rect" id="Node000047" href="$_person_label_8cpp.html" title=" " alt="" coords="1072,312,1248,339"/>
+<area shape="poly" id="edge73_Node000046_Node000047" title=" " alt="" coords="1345,264,1198,314,1196,309,1343,259"/>
+<area shape="rect" id="Node000048" href="$moc___person_label_8cpp.html" title=" " alt="" coords="1273,304,1471,347"/>
+<area shape="poly" id="edge74_Node000046_Node000048" title=" " alt="" coords="1390,272,1380,305,1375,303,1384,270"/>
 </map>

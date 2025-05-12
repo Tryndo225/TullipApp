@@ -1,0 +1,14 @@
+<map id="LessonDialog::clear_children" name="LessonDialog::clear_children">
+<area shape="rect" id="Node000001" title="Clears the children checkboxes from the dialog." alt="" coords="685,101,822,144"/>
+<area shape="rect" id="Node000002" href="$class_lesson_dialog.html#a375a77c87696df60e0cbab9da70b7a67" title="Populates the dialog with children and employees." alt="" coords="461,35,618,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="670,99,610,81,611,75,671,94"/>
+<area shape="rect" id="Node000005" href="$class_lesson_dialog.html#a40a5c419190d1c9f667a71bd9706c3cf" title="Populates the dialog with children and employees." alt="" coords="461,101,618,144"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="670,125,619,125,619,120,670,120"/>
+<area shape="rect" id="Node000006" href="$class_lesson_dialog.html#a4fac3b4d4a93af8f507dfba89b8cd6fc" title="Destructor for LessonDialog." alt="" coords="442,168,637,195"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="671,149,638,159,596,170,594,165,637,153,670,144"/>
+<area shape="rect" id="Node000003" href="$class_lesson_dialog.html#ac10e391b7a2221ff937a30ccf61124b2" title="Searches for children based on the input in the name and surname fields." alt="" coords="241,5,394,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="446,46,394,39,395,34,446,41"/>
+<area shape="rect" id="Node000004" href="$class_lesson_dialog.html#a4ddf55a3925f45bd1cd3ecef02c261d5" title="Constructs a LessonDialog object." alt="" coords="5,43,193,69"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="446,62,394,63,241,63,193,62,193,56,241,57,394,57,446,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="226,42,194,46,193,41,225,36"/>
+</map>

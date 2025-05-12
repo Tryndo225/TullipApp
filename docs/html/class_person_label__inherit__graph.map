@@ -1,0 +1,5 @@
+<map id="PersonLabel" name="PersonLabel">
+<area shape="rect" id="Node000001" title="Represents a label for displaying person name." alt="" coords="5,123,133,256"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="38,5,100,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,90,72,123,67,123,67,90"/>
+</map>

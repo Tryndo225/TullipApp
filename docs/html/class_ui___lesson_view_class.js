@@ -1,0 +1,27 @@
+var class_ui___lesson_view_class =
+[
+    [ "retranslateUi", "class_ui___lesson_view_class.html#ac269541dbe5792409c7b914b672dbc81", null ],
+    [ "setupUi", "class_ui___lesson_view_class.html#ac664de9497f5ae076c2c2ec49e43fffe", null ],
+    [ "address_label", "class_ui___lesson_view_class.html#a03f0666f2cf0947bc1dd16eb97d3b7db", null ],
+    [ "attendance_button", "class_ui___lesson_view_class.html#a7d0de266841be5e3cea54f00709b69c8", null ],
+    [ "children_frame", "class_ui___lesson_view_class.html#a8662c9f034286dc49e2d640543e41452", null ],
+    [ "children_label", "class_ui___lesson_view_class.html#a5e96bee86e705fdd3c1e76aff34d6ed4", null ],
+    [ "children_scroll", "class_ui___lesson_view_class.html#a43bf8a14e9ada673e7ab677ce6764d87", null ],
+    [ "children_scroll_contents", "class_ui___lesson_view_class.html#a64e1240fdb867c048a3c0d44f70cb729", null ],
+    [ "day_label", "class_ui___lesson_view_class.html#a6576d8c1507741a118a8e45ad1f1a992", null ],
+    [ "edit_button", "class_ui___lesson_view_class.html#ad7719981bca760d767d9226dc81545e7", null ],
+    [ "employees_frame", "class_ui___lesson_view_class.html#af0dc1b9d0e4b72c6435d698db968bdbe", null ],
+    [ "employees_label", "class_ui___lesson_view_class.html#acb97334cf2feb618893408bf16818007", null ],
+    [ "employees_scroll", "class_ui___lesson_view_class.html#a4671648fa332cdb0d5088fdb5a64e9e1", null ],
+    [ "employees_scroll_contents", "class_ui___lesson_view_class.html#a5aaba9c8249611adfc735f39270c66bd", null ],
+    [ "gridLayout", "class_ui___lesson_view_class.html#af539e7e21af91f6783a1070234b6f3d7", null ],
+    [ "horizontalSpacer", "class_ui___lesson_view_class.html#a12ee65c2f1b1f6edde50f711b311a815", null ],
+    [ "horizontalSpacer_2", "class_ui___lesson_view_class.html#a33f17c4d9ec8c32baa31a8a46744cc49", null ],
+    [ "time_label", "class_ui___lesson_view_class.html#a900b3a6121fc4baee255e762341741e1", null ],
+    [ "verticalLayout", "class_ui___lesson_view_class.html#ae9a067bd59913e083b595a876e79f27a", null ],
+    [ "verticalLayout_2", "class_ui___lesson_view_class.html#a05a41b5e8b1d3b87596ae59e7b6c7682", null ],
+    [ "verticalLayout_3", "class_ui___lesson_view_class.html#aa47f2ea4ce93b601a4aa07d442979463", null ],
+    [ "verticalLayout_4", "class_ui___lesson_view_class.html#a8da32fc79a9c2270b874c095c2185596", null ],
+    [ "verticalSpacer", "class_ui___lesson_view_class.html#a1dd41bdc9a564bfe7f1d1efe01c38a5d", null ],
+    [ "verticalSpacer_2", "class_ui___lesson_view_class.html#a1d96962f5d72a29c4ace5137a1543684", null ]
+];

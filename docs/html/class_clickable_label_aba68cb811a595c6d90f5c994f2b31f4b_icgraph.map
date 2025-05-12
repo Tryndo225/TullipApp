@@ -1,17 +1,19 @@
 <map id="ClickableLabel::clicked" name="ClickableLabel::clicked">
-<area shape="rect" id="Node000001" title="Signal emitted when the label is clicked." alt="" coords="476,132,631,159"/>
+<area shape="rect" id="Node000001" title="Signal emitted when the label is clicked." alt="" coords="476,157,631,184"/>
 <area shape="rect" id="Node000002" href="$class_child_entry.html#a13bd0b2c4b5a30e5d63ed6e786c405bf" title="Constructs a ChildEntry widget." alt="" coords="249,5,400,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="528,123,483,83,427,46,398,35,400,30,429,42,486,79,531,119"/>
-<area shape="rect" id="Node000003" href="$class_child_label.html#a6900488ee48f47ee5fc9184dd74d610e" title="Constructs a ChildLabel for a given child and sets up the UI." alt="" coords="249,56,400,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="507,128,427,97,388,86,389,81,429,92,509,123"/>
-<area shape="rect" id="Node000004" href="$class_employee_entry.html#a80de24a339dce061075e03f78978f4a6" title="Constructs an EmployeeEntry widget." alt="" coords="221,107,428,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="460,138,428,134,429,129,461,132"/>
-<area shape="rect" id="Node000005" href="$class_lesson_entry.html#aea1e4e5c021933e1a3063691fd1aef09" title="Constructs a LessonEntry widget." alt="" coords="237,157,412,184"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="461,158,413,164,412,158,460,153"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="532,146,487,95,459,68,427,46,399,34,401,29,429,42,462,64,491,91,536,143"/>
+<area shape="rect" id="Node000003" href="$class_employee_entry.html#a80de24a339dce061075e03f78978f4a6" title="Constructs an EmployeeEntry widget." alt="" coords="221,56,428,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="520,150,477,123,427,97,393,86,395,81,429,92,480,118,523,146"/>
+<area shape="rect" id="Node000004" href="$class_lesson_entry.html#aea1e4e5c021933e1a3063691fd1aef09" title="Constructs a LessonEntry widget." alt="" coords="237,107,412,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="474,156,387,137,389,131,475,151"/>
+<area shape="rect" id="Node000005" href="$class_lesson_view.html#a5652733016a72ccf85b1df6e88a3513e" title="Constructs a LessonView widget." alt="" coords="239,157,410,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="461,173,411,173,411,168,461,168"/>
 <area shape="rect" id="Node000006" href="$class_clickable_label.html#a040d1af68245bbc4989fefe04b9ffdd0" title="Handles mouse release events." alt="" coords="224,208,425,251"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="507,168,429,198,396,210,394,205,427,194,505,163"/>
-<area shape="rect" id="Node000007" href="$class_parent_entry.html#afbc19a7aa219add3dd8efa219c1b713d" title="Sets up the parent entry widget." alt="" coords="259,275,390,317"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="534,172,489,219,460,244,429,265,391,282,389,277,427,260,457,239,485,215,530,169"/>
-<area shape="rect" id="Node000008" href="$class_parent_entry.html#a336ea0e092db59f6838eacc73bdee3da" title="Constructs a ParentEntry widget." alt="" coords="5,283,173,309"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="243,299,173,299,173,293,243,293"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="485,191,411,210,410,205,483,186"/>
+<area shape="rect" id="Node000007" href="$class_person_label.html#a94331464b364eff3b1b12d192e293d93" title="Constructs a PersonLabel for a given person and sets up the UI." alt="" coords="238,275,411,301"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="528,196,484,232,429,265,398,277,396,272,427,260,481,228,525,192"/>
+<area shape="rect" id="Node000008" href="$class_parent_entry.html#afbc19a7aa219add3dd8efa219c1b713d" title="Sets up the parent entry widget." alt="" coords="259,325,390,368"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="538,199,493,257,463,289,429,316,391,334,389,329,427,311,460,285,489,254,534,196"/>
+<area shape="rect" id="Node000009" href="$class_parent_entry.html#a336ea0e092db59f6838eacc73bdee3da" title="Constructs a ParentEntry widget." alt="" coords="5,333,173,360"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="243,349,173,349,173,344,243,344"/>
 </map>
