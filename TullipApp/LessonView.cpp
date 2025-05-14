@@ -2,6 +2,7 @@
 #include "PersonLabel.h"
 #include "DateTime.h"
 #include <QMessageBox>
+#include "Attendance.h"
 
 LessonView::LessonView(Lesson* lesson, Database& database)
 	: QWidget(nullptr), lesson_(lesson), database_(database)
@@ -111,7 +112,9 @@ void LessonView::edit_lesson()
 
 void LessonView::attendace()
 {
-	// Implement attendance logic here
+	Attendance attendance(this, lesson_);
+	connect(&attendance, &Attendance::employeeClicked, this, [this](Employee* employee_ptr) { emit employeeClicked(employee_ptr); });
+	attendance.exec();
 }
 
 LessonView::~LessonView()

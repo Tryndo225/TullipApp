@@ -267,8 +267,6 @@ Parent* Database::get_parent_by_name_surname(const std::string& name_surname) co
 	auto name = name_surname.substr(0, name_surname.find(' '));
 	auto surname = name_surname.substr(name_surname.find(' ') + 1);
 
-	std::cout << "Searching for parent with name: " << name << " and surname: " << surname << std::endl;
-
 	auto filetered = filter_parent_by_name(name, filter_parent_by_surname(surname));
 
 	if (filetered.size() == 1)

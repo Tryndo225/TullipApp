@@ -193,7 +193,13 @@ public:
      * @param date The date of the lesson.
      * @return A vector of pairs containing pointers to Child objects and their attendance status (true for present, false for absent).
      */
-    const std::vector<std::pair<Child*, bool>> get_attendance(const Date& date);
+    const std::map<Child*, bool> get_attendance(const Date& date);
+
+	/**
+	 * @brief Gets the attendance records for all dates.
+	 * @return A map of dates and vectors of pointers to Child objects who attended on those dates.
+	 */
+	inline std::map<Date, std::vector<Child*>> get_all_attendance() const { return attendance_; }
 
     /**
      * @brief Sets the attendance of children for a specific date.
@@ -202,6 +208,12 @@ public:
      * @param children A vector of pointers to Child objects to mark as present.
      */
     void set_attendance(const Date& date, const std::vector<Child*>& children);
+
+	/**
+	 * @brief Sets the attendance records for all dates.
+	 * @param attendance A map of dates and vectors of pointers to Child objects who attended on those dates.
+	 */
+	void set_all_attendance(std::map<Date, std::vector<Child*>>&& attendance){ attendance_ = std::move(attendance); }
 
     /**
      * @brief Sets the attendance of a child for a specific date.

@@ -103,7 +103,13 @@ void ChildDialog::populate_parents(std::multimap<std::string, Parent*> parents)
 {
 	for (const auto& [key, parent] : parents)
 	{
-		ui.mom_edit->addItem(QString::fromStdString(parent->get_name() + " " + parent->get_surname()));
-		ui.dad_edit->addItem(QString::fromStdString(parent->get_name() + " " + parent->get_surname()));
+		if (parent->is_father())
+		{
+			ui.dad_edit->addItem(QString::fromStdString(parent->get_name() + " " + parent->get_surname()));
+		}
+		else 
+		{
+			ui.mom_edit->addItem(QString::fromStdString(parent->get_name() + " " + parent->get_surname()));
+		}
 	}
 }

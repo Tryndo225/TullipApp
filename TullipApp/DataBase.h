@@ -20,7 +20,6 @@
 
  /**
   * @class Database
-  * @brief Manages data related to lessons, parents, children, and employees.
   * @details The `Database` class provides methods for adding, removing, filtering, sorting, and importing/exporting
   *          data related to lessons, parents, children, and employees.
   */

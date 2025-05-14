@@ -46,6 +46,8 @@ public:
 	 */
 	DataBaseGUI(Database&& database, QWidget* parent = nullptr);
 
+	void palette_change(const QPalette& palette);
+
 	/**
 	 * @brief Destructor for `DataBaseGUI`.
 	 * @details Cleans up resources used by the GUI by calling clear on all tabs.

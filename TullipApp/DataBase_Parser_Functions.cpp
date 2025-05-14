@@ -2,6 +2,7 @@
 
 void CSV_Parser::parse_lesson_employees(std::string& employees_str, Lesson& lesson, Database& database)
 {
+	std::cout << "Parsing employees: " << employees_str << std::endl;
 	if (employees_str.empty() || employees_str == "}")
 	{
 		return;
@@ -20,6 +21,7 @@ void CSV_Parser::parse_lesson_employees(std::string& employees_str, Lesson& less
 
 void CSV_Parser::parse_lesson_children(std::string& children_str, Lesson& lesson, Database& database)
 {
+	std::cout << "Parsing children: " << children_str << std::endl;
 	if (children_str.empty() || children_str == "}")
 	{
 		return;
@@ -31,8 +33,6 @@ void CSV_Parser::parse_lesson_children(std::string& children_str, Lesson& lesson
 		auto child_name_surname = child_entry.substr(child_entry.find('[') + 1, child_entry.find('-') - (child_entry.find('[') + 1));
 		auto child_date_payed_str = child_entry.substr(child_entry.find('-') + 1, child_entry.find(']') - (child_entry.find('-') + 1));
 		auto child = database.get_child_by_name_surname(child_name_surname);
-
-		std::cout << child << std::endl;
 
 		if (child)
 		{
@@ -49,6 +49,7 @@ void CSV_Parser::parse_lesson_children(std::string& children_str, Lesson& lesson
 
 void CSV_Parser::parse_lesson_attendance(std::string& attendance_str, Lesson& lesson, Database& database)
 {
+	std::cout << "Parsing attendance: " << attendance_str << std::endl;
 	if (attendance_str.empty())
 	{
 		return;
@@ -56,8 +57,9 @@ void CSV_Parser::parse_lesson_attendance(std::string& attendance_str, Lesson& le
 
 	std::istringstream attendance_stream(attendance_str);
 	std::string single_attendance_str, attendance_date_str, attendance_children_str;
-	while (std::getline(attendance_stream, single_attendance_str, ','))
+	while (std::getline(attendance_stream, single_attendance_str, ';'))
 	{
+		std::cout << "Parsing single attendance: " << single_attendance_str << std::endl;
 		attendance_date_str = single_attendance_str.substr(0, single_attendance_str.find(':'));
 		Date attendance_date = Date(attendance_date_str);
 

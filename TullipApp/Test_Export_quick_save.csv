@@ -1,15 +1,15 @@
 Parents:
-Sara,Alic-Ekinovic,Mother,alicsara3012@gmail.com,{}
+Sara,Alic-Ekinovic,Mother,alicsara3012@gmail.com,{Bob Brown,Paul Allen}
 
 Michael,Smith,Father,michael.smith@example.com,{}
 
-Sarah,Johnson,Mother,sarah.johnson@example.com,{}
+Sarah,Johnson,Mother,sarah.johnson@example.com,{Pam Allen}
 
 David,Williams,Father,david.williams@example.com,{}
 
 Emily,Brown,Mother,emily.brown@example.com,{}
 
-James,Jones,Father,james.jones@example.com,{}
+James,Jones,Father,james.jones@example.com,{Pam Allen,Paul Allen}
 
 Olivia,Garcia,Mother,olivia.garcia@example.com,{}
 
@@ -17,7 +17,7 @@ Robert,Martinez,Father,robert.martinez@example.com,{}
 
 Sophia,Hernandez,Mother,sophia.hernandez@example.com,{}
 
-William,Lopez,Father,william.lopez@example.com,{}
+William,Lopez,Father,william.lopez@example.com,{Bob Brown}
 
 Isabella,Gonzalez,Mother,isabella.gonzalez@example.com,{}
 
@@ -28,7 +28,7 @@ Jane,Smith,02/02/2001,No Father,No Mother
 
 Alice,Johnson,03/03/2002,No Father,No Mother
 
-Bob,Brown,04/04/2003,No Father,No Mother
+Bob,Brown,04/04/2003,William Lopez,Sara Alic-Ekinovic
 
 Charlie,Davis,05/05/2004,No Father,No Mother
 
@@ -54,9 +54,9 @@ Nina,Walker,15/03/2014,No Father,No Mother
 
 Oscar,Hall,16/04/2015,No Father,No Mother
 
-Pam,Allen,17/05/2016,No Father,No Mother
+Pam,Allen,17/05/2016,James Jones,Sarah Johnson
 
-Paul,Allen,17/05/2016,No Father,No Mother
+Paul,Allen,17/05/2016,James Jones,Sara Alic-Ekinovic
 
 Quinn,Young,18/06/2017,No Father,No Mother
 
@@ -75,7 +75,7 @@ Danka,Rumanovicova,,149687321
 
 Anna,Taylor,,987654321
 
-Brian,Adams,,456123789
+Brian,Adams,brian@adam.com,456123789
 
 Catherine,Bell,,321654987
 
@@ -94,5 +94,7 @@ Ivy,Parker,,789123654
 Jack,Turner,,321987456
 
 Lessons:
-Monday 06:10:00,Praha,{Catherine Bell,Ella Foster,Frank Harris},{[Nina Walker-No Payment],[Frank Garcia-No Payment],[Tina Scott-No Payment],[Kathy Clark-No Payment],[Charlie Davis-No Payment],[Eve Wilson-No Payment],[Leo Rodriguez-No Payment],[Jane Smith-No Payment],[John Doe-No Payment],[Bob Brown-No Payment]},{}
+Monday 06:10:00,Praha,{Catherine Bell,Ella Foster,Frank Harris},{[Charlie Davis-No Payment],[John Doe-No Payment],[Bob Brown-No Payment],[Kathy Clark-No Payment]},{12/05/2025:[Kathy Clark,Charlie Davis,Bob Brown,John Doe,Kathy Clark,Charlie Davis,Bob Brown,John Doe,Kathy Clark,Charlie Davis,Bob Brown,John Doe,Kathy Clark,Charlie Davis,Bob Brown,John Doe]}
+
+Monday 06:10:00,Praha,{Catherine Bell,Ella Foster,Frank Harris},{[Charlie Davis-No Payment],[John Doe-No Payment],[Bob Brown-No Payment],[Kathy Clark-No Payment]},{12/05/2025:[Kathy Clark,Charlie Davis,Bob Brown,John Doe,Kathy Clark,Charlie Davis,Bob Brown,John Doe,Kathy Clark,Charlie Davis,Bob Brown,John Doe,Kathy Clark,Charlie Davis,Bob Brown,John Doe]}
 

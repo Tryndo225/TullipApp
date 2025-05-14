@@ -45,6 +45,9 @@
     <ClInclude Include="DataBase_Parser_Functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Palletes.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DateTime.cpp">
@@ -110,6 +113,9 @@
     <ClCompile Include="PersonCheckBox.cpp">
       <Filter>Source Files\UI</Filter>
     </ClCompile>
+    <ClCompile Include="Attendance.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="ChildEntry.h">
@@ -151,6 +157,9 @@
     <QtMoc Include="PersonCheckBox.h">
       <Filter>Header Files\UI</Filter>
     </QtMoc>
+    <QtMoc Include="Attendance.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="DataBaseGUI.ui">
@@ -187,6 +196,9 @@
       <Filter>Resource Files</Filter>
     </QtUic>
     <QtUic Include="PersonLabel.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
+    <QtUic Include="Attendance.ui">
       <Filter>Resource Files</Filter>
     </QtUic>
   </ItemGroup>

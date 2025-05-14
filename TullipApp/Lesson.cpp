@@ -43,23 +43,23 @@ const std::vector<Child*> Lesson::get_children_payment(bool payed) const
 	return child_list;
 }
 
-const std::vector<std::pair<Child*, bool>> Lesson::get_attendance(const Date& date)
+const std::map<Child*, bool> Lesson::get_attendance(const Date& date)
 {
-	std::vector<std::pair<Child*, bool>> attendance_list;
+	std::map<Child*, bool> attendance_list;
 	auto it = attendance_.find(date);
 	if (it != attendance_.end())
 	{
 		for (const auto& child : children_)
 		{
-			bool present = std::find(it->second.begin(), it->second.end(), child.first) != it->second.end();
-			attendance_list.emplace_back(child.first, present);
+			bool present = contains(it->second, child.first);
+			attendance_list[child.first] = present;
 		}
 	}
 	else
 	{
 		for (const auto& child : children_)
 		{
-			attendance_list.emplace_back(child.first, false);
+			attendance_list[child.first] = false;
 		}
 	}
 	return attendance_list;
@@ -143,7 +143,7 @@ std::ostream& operator<<(std::ostream& stream, const Lesson& lesson)
 		stream << "]";
 		if (std::next(it) != lesson.attendance_.end())
 		{
-			stream << ",";
+			stream << ";";
 		}
 	}
 	stream << "}" << std::endl;

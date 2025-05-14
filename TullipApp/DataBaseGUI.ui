@@ -558,7 +558,33 @@
     <addaction name="separator"/>
     <addaction name="export_to"/>
    </widget>
+   <widget class="QMenu" name="menuDark_Mode">
+    <property name="title">
+     <string>Mode</string>
+    </property>
+    <addaction name="actionMaterial_Light"/>
+    <addaction name="actionMaterial_Dark"/>
+    <addaction name="separator"/>
+    <addaction name="actionSolarized_Light"/>
+    <addaction name="actionSolarized_Dark"/>
+    <addaction name="separator"/>
+    <addaction name="actionSepia_Light"/>
+    <addaction name="actionSepia_Dark"/>
+    <addaction name="separator"/>
+    <addaction name="actionOcean_Breeze_Light"/>
+    <addaction name="actionOcean_Breeze_Dark"/>
+    <addaction name="separator"/>
+    <addaction name="actionSunset_Glow_Light"/>
+    <addaction name="actionSunset_Glow_Dark"/>
+    <addaction name="separator"/>
+    <addaction name="actionForest_Shade_Light"/>
+    <addaction name="actionForest_Shade_Dark"/>
+    <addaction name="separator"/>
+    <addaction name="actionDesert_Sand_Light"/>
+    <addaction name="actionDesert_Sand_Dark"/>
+   </widget>
    <addaction name="file_option"/>
+   <addaction name="menuDark_Mode"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
   <action name="import_from">
@@ -574,6 +600,76 @@
   <action name="save_to">
    <property name="text">
     <string>Save as...</string>
+   </property>
+  </action>
+  <action name="actionMaterial_Light">
+   <property name="text">
+    <string>Material Light</string>
+   </property>
+  </action>
+  <action name="actionMaterial_Dark">
+   <property name="text">
+    <string>Material Dark</string>
+   </property>
+  </action>
+  <action name="actionSolarized_Light">
+   <property name="text">
+    <string>Solarized Light</string>
+   </property>
+  </action>
+  <action name="actionSolarized_Dark">
+   <property name="text">
+    <string>Solarized Dark</string>
+   </property>
+  </action>
+  <action name="actionSepia_Light">
+   <property name="text">
+    <string>Sepia Light</string>
+   </property>
+  </action>
+  <action name="actionSepia_Dark">
+   <property name="text">
+    <string>Sepia Dark</string>
+   </property>
+  </action>
+  <action name="actionOcean_Breeze_Light">
+   <property name="text">
+    <string>Ocean Breeze Light</string>
+   </property>
+  </action>
+  <action name="actionOcean_Breeze_Dark">
+   <property name="text">
+    <string>Ocean Breeze Dark</string>
+   </property>
+  </action>
+  <action name="actionSunset_Glow_Light">
+   <property name="text">
+    <string>Sunset Glow Light</string>
+   </property>
+  </action>
+  <action name="actionSunset_Glow_Dark">
+   <property name="text">
+    <string>Sunset Glow Dark</string>
+   </property>
+  </action>
+  <action name="actionForest_Shade_Light">
+   <property name="text">
+    <string>Forest Shade Light</string>
+   </property>
+  </action>
+  <action name="actionForest_Shade_Dark">
+   <property name="text">
+    <string>Forest Shade Dark</string>
+   </property>
+  </action>
+  <action name="actionDesert_Sand_Light">
+   <property name="text">
+    <string>Desert Sand Light</string>
+   </property>
+  </action>
+  <action name="actionDesert_Sand_Dark">
+   <property name="text">
+    <string>Desert Sand Dark</string>
    </property>
   </action>
  </widget>

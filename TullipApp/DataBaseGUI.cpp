@@ -5,6 +5,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include "Palletes.h"
 
 // Constructors
 DataBaseGUI::DataBaseGUI()
@@ -54,6 +55,26 @@ void DataBaseGUI::setup()
 	connect(ui.lessons_sort_selector, QOverload<int>::of(&QComboBox::currentIndexChanged), this, &DataBaseGUI::lesson_sort_change);
 	connect(ui.lessons_search_by_child_name_bar, &QLineEdit::returnPressed, this, &DataBaseGUI::lesson_search);
 	connect(ui.lessons_search_by_child_surname_bar, &QLineEdit::returnPressed, this, &DataBaseGUI::lesson_search);
+
+	connect(ui.actionMaterial_Light, &QAction::triggered, this, [this] { palette_change(MaterialLight()); });
+	connect(ui.actionMaterial_Dark, &QAction::triggered, this, [this] { palette_change(MaterialDark()); });
+	connect(ui.actionSolarized_Light, &QAction::triggered, this, [this] { palette_change(SolarizedLight()); });
+	connect(ui.actionSolarized_Dark, &QAction::triggered, this, [this] { palette_change(SolarizedDark()); });
+	connect(ui.actionSepia_Light, &QAction::triggered, this, [this] { palette_change(SepiaLight()); });
+	connect(ui.actionSepia_Dark, &QAction::triggered, this, [this] { palette_change(SepiaDark()); });
+	connect(ui.actionOcean_Breeze_Light, &QAction::triggered, this, [this] { palette_change(OceanBreezeLight()); });
+	connect(ui.actionOcean_Breeze_Dark, &QAction::triggered, this, [this] { palette_change(OceanBreezeDark()); });
+	connect(ui.actionSunset_Glow_Light, &QAction::triggered, this, [this] { palette_change(SunsetGlowLight()); });
+	connect(ui.actionSunset_Glow_Dark, &QAction::triggered, this, [this] { palette_change(SunsetGlowDark()); });
+	connect(ui.actionForest_Shade_Light, &QAction::triggered, this, [this] { palette_change(ForestShadeLight()); });
+	connect(ui.actionForest_Shade_Dark, &QAction::triggered, this, [this] { palette_change(ForestShadeDark()); });
+	connect(ui.actionDesert_Sand_Light, &QAction::triggered, this, [this] { palette_change(DesertSandLight()); });
+	connect(ui.actionDesert_Sand_Dark, &QAction::triggered, this, [this] { palette_change(DesertSandDark()); });
+}
+
+void DataBaseGUI::palette_change(const QPalette& palette)
+{
+	qApp->setPalette(palette);
 }
 
 // Database operations
@@ -80,6 +101,7 @@ void DataBaseGUI::save_database()
 
 void DataBaseGUI::import_database()
 {
+	database_.clear();
 	QString file_path = QFileDialog::getOpenFileName(this, "Import Database", "", "Database Files (*.csv);;All Files (*)");
 	if (!file_path.isEmpty())
 	{
@@ -93,6 +115,7 @@ void DataBaseGUI::import_database()
 		catch (const std::exception& e)
 		{
 			QMessageBox::warning(this, "Import Error", QString("Failed to import database. Reason: %1").arg(e.what()));
+			database_.clear();
 		}
 	}
 	else
