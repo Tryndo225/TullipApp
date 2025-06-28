@@ -168,7 +168,7 @@ std::vector<Lesson*> Database::sort_lessons_by_time() const
 	{
 		lessons.push_back(lesson.get());
 	}
-	std::sort(lessons.begin(), lessons.end(), [](Lesson* a, Lesson* b) { return a->get_schedule() < b->get_schedule(); });
+	std::sort(lessons.begin(), lessons.end(), [](Lesson* a, Lesson* b) { return a->get_time() < b->get_time(); });
 	return lessons;
 }
 

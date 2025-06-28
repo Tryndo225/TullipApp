@@ -10,7 +10,7 @@ Attendance::Attendance(QWidget *parent, Lesson* lesson)
 	setWindowTitle(tr("Attendance"));
 
 	ui.weekday->setText(QString::fromStdString(weekday_to_string(lesson_->get_day())));
-	ui.timeofday->setText(QString::fromStdString(std::to_string(lesson_->get_time().get_hours()) + ':' + std::to_string(lesson_->get_time().get_minutes())));
+	ui.timeofday->setText(QString::fromStdString(std::format("{:02}", lesson_->get_time().get_hours()) + ':' + std::format("{:02}", lesson_->get_time().get_minutes())));
 	ui.calendarWidget->setSelectedDate(QDate::currentDate());
 
 	updated_attendance_ = lesson_->get_all_attendance();
@@ -64,7 +64,7 @@ void Attendance::populate_children(Date date_selected)
 	for (const auto& child : lesson_->get_children())
 	{
 		auto* child_checkbox = new PersonCheckBox(this, child, contains(updated_attendance_[date_selected], child));
-		child_checkbox->setStyleSheet(R"(
+		/*child_checkbox->setStyleSheet(R"(
 			QCheckBox::indicator 
 			{ 
 				width: 20px; 
@@ -75,7 +75,7 @@ void Attendance::populate_children(Date date_selected)
 				font-size: 18px;
 				font-weight: bold;
 				border: 2px solid;
-			})");
+			})");*/
 		layout->addWidget(child_checkbox, row, column);
 		++column;
 		if (column >= 3)

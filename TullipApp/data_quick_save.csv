@@ -1,0 +1,122 @@
+Parents:
+Sara,Bokin,Mother,alicsara3012@gmail.com,{Pam Allen,Paul Allen}
+
+Michael,Smith,Father,michael.smith@example.com,{John Doe}
+
+Sarah,Johnson,Mother,sarah.johnson@example.com,{}
+
+David,Williams,Father,david.williams@example.com,{Charlie Davis}
+
+Emily,Brown,Mother,emily.brown@example.com,{Bob Brown}
+
+James,Jones,Father,james.jones@example.com,{Kathy Clark,Pam Allen,Paul Allen}
+
+Olivia,Garcia,Mother,olivia.garcia@example.com,{John Doe,Charlie Davis}
+
+Robert,Martinez,Father,robert.martinez@example.com,{}
+
+Sophia,Hernandez,Mother,sophia.hernandez@example.com,{}
+
+William,Lopez,Father,william.lopez@example.com,{Bob Brown}
+
+Isabella,Gonzalez,Mother,isabella.gonzalez@example.com,{Kathy Clark}
+
+Children:
+John,Doe,01/01/2000,Michael Smith,Olivia Garcia
+
+Jane,Smith,02/02/2001,No Father,No Mother
+
+Alice,Johnson,03/03/2002,No Father,No Mother
+
+Bob,Brown,04/04/2003,William Lopez,Emily Brown
+
+Charlie,Davis,05/05/2004,David Williams,Olivia Garcia
+
+Eve,Wilson,06/06/2005,No Father,No Mother
+
+Frank,Garcia,07/07/2006,No Father,No Mother
+
+Grace,Martinez,08/08/2007,No Father,No Mother
+
+Hank,Lopez,09/09/2008,No Father,No Mother
+
+Ivy,Gonzalez,10/10/2009,No Father,No Mother
+
+Jack,Hernandez,11/11/2010,No Father,No Mother
+
+Kathy,Clark,12/12/2011,James Jones,Isabella Gonzalez
+
+Leo,Rodriguez,13/01/2012,No Father,No Mother
+
+Mia,Lewis,14/02/2013,No Father,No Mother
+
+Nina,Walker,15/03/2014,No Father,No Mother
+
+Oscar,Hall,16/04/2015,No Father,No Mother
+
+Pam,Allen,17/05/2016,James Jones,Sara Bokin
+
+Paul,Allen,17/05/2016,James Jones,Sara Bokin
+
+Quinn,Young,18/06/2017,No Father,No Mother
+
+Rita,King,19/07/2018,No Father,No Mother
+
+Sam,Wright,20/08/2019,No Father,No Mother
+
+Tina,Scott,21/09/2020,No Father,No Mother
+
+Uma,Green,22/10/2021,No Father,No Mother
+
+Employees:
+Jakub,Kalisky,,123456789
+
+Danka,Rumanovicova,,149687321
+
+Anna,Taylor,,987654321
+
+Brian,Adams,,456123789
+
+Catherine,Bell,,321654987
+
+Daniel,Evans,,789456123
+
+Ella,Foster,,654789321
+
+Frank,Harris,,123789456
+
+Grace,Miller,,987321654
+
+Henry,Moore,,456987123
+
+Ivy,Parker,,789123654
+
+Jack,Turner,,321987456
+
+Lessons:
+Monday 09:00:00,Ruzomberok,{Frank Harris},{[John Doe-No Payment],[Uma Green-No Payment],[Frank Garcia-No Payment],[Ivy Gonzalez-No Payment],[Bob Brown-No Payment],[Kathy Clark-No Payment]},{05/05/2025:[John Doe,Bob Brown,John Doe,Bob Brown]}
+
+Tuesday 10:00:00,Bratislava,{},{},{}
+
+Wednesday 11:00:00,Kosice,{},{},{}
+
+Thursday 12:00:00,Nitra,{},{},{}
+
+Friday 13:00:00,Trnava,{},{},{}
+
+Saturday 14:00:00,Zilina,{},{},{}
+
+Sunday 15:00:00,Presov,{},{},{}
+
+Monday 16:00:00,Poprad,{},{},{}
+
+Tuesday 17:00:00,Banska Bystrica,{Daniel Evans},{[Oscar Hall-No Payment],[Paul Allen-No Payment],[Frank Garcia-No Payment]},{27/05/2025:[Frank Garcia,Oscar Hall,Paul Allen]}
+
+Tuesday 17:00:00,Banska Bystrica,{Daniel Evans},{[Oscar Hall-No Payment],[Paul Allen-No Payment],[Frank Garcia-No Payment]},{27/05/2025:[Frank Garcia,Oscar Hall,Paul Allen]}
+
+Wednesday 18:00:00,Trencin,{},{},{}
+
+Thursday 19:00:00,Piestany,{},{},{}
+
+Friday 20:00:00,Handlová,{},{},{}
+

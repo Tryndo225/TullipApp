@@ -178,7 +178,7 @@ int main(int argc, char* argv[])
 	//database.add_child(Child("Uma", "Green", Date(22, 10, 2021), nullptr, nullptr));
 
 	//// Populate the database with some parent data
-	//database.add_parent(Parent("Sara", "Alic-Ekinovic", 1, "alicsara3012@gmail.com"));
+	//database.add_parent(Parent("Sara", "Bokin", 1, "alicsara3012@gmail.com"));
 	//database.add_parent(Parent("Michael", "Smith", 0, "michael.smith@example.com"));
 	//database.add_parent(Parent("Sarah", "Johnson", 1, "sarah.johnson@example.com"));
 	//database.add_parent(Parent("David", "Williams", 0, "david.williams@example.com"));
@@ -204,7 +204,7 @@ int main(int argc, char* argv[])
 	//database.add_employee(Employee("Ivy", "Parker", "ivy.parker@example.com", "789123654"));
 	//database.add_employee(Employee("Jack", "Turner", "jack.turner@example.com", "321987456"));
 
-	//// Populate the database with some lesson data
+	// Populate the database with some lesson data
 	//database.add_lesson(Lesson(Schedule(WeekDays::Monday, Time(9, 0, 0)), "Ruzomberok"));
 	//database.add_lesson(Lesson(Schedule(WeekDays::Tuesday, Time(10, 0, 0)), "Bratislava"));
 	//database.add_lesson(Lesson(Schedule(WeekDays::Wednesday, Time(11, 0, 0)), "Kosice"));
